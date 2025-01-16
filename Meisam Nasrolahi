@@ -1,0 +1,14 @@
+#return new Response(btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join("\n")));
+//profile-title: Meisam Nasrolahi
+#warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
+//profile-update-interval: 6
+#reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
+//subscription-userinfo: upload=0; download=0; total=32210000000; expire=1741130000
+//support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
+//profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
+vless://61627bc5-bf7d-b393-e9bb-feab8afd7a58@t2.magicnetwork.info:443?security=none&encryption=none&host=divarcdn.com&headerType=http&type=tcp#German 🇩🇪
+#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
+#tuic://a223d4lb-2985-22e6-a493-e95ed843261a:ae8e141e0d7b5a49@98.22.36.187:89829#🔚حجم شما تمام شد
+#conf.add = addressList[Math.floor(Math.random() * addressList.length)]
+#tuic://210090-c3a0-429e-b9b9-072b6365beb@944.202.158.175:808256?ifp=0-3#🕑زمان شما تمام شد
+#const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
