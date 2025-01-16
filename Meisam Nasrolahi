@@ -3,7 +3,7 @@
 #warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 //profile-update-interval: 6
 #reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
-//subscription-userinfo: upload=0; download=0; total=32210000000; expire=1741130000
+//subscription-userinfo: upload=0; download=0; total=32210000000; expire=1740030000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 vless://61627bc5-bf7d-b393-e9bb-feab8afd7a58@t2.magicnetwork.info:443?security=none&encryption=none&host=divarcdn.com&headerType=http&type=tcp#German 🇩🇪
