@@ -1,0 +1,16 @@
+#return new Response(btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join("\n")));
+//profile-title: Samyar
+#warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
+//profile-update-interval: 6
+#reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
+//subscription-userinfo: upload=0; download=0; total=322110000000; expire=1746010000
+//support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
+//profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
+warp://162.159.192.44:894?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Iran 🇮🇷&&detour=warp://warp://162.159.192.44:894?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#German 🇩🇪
+warp://188.114.96.57:3476/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Download🎞
+trojan://opentunnel.net-sami899087676@det-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#German 🇩🇪 OT
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkdlcm1hbiBcdUQ4M0NcdURERTlcdUQ4M0NcdURERUEgRlYiLA0KICAiYWRkIjogImNwYW5lbC5lcmFkZTMzLmlyIiwNCiAgInBvcnQiOiAiMTAwIiwNCiAgImlkIjogImMzYmMzODVkLWNlZWYtNGRlMC1iMDM1LTY2ZTYzY2ViNWNhMSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInNwZWVkdGVzdC5uZXQiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
+vless://016718bb-6c3b-471b-adb1-9cac5aa3e18f@f41.xn--kcr399f23u6ki.com:2096?mode=multi&security=reality&encryption=none&pbk=2aoxX2Wjq25LmOUq9CuhJ6KJTA8z1i3Aspe-7RhTR1s&fp=firefox&spx=%2F&type=grpc&sni=dash.cloudflare.com&sid=28f58957#German 🇩🇪 BF
+#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
+#conf.add = addressList[Math.floor(Math.random() * addressList.length)]
+#const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
