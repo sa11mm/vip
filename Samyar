@@ -7,6 +7,7 @@
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.98.176:945?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Download🎞
+warp://188.114.96.202:1180?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Instagram📱
 warp://188.114.98.96:939/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.97.137:8742#German 🇩🇪
 trojan://3ece8540-efcf-11ef-bd1a-1239d0255272@fr1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
 trojan://e131a3d0-efcf-11ef-9b94-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
@@ -16,7 +17,6 @@ trojan://opentunnel.net-dryhfdger@det-1.optnl.com:443?security=tls&sni=divar.ir&
 trojan://opentunnel.net-fykogxchj@sgt-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 OT
 trojan://opentunnel.net-ffrsfdsasss@ust-2.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸 2 OT
 vless://0be1b130-5da6-45df-9b67-f0ebadb98bc4@u102883407.paxvpn.xyz:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dl.google.com&fp=chrome&pbk=hNnsC90sJIWdsw6SZ_iYYXRfOBaQCCYo-b_tTdHtsGY&sid=8a08c105&spx=%2F&type=tcp&headerType=none#Switzerland 🇨🇭 Pax
-vless://4ad36d82-bfdf-43bf-b372-458893d9ae2d@f41.xn--kcr399f23u6ki.com:2096?encryption=none&security=reality&sni=dash.cloudflare.com&fp=firefox&pbk=2aoxX2Wjq25LmOUq9CuhJ6KJTA8z1i3Aspe-7RhTR1s&sid=28f58957&spx=%2F&type=grpc#Armenia 🇦🇲 BF
 vless://464045e4-4396-4902-a311-e44d0d3f1713@h5.xn--gmq282ekfhyys3gs.com:2087?mode=multi&security=reality&encryption=none&pbk=StgXQYbkKSkAHHzakVldKHVmrBXhe_J87e7bydUIOGw&fp=firefox&spx=%2F&type=grpc&sni=dash.cloudflare.com&sid=83cdb009#Armenia 🇦🇲 BF
 vless://4ad36d82-bfdf-43bf-b372-458893d9ae2d@f41.xn--kcr399f23u6ki.com:2096?type=grpc&serviceName=&authority=&mode=multi&security=reality&pbk=2aoxX2Wjq25LmOUq9CuhJ6KJTA8z1i3Aspe-7RhTR1s&fp=firefox&sni=dash.cloudflare.com&sid=28f58957&spx=%2F#Armenia 🇦🇲 BF 1
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
