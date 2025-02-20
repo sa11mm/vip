@@ -13,6 +13,12 @@ trojan://e131a3d0-efcf-11ef-9b94-1239d0255272@uk1.test3.net:443?security=tls&sni
 trojan://7b526540-efd0-11ef-a3e6-1239d0255272@sg3.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 3
 trojan://b1313de0-efd0-11ef-a90d-1239d0255272@sg1.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 1
 
+trojan://1d37f220-efcb-11ef-be92-1239d0255272@sg2.6n6.net:443?security=tls&sni=divar.com&allowInsecure=1&type=tcp&headerType=none#eeeee
+trojan://4ab44080-efcb-11ef-9dca-1239d0255272@sg4.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#regesdc
+trojan://4ab44080-efcb-11ef-9dca-1239d0255272@sg4.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#2222
+trojan://8fe2dfd0-efcf-11ef-b758-1239d0255272@sg4.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#sf
+trojan://b04547c0-efcf-11ef-9cd3-1239d0255272@usa.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#US
+trojan://57ae5710-efd0-11ef-b841-1239d0255272@sg2.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#dd
 
 trojan://opentunnel.net-sami899087676@det-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#German 🇩🇪 OT
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkdlcm1hbiBcdUQ4M0NcdURERTlcdUQ4M0NcdURERUEgRlYiLA0KICAiYWRkIjogImNwYW5lbC5lcmFkZTMzLmlyIiwNCiAgInBvcnQiOiAiMTAwIiwNCiAgImlkIjogImMzYmMzODVkLWNlZWYtNGRlMC1iMDM1LTY2ZTYzY2ViNWNhMSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInNwZWVkdGVzdC5uZXQiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
