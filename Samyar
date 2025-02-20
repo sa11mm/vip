@@ -15,6 +15,7 @@ trojan://b1313de0-efd0-11ef-a90d-1239d0255272@sg1.6n6.net:443?security=tls&sni=d
 trojan://opentunnel.net-dryhfdger@det-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#German 🇩🇪 OT
 trojan://opentunnel.net-fykogxchj@sgt-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 OT
 trojan://opentunnel.net-ffrsfdsasss@ust-2.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸 2 OT
+vless://0be1b130-5da6-45df-9b67-f0ebadb98bc4@u102883407.paxvpn.xyz:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dl.google.com&fp=chrome&pbk=hNnsC90sJIWdsw6SZ_iYYXRfOBaQCCYo-b_tTdHtsGY&sid=8a08c105&spx=%2F&type=tcp&headerType=none#Switzerland 🇨🇭 Pax
 
 
 
