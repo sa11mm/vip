@@ -6,7 +6,7 @@
 //subscription-userinfo: upload=0; download=0; total=322120000000; expire=1745510000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-warp://162.159.192.44:894?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Iran 🇮🇷&&detour=warp://warp://162.159.192.44:894?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#German 🇩🇪
+warp://188.114.98.96:939/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.97.137:8742#German 🇩🇪
 warp://188.114.96.57:3476/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Download🎞
 trojan://opentunnel.net-sami899087676@det-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#German 🇩🇪 OT
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkdlcm1hbiBcdUQ4M0NcdURERTlcdUQ4M0NcdURERUEgRlYiLA0KICAiYWRkIjogImNwYW5lbC5lcmFkZTMzLmlyIiwNCiAgInBvcnQiOiAiMTAwIiwNCiAgImlkIjogImMzYmMzODVkLWNlZWYtNGRlMC1iMDM1LTY2ZTYzY2ViNWNhMSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInNwZWVkdGVzdC5uZXQiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
