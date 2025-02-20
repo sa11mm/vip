@@ -6,7 +6,7 @@
 //subscription-userinfo: upload=0; download=0; total=322120000000; expire=1745510000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-wwarp://188.114.98.176:945?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Download🎞
+warp://188.114.98.176:945?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Download🎞
 warp://188.114.98.96:939/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.97.137:8742#German 🇩🇪
 trojan://3ece8540-efcf-11ef-bd1a-1239d0255272@fr1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
 trojan://e131a3d0-efcf-11ef-9b94-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
@@ -14,7 +14,7 @@ trojan://7b526540-efd0-11ef-a3e6-1239d0255272@sg3.6n6.net:443?security=tls&sni=d
 trojan://b1313de0-efd0-11ef-a90d-1239d0255272@sg1.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 1
 trojan://opentunnel.net-dryhfdger@det-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#German 🇩🇪 OT
 trojan://opentunnel.net-fykogxchj@sgt-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 OT
-trojan://opentunnel.net-ffrsfdsasss@ust-2.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸 2
+trojan://opentunnel.net-ffrsfdsasss@ust-2.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸 2 OT
 
 
 
