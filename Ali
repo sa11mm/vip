@@ -11,6 +11,7 @@ trojan://af5b3020-f819-11ef-a8be-1239d0255272@fr1.test3.net:443?security=tls&sni
 trojan://fb8a0be0-f819-11ef-8330-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 trojan://7ca23bc0-f81a-11ef-8218-1239d0255272@sg1.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 1
 trojan://af082a40-f81a-11ef-b104-1239d0255272@sg3.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 3
+trojan://opentunnel.net-alifte@det-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#German 🇩🇪 OT
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #tuic://a223d4lb-2985-22e6-a493-e95ed843261a:ae8e141e0d7b5a49@98.22.36.187:89829#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
