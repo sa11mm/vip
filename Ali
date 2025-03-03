@@ -3,11 +3,14 @@
 #warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 //profile-update-interval: 6
 #reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
-//subscription-userinfo: upload=0; download=0; total=32210000000; expire=1740730000
+//subscription-userinfo: upload=0; download=0; total=32210000000; expire=1743330000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-trojan://7d4ed020-cd5b-11ef-9045-1239d0255272@fr1.test3.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
-trojan://1ec3a5e0-cdd9-11ef-b50f-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.com&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
+warp://188.114.99.127:859?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.97.137:8742#German 🇩🇪
+trojan://af5b3020-f819-11ef-a8be-1239d0255272@fr1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
+trojan://fb8a0be0-f819-11ef-8330-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
+trojan://7ca23bc0-f81a-11ef-8218-1239d0255272@sg1.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 1
+trojan://af082a40-f81a-11ef-b104-1239d0255272@sg3.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 3
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #tuic://a223d4lb-2985-22e6-a493-e95ed843261a:ae8e141e0d7b5a49@98.22.36.187:89829#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
