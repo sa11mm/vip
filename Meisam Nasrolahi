@@ -3,10 +3,12 @@
 #warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 //profile-update-interval: 6
 #reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
-//subscription-userinfo: upload=0; download=0; total=32210000000; expire=1741830000
+//subscription-userinfo: upload=0; download=0; total=107370000000; expire=1745710000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-#vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkdlcm1hbiIsDQogICJhZGQiOiAiY3BhbmVsLmVyYWRlMzMuaXIiLA0KICAicG9ydCI6ICIxMDAiLA0KICAiaWQiOiAiZjNmZGIxMzItZmRmYS00YTNjLWEzNGMtMDRjMmJiMGZlOWM2IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAic3BlZWR0ZXN0Lm5ldCIsDQogICJwYXRoIjogIi8iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
+trojan://2efcab20-0bc3-11f0-ab47-1239d0255272@fr1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
+trojan://8df99ca0-0bc3-11f0-8362-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
+trojan://1add0f40-0bc4-11f0-82a5-1239d0255272@sg1.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 1
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 tuic://a223d4lb-2985-22e6-a493-e95ed843261a:ae8e141e0d7b5a49@98.22.36.187:89829#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
