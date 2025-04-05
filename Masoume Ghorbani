@@ -8,7 +8,7 @@
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.97.65:5279?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Instagram📱
 trojan://67c53b20-1212-11f0-af5a-1239d0255272@fr1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
-trojan://7ac06680-016f-11f0-9f38-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
+trojan://9e5f2370-1212-11f0-9503-1239d0255272@uk1.test3.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #tuic://a223d4lb-2985-22e6-a493-e95ed843261a:ae8e141e0d7b5a49@98.22.36.187:89829#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
