@@ -11,7 +11,7 @@ warp://188.114.98.96:939/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Iran 🇮🇷&&
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkdlcm1hbiBcdUQ4M0NcdURERTlcdUQ4M0NcdURERUEgRlYiLA0KICAiYWRkIjogImNwYW5lbC5lcmFkZTMzLmlyIiwNCiAgInBvcnQiOiAiMTAwIiwNCiAgImlkIjogImMzYmMzODVkLWNlZWYtNGRlMC1iMDM1LTY2ZTYzY2ViNWNhMSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAidGNwIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInNwZWVkdGVzdC5uZXQiLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
 trojan://810501e0-0b37-11f0-9126-1239d0255272@fr1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
 trojan://31827270-1bf2-11f0-b78b-1239d0255272@uk1.test3.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-trojan://f5bfe070-0b37-11f0-99f9-1239d0255272@sg1.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 1
+trojan://fc712d80-1c65-11f0-afee-1239d0255272@sg1.6n6.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 1
 trojan://ccce1230-1c65-11f0-9a7b-1239d0255272@sg3.6n6.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 3
 trojan://opentunnel.net-dryhfdger@det-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#German 🇩🇪 OT
 trojan://opentunnel.net-fykogxchj@sgt-1.optnl.com:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 OT
