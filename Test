@@ -1,3 +1,1 @@
-warp://188.114.98.35:934/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#1
-warp://188.114.96.225:3476/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#2
-warp://188.114.97.150:3476/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#3
+wireguard://QPJ7VQHwQSK1ZIgsgu54uo1TpgbvU7BtbpG%2FYssx%2FF0%3D@109.236.81.160:51820?address=10.2.0.2%2F32&presharedkey=&reserved=0%2C0%2C0&publickey=BUp7VsCOApM6fRW4Ly5HhpVgMKN1zEQmjESpRLasyg0%3D&mtu=1280#NL-FREE%2365
