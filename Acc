@@ -108,3 +108,4 @@ wg://[server]:222/?pk=[private_key]&local_address=10.0.0.2/24&peer_pub=[peer_pub
 WireGuard & Warp: m3,4,5 OK
 Remove: ifps & ifpd
 
+Best: ?ifp=1-3&ifpm=m4 Warp & &ifp=1-3&ifpm=m4 Other Config
