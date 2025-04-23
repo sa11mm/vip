@@ -93,6 +93,8 @@ Masoud Nasr ta 21 Tir 2 Bar
 500G: 536870000000
 1000G: 1073740000000
 -------------------
+hiddify://import/.....
+-------------------
 
 ?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4 Asli
 ?ifp=40-80&ifps=50-100&ifpd=1-2&ifpm=m4
@@ -100,5 +102,8 @@ Masoud Nasr ta 21 Tir 2 Bar
 
 vless &&detour Warp
 
-hiddify://import/.....
+Hiddify WireGuard
+wg://[server]:222/?pk=[private_key]&local_address=10.0.0.2/24&peer_pub=[peer_public_key]&psk=[pre_shared_key]&workers=[workers]&mtu=[mtu]&reserved=0,0,0
+
+
 
