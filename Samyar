@@ -24,6 +24,9 @@ wg://45.87.213.226:51820/?pk=SJ7NjDYuWkpfR9EPgOpqaOAbu0d17TtIm7YsjQdpFEY%3D&loca
 wg://149.88.103.48:51820/?pk=wIQ/MvaRM6WkZ1iKADU/cqskx381dkhfULtDWDDFZ24=&local_address=10.2.0.2/32&peer_pub=9Yy7/zeaFvKd/ETcLg0PvsJb5PVMj9dX4Wg7NVNVbCs=&ifp=1-3&ifpm=m4#Japan 🇯🇵 18
 wg://37.19.221.197:51820/?pk=KGUYMBOj8Oa8CwY3e9LdgkBrn6wnB/zZcC8NYs8GgWE=&local_address=10.2.0.2/32&peer_pub=mqoQwexGzvYJ63u35PJukMOleZXRLLkfQKODwm3NPB4=&ifp=1-3&ifpm=m4#United States 🇺🇸 41
 wg://89.187.180.55:51820/?pk=aNA5/q6YN5dXn1bxWi80VmGKty51wmE2yIGr411wAX8=&local_address=10.2.0.2/32&peer_pub=yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=&ifp=1-3&ifpm=m4#United States 🇺🇸 46
+wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m4#Local 0
+wg://188.114.96.147:7152/?pk=wwqS%2BTvaTsuNHnfXbOviZbHUl1sPhVTAdgqBNj4%2Favk%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m4#Local 1
+wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m4#Local 2
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
