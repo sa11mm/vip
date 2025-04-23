@@ -105,5 +105,6 @@ vless &&detour Warp
 Hiddify WireGuard
 wg://[server]:222/?pk=[private_key]&local_address=10.0.0.2/24&peer_pub=[peer_public_key]&psk=[pre_shared_key]&workers=[workers]&mtu=[mtu]&reserved=0,0,0 + Nois
 
-
+WireGuard & Warp: m3,4,5 OK
+Remove: ifps & ifpd
 
