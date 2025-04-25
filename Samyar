@@ -7,27 +7,27 @@
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.96.202:1180?ifp=2-3&ifpm=m4#Download🎞
-warp://188.114.98.96:939/?ifp=2-3&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.97.137:8742#Germany🇩🇪-🇮🇹 Italy
+warp://188.114.98.96:939/?ifp=2-3&ifpm=m4#Iran🇮🇷&&detour=warp://188.114.97.137:8742#Germany🇩🇪 🇮🇹Italy
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkdlcm1hbnkgXHVEODNDXHVEREU5XHVEODNDXHVEREVBIiwNCiAgImFkZCI6ICJjcGFuZWwuZXJhZGUzMy5pciIsDQogICJwb3J0IjogIjEwMCIsDQogICJpZCI6ICJjM2JjMzg1ZC1jZWVmLTRkZTAtYjAzNS02NmU2M2NlYjVjYTEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogInVwbG9hZGJveS5jb20iLA0KICAicGF0aCI6ICIvIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
 vless://f207528a-b95d-435b-aefa-93c717122a0d@deu98.worldunbound.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com#Germany🇩🇪V
-trojan://36dd42a0-1c66-11f0-85ad-1239d0255272@fr1.test3.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
-trojan://31827270-1bf2-11f0-b78b-1239d0255272@uk1.test3.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-trojan://ccce1230-1c65-11f0-9a7b-1239d0255272@sg3.6n6.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 3
-wg://217.23.3.76:51820/?pk=oBjp05gdsaX09Sh2A3F2B1lOGMQzIpDjEz3zoJqe4Fs=&local_address=10.2.0.2/32&peer_pub=vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 1
-wg://138.199.7.159:51820/?pk=8BsWXJIbXsaXW6PIzlAsKGo6i1TQmTlO5fCMkohtJXI=&local_address=10.2.0.2/32&peer_pub=1s5mwMp3fZKNucEO3GeHRSUrhGLu/BYeC0UdusyxSWU=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 12
-wg://89.39.107.188:51820/?pk=QMJeFTHxLZGCa6BImgS33rMmvYrVEkDTqfxMf8H0W3M%3D&local_address=10.2.0.2%2F32&peer_pub=MTNPR632U9GOxI%2BB8dMP%2BKgMJVEO2xQPrem2SuDfTkM%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 13
-wg://89.39.107.109:51820/?pk=KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=&local_address=10.2.0.2/32&peer_pub=ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 14
-wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 16
-wg://169.150.196.83:51820/?pk=IPETQHOtrYHdrGqu1K3AdBqXH2cJ1IU2EA8U25QqfE0%3D&local_address=10.2.0.2%2F32&peer_pub=622sGL%2BJ3fUvgco2KFrZbhbZF324eTWiRmNhi7JhlXA%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 45
-wg://109.236.81.160:51820/?pk=QPJ7VQHwQSK1ZIgsgu54uo1TpgbvU7BtbpG/Yssx/F0=&local_address=10.2.0.2/32&peer_pub=BUp7VsCOApM6fRW4Ly5HhpVgMKN1zEQmjESpRLasyg0=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 65
-wg://93.190.141.58:51820/?pk=YLkeTF0W4xJMumUsFYr7peJH82D4hU71jmxHp0cj9GI%3D&local_address=10.2.0.2%2F32&peer_pub=SPXmLWGJrr%2BNAcIALh7VadGZMqw0GZoceGO4VP2MEQo%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 66
-wg://45.87.213.226:51820/?pk=SJ7NjDYuWkpfR9EPgOpqaOAbu0d17TtIm7YsjQdpFEY%3D&local_address=10.2.0.2%2F32&peer_pub=BbghXRtbSYBJ2Q%2FeMu4JV7u8LKiKDfgybk7IJAO7iAU%3D&ifp=2-4&ifpm=m4#Japan 🇯🇵 16
-wg://149.88.103.48:51820/?pk=wIQ/MvaRM6WkZ1iKADU/cqskx381dkhfULtDWDDFZ24=&local_address=10.2.0.2/32&peer_pub=9Yy7/zeaFvKd/ETcLg0PvsJb5PVMj9dX4Wg7NVNVbCs=&ifp=2-3&ifpm=m4#Japan 🇯🇵 18
-wg://37.19.221.197:51820/?pk=KGUYMBOj8Oa8CwY3e9LdgkBrn6wnB/zZcC8NYs8GgWE=&local_address=10.2.0.2/32&peer_pub=mqoQwexGzvYJ63u35PJukMOleZXRLLkfQKODwm3NPB4=&ifp=2-3&ifpm=m4#United States 🇺🇸 41
-wg://89.187.180.55:51820/?pk=aNA5/q6YN5dXn1bxWi80VmGKty51wmE2yIGr411wAX8=&local_address=10.2.0.2/32&peer_pub=yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=&ifp=2-3&ifpm=m4#United States 🇺🇸 46
-wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m4#Local 0
-wg://188.114.96.147:7152/?pk=wwqS%2BTvaTsuNHnfXbOviZbHUl1sPhVTAdgqBNj4%2Favk%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m4#Local 1
-wg://188.114.97.90:903/?pk=iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280&reserved=107%2C137%2C197&ifp=2-4&ifpm=m4#Local 2
+trojan://36dd42a0-1c66-11f0-85ad-1239d0255272@fr1.test3.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#France🇫🇷
+trojan://31827270-1bf2-11f0-b78b-1239d0255272@uk1.test3.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#United Kingdom🇬🇧
+trojan://ccce1230-1c65-11f0-9a7b-1239d0255272@sg3.6n6.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#Singapore🇸🇬 3
+wg://217.23.3.76:51820/?pk=oBjp05gdsaX09Sh2A3F2B1lOGMQzIpDjEz3zoJqe4Fs=&local_address=10.2.0.2/32&peer_pub=vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=&ifp=2-3&ifpm=m4#Netherlands🇳🇱 1
+wg://138.199.7.159:51820/?pk=8BsWXJIbXsaXW6PIzlAsKGo6i1TQmTlO5fCMkohtJXI=&local_address=10.2.0.2/32&peer_pub=1s5mwMp3fZKNucEO3GeHRSUrhGLu/BYeC0UdusyxSWU=&ifp=2-3&ifpm=m4#Netherlands🇳🇱 12
+wg://89.39.107.188:51820/?pk=QMJeFTHxLZGCa6BImgS33rMmvYrVEkDTqfxMf8H0W3M%3D&local_address=10.2.0.2%2F32&peer_pub=MTNPR632U9GOxI%2BB8dMP%2BKgMJVEO2xQPrem2SuDfTkM%3D&ifp=2-4&ifpm=m4#Netherlands🇳🇱 13
+wg://89.39.107.109:51820/?pk=KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=&local_address=10.2.0.2/32&peer_pub=ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=&ifp=2-3&ifpm=m4#Netherlands🇳🇱 14
+wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&ifp=2-4&ifpm=m4#Netherlands🇳🇱 16
+wg://169.150.196.83:51820/?pk=IPETQHOtrYHdrGqu1K3AdBqXH2cJ1IU2EA8U25QqfE0%3D&local_address=10.2.0.2%2F32&peer_pub=622sGL%2BJ3fUvgco2KFrZbhbZF324eTWiRmNhi7JhlXA%3D&ifp=2-4&ifpm=m4#Netherlands🇳🇱 45
+wg://109.236.81.160:51820/?pk=QPJ7VQHwQSK1ZIgsgu54uo1TpgbvU7BtbpG/Yssx/F0=&local_address=10.2.0.2/32&peer_pub=BUp7VsCOApM6fRW4Ly5HhpVgMKN1zEQmjESpRLasyg0=&ifp=2-3&ifpm=m4#Netherlands🇳🇱 65
+wg://93.190.141.58:51820/?pk=YLkeTF0W4xJMumUsFYr7peJH82D4hU71jmxHp0cj9GI%3D&local_address=10.2.0.2%2F32&peer_pub=SPXmLWGJrr%2BNAcIALh7VadGZMqw0GZoceGO4VP2MEQo%3D&ifp=2-4&ifpm=m4#Netherlands🇳🇱 66
+wg://45.87.213.226:51820/?pk=SJ7NjDYuWkpfR9EPgOpqaOAbu0d17TtIm7YsjQdpFEY%3D&local_address=10.2.0.2%2F32&peer_pub=BbghXRtbSYBJ2Q%2FeMu4JV7u8LKiKDfgybk7IJAO7iAU%3D&ifp=2-4&ifpm=m4#Japan🇯🇵 16
+wg://149.88.103.48:51820/?pk=wIQ/MvaRM6WkZ1iKADU/cqskx381dkhfULtDWDDFZ24=&local_address=10.2.0.2/32&peer_pub=9Yy7/zeaFvKd/ETcLg0PvsJb5PVMj9dX4Wg7NVNVbCs=&ifp=2-3&ifpm=m4#Japan🇯🇵 18
+wg://37.19.221.197:51820/?pk=KGUYMBOj8Oa8CwY3e9LdgkBrn6wnB/zZcC8NYs8GgWE=&local_address=10.2.0.2/32&peer_pub=mqoQwexGzvYJ63u35PJukMOleZXRLLkfQKODwm3NPB4=&ifp=2-3&ifpm=m4#United States🇺🇸 41
+wg://89.187.180.55:51820/?pk=aNA5/q6YN5dXn1bxWi80VmGKty51wmE2yIGr411wAX8=&local_address=10.2.0.2/32&peer_pub=yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=&ifp=2-3&ifpm=m4#United States🇺🇸 46
+wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m4#Local🇮🇷 0
+wg://188.114.96.147:7152/?pk=wwqS%2BTvaTsuNHnfXbOviZbHUl1sPhVTAdgqBNj4%2Favk%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m4#Local🇮🇷 1
+wg://188.114.97.90:903/?pk=iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280&reserved=107%2C137%2C197&ifp=2-4&ifpm=m4#Local🇮🇷 2
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
