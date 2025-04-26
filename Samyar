@@ -15,7 +15,6 @@ trojan://31827270-1bf2-11f0-b78b-1239d0255272@uk1.test3.net:443?security=tls&sni
 trojan://ccce1230-1c65-11f0-9a7b-1239d0255272@sg3.6n6.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#Singapore🇸🇬 3
 wg://217.23.3.76:51820/?pk=oBjp05gdsaX09Sh2A3F2B1lOGMQzIpDjEz3zoJqe4Fs=&local_address=10.2.0.2/32&peer_pub=vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=&ifp=2-3&ifpm=m4#Netherlands🇳🇱 1
 wg://138.199.7.159:51820/?pk=8BsWXJIbXsaXW6PIzlAsKGo6i1TQmTlO5fCMkohtJXI=&local_address=10.2.0.2/32&peer_pub=1s5mwMp3fZKNucEO3GeHRSUrhGLu/BYeC0UdusyxSWU=&ifp=2-3&ifpm=m4#Netherlands🇳🇱 12
-wg://89.39.107.188:51820/?pk=QMJeFTHxLZGCa6BImgS33rMmvYrVEkDTqfxMf8H0W3M%3D&local_address=10.2.0.2%2F32&peer_pub=MTNPR632U9GOxI%2BB8dMP%2BKgMJVEO2xQPrem2SuDfTkM%3D&ifp=2-4&ifpm=m4#Netherlands🇳🇱 13
 wg://89.39.107.109:51820/?pk=KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=&local_address=10.2.0.2/32&peer_pub=ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=&ifp=2-3&ifpm=m4#Netherlands🇳🇱 14
 wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&ifp=2-4&ifpm=m4#Netherlands🇳🇱 16
 wg://169.150.196.83:51820/?pk=IPETQHOtrYHdrGqu1K3AdBqXH2cJ1IU2EA8U25QqfE0%3D&local_address=10.2.0.2%2F32&peer_pub=622sGL%2BJ3fUvgco2KFrZbhbZF324eTWiRmNhi7JhlXA%3D&ifp=2-4&ifpm=m4#Netherlands🇳🇱 45
