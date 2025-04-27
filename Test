@@ -8,6 +8,8 @@
 
 wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&mtu=1280&reserved=0,0,0&ifp=15-15&ifps=50-100&ifpd=2-4&ifpm=m4#Netherlands🇳🇱 +++
 wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&mtu=1280&reserved=0,0,0&ifp=2-4&ifpm=m4#Netherlands🇳🇱 ++++
+wg://89.39.107.109:51820/?pk=KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=&local_address=10.2.0.2/32&peer_pub=ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=&ifp=2-3&ifpm=m4#Netherlands🇳🇱 14
+wg://89.39.107.109:51820/?pk=KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=&local_address=10.2.0.2/32&peer_pub=ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=&mtu=1280&reserved=0,0,0&ifp=2-3&ifpm=m4#Netherlands🇳🇱 14+
 
 #Tested
 #warp://188.114.96.202:1180?ifp=2-3&ifpm=m4#Download🎞0T
