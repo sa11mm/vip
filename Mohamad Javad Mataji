@@ -6,6 +6,7 @@
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1745710000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
+warp://188.114.98.81:891/?ifp=2-3&ifpm=m4#Instagram📱
 trojan://57583a50-0bff-11f0-b7ee-1239d0255272@fr1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
 trojan://801c2840-0bff-11f0-98ef-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
