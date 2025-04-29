@@ -32,8 +32,8 @@ wg://188.114.97.90:903/?pk=iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08%3D&local_
 vless://62eb5805-4861-4c5f-9ce2-9d189c3b7cd3@visa.cn:80?encryption=none&security=&sni=redhggt777.nothing0024.workers.dev&fp=randomized&type=ws&host=redhggt777.nothing0024.workers.dev&path=%2F%3Fed%3D2560#Germany🇩🇪+
 vless://25483ac6-626c-4cc1-b253-b6539631d7ec@www.speedtest.net:443?path=%2Fn3Y05l6KNo0eC4OQ%3Fed%3D2560&security=tls&encryption=none&host=very-eft.pages.dev&type=ws&sni=VERY-efT.pAGES.dev#Germany🇩🇪+Y
 vless://25483ac6-626c-4cc1-b253-b6539631d7ec@www.speedtest.net:443?path=%2Fn3Y05l6KNo0eC4OQ%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=very-eft.pages.dev&fp=randomized&type=ws&sni=VERY-efT.pAGES.dev#Germany🇩🇪+YY
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyUE1RRHFhbWNRSjZkbnNGZ21YZTd5dkZVY2ZpMm5pTGMzekpkVnVDZVRrWWE2b2hiV0E5bm1uODh3ck1RTHEyZ0VXNHdHMkZ0QkFFSGdIcEFXc2plaGJ4dUtmWFllek4%3D@test.colddwight.xyz:42802#Gibraltar 🇬🇮
-
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyUE1RRHFhbWNRSjZkbnNGZ21YZTd5dkZVY2ZpMm5pTGMzekpkVnVDZVRrWWE2b2hiV0E5bm1uODh3ck1RTHEyZ0VXNHdHMkZ0QkFFSGdIcEFXc2plaGJ4dUtmWFllek4%3D@test.colddwight.xyz:42802#Gibraltar🇬🇮
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#Netherlands🇳🇱+
 
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
