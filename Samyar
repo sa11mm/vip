@@ -31,6 +31,7 @@ wg://188.114.97.90:903/?pk=iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08%3D&local_
 #Jadid
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyUE1RRHFhbWNRSjZkbnNGZ21YZTd5dkZVY2ZpMm5pTGMzekpkVnVDZVRrWWE2b2hiV0E5bm1uODh3ck1RTHEyZ0VXNHdHMkZ0QkFFSGdIcEFXc2plaGJ4dUtmWFllek4%3D@test.colddwight.xyz:42802#United States🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#Netherlands🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQY1NGMGtFcFdadmhuV2FUVkpkNjdY@147.45.69.81:52466#Netherlands🇳🇱.
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
