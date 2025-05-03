@@ -2,7 +2,7 @@
   "outbounds": [
     {
       "type": "wireguard",
-      "tag": "🇳🇱 NL-16",
+      "tag": "🇳🇱 NL-166",
       "local_address": [
         "10.2.0.2/32"
       ],
