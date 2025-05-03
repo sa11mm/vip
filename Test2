@@ -17,4 +17,24 @@
       "server_port": 51820
     }
   ]
+},
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "🇳🇱 NL-12",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "qOQKz0AJzCURnFasy0KNkKNQecYHLsyMmNUczxYDBWQ=",
+      "peer_public_key": "1s5mwMp3fZKNucEO3GeHRSUrhGLu/BYeC0UdusyxSWU=",
+      "mtu": 1420,
+      "fake_packets": "1-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4",
+      "server": "138.199.7.159",
+      "server_port": 51820
+    }
+  ]
 }
