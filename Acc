@@ -137,3 +137,155 @@ Proton Convert to Hiddify
   ]
 }
 ---------------------------
+---------------------------
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "🇺🇸 US-41",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "KGUYMBOj8Oa8CwY3e9LdgkBrn6wnB/zZcC8NYs8GgWE=",
+      "peer_public_key": "mqoQwexGzvYJ63u35PJukMOleZXRLLkfQKODwm3NPB4=",
+      "mtu": 1420,
+      "fake_packets": "1-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4",
+      "server": "37.19.221.197",
+      "server_port": 51820
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇺🇸 US-46",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "aNA5/q6YN5dXn1bxWi80VmGKty51wmE2yIGr411wAX8=",
+      "peer_public_key": "yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=",
+      "mtu": 1420,
+      "fake_packets": "1-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4",
+      "server": "89.187.180.55",
+      "server_port": 51820
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇯🇵 JP-16",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "SJ7NjDYuWkpfR9EPgOpqaOAbu0d17TtIm7YsjQdpFEY=",
+      "peer_public_key": "BbghXRtbSYBJ2Q/eMu4JV7u8LKiKDfgybk7IJAO7iAU=",
+      "mtu": 1420,
+      "fake_packets": "1-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4",
+      "server": "45.87.213.226",
+      "server_port": 51820
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇳🇱 NL-66",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "YLkeTF0W4xJMumUsFYr7peJH82D4hU71jmxHp0cj9GI=",
+      "peer_public_key": "SPXmLWGJrr+NAcIALh7VadGZMqw0GZoceGO4VP2MEQo=",
+      "mtu": 1420,
+      "fake_packets": "1-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4",
+      "server": "93.190.141.58",
+      "server_port": 51820
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇳🇱 NL-45",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "IPETQHOtrYHdrGqu1K3AdBqXH2cJ1IU2EA8U25QqfE0=",
+      "peer_public_key": "622sGL+J3fUvgco2KFrZbhbZF324eTWiRmNhi7JhlXA=",
+      "mtu": 1420,
+      "fake_packets": "1-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4",
+      "server": "169.150.196.83",
+      "server_port": 51820
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇳🇱 NL-16",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "CGepJklWO+twXXeBhBIEsU0clwJCi7cp14N1Rok6CmM=",
+      "peer_public_key": "IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE+jQ=",
+      "mtu": 1420,
+      "fake_packets": "1-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4",
+      "server": "89.39.107.185",
+      "server_port": 51820
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇳🇱 NL-14",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=",
+      "peer_public_key": "ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=",
+      "mtu": 1420,
+      "fake_packets": "1-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4",
+      "server": "89.39.107.109",
+      "server_port": 51820
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇳🇱 NL-12",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "qOQKz0AJzCURnFasy0KNkKNQecYHLsyMmNUczxYDBWQ=",
+      "peer_public_key": "1s5mwMp3fZKNucEO3GeHRSUrhGLu/BYeC0UdusyxSWU=",
+      "mtu": 1420,
+      "fake_packets": "1-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4",
+      "server": "138.199.7.159",
+      "server_port": 51820
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇳🇱 NL-1",
+      "local_address": [
+        "10.2.0.2/32"
+      ],
+      "private_key": "WAFVrXRxs2FEPnXUSfOt6l6Y+TE+ptxKeSawO3nKw1U=",
+      "peer_public_key": "vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=",
+      "mtu": 1420,
+      "fake_packets": "1-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4",
+      "server": "217.23.3.76",
+      "server_port": 51820
+    }
+  ]
+}
+---------------------------
+
+
