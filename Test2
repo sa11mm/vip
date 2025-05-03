@@ -15,8 +15,6 @@
       "fake_packets_mode": "m4",
       "server": "89.39.107.185",
       "server_port": 51820
-    }
-  ]
 },
 {
   "outbounds": [
