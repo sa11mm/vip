@@ -8,7 +8,7 @@
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.96.202:1180?ifp=2-3&ifpm=m4#Instagram📱
 warp://188.114.97.65:5279?ifp=2-3&ifpm=m4#Iran🇮🇷&&detour=warp://188.114.96.202:1180#Germany🇩🇪 🇮🇹Italy
-wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&mtu=1280&reserved=0,0,0&ifp=15-15&ifps=5-10&ifpd=1-2&ifpm=m4#Netherlands🇳🇱 16
+wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&mtu=1280&reserved=0,0,0&ifp=15-15&ifps=5-10&ifpd=1-2&ifpm=m4#Netherlands🇳🇱16
 nf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
