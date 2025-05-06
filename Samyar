@@ -34,6 +34,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQY1NGMGtFcFdadmhuV2FUVkpkNjdY@147.45.69.81:52466#Netherlands🇳🇱.SS
 vless://c3d32cbc-a314-4b7c-83af-d4b898b45efb@104.17.147.22:443?encryption=none&security=tls&sni=stream.v2line.online&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=stream.v2line.online&path=%2Fnetherlands%2Famsterdam%2Fvl%2Fws%2Ftls#Netherlands🇳🇱..VL
 vless://62eb5805-4861-4c5f-9ce2-9d189c3b7cd3@visa.cn:80?encryption=none&security=&sni=redhggt777.nothing0024.workers.dev&fp=randomized&type=ws&host=redhggt777.nothing0024.workers.dev&path=%2F%3Fed%3D2560#Germany🇩🇪VL
+vless://25483ac6-626c-4cc1-b253-b6539631d7ec@www.speedtest.net:443?encryption=none&security=tls&sni=VERY-efT.pAGES.dev&alpn=h2%2Chttp%2F1.1&fp=randomized&allowInsecure=1&type=ws&host=very-eft.pages.dev&path=%2Fn3Y05l6KNo0eC4OQ%3Fed%3D2560#Germany🇩🇪.VL
+
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
