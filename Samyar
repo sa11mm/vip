@@ -18,8 +18,6 @@ wg://93.190.141.58:51820/?pk=YLkeTF0W4xJMumUsFYr7peJH82D4hU71jmxHp0cj9GI%3D&loca
 wg://185.107.56.123:51820/?pk=QOTjtV%2B%2B69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA%3D&local_address=10.2.0.2%2F32&peer_pub=r6LkxFF50EuiKrZgveL2rbGwdwBfA8t1JPreSRfsXVk%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 132
 wg://45.87.213.226:51820/?pk=SJ7NjDYuWkpfR9EPgOpqaOAbu0d17TtIm7YsjQdpFEY%3D&local_address=10.2.0.2%2F32&peer_pub=BbghXRtbSYBJ2Q%2FeMu4JV7u8LKiKDfgybk7IJAO7iAU%3D&ifp=2-4&ifpm=m4#Japan 🇯🇵 16
 wg://149.88.103.48:51820/?pk=wIQ/MvaRM6WkZ1iKADU/cqskx381dkhfULtDWDDFZ24=&local_address=10.2.0.2/32&peer_pub=9Yy7/zeaFvKd/ETcLg0PvsJb5PVMj9dX4Wg7NVNVbCs=&ifp=2-3&ifpm=m4#Japan 🇯🇵 18
-wg://37.19.221.197:51820/?pk=KGUYMBOj8Oa8CwY3e9LdgkBrn6wnB/zZcC8NYs8GgWE=&local_address=10.2.0.2/32&peer_pub=mqoQwexGzvYJ63u35PJukMOleZXRLLkfQKODwm3NPB4=&ifp=2-3&ifpm=m4#United States 🇺🇸 41
-wg://89.187.180.55:51820/?pk=aNA5/q6YN5dXn1bxWi80VmGKty51wmE2yIGr411wAX8=&local_address=10.2.0.2/32&peer_pub=yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=&ifp=2-3&ifpm=m4#United States 🇺🇸 46
 wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m4#Local 🇮🇷
 wg://188.114.96.147:7152/?pk=wwqS%2BTvaTsuNHnfXbOviZbHUl1sPhVTAdgqBNj4%2Favk%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m4#Local 🇮🇷 .
 wg://188.114.97.90:903/?pk=iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280&reserved=107%2C137%2C197&ifp=2-4&ifpm=m4#Local 🇮🇷 ..
@@ -27,7 +25,6 @@ wg://188.114.97.90:903/?pk=iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08%3D&local_
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyUE1RRHFhbWNRSjZkbnNGZ21YZTd5dkZVY2ZpMm5pTGMzekpkVnVDZVRrWWE2b2hiV0E5bm1uODh3ck1RTHEyZ0VXNHdHMkZ0QkFFSGdIcEFXc2plaGJ4dUtmWFllek4%3D@test.colddwight.xyz:42802#United States 🇺🇸 ♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#Netherlands 🇳🇱 ♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQY1NGMGtFcFdadmhuV2FUVkpkNjdY@147.45.69.81:52466#Netherlands 🇳🇱 .♾️
-vless://c3d32cbc-a314-4b7c-83af-d4b898b45efb@104.17.147.22:443?encryption=none&security=tls&sni=stream.v2line.online&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=stream.v2line.online&path=%2Fnetherlands%2Famsterdam%2Fvl%2Fws%2Ftls#Netherlands 🇳🇱 ..♾️
 vless://62eb5805-4861-4c5f-9ce2-9d189c3b7cd3@visa.cn:80?encryption=none&security=&sni=redhggt777.nothing0024.workers.dev&fp=randomized&type=ws&host=redhggt777.nothing0024.workers.dev&path=%2F%3Fed%3D2560#Germany 🇩🇪 ♾️
 vless://25483ac6-626c-4cc1-b253-b6539631d7ec@www.speedtest.net:443?encryption=none&security=tls&sni=VERY-efT.pAGES.dev&alpn=h2%2Chttp%2F1.1&fp=randomized&allowInsecure=1&type=ws&host=very-eft.pages.dev&path=%2Fn3Y05l6KNo0eC4OQ%3Fed%3D2560#Germany 🇩🇪 .♾️
 #Panel
@@ -38,3 +35,8 @@ vless://5dca6a25-4f0c-4851-a3ae-bc77debf76b2@212.34.142.238:443?encryption=none&
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
+#Old
+#wg://89.187.180.55:51820/?pk=aNA5/q6YN5dXn1bxWi80VmGKty51wmE2yIGr411wAX8=&local_address=10.2.0.2/32&peer_pub=yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=&ifp=2-3&ifpm=m4#United States 🇺🇸 46
+#wg://37.19.221.197:51820/?pk=KGUYMBOj8Oa8CwY3e9LdgkBrn6wnB/zZcC8NYs8GgWE=&local_address=10.2.0.2/32&peer_pub=mqoQwexGzvYJ63u35PJukMOleZXRLLkfQKODwm3NPB4=&ifp=2-3&ifpm=m4#United States 🇺🇸 41
+#vless://c3d32cbc-a314-4b7c-83af-d4b898b45efb@104.17.147.22:443?encryption=none&security=tls&sni=stream.v2line.online&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=stream.v2line.online&path=%2Fnetherlands%2Famsterdam%2Fvl%2Fws%2Ftls#Netherlands 🇳🇱 ..♾️
+#
