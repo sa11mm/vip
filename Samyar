@@ -20,10 +20,10 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyUE1RRHFhbWNRSjZkbnNGZ21YZTd5dkZVY2ZpMm5pTGM
 vless://62eb5805-4861-4c5f-9ce2-9d189c3b7cd3@visa.cn:80?encryption=none&security=&sni=redhggt777.nothing0024.workers.dev&fp=randomized&type=ws&host=redhggt777.nothing0024.workers.dev&path=%2F%3Fed%3D2560#Germany 🇩🇪 ♾️
 vless://25483ac6-626c-4cc1-b253-b6539631d7ec@www.speedtest.net:443?encryption=none&security=tls&sni=VERY-efT.pAGES.dev&alpn=h2%2Chttp%2F1.1&fp=randomized&allowInsecure=1&type=ws&host=very-eft.pages.dev&path=%2Fn3Y05l6KNo0eC4OQ%3Fed%3D2560#Germany 🇩🇪 .♾️
 #Panel
-vless://61b9eedc-9826-4c0f-82fc-6b870cc05250@78.46.56.42:443?encryption=none&security=tls&sni=pAnBpb-dE327W.CAC2s-v.woRkers.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-de327w.cac2s-v.workers.dev&path=%2F8yognbyFiIH9vCqE%3Fed%3D2560#Germany 🇩🇪 P
-vless://fea5ecce-2451-453e-b952-9ad2ccd8fad5@128.140.48.73:443?encryption=none&security=tls&sni=PaNBpB-DE327.PAGES.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-de327.pages.dev&path=%2FUWiTTzvS4oziLtmT%3Fed%3D2560#Germany 🇩🇪 P
-vless://91d9daff-745b-4ad6-bc41-d8a61bb7b7de@158.180.12.117:443?encryption=none&security=tls&sni=PANbpb-325Wl.cAC2s-M.WOrkERS.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-325wl.cac2s-m.workers.dev&path=%2FzgNXiy12hyJBHJu9%3Fed%3D2560#Netherlands 🇳🇱 P
-vless://5dca6a25-4f0c-4851-a3ae-bc77debf76b2@212.34.142.238:443?encryption=none&security=tls&sni=PAnBpB-325Pl.PageS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-325pl.pages.dev&path=%2FlQ1WuNsX3FynuSVD%3Fed%3D2560#Netherlands 🇳🇱 P
+vless://61b9eedc-9826-4c0f-82fc-6b870cc05250@78.46.56.42:443?encryption=none&security=tls&sni=pAnBpb-dE327W.CAC2s-v.woRkers.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-de327w.cac2s-v.workers.dev&path=%2F8yognbyFiIH9vCqE%3Fed%3D2560#Germany 🇩🇪 PW
+vless://fea5ecce-2451-453e-b952-9ad2ccd8fad5@128.140.48.73:443?encryption=none&security=tls&sni=PaNBpB-DE327.PAGES.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-de327.pages.dev&path=%2FUWiTTzvS4oziLtmT%3Fed%3D2560#Germany 🇩🇪 PP
+vless://91d9daff-745b-4ad6-bc41-d8a61bb7b7de@158.180.12.117:443?encryption=none&security=tls&sni=PANbpb-325Wl.cAC2s-M.WOrkERS.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-325wl.cac2s-m.workers.dev&path=%2FzgNXiy12hyJBHJu9%3Fed%3D2560#Netherlands 🇳🇱 PWL
+vless://5dca6a25-4f0c-4851-a3ae-bc77debf76b2@212.34.142.238:443?encryption=none&security=tls&sni=PAnBpB-325Pl.PageS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-325pl.pages.dev&path=%2FlQ1WuNsX3FynuSVD%3Fed%3D2560#Netherlands 🇳🇱 PPL
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
