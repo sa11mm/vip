@@ -7,6 +7,10 @@
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.96.57:3476/?ifp=2-3&ifpm=m4#Instagram 📱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQY1NGMGtFcFdadmhuV2FUVkpkNjdY@147.45.69.81:52466#Netherlands 🇳🇱 ♾️
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBTEpXZDQ1SnVGNzY3em1hQlh2YmVuc292V2NXekFxVllvc1hpN2RZcXpuclZ0S0tEemV5dVlNTG1raW5pRGs1ZUE5S3hFSHBnTmpxVVQ0TWR1Y1c5NlhBN0E0RHF2bXg%3D@www2.broadalx.cfd:40934#Netherlands 🇳🇱 .♾️
+
+
 #trojan://d02af8f0-2438-11f0-848c-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 #trojan://65945140-2438-11f0-97e3-1239d0255272@sg3.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 3
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
