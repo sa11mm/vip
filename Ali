@@ -10,9 +10,9 @@ warp://188.114.97.134:3476/?ifp=2-3&ifpm=m4#Download 🎞
 warp://188.114.99.127:859?ifp=2-3&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.97.137:8742#Germany 🇩🇪 🇮🇹 Italy
 wg://217.23.3.76:51820/?pk=oBjp05gdsaX09Sh2A3F2B1lOGMQzIpDjEz3zoJqe4Fs=&local_address=10.2.0.2/32&peer_pub=vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBTEpXZDQ1SnVGNzY3em1hQlh2YmVuc292V2NXekFxVllvc1hpN2RZcXpuclZ0S0tEemV5dVlNTG1raW5pRGs1ZUE5S3hFSHBnTmpxVVQ0TWR1Y1c5NlhBN0E0RHF2bXg%3D@www2.broadalx.cfd:40934#Netherlands 🇳🇱 ♾️
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2N2RZZmkxdUF2MlpUeFh2TG9lazM5@66.151.41.89:33133#Germany 🇩🇪 ♾️
-ss://YWVzLTEyOC1nY206MTYyNjI5ZDctY2IxNy00M2IxLTgyYzktZjljN2FlNmNiYTcw@82.180.146.173:30607#India 🇮🇳 ♾️
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPNndvTExHc29QOHFTRDRveHVaNlNw@62.60.231.81:39008#Sweden 🇸🇪 ♾️
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2N2RZZmkxdUF2MlpUeFh2TG9lazM5@66.151.41.89:33133#Germany 🇩🇪 🚀
+ss://YWVzLTEyOC1nY206MTYyNjI5ZDctY2IxNy00M2IxLTgyYzktZjljN2FlNmNiYTcw@82.180.146.173:30607#India 🇮🇳 🚀
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPNndvTExHc29QOHFTRDRveHVaNlNw@62.60.231.81:39008#Sweden 🇸🇪 🚀
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #tuic://a223d4lb-2985-22e6-a493-e95ed843261a:ae8e141e0d7b5a49@98.22.36.187:89829#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
