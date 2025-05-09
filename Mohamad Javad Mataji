@@ -8,7 +8,7 @@
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.98.81:891/?ifp=2-3&ifpm=m4#Instagram 📱
 ss://YWVzLTI1Ni1nY206UHFKYzg5YkVKbllKLTNtRmV0a1pSUQ%3D%3D@ss.sps1.sbs:20#France 🇫🇷 ♾️
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.154:8080#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands 🇳🇱 ♾️
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.154:8080#Netherlands 🇳🇱 ♾️
 trojan://9e6987b0-2437-11f0-9589-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 trojan://fccdd780-2437-11f0-b122-1239d0255272@sg3.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 3
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
