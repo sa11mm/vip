@@ -11,5 +11,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaaWNzUUR0cVlVTGRGZHlJMlNzMzBX@h110vpnde.outl
 #tuic://a223d4lb-2985-22e6-a493-e95ed843261a:ae8e141e0d7b5a49@98.22.36.187:89829#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #tuic://210090-c3a0-429e-b9b9-072b6365beb@944.202.158.175:808256?ifp=0-3#🕑زمان شما تمام شد
-tuic://210090-c3a0-429e-b9b9-072b6365beb@944.202.158.175:808256?ifp=0-3#🕑بروزرسانی سرور
+#tuic://210090-c3a0-429e-b9b9-072b6365beb@944.202.158.175:808256?ifp=0-3#🔚حجم شما تمام شد
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
