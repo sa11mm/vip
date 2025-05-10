@@ -8,6 +8,7 @@
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkhzMGZjdTNUdHBDOUw5S21RTU1J@moz-dozd.monster:5170#Germany 🇩🇪 🚀
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozQ282V1k2MHd6RGFBMVQwS0l5WTdS@h110vpnde.outlinekeys.net:21712#Germany 🇩🇪 1🚀
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkhzMGZjdTNUdHBDOUw5S21RTU1J@185.139.230.55:5170#Germany 🇩🇪 2🚀
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQQnJ0czVBdTRHTTlhcjdiVE55WkV1@85.208.139.69:63861##Germany 🇩🇪 2🚀
 vless://227c7ef3-7959-4564-a1e9-ef89dce5c557@18.197.218.69:443?encryption=none&security=tls&sni=pAnbPB-dE325Wl.CAC2s-v.WOrkers.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-de325wl.cac2s-v.workers.dev&path=%2FqLa2Uo5vQeklEzbs%3Fed%3D2560#Germany 🇩🇪 5🚀
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
