@@ -6,9 +6,10 @@
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1749510000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
+vless://432c42ea-036b-4784-a649-fdddc6b5e59a@128.140.48.73:443?encryption=none&security=tls&sni=MisTy-mode-998F.NOwShaHR3107.woRKeRS.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=misty-mode-998f.nowshahr3107.workers.dev&path=%2FEwRu1rfl6spsmxVH%3Fed%3D2560#Asli 🇩🇪 🚀
+vless://62eb5805-4861-4c5f-9ce2-9d189c3b7cd3@visa.cn:80?encryption=none&security=&sni=redhggt777.nothing0024.workers.dev&fp=randomized&type=ws&host=redhggt777.nothing0024.workers.dev&path=%2F%3Fed%3D2560#Germany 🇩🇪 🚀
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozQ282V1k2MHd6RGFBMVQwS0l5WTdS@h110vpnde.outlinekeys.net:21712#Germany 🇩🇪 1🚀
 vless://f38e1473-0bb8-4190-8d49-ba1aaaf4e264@94.130.107.86:2087?encryption=none&security=tls&sni=pos1.floorshoping22.com&alpn=h2&fp=chrome&allowInsecure=1&type=grpc#Germany 🇩🇪 0🚀
-vless://432c42ea-036b-4784-a649-fdddc6b5e59a@128.140.48.73:443?encryption=none&security=tls&sni=MisTy-mode-998F.NOwShaHR3107.woRKeRS.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=misty-mode-998f.nowshahr3107.workers.dev&path=%2FEwRu1rfl6spsmxVH%3Fed%3D2560#Asli 🇩🇪 🚀
 vless://d51cf642-a151-4492-b47e-6f24d31f9161@95.164.16.166:443?encryption=none&security=reality&sni=www.cdn77.com&fp=qq&pbk=S9lLMRBlLXUp4RhsWgDvTubO0znlS5e7xTARW_9ajB8&sid=b1417d&type=grpc&authority=&serviceName=telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry&mode=gun#Germany 🇩🇪 3🚀
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #tuic://a223d4lb-2985-22e6-a493-e95ed843261a:ae8e141e0d7b5a49@98.22.36.187:89829#🔚حجم شما تمام شد
