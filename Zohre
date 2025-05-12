@@ -10,8 +10,6 @@ warp://188.114.96.202:1180?ifp=2-3&ifpm=m4#Instagram 📱
 warp://188.114.97.65:5279?ifp=2-3&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.96.202:1180#Germany 🇩🇪 🇮🇹 Italy
 wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&mtu=1280&reserved=0,0,0&ifp=15-15&ifps=5-10&ifpd=1-2&ifpm=m4#Netherlands 🇳🇱 16
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNThrOXpVa01NNG5wTkJEaFV0Q2oxRTZidDQ3dHlWcTNwbWZneEhBTG9tY0EycG1UelNSS1JnYnhYdWhGVG96a05ZZ2JMZEdLMjF4ZVdHeVQ1SFh3YXBOeFRWR2JyUUU%3D@www2.broadalx.cfd:40934#Netherlands 🇳🇱 🚀
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaaWNzUUR0cVlVTGRGZHlJMlNzMzBX@h110vpnde.outlinekeys.net:21712#Germany 🇩🇪 🚀
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5VllZcjJZSEdmRG96TVJkQjB2V1Nv@h110vpntr.outlinekeys.net:65262#Turkey 🇹🇷 🚀
 nf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
