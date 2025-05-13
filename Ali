@@ -9,7 +9,7 @@
 warp://188.114.97.134:3476/?ifp=2-3&ifpm=m4#Download 🎞
 warp://188.114.99.127:859?ifp=2-3&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.97.137:8742#Germany 🇩🇪 🇮🇹 Italy
 wg://109.236.81.160:51820/?pk=QPJ7VQHwQSK1ZIgsgu54uo1TpgbvU7BtbpG/Yssx/F0=&local_address=10.2.0.2/32&peer_pub=BUp7VsCOApM6fRW4Ly5HhpVgMKN1zEQmjESpRLasyg0=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 65
-ity=tls&sni=MuddY-snoWFLAKE-A963.ramsARCIty.WOrkERs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=muddy-snowflake-a963.ramsarcity.workers.dev&path=%2FGLpX3uZTAlAmuCce%3Fed%3D2560#Germany 🇩🇪
+vless://12cf7a53-bda1-42df-b254-61510ec6966e@167.235.242.114:443?encryption=none&security=tls&sni=MuddY-snoWFLAKE-A963.ramsARCIty.WOrkERs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=muddy-snowflake-a963.ramsarcity.workers.dev&path=%2FGLpX3uZTAlAmuCce%3Fed%3D2560#Germany%20%F0%9F%87%A9%F0%9F%87%AA
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #tuic://a223d4lb-2985-22e6-a493-e95ed843261a:ae8e141e0d7b5a49@98.22.36.187:89829#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
