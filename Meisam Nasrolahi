@@ -11,7 +11,8 @@ vless://432c42ea-036b-4784-a649-fdddc6b5e59a@104.19.186.223:443?encryption=none&
 #ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozQ282V1k2MHd6RGFBMVQwS0l5WTdS@h110vpnde.outlinekeys.net:21712#Germany 🇩🇪 1🚀
 #vless://f38e1473-0bb8-4190-8d49-ba1aaaf4e264@94.130.107.86:2087?encryption=none&security=tls&sni=pos1.floorshoping22.com&alpn=h2&fp=chrome&allowInsecure=1&type=grpc#Germany 🇩🇪 0🚀
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
-#tuic://a223d4lb-2985-22e6-a493-e95ed843261a:ae8e141e0d7b5a49@98.22.36.187:89829#🔚حجم شما تمام شد
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
-#tuic://210090-c3a0-429e-b9b9-072b6365beb@944.202.158.175:808256?ifp=0-3#🕑زمان شما تمام شد
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
+vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
