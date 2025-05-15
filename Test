@@ -25,4 +25,148 @@
 #warp://188.114.96.57:3476/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Instagram📱O
 #ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4
 
-dmxlc3M6Ly83YzU4Y2FjYy05OWVkLTRkYmYtODAxMy03YWVkNjA0YjM3MTRAOTUuMjE2LjE0My4xNjY6NDQzP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT10bHMmc25pPWJpVHRlci1zbm93ZkxhS2UtMjA1ZC5IVWh2RlRJT3BPaWwuV29yS0Vycy5EZXYmYWxwbj1odHRwJTJGMS4xJmZwPXJhbmRvbWl6ZWQmdHlwZT13cyZob3N0PWJpdHRlci1zbm93Zmxha2UtMjA1ZC5odWh2ZnRpb3BvaWwud29ya2Vycy5kZXYmcGF0aD0lMkZTUnlyckJacGtaOVJySE9KJTNGZWQlM0QyNTYwI0ZpbmxhbmQlMjAlRjAlOUYlODclQUIlRjAlOUYlODclQUUNCg==
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "hosts": {
+      "dns.google": "8.8.8.8",
+      "proxy.example.com": "127.0.0.1"
+    },
+    "servers": [
+      {
+        "address": "1.1.1.1",
+        "domains": [
+          "geosite:geolocation-!cn"
+        ],
+        "expectIPs": [
+          "geoip:!cn"
+        ]
+      },
+      {
+        "address": "223.5.5.5",
+        "skipFallback": true,
+        "domains": [
+          "geosite:cn"
+        ],
+        "expectIPs": [
+          "geoip:cn"
+        ]
+      },
+      "8.8.8.8",
+      "https://dns.google/dns-query"
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "95.216.143.166",
+            "port": 443,
+            "users": [
+              {
+                "id": "7c58cacc-99ed-4dbf-8013-7aed604b3714",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "biTter-snowfLaKe-205d.HUhvFTIOpOil.WorKErs.Dev",
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "randomized"
+        },
+        "wsSettings": {
+          "path": "/SRyrrBZpkZ9RrHOJ?ed=2560",
+          "host": "bitter-snowflake-205d.huhvftiopoil.workers.dev",
+          "headers": {
+            "Host": "bitter-snowflake-205d.huhvftiopoil.workers.dev"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api"
+      },
+      {
+        "type": "field",
+        "port": "443",
+        "network": "udp",
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:private"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "geosite:private"
+        ]
+      },
+      {
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy"
+      }
+    ]
+  }
+}
