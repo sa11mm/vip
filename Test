@@ -25,8 +25,6 @@
 #warp://188.114.96.57:3476/?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4#Instagram📱O
 #ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4
 {
-  "outbounds": [
-    {
   "log": {
     "loglevel": "warning"
   },
