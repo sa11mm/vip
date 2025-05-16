@@ -1,0 +1,15 @@
+#return new Response(btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join("\n")));
+//profile-title: ----
+#warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
+//profile-update-interval: 6
+#reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
+//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1766610000  
+//support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
+//profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
+warp://188.114.96.57:3476?ifp=2-3&ifpm=m4#Instagram 📱
+#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
+#conf.add = addressList[Math.floor(Math.random() * addressList.length)]
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp🕑زمان شما تمام شد
+#const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
