@@ -17,6 +17,6 @@
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
-vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
+vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑این اکانت حذف شد
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
