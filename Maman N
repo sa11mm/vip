@@ -8,7 +8,6 @@
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.96.202:1180?ifp=2-3&ifpm=m4#Instagram📱
 vless://9946cc7f-d541-4a67-88d9-ad502a61e19a@3.75.170.179:443?encryption=none&security=tls&sni=crIMSON-RESonANCE-35B1.MaMOOPLioT.WoRkErs.DEV&alpn=http%2F1.1&fp=randomized&type=ws&host=crimson-resonance-35b1.mamoopliot.workers.dev&path=%2FyphwJuD8SjDtYczb%3Fed%3D2560#Germany 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#Netherlands 🇳🇱 🚀
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
