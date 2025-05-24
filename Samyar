@@ -1,8 +1,5 @@
-#return new Response(btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join("\n")));
 //profile-title: Samyar
-#warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 //profile-update-interval: 6
-#reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
 //subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1777010000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
@@ -41,9 +38,6 @@ vless://227c7ef3-7959-4564-a1e9-ef89dce5c557@18.197.218.69:443?encryption=none&s
 vless://92b61629-529e-4431-98d3-add1f3e31e67@167.235.242.114:443?encryption=none&security=tls&sni=PaNbPB-dE325PL.PaGEs.DEV&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-de325pl.pages.dev&path=%2FTpYBrAA6U8W3ImBy%3Fed%3D2560#Germany 🇩🇪 PL
 vless://91d9daff-745b-4ad6-bc41-d8a61bb7b7de@158.180.12.117:443?encryption=none&security=tls&sni=PANbpb-325Wl.cAC2s-M.WOrkERS.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-325wl.cac2s-m.workers.dev&path=%2FzgNXiy12hyJBHJu9%3Fed%3D2560#Netherlands 🇳🇱 WL
 vless://5dca6a25-4f0c-4851-a3ae-bc77debf76b2@212.34.142.238:443?encryption=none&security=tls&sni=PAnBpB-325Pl.PageS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=panbpb-325pl.pages.dev&path=%2FlQ1WuNsX3FynuSVD%3Fed%3D2560#Netherlands 🇳🇱 PL
-#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
-#conf.add = addressList[Math.floor(Math.random() * addressList.length)]
-#const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
 #Old
 #wg://89.39.107.109:51820/?pk=KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=&local_address=10.2.0.2/32&peer_pub=ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 14
 #wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 16
