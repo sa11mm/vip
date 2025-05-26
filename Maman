@@ -7,7 +7,7 @@
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.96.57:3476?ifp=2-3&ifpm=m4#Download 🎞
-vless://575878e5-2a97-4ec5-8f79-251e67f0142a@91.107.135.104:443?encryption=none&security=tls&sni=sQuArE-bAND-35E2.mYHeaRt.WoRKerS.DEV&alpn=http%2F1.1&fp=randomized&type=ws&host=square-band-35e2.myheart.workers.dev&path=%2FoZzIsV9neuPsrbHG%3Fed%3D2560#Instagram 📱 🇩🇪
+vless://575878e5-2a97-4ec5-8f79-251e67f0142a@172.67.175.161:443?encryption=none&security=tls&sni=SQUarE-baND-35E2.myHEart.wOrKERS.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=square-band-35e2.myheart.workers.dev&path=%2FTdS9ppH1VCbnQqIr%3Fed%3D2560#Instagram 📱
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
