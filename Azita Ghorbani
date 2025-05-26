@@ -7,7 +7,7 @@
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.96.57:3476/?ifp=2-3&ifpm=m4#Download 🎞
-vless://7c58cacc-99ed-4dbf-8013-7aed604b3714@104.21.96.1:443?encryption=none&security=tls&sni=bItTER-SNOwFLaKe-205d.hUHvFTIoPoil.WorkErS.DEV&alpn=http%2F1.1&fp=randomized&type=ws&host=bitter-snowflake-205d.huhvftiopoil.workers.dev&path=%2FXHJ1oI6DIUy5G70z%3Fed%3D2560#Instagram 📱
+vless://7c58cacc-99ed-4dbf-8013-7aed604b3714@104.21.80.1:443?encryption=none&security=tls&sni=bitTeR-sNoWFlAke-205D.HUHvftioPoil.WORKERs.DEV&alpn=http%2F1.1&fp=randomized&type=ws&host=bitter-snowflake-205d.huhvftiopoil.workers.dev&path=%2FUF36Q8ZCopuZ3Zws%3Fed%3D2560#Instagram 📱
 #trojan://d02af8f0-2438-11f0-848c-1239d0255272@uk1.test3.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 #trojan://65945140-2438-11f0-97e3-1239d0255272@sg3.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 3
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
