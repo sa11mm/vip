@@ -7,6 +7,7 @@
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 vless://432c42ea-036b-4784-a649-fdddc6b5e59a@167.235.242.114:443?encryption=none&security=tls&sni=miSty-mODe-998f.nOWSHAhR3107.wOrKerS.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=misty-mode-998f.nowshahr3107.workers.dev&path=%2Fec9gXTsCSTyXvga6%3Fed%3D2560#Germany 🇩🇪
+vless://998c4ab0-7e88-4a51-968a-3a643cedd50e@78.46.56.42:443?encryption=none&security=tls&sni=coldBM-HilL-3dDF.DartoplOIG-HG.WoRkErS.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=coldbm-hill-3ddf.dartoploig-hg.workers.dev&path=%2Frvy80kKLhRQLH3il%3Fed%3D2560#Germany 🇩🇪 +
 #ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozQ282V1k2MHd6RGFBMVQwS0l5WTdS@h110vpnde.outlinekeys.net:21712#Germany 🇩🇪 1🚀
 #vless://f38e1473-0bb8-4190-8d49-ba1aaaf4e264@94.130.107.86:2087?encryption=none&security=tls&sni=pos1.floorshoping22.com&alpn=h2&fp=chrome&allowInsecure=1&type=grpc#Germany 🇩🇪 0🚀
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
