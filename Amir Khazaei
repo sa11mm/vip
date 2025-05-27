@@ -7,7 +7,7 @@
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.96.68:934?ifp=2-3&ifpm=m4#Download 🎞
-vless://196cd3aa-ce94-4c6c-84e6-8046d3beed76@104.21.45.205:443?encryption=none&security=tls&sni=throBbINg-UNIon-45A7.gozPoLIYTOp-Ncb.wORKeRs.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=throbbing-union-45a7.gozpoliytop-ncb.workers.dev&path=%2FtfBf59xahRZj567h%3Fed%3D2560#Instagram 📱
+vless://196cd3aa-ce94-4c6c-84e6-8046d3beed76@172.67.218.190:443?encryption=none&security=tls&sni=thrOBBiNG-UniON-45A7.gOZpOliYTop-Ncb.wORkeRS.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=throbbing-union-45a7.gozpoliytop-ncb.workers.dev&path=%2FGBZQBDAuFnac2yqq%3Fed%3D2560#Instagram 📱
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
