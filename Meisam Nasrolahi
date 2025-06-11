@@ -3,7 +3,7 @@
 #warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 //profile-update-interval: 6
 #reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
-//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1749510000
+//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1752510000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 vless://432c42ea-036b-4784-a649-fdddc6b5e59a@78.46.56.42:443?encryption=none&security=tls&sni=MISTY-mode-998f.noWshahR3107.WOrKeRs.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=misty-mode-998f.nowshahr3107.workers.dev&path=%2FQsPeykFg33lPECms%3Fed%3D2560#Germany 🇩🇪
@@ -15,4 +15,4 @@ vless://9946cc7f-d541-4a67-88d9-ad502a61e19a@3.75.170.179:443?encryption=none&se
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
-vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
+vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -2
