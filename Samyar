@@ -50,6 +50,11 @@ hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@dg.yuanbaojc.site:30303?sni=dg.
 hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@dg.yuanbaojc.site:30308?sni=dg.yuanbaojc.site&insecure=0&mport=30301-30399#Germany 🇩🇪 🟢
 hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@dg.yuanbaojc.site:30374?sni=dg.yuanbaojc.site&insecure=0&mport=30301-30399#Germany 🇩🇪 🟢
 hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@dg.yuanbaojc.site:30317?sni=dg.yuanbaojc.site&insecure=0&mport=30301-30399#Germany 🇩🇪 🟢
+hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@bl.yuanbaojc.site:30321?sni=bl.yuanbaojc.site&insecure=0&mport=30301-30399#Netherlands 🇳🇱 🟢
+hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@bl.yuanbaojc.site:30301?sni=bl.yuanbaojc.site&insecure=0&mport=30301-30399#Netherlands 🇳🇱 🟢
+hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@bl.yuanbaojc.site:30343?sni=bl.yuanbaojc.site&insecure=0&mport=30301-30399#Netherlands 🇳🇱 🟢
+hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@bl.yuanbaojc.site:30315?sni=bl.yuanbaojc.site&insecure=0&mport=30301-30399#Netherlands 🇳🇱 🟢
+
 #Old
 #wg://89.39.107.109:51820/?pk=KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=&local_address=10.2.0.2/32&peer_pub=ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 14
 #wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 16
