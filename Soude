@@ -1,5 +1,5 @@
 #return new Response(btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join("\n")));
-//profile-title: Mehri
+//profile-title: Soude
 #warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 //profile-update-interval: 3
 #reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
