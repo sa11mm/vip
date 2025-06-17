@@ -6,10 +6,10 @@
 //subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1777010000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-warp://188.114.97.134:3476/?ifp=2-3&ifpm=m4#Download 🎞
-warp://188.114.99.127:859?ifp=2-3&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.97.137:8742#Germany 🇩🇪 🇮🇹 Italy
-vless://f5b8d90c-221c-4b6c-a98f-9e95208aeca3@104.21.112.1:443?encryption=none&security=tls&sni=shINy-WaVE-6B63.RAMsarCItY.woRkeRS.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=shiny-wave-6b63.ramsarcity.workers.dev&path=%2F5j7yz6G45cp0aiVT%3Fed%3D2560#Multi 🔴
-vless://12cf7a53-bda1-42df-b254-61510ec6966e@78.46.56.42:443?encryption=none&security=tls&sni=MUDDy-SnoWFLAKE-A963.RamsARCiTy.WorKERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=muddy-snowflake-a963.ramsarcity.workers.dev&path=%2FXlzrMOPPuH7tJVAo%3Fed%3D2560#Germany 🇩🇪
+warp://188.114.97.13476/?ifp=2-3&ifpm=m4#Download 🎞
+warp://188.114.99.127:859?ifp=2-3&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.97.1:8742#Germany 🇩🇪 🇮🇹 Italy
+vless://f5b8d90c-221c-4b6c-a98f-9e95208aeca3@104.21.112.1:443?encryption=none&security=tls&sni=shINy-WaVE-6B63.RAMsarCItY.woRkeRS.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=shiny-wave-6b63city.workers.dev&path=%2F5j7yz6G45cp0aiVT%3Fed%3D2560#Multi 🔴
+vless://12cf7a53-bda1-42df-b254-61510ec6966e@78.46.56.42:443?encryption=none&security=tls&sni=MUDDy-SnoWFLAKE-A963.RamsARCiTy.WorKERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=muddy-flake-a963.ramsarcity.workers.dev&path=%2FXlzrMOPPuH7tJVAo%3Fed%3D2560#Germany 🇩🇪
 #wg://109.236.81.160:51820/?pk=QPJ7VQHwQSK1ZIgsgu54uo1TpgbvU7BtbpG/Yssx/F0=&local_address=10.2.0.2/32&peer_pub=BUp7VsCOApM6fRW4Ly5HhpVgMKN1zEQmjESpRLasyg0=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 65
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
