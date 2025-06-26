@@ -8,6 +8,7 @@ vless://badb069f-4acd-4206-bf9a-c4bda80d55ca@185.215.228.109:1001?encryption=non
 vless://ae9539b5-70dd-41b5-9666-11a29559a840@ver2.tcod008.info:59761?encryption=none&security=none&type=tcp&headerType=http&host=Fast.com#07
 vless://7db53b99-b560-4d25-9b6d-b9bc2ee81398@185.143.235.201:2087?encryption=none&security=tls&sni=vip9.nikatel.store&type=ws&host=vip9.nikatel.store&path=%2F#08
 vless://ae9539b5-70dd-41b5-9666-11a29559a840@84.47.233.110:59761?encryption=none&security=none&type=tcp&headerType=http&host=Fast.com#09
+vless://d3f3fd0b-7b5c-4070-d5dc-61f96641b507@185.201.49.94:58089?encryption=none&security=none&type=tcp&headerType=http&host=myket.ir#10
 #DE
 
 
