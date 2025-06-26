@@ -15,4 +15,4 @@ trojan://a6b21710-5262-11f0-b68a-1239d0255272@usa.test3.net:443?security=tls&all
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
 #const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
-vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -5.5
+vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -6.5
