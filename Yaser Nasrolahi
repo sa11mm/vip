@@ -1,4 +1,4 @@
- #return new Response(btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join("\n")));
+#return new Response(btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join("\n")));
 //profile-title: Yaser Nasrolahi
 #warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 //profile-update-interval: 3
