@@ -6,11 +6,11 @@
 //subscription-userinfo: upload=0; download=0; total=193269000000; expire=1751900000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-warp://188.114.97.65:5279/?ifp=2-3&ifpm=m4#Download 🎞
-vless://998c4ab0-7e88-4a51-968a-3a643cedd50e@78.46.56.42:443?encryption=none&security=tls&sni=coldBM-HilL-3dDF.DartoplOIG-HG.WoRkErS.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=coldbm-hill-3ddf.dartoploig-hg.workers.dev&path=%2Frvy80kKLhRQLH3il%3Fed%3D2560#Instagram 📱 🇩🇪
-vless://225f49b7-2e3e-4a47-a658-c4ea20a515de@172.67.186.31:443?encryption=none&security=tls&sni=rEstleSs-tERM-921C.darToPlOIg-hG.WorKERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=restless-term-921c.dartoploig-hg.workers.dev&path=%2F7kyxVNBNxHLRFj9G%3Fed%3D2560#Multi 🟢
-#trojan://9e5f2370-1212-11f0-9503-1239d0255272@uk1.test3.net:443?security=tls&sni=telewebion.com&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-#trojan://d3e80310-1212-11f0-b7cc-1239d0255272@sg3.6n6.net:443?security=tls&sni=divar.ir&allowInsecure=1&type=tcp&headerType=none#Singapore 🇸🇬 3
+#warp://188.114.97.65:5279/?ifp=2-3&ifpm=m4#Download 🎞
+#vless://998c4ab0-7e88-4a51-968a-3a643cedd50e@78.46.56.42:443?encryption=none&security=tls&sni=coldBM-HilL-3dDF.DartoplOIG-HG.WoRkErS.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=coldbm-hill-3ddf.dartoploig-hg.workers.dev&path=%2Frvy80kKLhRQLH3il%3Fed%3D2560#Instagram 📱 🇩🇪
+#vless://225f49b7-2e3e-4a47-a658-c4ea20a515de@172.67.186.31:443?encryption=none&security=tls&sni=rEstleSs-tERM-921C.darToPlOIg-hG.WorKERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=restless-term-921c.dartoploig-hg.workers.dev&path=%2F7kyxVNBNxHLRFj9G%3Fed%3D2560#Multi 🟢
+trojan://3da225c0-526a-11f0-81a0-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
+trojan://9e93f2e0-526a-11f0-b5aa-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
