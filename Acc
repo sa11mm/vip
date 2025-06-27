@@ -122,6 +122,39 @@ Old: ?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4
 Termux
 bash <(curl -fsSL https://raw.githubusercontent.com/bia-pain-bache/BPB-Wizard/main/install.sh)
 --------------------------
+--------------------------
+SUB
+Meli
+https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/refs/heads/main/output/IR.txt
+https://raw.githubusercontent.com/Aristaproject/AristaSub/refs/heads/main/IR.Arista.txt
+
+Germany
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/countries/de/mixed
+https://raw.githubusercontent.com/PlanAsli/configs-collector-v2ray/refs/heads/main/sub/countries/DE.txt
+
+https://raw.githubusercontent.com/Surfboardv2ray/v2ray-worker-sub/refs/heads/master/Eternity.txt
+https://raw.githubusercontent.com/Surfboardv2ray/v2ray-worker-sub/master/EternityBase
+https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/refs/heads/main/output/converted.txt
+https://raw.githubusercontent.com/Surfboardv2ray/TGParse/refs/heads/main/configtg.txt
+https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/Reality
+https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/Vless
+https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/T,H
+https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt
+https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/splitted/vmess.txt
+https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt
+https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt
+https://raw.githubusercontent.com/AzadNetCH/temp/refs/heads/main/KR.txt
+https://raw.githubusercontent.com/AzadNetCH/temp/refs/heads/main/tmp.txt
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/channels
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/subscribe
 
 
+Shadowsocks
+https://shadowmere.xyz/api/b64sub/  Hiddify & V2rayNG
+https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks  IRCF
+https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/ss
+https://raw.githubusercontent.com/Mosifree/-FREE2CONFIG/refs/heads/main/SS
+https://raw.githubusercontent.com/PlanAsli/configs-collector-v2ray/refs/heads/main/sub/protocols/shadowsocks.txt
+--------------------------
 
