@@ -34,8 +34,7 @@
         "uplinkOnly": 1
       }
     }
-  }
-},
+  },
 {
   "inbounds": [],
   "outbounds": [
@@ -70,8 +69,7 @@
         "uplinkOnly": 1
       }
     }
-  }
-},
+  },
 {
   "inbounds": [],
   "outbounds": [
