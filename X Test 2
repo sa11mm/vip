@@ -103,7 +103,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "Netherlands 🇳🇱",
+      "tag": "Netherlands🇳🇱",
       "server": "am.ssvpnapp.win",
       "server_port": 57456,
       "method": "chacha20-ietf-poly1305",
@@ -111,7 +111,7 @@
     },
     {
       "type": "trojan",
-      "tag": "United Kingdom 🇬🇧",
+      "tag": "UnitedKingdom🇬🇧",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "38f42300-5292-11f0-83d0-1239d0255272",
@@ -125,7 +125,7 @@
     },
     {
       "type": "trojan",
-      "tag": "United States 🇺🇸",
+      "tag": "UnitedStates🇺🇸",
       "server": "usa.test3.net",
       "server_port": 443,
       "password": "53ae3230-5292-11f0-b674-1239d0255272",
