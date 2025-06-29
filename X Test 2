@@ -18,6 +18,21 @@
       {
         "clash_mode": "Direct",
         "server": "direct-dns"
+      },
+      {
+        "rule_set": [
+          "geosite-ir"
+        ],
+        "server": "direct-dns"
+      },
+      {
+        "rule_set": [
+          "geosite-category-ads-all",
+          "geosite-malware",
+          "geosite-phishing",
+          "geosite-cryptominers"
+        ],
+        "server": "block"
       }
     ],
     "servers": [
@@ -79,9 +94,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "ss-f61728d8",
-        "trojan-d7178a87",
-        "trojan-9ebb1a85",
+        "ss-United Kingdom 🇬🇧-1",
+        "trojan-United Kingdom 🇬🇧-1",
+        "trojan-United Kingdom 🇬🇧-2",
         "direct"
       ]
     },
@@ -89,9 +104,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "ss-f61728d8",
-        "trojan-d7178a87",
-        "trojan-9ebb1a85"
+        "ss-United Kingdom 🇬🇧-1",
+        "trojan-United Kingdom 🇬🇧-1",
+        "trojan-United Kingdom 🇬🇧-2"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -103,7 +118,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "Netherlands🇳🇱",
+      "tag": "ss-United Kingdom 🇬🇧-1",
       "server": "am.ssvpnapp.win",
       "server_port": 57456,
       "method": "chacha20-ietf-poly1305",
@@ -111,7 +126,7 @@
     },
     {
       "type": "trojan",
-      "tag": "UnitedKingdom🇬🇧",
+      "tag": "trojan-United Kingdom 🇬🇧-1",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "38f42300-5292-11f0-83d0-1239d0255272",
@@ -125,7 +140,7 @@
     },
     {
       "type": "trojan",
-      "tag": "UnitedStates🇺🇸",
+      "tag": "trojan-United Kingdom 🇬🇧-2",
       "server": "usa.test3.net",
       "server_port": 443,
       "password": "53ae3230-5292-11f0-b674-1239d0255272",
@@ -153,6 +168,96 @@
       {
         "protocol": "dns",
         "action": "hijack-dns"
+      },
+      {
+        "domain_suffix": [
+          ".ir"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geoip-ir",
+          "geosite-ir"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geosite-category-ads-all",
+          "geosite-malware",
+          "geosite-phishing",
+          "geosite-cryptominers",
+          "geoip-malware",
+          "geoip-phishing"
+        ],
+        "outbound": "block"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "geosite-ir",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geosite-category-ads-all",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geosite-malware",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geosite-phishing",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geosite-cryptominers",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geoip-ir",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geoip-malware",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geoip-phishing",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
       }
     ]
   }
