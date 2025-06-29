@@ -256,7 +256,9 @@
         "handshake": 4,
         "uplinkOnly": 1
       }
-    },
+    }
+  }
+},
 {
   "inbounds": [],
   "outbounds": [
