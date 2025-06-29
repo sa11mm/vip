@@ -1,161 +1,110 @@
-[
 {
-  "dns": {
-    "final": "local-dns",
-    "rules": [
-      {
-        "clash_mode": "Global",
-        "server": "proxy-dns",
-        "source_ip_cidr": [
-          "172.19.0.0/30"
-        ]
-      },
-      {
-        "server": "proxy-dns",
-        "source_ip_cidr": [
-          "172.19.0.0/30"
-        ]
-      },
-      {
-        "clash_mode": "Direct",
-        "server": "direct-dns"
-      }
-    ],
-    "servers": [
-      {
-        "address": "tls://208.67.222.123",
-        "address_resolver": "local-dns",
-        "detour": "proxy",
-        "tag": "proxy-dns"
-      },
-      {
-        "address": "local",
-        "detour": "direct",
-        "tag": "local-dns"
-      },
-      {
-        "address": "rcode://success",
-        "tag": "block"
-      },
-      {
-        "address": "local",
-        "detour": "direct",
-        "tag": "direct-dns"
-      }
-    ],
-    "strategy": "prefer_ipv4"
-  },
-  "inbounds": [
-    {
-      "address": [
-        "172.19.0.1/30",
-        "fdfe:dcba:9876::1/126"
-      ],
-      "auto_route": true,
-      "endpoint_independent_nat": false,
-      "mtu": 9000,
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "127.0.0.1",
-          "server_port": 2080
-        }
-      },
-      "sniff": true,
-      "stack": "system",
-      "strict_route": false,
-      "type": "tun"
-    },
-    {
-      "listen": "127.0.0.1",
-      "listen_port": 2080,
-      "sniff": true,
-      "type": "mixed",
-      "users": []
-    }
-  ],
+  "inbounds": [],
   "outbounds": [
     {
-      "tag": "proxy",
-      "type": "selector",
-      "outbounds": [
-        "auto",
-        "ss-b1fa9740",
-        "trojan-2ed18366",
-        "trojan-0c32be57",
-        "direct"
-      ]
-    },
-    {
-      "tag": "auto",
-      "type": "urltest",
-      "outbounds": [
-        "ss-b1fa9740",
-        "trojan-2ed18366",
-        "trojan-0c32be57"
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
-    },
-    {
-      "tag": "direct",
-      "type": "direct"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ss-b1fa9740",
-      "server": "am.ssvpnapp.win",
-      "server_port": 57456,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f28dd7b16b77a169"
-    },
-    {
-      "type": "trojan",
-      "tag": "trojan-2ed18366",
-      "server": "uk1.test3.net",
-      "server_port": 443,
-      "password": "38f42300-5292-11f0-83d0-1239d0255272",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "uk1.test3.net",
-        "insecure": true,
-        "alpn": []
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "trojan-0c32be57",
-      "server": "usa.test3.net",
-      "server_port": 443,
-      "password": "53ae3230-5292-11f0-b674-1239d0255272",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "usa.test3.net",
-        "insecure": true,
-        "alpn": []
-      }
+      "mux": {
+        "enabled": false
+      },
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "am.ssvpnapp.win",
+            "level": 8,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f28dd7b16b77a169",
+            "port": 57456
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none"
+      },
+      "tag": "SHADOWSOCKS"
     }
   ],
-  "route": {
-    "auto_detect_interface": true,
-    "final": "proxy",
-    "rules": [
-      {
-        "clash_mode": "Direct",
-        "outbound": "direct"
-      },
-      {
-        "clash_mode": "Global",
-        "outbound": "proxy"
-      },
-      {
-        "protocol": "dns",
-        "action": "hijack-dns"
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
       }
-    ]
+    }
+  }
+},
+{
+  "inbounds": [],
+  "outbounds": [
+    {
+      "mux": {
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "",
+            "level": 8,
+            "password": "",
+            "port": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none"
+      },
+      "tag": "TROJAN"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    }
+  }
+},
+{
+  "inbounds": [],
+  "outbounds": [
+    {
+      "mux": {
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "",
+            "level": 8,
+            "password": "",
+            "port": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none"
+      },
+      "tag": "TROJAN"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    }
   }
 }
 ]
