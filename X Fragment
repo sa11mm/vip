@@ -219,13 +219,12 @@
         "stats": {}
     },
 {
-  "inbounds": [],
+  "inbounds": [ff],
   "outbounds": [
     {
       "mux": {
         "enabled": false
       },
-     "remarks": "United Kingdom 🇬🇧",
       "protocol": "trojan",
       "settings": {
         "servers": [
