@@ -219,7 +219,8 @@
         "stats": {}
     },
 {
-  "inbounds": [ff],
+  "remarks": "rrrrr",
+  "inbounds": [],
   "outbounds": [
     {
       "mux": {
