@@ -12,6 +12,7 @@
         "insecure": true,
         "alpn": []
       }
-    ]
+    }
   }
 }
+]
