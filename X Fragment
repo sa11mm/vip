@@ -218,11 +218,43 @@
         },
         "stats": {}
     },
+{
+  "inbounds": [],
+  "outbounds": [
     {
-trojan://738fe050-5265-11f0-94b7-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-                }
-            ]
-        },
-        "stats": {}
+      "mux": {
+        "enabled": false
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "uk1.test3.net",
+            "level": 8,
+            "password": "738fe050-5265-11f0-94b7-1239d0255272",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": ""
+        }
+      },
+      "tag": "TROJAN"
     }
-]
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    }
+  }
+}
