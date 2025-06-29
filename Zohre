@@ -10,7 +10,7 @@
 #vless://90abd0ca-3c17-48a7-bff9-cdc636dce77f@104.21.4.217:443?encryption=none&security=tls&sni=saRbHAva.sARBzamiN.woRkErs.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=sarbhava.sarbzamin.workers.dev&path=%2FPP0ZYD0grtstdr2Y%3Fed%3D2560#Instagram 📱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#Netherlands 🇳🇱
 trojan://38f42300-5292-11f0-83d0-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-trojan://53ae3230-5292-11f0-b674-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸
+trojan://53ae3230-5292-11f0-b674-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸,
     {
         "remarks": "Instagram 📱",
         "log": {
