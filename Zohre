@@ -11,7 +11,11 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#Netherlands 🇳🇱
 trojan://38f42300-5292-11f0-83d0-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 trojan://53ae3230-5292-11f0-b674-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸
-[
+                }
+            ]
+        },
+        "stats": {}
+    },
     {
         "remarks": "Instagram 📱",
         "log": {
