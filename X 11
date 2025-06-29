@@ -1,0 +1,17 @@
+[
+    {
+      "type": "trojan",
+      "tag": "GB",
+      "server": "uk1.test3.net",
+      "server_port": 443,
+      "password": "738fe050-5265-11f0-94b7-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk1.test3.net",
+        "insecure": true,
+        "alpn": []
+      }
+    ]
+  }
+}
