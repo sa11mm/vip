@@ -6,42 +6,6 @@
       "mux": {
         "enabled": false
       },
-      "protocol": "shadowsocks",
-      "settings": {
-        "servers": [
-          {
-            "address": "am.ssvpnapp.win",
-            "level": 8,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f28dd7b16b77a169",
-            "port": 57456
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none"
-      },
-      "tag": "SHADOWSOCKS"
-    }
-  ],
-  "policy": {
-    "levels": {
-      "8": {
-        "connIdle": 300,
-        "downlinkOnly": 1,
-        "handshake": 4,
-        "uplinkOnly": 1
-      }
-    }
-  },
-{
-  "inbounds": [],
-  "outbounds": [
-    {
-      "mux": {
-        "enabled": false
-      },
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -69,7 +33,8 @@
         "uplinkOnly": 1
       }
     }
-  },
+  }
+},
 {
   "inbounds": [],
   "outbounds": [
