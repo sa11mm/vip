@@ -239,12 +239,20 @@
         },
         "stats": {}
     },
-   {
+      {
         "remarks": "Multi 🟢",
         "log": {
             "loglevel": "warning"
         },
         "dns": {
+            "hosts": {
+                "geosite:category-ads-all": [
+                    "127.0.0.1"
+                ],
+                "geosite:category-ads-ir": [
+                    "127.0.0.1"
+                ]
+            },
             "servers": [
                 {
                     "address": "fakedns",
@@ -264,7 +272,7 @@
                     "skipFallback": true
                 }
             ],
-            "queryStrategy": "UseIP",
+            "queryStrategy": "UseIPv4",
             "tag": "dns"
         },
         "inbounds": [
@@ -324,7 +332,7 @@
                     },
                     "wsSettings": {
                         "host": "sarbhava.sarbzamin.workers.dev",
-                        "path": "/F4nvqv8AvCLSFG0k?ed=2560"
+                        "path": "/vrEUU62H3Zm93egE?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -332,7 +340,7 @@
                         "alpn": [
                             "http/1.1"
                         ],
-                        "serverName": "SaRBhavA.SarbzAmin.Workers.Dev"
+                        "serverName": "saRbhaVA.sARBZAmIN.WORKErs.Dev"
                     }
                 },
                 "tag": "proxy"
@@ -346,7 +354,7 @@
                         "length": "100-200",
                         "interval": "1-1"
                     },
-                    "domainStrategy": "UseIPv4v6"
+                    "domainStrategy": "UseIPv4"
                 }
             },
             {
@@ -418,6 +426,14 @@
                         "dns"
                     ],
                     "outboundTag": "proxy",
+                    "type": "field"
+                },
+                {
+                    "domain": [
+                        "geosite:category-ads-all",
+                        "geosite:category-ads-ir"
+                    ],
+                    "outboundTag": "block",
                     "type": "field"
                 },
                 {
