@@ -79,7 +79,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "vless-bf5aa779",
+        "vless-1300c517",
+        "vless-4f8e5e45",
+        "vless-81ee1190",
         "direct"
       ]
     },
@@ -87,7 +89,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless-bf5aa779"
+        "vless-1300c517",
+        "vless-4f8e5e45",
+        "vless-81ee1190"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -99,7 +103,27 @@
     },
     {
       "type": "vless",
-      "tag": "vless-bf5aa779",
+      "tag": "vless-1300c517",
+      "server": "65.109.213.255",
+      "server_port": 443,
+      "uuid": "5279f6b9-3007-42ae-9c5e-05dfa8ced87d",
+      "flow": "",
+      "transport": {
+        "path": "/tLpNlDrMDMsm9m6O?ed=2560",
+        "headers": {
+          "Host": "de336wl.cac2s-m.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "De336wl.caC2S-m.WoRkErs.deV",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-4f8e5e45",
       "server": "178.236.253.23",
       "server_port": 443,
       "uuid": "5279f6b9-3007-42ae-9c5e-05dfa8ced87d",
@@ -114,6 +138,26 @@
       "tls": {
         "enabled": true,
         "server_name": "dE336WL.caC2S-M.WorkERs.DeV",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-81ee1190",
+      "server": "91.107.189.125",
+      "server_port": 443,
+      "uuid": "5279f6b9-3007-42ae-9c5e-05dfa8ced87d",
+      "flow": "",
+      "transport": {
+        "path": "/EhQrMj1fAjO75a66?ed=2560",
+        "headers": {
+          "Host": "de336wl.cac2s-m.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "de336WL.CaC2s-m.WorkErs.dEv",
         "insecure": true
       }
     }
