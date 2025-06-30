@@ -120,6 +120,17 @@ Old: ?ifp=40-80&ifps=50-100&ifpd=2-4&ifpm=m4
   "remote-dns-address": "https://8.8.8.8/dns-query"
 }
 --------------------------
+{
+  "region": "ir",
+  "remote-dns-address": "https://8.8.8.8/dns-query",
+  "enable-fake-dns": false,
+  "tls-tricks": {
+    "enable-fragment": true,
+    "fragment-size": "100-200",
+    "fragment-sleep": "1-1"
+  }
+}
+--------------------------
 Termux
 bash <(curl -fsSL https://raw.githubusercontent.com/bia-pain-bache/BPB-Wizard/main/install.sh)
 --------------------------
