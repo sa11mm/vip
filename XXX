@@ -126,6 +126,150 @@
     },
     {
       "type": "wireguard",
+      "tag": "@mehdisedighinasab-wireguard (8)",
+      "local_address": [
+        "172.16.0.2/32"
+      ],
+      "private_key": "yrzfRh9JXLrvg/Y5cFpVZ1lL+8ISv7c5UKtOi4F6mnw=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "162.159.192.201",
+      "server_port": 1018
+    },
+    {
+      "type": "wireguard",
+      "tag": "@mehdisedighinasab-wireguard (7)",
+      "local_address": [
+        "172.16.0.2/32"
+      ],
+      "private_key": "TrtBuVtwPO8tt+qQ69fGAW4Ukipz7SGOyjufAro6l18=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "188.114.97.149",
+      "server_port": 1843
+    },
+    {
+      "type": "wireguard",
+      "tag": "@mehdisedighinasab-wireguard (4)",
+      "local_address": [
+        "172.16.0.2/32"
+      ],
+      "private_key": "Wuxygo9sezmxISA6uJw6foH2WeMJrUvJdIZVRaL7rZU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "188.114.96.172",
+      "server_port": 1180
+    },
+    {
+      "type": "wireguard",
+      "tag": "@mehdisedighinasab-wireguard (6)",
+      "local_address": [
+        "172.16.0.2/32"
+      ],
+      "private_key": "oQxozGx2gT1G/UouoaDH1Oy8FBhlgLG1xjGUs6jeXI4=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "188.114.97.103",
+      "server_port": 1018
+    },
+    {
+      "type": "wireguard",
+      "tag": "@mehdisedighinasab-wireguard (3)",
+      "local_address": [
+        "172.16.0.2/32"
+      ],
+      "private_key": "JRtF2t1+NFsNetNTDOp3YeppHG4U3b+hLxaRPXW9qtA=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "188.114.97.67",
+      "server_port": 1074
+    },
+    {
+      "type": "wireguard",
+      "tag": "@mehdisedighinasab-wireguard (1)",
+      "local_address": [
+        "172.16.0.2/32"
+      ],
+      "private_key": "ioOcLVdIR4zbBGITEB2Vb3KF5Jf4P85jgc5EoQm8WYU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "188.114.96.147",
+      "server_port": 7152
+    },
+    {
+      "type": "wireguard",
+      "tag": "@mehdisedighinasab-wireguard (5)",
+      "local_address": [
+        "172.16.0.2/32"
+      ],
+      "private_key": "wx6ZduJR4UkXt3ySeNWd7ljiUhj1xbSiqM7zrQiY9ZM=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "162.159.192.149",
+      "server_port": 903
+    },
+    {
+      "type": "wireguard",
+      "tag": "@mehdisedighinasab-wireguard",
+      "local_address": [
+        "172.16.0.2/32"
+      ],
+      "private_key": "Cz0i886ZUOfVV8o82/8c7VIp8tsEzvpHD/94f3B9yx4=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "188.114.98.81",
+      "server_port": 891
+    },
+    {
+      "type": "wireguard",
+      "tag": "@mehdisedighinasab-wireguard (2)",
+      "local_address": [
+        "172.16.0.2/32"
+      ],
+      "private_key": "WTLhZInTxA3MIQokOlmP0xmgdtdZHFpRikIBhxlt1lM=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "[2606",
+      "server_port": 4700
+    },
+    {
+      "type": "wireguard",
       "tag": "@mehdisedighinasab-wireguard (7)",
       "local_address": [
         "172.16.0.2/32"
