@@ -98,8 +98,9 @@
       "outbounds": [
         "auto",
         "Instagram 📱",
+        "Multi 🟡",
         "Netherlands 🇳🇱",
-        "United Kingdom 🇬🇧",
+        "trojan-e2ea503f",
         "direct"
       ]
     },
@@ -108,8 +109,9 @@
       "type": "urltest",
       "outbounds": [
         "Instagram 📱",
+        "Multi 🟡",
         "Netherlands 🇳🇱",
-        "United Kingdom 🇬🇧"
+        "trojan-e2ea503f"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -124,18 +126,38 @@
       "tag": "Instagram 📱",
       "server": "104.21.4.217",
       "server_port": 443,
-      "uuid": "90abd0ca-3c17-48a7-bff9-cdc636dce77f",
+      "uuid": "0a628dd0-8807-43f3-8d69-813d55d1cefe",
       "flow": "",
       "transport": {
-        "path": "/PP0ZYD0grtstdr2Y?ed=2560",
+        "path": "/SiVsbM29nxXNgLi4?ed=2560",
         "headers": {
-          "Host": "sarbhava.sarbzamin.workers.dev"
+          "Host": "tifl9t2f1ufgwt-mjioiiztabant9g-o.sarbzamin.workers.dev"
         },
         "type": "ws"
       },
       "tls": {
         "enabled": true,
-        "server_name": "saRbHAva.sARBzamiN.woRkErs.dev",
+        "server_name": "TiFl9t2F1uFgWt-MJIOIIZtabANt9g-o.sARbZamIN.WorKERs.DeV",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Multi 🟡",
+      "server": "172.67.132.133",
+      "server_port": 443,
+      "uuid": "0a628dd0-8807-43f3-8d69-813d55d1cefe",
+      "flow": "",
+      "transport": {
+        "path": "/PFNccmMYyIkkBsoE?ed=2560",
+        "headers": {
+          "Host": "tifl9t2f1ufgwt-mjioiiztabant9g-o.sarbzamin.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "tIfl9t2F1uFgwT-mjIoiIztAbant9g-o.SArbzaMiN.wORKERS.DeV",
         "insecure": true
       }
     },
@@ -149,7 +171,7 @@
     },
     {
       "type": "trojan",
-      "tag": "United Kingdom 🇬🇧",
+      "tag": "trojan-e2ea503f",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "38f42300-5292-11f0-83d0-1239d0255272",
