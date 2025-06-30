@@ -1,10 +1,201 @@
 //profile-title: Meisam Nasrolahi
 //profile-update-interval: 3
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1753410000
-
+{
+  "dns": {
+    "final": "local-dns",
+    "rules": [
+      {
+        "clash_mode": "Global",
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30"
+        ]
+      },
+      {
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30"
+        ]
+      },
+      {
+        "clash_mode": "Direct",
+        "server": "direct-dns"
+      }
+    ],
+    "servers": [
+      {
+        "address": "tls://208.67.222.123",
+        "address_resolver": "local-dns",
+        "detour": "proxy",
+        "tag": "proxy-dns"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "local-dns"
+      },
+      {
+        "address": "rcode://success",
+        "tag": "block"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "direct-dns"
+      }
+    ],
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
+    {
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "auto_route": true,
+      "endpoint_independent_nat": false,
+      "mtu": 9000,
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 2080
+        }
+      },
+      "sniff": true,
+      "stack": "system",
+      "strict_route": false,
+      "type": "tun"
+    },
+    {
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "sniff": true,
+      "type": "mixed",
+      "users": []
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "Instagram 📱",
+        "Multi 🟡",
+        "United Kingdom 🇬🇧",
+        "💰 -2",
+        "direct"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "Instagram 📱",
+        "Multi 🟡",
+        "United Kingdom 🇬🇧",
+        "💰 -2"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "type": "vless",
+      "tag": "Instagram 📱",
+      "server": "104.21.72.23",
+      "server_port": 443,
+      "uuid": "91c407de-a93c-491b-a2fd-b50784e124da",
+      "flow": "",
+      "transport": {
+        "path": "/r2EnFMzM5wPE6DMT?ed=2560",
+        "headers": {
+          "Host": "lingering-tree-335.lopgrvd47-kjjtge752.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Multi 🟡",
+      "server": "172.67.174.30",
+      "server_port": 443,
+      "uuid": "91c407de-a93c-491b-a2fd-b50784e124da",
+      "flow": "",
+      "transport": {
+        "path": "/QjD17R0jshYGOro3?ed=2560",
+        "headers": {
+          "Host": "lingering-tree-335.lopgrvd47-kjjtge752.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "liNGErINg-tree-335.LOPgrvd47-KJjtgE752.worKERS.Dev",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "United Kingdom 🇬🇧",
+      "server": "uk1.test3.net",
+      "server_port": 443,
+      "password": "4c51d5b0-5263-11f0-9163-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk1.test3.net",
+        "insecure": true,
+        "alpn": []
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "💰 -2",
+      "server": "***",
+      "server_port": 0,
+      "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "***",
+        "insecure": true
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "proxy",
+    "rules": [
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "action": "hijack-dns"
+      }
+    ]
+  }
+}
 #vmuioConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
 warp://188.114.98.164:934/?ifp=2-3&ifpm=m4#Download 🎞
-vless://91c407de-a93c-491b-a2fd-b50784e124da@188.114.97.3:443?encryption=none&security=tls&sni=lINgerIng-TrEe-335.LoPGrVd47-KjJtgE752.wORkeRs.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2FFuYk75JHgg3YI6SC%3Fed%3D2560#Multi
 vless://91c407de-a93c-491b-a2fd-b50784e124da@104.21.72.23:443?encryption=none&security=tls&sni=liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2Fr2EnFMzM5wPE6DMT%3Fed%3D2560#%F0%9F%92%A6%203%20-%20VLESS%20-%20IPv4%20%3A%20443
 vless://91c407de-a93c-491b-a2fd-b50784e124da@172.67.174.30:443?encryption=none&security=tls&sni=liNGErINg-tree-335.LOPgrvd47-KJjtgE752.worKERS.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2FQjD17R0jshYGOro3%3Fed%3D2560#%F0%9F%92%A6%204%20-%20VLESS%20-%20IPv4%20%3A%20443
 trojan://4c51d5b0-5263-11f0-9163-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
