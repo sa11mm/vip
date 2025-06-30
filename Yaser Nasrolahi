@@ -7,9 +7,8 @@
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 #warp://188.114.97.202:1014?ifp=2-3&ifpm=m4#Download 🎞
-#vless://51ca1218-afa8-4e86-8320-998037e880b1@104.21.64.1:443?encryption=none&security=tls&sni=1o1VPz6UuwuDX7I3pKTjzA59ovEw0Zd5.havatOFani.woRkerS.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=1o1vpz6uuwudx7i3pktjza59ovew0zd5.havatofani.workers.dev&path=%2FiOT133AUoRjxUccD%3Fed%3D2560#Instagram 📱
+vless://51ca1218-afa8-4e86-8320-998037e880b1@104.21.64.1:443?encryption=none&security=tls&sni=1o1VPz6UuwuDX7I3pKTjzA59ovEw0Zd5.havatOFani.woRkerS.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=1o1vpz6uuwudx7i3pktjza59ovew0zd5.havatofani.workers.dev&path=%2FiOT133AUoRjxUccD%3Fed%3D2560#Instagram 📱
 trojan://6f1e96b0-5260-11f0-b47e-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-trojan://a6b21710-5262-11f0-b68a-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #conf.add = addressList[Math.floor(Math.random() * addressList.length)]
