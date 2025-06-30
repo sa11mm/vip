@@ -1,7 +1,271 @@
-vless://96542364-4b2c-4709-8818-22d85af2ce45@91.107.189.125:443?encryption=none&security=tls&sni=multi336WL.CAc2s-V.workERs.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=multi336wl.cac2s-v.workers.dev&path=%2FbbVWyV6rQjHM3jjZ%3Fed%3D2560#%F0%9F%92%A6%203%20-%20VLESS%20-%20IPv4%20%3A%20443
-vless://96542364-4b2c-4709-8818-22d85af2ce45@188.227.85.18:443?encryption=none&security=tls&sni=mUlTI336wL.CAC2S-V.wORKErS.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=multi336wl.cac2s-v.workers.dev&path=%2FpqEaBCIJW5lfGwFS%3Fed%3D2560#%F0%9F%92%A6%204%20-%20VLESS%20-%20IPv4%20%3A%20443
-vless://96542364-4b2c-4709-8818-22d85af2ce45@65.109.213.255:443?encryption=none&security=tls&sni=mULTi336WL.CAc2s-v.WorKErS.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=multi336wl.cac2s-v.workers.dev&path=%2FFWCLuIJfz01oYkg1%3Fed%3D2560#%F0%9F%92%A6%205%20-%20VLESS%20-%20IPv4%20%3A%20443
-vless://96542364-4b2c-4709-8818-22d85af2ce45@45.150.33.113:443?encryption=none&security=tls&sni=MuLtI336wL.CAC2S-V.WorkERS.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=multi336wl.cac2s-v.workers.dev&path=%2FyhwNxEeltJas8O79%3Fed%3D2560#%F0%9F%92%A6%206%20-%20VLESS%20-%20IPv4%20%3A%20443
-vless://96542364-4b2c-4709-8818-22d85af2ce45@178.236.253.23:443?encryption=none&security=tls&sni=MULTI336Wl.CaC2s-v.workerS.DEV&alpn=http%2F1.1&fp=randomized&type=ws&host=multi336wl.cac2s-v.workers.dev&path=%2FcWbFqGCt5wfkR36i%3Fed%3D2560#%F0%9F%92%A6%207%20-%20VLESS%20-%20IPv4%20%3A%20443
-vless://96542364-4b2c-4709-8818-22d85af2ce45@3.75.170.179:443?encryption=none&security=tls&sni=MUlti336WL.cAC2S-v.wORkErS.DEV&alpn=http%2F1.1&fp=randomized&type=ws&host=multi336wl.cac2s-v.workers.dev&path=%2Fzpq6BuXS9ewPITLl%3Fed%3D2560#%F0%9F%92%A6%208%20-%20VLESS%20-%20IPv4%20%3A%20443
-vless://96542364-4b2c-4709-8818-22d85af2ce45@78.46.56.42:443?encryption=none&security=tls&sni=MuLti336WL.CaC2s-v.WoRkeRS.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=multi336wl.cac2s-v.workers.dev&path=%2Fe9oSUgHuBWuuex0U%3Fed%3D2560#%F0%9F%92%A6%209%20-%20VLESS%20-%20IPv4%20%3A%20443
+{
+  "dns": {
+    "final": "local-dns",
+    "rules": [
+      {
+        "clash_mode": "Global",
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30"
+        ]
+      },
+      {
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30"
+        ]
+      },
+      {
+        "clash_mode": "Direct",
+        "server": "direct-dns"
+      }
+    ],
+    "servers": [
+      {
+        "address": "tls://208.67.222.123",
+        "address_resolver": "local-dns",
+        "detour": "proxy",
+        "tag": "proxy-dns"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "local-dns"
+      },
+      {
+        "address": "rcode://success",
+        "tag": "block"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "direct-dns"
+      }
+    ],
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
+    {
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "auto_route": true,
+      "endpoint_independent_nat": false,
+      "mtu": 9000,
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 2080
+        }
+      },
+      "sniff": true,
+      "stack": "system",
+      "strict_route": false,
+      "type": "tun"
+    },
+    {
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "sniff": true,
+      "type": "mixed",
+      "users": []
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "vless-bca24bd8",
+        "vless-4611736a",
+        "vless-875c2b12",
+        "vless-1f823aab",
+        "vless-4ed9318d",
+        "vless-936c46b5",
+        "vless-7428fdf7",
+        "direct"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "vless-bca24bd8",
+        "vless-4611736a",
+        "vless-875c2b12",
+        "vless-1f823aab",
+        "vless-4ed9318d",
+        "vless-936c46b5",
+        "vless-7428fdf7"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "type": "vless",
+      "tag": "vless-bca24bd8",
+      "server": "91.107.189.125",
+      "server_port": 443,
+      "uuid": "96542364-4b2c-4709-8818-22d85af2ce45",
+      "flow": "",
+      "transport": {
+        "path": "/bbVWyV6rQjHM3jjZ?ed=2560",
+        "headers": {
+          "Host": "multi336wl.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "multi336WL.CAc2s-V.workERs.dEV",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-4611736a",
+      "server": "188.227.85.18",
+      "server_port": 443,
+      "uuid": "96542364-4b2c-4709-8818-22d85af2ce45",
+      "flow": "",
+      "transport": {
+        "path": "/pqEaBCIJW5lfGwFS?ed=2560",
+        "headers": {
+          "Host": "multi336wl.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "mUlTI336wL.CAC2S-V.wORKErS.dev",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-875c2b12",
+      "server": "65.109.213.255",
+      "server_port": 443,
+      "uuid": "96542364-4b2c-4709-8818-22d85af2ce45",
+      "flow": "",
+      "transport": {
+        "path": "/FWCLuIJfz01oYkg1?ed=2560",
+        "headers": {
+          "Host": "multi336wl.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "mULTi336WL.CAc2s-v.WorKErS.DeV",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-1f823aab",
+      "server": "45.150.33.113",
+      "server_port": 443,
+      "uuid": "96542364-4b2c-4709-8818-22d85af2ce45",
+      "flow": "",
+      "transport": {
+        "path": "/yhwNxEeltJas8O79?ed=2560",
+        "headers": {
+          "Host": "multi336wl.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "MuLtI336wL.CAC2S-V.WorkERS.dEV",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-4ed9318d",
+      "server": "178.236.253.23",
+      "server_port": 443,
+      "uuid": "96542364-4b2c-4709-8818-22d85af2ce45",
+      "flow": "",
+      "transport": {
+        "path": "/cWbFqGCt5wfkR36i?ed=2560",
+        "headers": {
+          "Host": "multi336wl.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "MULTI336Wl.CaC2s-v.workerS.DEV",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-936c46b5",
+      "server": "3.75.170.179",
+      "server_port": 443,
+      "uuid": "96542364-4b2c-4709-8818-22d85af2ce45",
+      "flow": "",
+      "transport": {
+        "path": "/zpq6BuXS9ewPITLl?ed=2560",
+        "headers": {
+          "Host": "multi336wl.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "MUlti336WL.cAC2S-v.wORkErS.DEV",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-7428fdf7",
+      "server": "78.46.56.42",
+      "server_port": 443,
+      "uuid": "96542364-4b2c-4709-8818-22d85af2ce45",
+      "flow": "",
+      "transport": {
+        "path": "/e9oSUgHuBWuuex0U?ed=2560",
+        "headers": {
+          "Host": "multi336wl.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "MuLti336WL.CaC2s-v.WoRkeRS.DeV",
+        "insecure": true
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "proxy",
+    "rules": [
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "action": "hijack-dns"
+      }
+    ]
+  }
+}
