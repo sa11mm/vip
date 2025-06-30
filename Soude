@@ -2,6 +2,7 @@
 //profile-update-interval: 3
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1753510000
 
+#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
 warp://188.114.97.34:934/?ifp=2-3&ifpm=m4#Download 🎞
 vless://87ce4f3b-a013-4b01-9f81-8b087a1fe4cb@188.114.97.10:443?encryption=none&security=tls&sni=WILDyrIce-1A5Rtc.OHmyGoDAHOO-Jj.worKerS.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=wildyrice-1a5rtc.ohmygodahoo-jj.workers.dev&path=%2FceEtqk4nIQIWoXfn%3Fed%3D2560#Instagram 📱
 trojan://d8195950-526d-11f0-9e74-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
