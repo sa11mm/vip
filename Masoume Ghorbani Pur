@@ -6,9 +6,7 @@
 //subscription-userinfo: upload=0; download=0; total=193269000000; expire=1751900000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-warp://188.114.97.65:5279/?ifp=2-3&ifpm=m4#Download 🎞
-vless://998c4ab0-7e88-4a51-968a-3a643cedd50e@78.46.56.42:443?encryption=none&security=tls&sni=coldBM-HilL-3dDF.DartoplOIG-HG.WoRkErS.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=coldbm-hill-3ddf.dartoploig-hg.workers.dev&path=%2Frvy80kKLhRQLH3il%3Fed%3D2560#Instagram 📱 🇩🇪
-vless://225f49b7-2e3e-4a47-a658-c4ea20a515de@172.67.186.31:443?encryption=none&security=tls&sni=rEstleSs-tERM-921C.darToPlOIg-hG.WorKERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=restless-term-921c.dartoploig-hg.workers.dev&path=%2F7kyxVNBNxHLRFj9G%3Fed%3D2560#Multi 🟢
+#warp://188.114.97.65:5279/?ifp=2-3&ifpm=m4#Download 🎞
 vless://225f49b7-2e3e-4a47-a658-c4ea20a515de@172.67.186.31:443?encryption=none&security=tls&sni=restlESS-Term-921C.daRtOPlOiG-Hg.WorkErs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=restless-term-921c.dartoploig-hg.workers.dev&path=%2FcAX5XLtUM2xEjhi4%3Fed%3D2560#Instagram 📱
 vless://225f49b7-2e3e-4a47-a658-c4ea20a515de@104.21.76.31:443?encryption=none&security=tls&sni=REstLesS-teRm-921C.dARtoPLoIg-Hg.WoRKErs.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=restless-term-921c.dartoploig-hg.workers.dev&path=%2F60KbYJGr8fhN3a1A%3Fed%3D2560#Multi 🟢
 trojan://3da225c0-526a-11f0-81a0-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
