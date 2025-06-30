@@ -79,10 +79,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "Instagram",
-        "Netherlands",
-        "trojan-c2912477",
-        "trojan-36f28db3",
+        "Instagram 📱",
+        "Netherlands 🇳🇱",
+        "United Kingdom 🇬🇧",
+        "United States 🇺🇸",
         "direct"
       ]
     },
@@ -90,10 +90,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "Instagram",
-        "Netherlands",
-        "trojan-c2912477",
-        "trojan-36f28db3"
+        "Instagram 📱",
+        "Netherlands 🇳🇱",
+        "United Kingdom 🇬🇧",
+        "United States 🇺🇸"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -105,7 +105,7 @@
     },
     {
       "type": "vless",
-      "tag": "Instagram",
+      "tag": "Instagram 📱",
       "server": "104.21.4.217",
       "server_port": 443,
       "uuid": "90abd0ca-3c17-48a7-bff9-cdc636dce77f",
@@ -125,7 +125,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "Netherlands",
+      "tag": "Netherlands 🇳🇱",
       "server": "am.ssvpnapp.win",
       "server_port": 57456,
       "method": "chacha20-ietf-poly1305",
@@ -133,7 +133,7 @@
     },
     {
       "type": "trojan",
-      "tag": "trojan-c2912477",
+      "tag": "United Kingdom 🇬🇧",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "38f42300-5292-11f0-83d0-1239d0255272",
@@ -147,7 +147,7 @@
     },
     {
       "type": "trojan",
-      "tag": "trojan-36f28db3",
+      "tag": "United States 🇺🇸",
       "server": "usa.test3.net",
       "server_port": 443,
       "password": "53ae3230-5292-11f0-b674-1239d0255272",
