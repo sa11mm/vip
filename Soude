@@ -1,18 +1,10 @@
-#return new Response(btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join("\n")));
 //profile-title: Soude
-#warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 //profile-update-interval: 3
-#reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1753510000
-//support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
-//profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-#warp://188.114.97.34:934/?ifp=2-3&ifpm=m4#Instagram 📱
-#vless://87ce4f3b-a013-4b01-9f81-8b087a1fe4cb@188.114.97.10:443?encryption=none&security=tls&sni=WILDyrIce-1A5Rtc.OHmyGoDAHOO-Jj.worKerS.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=wildyrice-1a5rtc.ohmygodahoo-jj.workers.dev&path=%2FceEtqk4nIQIWoXfn%3Fed%3D2560#Instagram 📱
+
+warp://188.114.97.34:934/?ifp=2-3&ifpm=m4#Download 🎞
+vless://87ce4f3b-a013-4b01-9f81-8b087a1fe4cb@188.114.97.10:443?encryption=none&security=tls&sni=WILDyrIce-1A5Rtc.OHmyGoDAHOO-Jj.worKerS.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=wildyrice-1a5rtc.ohmygodahoo-jj.workers.dev&path=%2FceEtqk4nIQIWoXfn%3Fed%3D2560#Instagram 📱
 trojan://d8195950-526d-11f0-9e74-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-trojan://0a498e60-526e-11f0-a2c1-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸
-#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
-#conf.add = addressList[Math.floor(Math.random() * addressList.length)]
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
-#const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
