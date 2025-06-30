@@ -1,8 +1,6 @@
 //profile-title: Azita Ghorbani
 //profile-update-interval: 3
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1752210000
-//support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
-//profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 {
   "dns": {
     "final": "local-dns",
@@ -184,18 +182,11 @@
     ]
   }
 }
-#warp://188.114.96.57:3476/?ifp=2-3&ifpm=m4#Download 🎞
-#vless://7c58cacc-99ed-4dbf-8013-7aed604b3714@104.21.64.1:443?encryption=none&security=tls&sni=bItTER-snOWflaKe-205D.huHvFTiOpOiL.workerS.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=bitter-snowflake-205d.huhvftiopoil.workers.dev&path=%2F0vvy9ikU6rt61OHz%3Fed%3D2560#Instagram 📱
+#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
+warp://188.114.96.57:3476/?ifp=2-3&ifpm=m4#Download 🎞
+vless://7c58cacc-99ed-4dbf-8013-7aed604b3714@104.21.64.1:443?encryption=none&security=tls&sni=bItTER-snOWflaKe-205D.huHvFTiOpOiL.workerS.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=bitter-snowflake-205d.huhvftiopoil.workers.dev&path=%2F0vvy9ikU6rt61OHz%3Fed%3D2560#Instagram 📱
 trojan://738fe050-5265-11f0-94b7-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 trojan://a0a29610-5265-11f0-8056-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸
-#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
+vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -2
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
-#conf.add = addressList[Math.floor(Math.random() * addressList.length)]
-vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
-#const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -2
-#const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
-vless://90abd0ca-3c17-48a7-bff9-cdc636dce77f@104.21.4.217:443?encryption=none&security=tls&sni=saRbHAva.sARBzamiN.woRkErs.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=sarbhava.sarbzamin.workers.dev&path=%2FPP0ZYD0grtstdr2Y%3Fed%3D2560#Instagram 📱
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#Netherlands 🇳🇱
-trojan://38f42300-5292-11f0-83d0-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-trojan://53ae3230-5292-11f0-b674-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
