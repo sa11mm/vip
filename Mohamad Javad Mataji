@@ -1,19 +1,12 @@
-#return new Response(btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join("\n")));
 //profile-title: Mohamad Javad Mataji
-#warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 //profile-update-interval: 3
-#reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1753410000
-//support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
-//profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-#warp://188.114.98.81:891/?ifp=2-3&ifpm=m4#Download 🎞
-#vless://bc8f60eb-0237-4050-83f0-0ba4d4c4e34a@104.21.32.1:443?encryption=none&security=tls&sni=PATienT-woOd-1521.fGHtpolP-rYu9B5.WoRkERs.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=patient-wood-1521.fghtpolp-ryu9b5.workers.dev&path=%2FfwoVTz6QZc27zaoL%3Fed%3D2560#Instagram 📱
-#vless://155d4e01-d412-4502-a3f1-410bffed793f@104.21.96.1:443?encryption=none&security=tls&sni=littlE-breEZE-3B8f.fGhtpolp-RYu9B5.WorKers.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=little-breeze-3b8f.fghtpolp-ryu9b5.workers.dev&path=%2FQRh9R06EnWlU2I5E%3Fed%3D2560#Multi 🟢
+
+#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
+warp://188.114.98.81:891/?ifp=2-3&ifpm=m4#Download 🎞
+vless://155d4e01-d412-4502-a3f1-410bffed793f@104.21.96.1:443?encryption=none&security=tls&sni=littlE-breEZE-3B8f.fGhtpolp-RYu9B5.WorKers.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=little-breeze-3b8f.fghtpolp-ryu9b5.workers.dev&path=%2FQRh9R06EnWlU2I5E%3Fed%3D2560#Multi 🟢
 trojan://ab005800-526c-11f0-b961-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 trojan://fa86d0d0-526c-11f0-a19f-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸
-#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
-#conf.add = addressList[Math.floor(Math.random() * addressList.length)]
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
-#const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
