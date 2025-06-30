@@ -1,4 +1,3 @@
-[
 {
   "dns": {
     "final": "local-dns",
@@ -80,8 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "vless-eb22cec5",
-        "ss-54743cfb",
+        "Instagram",
+        "Netherlands",
         "trojan-c2912477",
         "trojan-36f28db3",
         "direct"
@@ -91,8 +90,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless-eb22cec5",
-        "ss-54743cfb",
+        "Instagram",
+        "Netherlands",
         "trojan-c2912477",
         "trojan-36f28db3"
       ],
@@ -106,7 +105,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-eb22cec5",
+      "tag": "Instagram",
       "server": "104.21.4.217",
       "server_port": 443,
       "uuid": "90abd0ca-3c17-48a7-bff9-cdc636dce77f",
@@ -126,7 +125,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ss-54743cfb",
+      "tag": "Netherlands",
       "server": "am.ssvpnapp.win",
       "server_port": 57456,
       "method": "chacha20-ietf-poly1305",
@@ -180,4 +179,3 @@
     ]
   }
 }
-]
