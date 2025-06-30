@@ -1,18 +1,13 @@
-#return new Response(btoa(getMultipleRandomElements(mergedConfigList, maxConfigItems).join("\n")));
 //profile-title: Meisam Nasrolahi
-#warp://const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 //profile-update-interval: 3
-#reamSettings":{"network":"ws","security":"tls","tlsSettings":{"allowInsecure":false,"serverName":"cdn.55994421.xyz","fingerprint":"firefox","show":false}
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1753410000
-//support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
-//profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-#warp://188.114.98.164:934/?ifp=2-3&ifpm=m4#Download 🎞
-#vless://91c407de-a93c-491b-a2fd-b50784e124da@188.114.97.3:443?encryption=none&security=tls&sni=lINgerIng-TrEe-335.LoPGrVd47-KjJtgE752.wORkeRs.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2FFuYk75JHgg3YI6SC%3Fed%3D2560#Multi
+
+#vmuioConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
+warp://188.114.98.164:934/?ifp=2-3&ifpm=m4#Download 🎞
+vless://91c407de-a93c-491b-a2fd-b50784e124da@188.114.97.3:443?encryption=none&security=tls&sni=lINgerIng-TrEe-335.LoPGrVd47-KjJtgE752.wORkeRs.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2FFuYk75JHgg3YI6SC%3Fed%3D2560#Multi
+vless://91c407de-a93c-491b-a2fd-b50784e124da@104.21.72.23:443?encryption=none&security=tls&sni=liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2Fr2EnFMzM5wPE6DMT%3Fed%3D2560#%F0%9F%92%A6%203%20-%20VLESS%20-%20IPv4%20%3A%20443
+vless://91c407de-a93c-491b-a2fd-b50784e124da@172.67.174.30:443?encryption=none&security=tls&sni=liNGErINg-tree-335.LOPgrvd47-KJjtgE752.worKERS.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2FQjD17R0jshYGOro3%3Fed%3D2560#%F0%9F%92%A6%204%20-%20VLESS%20-%20IPv4%20%3A%20443
 trojan://4c51d5b0-5263-11f0-9163-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-trojan://191ee990-5263-11f0-b3ff-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸
-#vmuioConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
-#conf.add = addressList[Math.floor(Math.random() * addressList.length)]
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
-#const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -2
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
