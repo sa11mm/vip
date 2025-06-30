@@ -82,10 +82,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "Instagram 📱",
-        "Netherlands 🇳🇱",
-        "United Kingdom 🇬🇧",
-        "United States 🇺🇸",
+        "vless-452487be",
+        "ss-61cd3f8e",
+        "trojan-a000f37d",
         "direct"
       ]
     },
@@ -93,10 +92,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "Instagram 📱",
-        "Netherlands 🇳🇱",
-        "United Kingdom 🇬🇧",
-        "United States 🇺🇸"
+        "vless-452487be",
+        "ss-61cd3f8e",
+        "trojan-a000f37d"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -108,7 +106,7 @@
     },
     {
       "type": "vless",
-      "tag": "Instagram 📱",
+      "tag": "vless-452487be",
       "server": "104.21.4.217",
       "server_port": 443,
       "uuid": "90abd0ca-3c17-48a7-bff9-cdc636dce77f",
@@ -128,7 +126,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "Netherlands 🇳🇱",
+      "tag": "ss-61cd3f8e",
       "server": "am.ssvpnapp.win",
       "server_port": 57456,
       "method": "chacha20-ietf-poly1305",
@@ -136,7 +134,7 @@
     },
     {
       "type": "trojan",
-      "tag": "United Kingdom 🇬🇧",
+      "tag": "trojan-a000f37d",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "38f42300-5292-11f0-83d0-1239d0255272",
@@ -144,20 +142,6 @@
       "tls": {
         "enabled": true,
         "server_name": "uk1.test3.net",
-        "insecure": true,
-        "alpn": []
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "United States 🇺🇸",
-      "server": "usa.test3.net",
-      "server_port": 443,
-      "password": "53ae3230-5292-11f0-b674-1239d0255272",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "usa.test3.net",
         "insecure": true,
         "alpn": []
       }
@@ -182,7 +166,7 @@
     ]
   }
 }
-#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
+#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
 warp://188.114.96.57:3476/?ifp=2-3&ifpm=m4#Download 🎞
 vless://7c58cacc-99ed-4dbf-8013-7aed604b3714@104.21.64.1:443?encryption=none&security=tls&sni=bItTER-snOWflaKe-205D.huHvFTiOpOiL.workerS.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=bitter-snowflake-205d.huhvftiopoil.workers.dev&path=%2F0vvy9ikU6rt61OHz%3Fed%3D2560#Instagram 📱
 trojan://738fe050-5265-11f0-94b7-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
