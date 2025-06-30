@@ -79,9 +79,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "vless-452487be",
-        "ss-61cd3f8e",
-        "trojan-a000f37d",
+        "vless-7e885fcd",
+        "trojan-cefea722",
         "direct"
       ]
     },
@@ -89,9 +88,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless-452487be",
-        "ss-61cd3f8e",
-        "trojan-a000f37d"
+        "vless-7e885fcd",
+        "trojan-cefea722"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -103,182 +101,30 @@
     },
     {
       "type": "vless",
-      "tag": "vless-452487be",
-      "server": "104.21.4.217",
+      "tag": "vless-7e885fcd",
+      "server": "104.21.64.1",
       "server_port": 443,
-      "uuid": "90abd0ca-3c17-48a7-bff9-cdc636dce77f",
+      "uuid": "51ca1218-afa8-4e86-8320-998037e880b1",
       "flow": "",
       "transport": {
-        "path": "/PP0ZYD0grtstdr2Y?ed=2560",
+        "path": "/iOT133AUoRjxUccD?ed=2560",
         "headers": {
-          "Host": "sarbhava.sarbzamin.workers.dev"
+          "Host": "1o1vpz6uuwudx7i3pktjza59ovew0zd5.havatofani.workers.dev"
         },
         "type": "ws"
       },
       "tls": {
         "enabled": true,
-        "server_name": "saRbHAva.sARBzamiN.woRkErs.dev",
+        "server_name": "1o1VPz6UuwuDX7I3pKTjzA59ovEw0Zd5.havatOFani.woRkerS.dev",
         "insecure": true
       }
     },
     {
-      "type": "wireguard",
-      "tag": "@mehdisedighinasab-wireguard (8)",
-      "local_address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "yrzfRh9JXLrvg/Y5cFpVZ1lL+8ISv7c5UKtOi4F6mnw=",
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1420,
-      "fake_packets": "3",
-      "fake_packets_size": "1",
-      "fake_packets_delay": "3",
-      "fake_packets_mode": "m4",
-      "server": "162.159.192.201",
-      "server_port": 1018
-    },
-    {
-      "type": "wireguard",
-      "tag": "@mehdisedighinasab-wireguard (7)",
-      "local_address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "TrtBuVtwPO8tt+qQ69fGAW4Ukipz7SGOyjufAro6l18=",
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1420,
-      "fake_packets": "3",
-      "fake_packets_size": "1",
-      "fake_packets_delay": "3",
-      "fake_packets_mode": "m4",
-      "server": "188.114.97.149",
-      "server_port": 1843
-    },
-    {
-      "type": "wireguard",
-      "tag": "@mehdisedighinasab-wireguard (4)",
-      "local_address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "Wuxygo9sezmxISA6uJw6foH2WeMJrUvJdIZVRaL7rZU=",
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1420,
-      "fake_packets": "3",
-      "fake_packets_size": "1",
-      "fake_packets_delay": "3",
-      "fake_packets_mode": "m4",
-      "server": "188.114.96.172",
-      "server_port": 1180
-    },
-    {
-      "type": "wireguard",
-      "tag": "@mehdisedighinasab-wireguard (6)",
-      "local_address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "oQxozGx2gT1G/UouoaDH1Oy8FBhlgLG1xjGUs6jeXI4=",
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1420,
-      "fake_packets": "3",
-      "fake_packets_size": "1",
-      "fake_packets_delay": "3",
-      "fake_packets_mode": "m4",
-      "server": "188.114.97.103",
-      "server_port": 1018
-    },
-    {
-      "type": "wireguard",
-      "tag": "@mehdisedighinasab-wireguard (3)",
-      "local_address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "JRtF2t1+NFsNetNTDOp3YeppHG4U3b+hLxaRPXW9qtA=",
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1420,
-      "fake_packets": "3",
-      "fake_packets_size": "1",
-      "fake_packets_delay": "3",
-      "fake_packets_mode": "m4",
-      "server": "188.114.97.67",
-      "server_port": 1074
-    },
-    {
-      "type": "wireguard",
-      "tag": "@mehdisedighinasab-wireguard (1)",
-      "local_address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "ioOcLVdIR4zbBGITEB2Vb3KF5Jf4P85jgc5EoQm8WYU=",
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1420,
-      "fake_packets": "3",
-      "fake_packets_size": "1",
-      "fake_packets_delay": "3",
-      "fake_packets_mode": "m4",
-      "server": "188.114.96.147",
-      "server_port": 7152
-    },
-    {
-      "type": "wireguard",
-      "tag": "@mehdisedighinasab-wireguard (5)",
-      "local_address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "wx6ZduJR4UkXt3ySeNWd7ljiUhj1xbSiqM7zrQiY9ZM=",
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1420,
-      "fake_packets": "3",
-      "fake_packets_size": "1",
-      "fake_packets_delay": "3",
-      "fake_packets_mode": "m4",
-      "server": "162.159.192.149",
-      "server_port": 903
-    },
-    {
-      "type": "wireguard",
-      "tag": "@mehdisedighinasab-wireguard",
-      "local_address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "Cz0i886ZUOfVV8o82/8c7VIp8tsEzvpHD/94f3B9yx4=",
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1420,
-      "fake_packets": "3",
-      "fake_packets_size": "1",
-      "fake_packets_delay": "3",
-      "fake_packets_mode": "m4",
-      "server": "188.114.98.81",
-      "server_port": 891
-    },
-    {
-      "type": "wireguard",
-      "tag": "@mehdisedighinasab-wireguard (2)",
-      "local_address": [
-        "172.16.0.2/32"
-      ],
-      "private_key": "WTLhZInTxA3MIQokOlmP0xmgdtdZHFpRikIBhxlt1lM=",
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "mtu": 1420,
-      "fake_packets": "3",
-      "fake_packets_size": "1",
-      "fake_packets_delay": "3",
-      "fake_packets_mode": "m4",
-      "server": "[2606",
-      "server_port": 4700
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ss-61cd3f8e",
-      "server": "am.ssvpnapp.win",
-      "server_port": 57456,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f28dd7b16b77a169"
-    },
-    {
       "type": "trojan",
-      "tag": "trojan-a000f37d",
+      "tag": "trojan-cefea722",
       "server": "uk1.test3.net",
       "server_port": 443,
-      "password": "38f42300-5292-11f0-83d0-1239d0255272",
+      "password": "6f1e96b0-5260-11f0-b47e-1239d0255272",
       "transport": {},
       "tls": {
         "enabled": true,
