@@ -125,6 +125,22 @@
       }
     },
     {
+      "type": "wireguard",
+      "tag": "@mehdisedighinasab-wireguard (7)",
+      "local_address": [
+        "172.16.0.2/32"
+      ],
+      "private_key": "TrtBuVtwPO8tt+qQ69fGAW4Ukipz7SGOyjufAro6l18=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "mtu": 1420,
+      "fake_packets": "3",
+      "fake_packets_size": "1",
+      "fake_packets_delay": "3",
+      "fake_packets_mode": "m4",
+      "server": "188.114.97.149",
+      "server_port": 1843
+    },
+    {
       "type": "shadowsocks",
       "tag": "ss-61cd3f8e",
       "server": "am.ssvpnapp.win",
