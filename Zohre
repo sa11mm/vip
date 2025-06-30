@@ -100,7 +100,7 @@
         "Instagram 📱",
         "Multi 🟡",
         "Netherlands 🇳🇱",
-        "trojan-e2ea503f",
+        "United Kingdom 🇬🇧",
         "direct"
       ]
     },
@@ -111,7 +111,7 @@
         "Instagram 📱",
         "Multi 🟡",
         "Netherlands 🇳🇱",
-        "trojan-e2ea503f"
+        "United Kingdom 🇬🇧"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -171,7 +171,7 @@
     },
     {
       "type": "trojan",
-      "tag": "trojan-e2ea503f",
+      "tag": "United Kingdom 🇬🇧",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "38f42300-5292-11f0-83d0-1239d0255272",
