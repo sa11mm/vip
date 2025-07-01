@@ -79,7 +79,7 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "322wl ME",
+        "323wl ME",
         "334wl ME",
         "335wl ME",
         "direct"
@@ -89,7 +89,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "322wl ME",
+        "323wl ME",
         "334wl ME",
         "335wl ME"
       ],
@@ -103,7 +103,7 @@
     },
     {
       "type": "vless",
-      "tag": "322wl ME",
+      "tag": "323wl ME",
       "server": "104.21.32.1",
       "server_port": 443,
       "uuid": "718e1ff8-22f5-410a-a6c2-1b931ef0e622",
