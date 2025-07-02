@@ -263,7 +263,6 @@
         "download_detour": "direct",
         "update_interval": "1d"
       }
-    ]
+    }
   }
-}
 ]
