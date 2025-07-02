@@ -84,6 +84,7 @@
         "auto",
         "Instagram 📱",
         "United Kingdom 🇬🇧",
+        "💰 -1",
         "direct"
       ]
     },
@@ -92,7 +93,8 @@
       "type": "urltest",
       "outbounds": [
         "Instagram 📱",
-        "United Kingdom 🇬🇧"
+        "United Kingdom 🇬🇧",
+        "💰 -1"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -134,6 +136,20 @@
         "server_name": "uk1.test3.net",
         "insecure": true,
         "alpn": []
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "💰 -1",
+      "server": "***",
+      "server_port": 0,
+      "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "***",
+        "insecure": true
       }
     }
   ],
