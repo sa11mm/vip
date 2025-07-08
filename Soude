@@ -84,6 +84,7 @@
         "auto",
         "Instagram 📱",
         "United Kingdom 🇬🇧",
+        "France 🇫🇷",
         "direct"
       ]
     },
@@ -92,7 +93,8 @@
       "type": "urltest",
       "outbounds": [
         "Instagram 📱",
-        "United Kingdom 🇬🇧"
+        "United Kingdom 🇬🇧",
+        "France 🇫🇷"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -135,6 +137,20 @@
         "insecure": true,
         "alpn": []
       }
+    },
+    {
+      "type": "trojan",
+      "tag": "France 🇫🇷",
+      "server": "fr1.test3.net",
+      "server_port": 443,
+      "password": "0df9c2c0-5b94-11f0-9685-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "fr1.test3.net",
+        "insecure": true,
+        "alpn": []
+      }
     }
   ],
   "route": {
@@ -160,6 +176,7 @@
 warp://188.114.97.34:934/?ifp=2-3&ifpm=m4#Download 🎞
 vless://87ce4f3b-a013-4b01-9f81-8b087a1fe4cb@188.114.97.10:443?encryption=none&security=tls&sni=WILDyrIce-1A5Rtc.OHmyGoDAHOO-Jj.worKerS.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=wildyrice-1a5rtc.ohmygodahoo-jj.workers.dev&path=%2FceEtqk4nIQIWoXfn%3Fed%3D2560#Instagram 📱
 trojan://d8195950-526d-11f0-9e74-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
+trojan://0df9c2c0-5b94-11f0-9685-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
