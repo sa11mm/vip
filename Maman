@@ -104,6 +104,7 @@
         "Best-Latency",
         "Instagram 📱",
         "United Kingdom 🇬🇧",
+        "France 🇫🇷",
         "DIRECT"
       ],
       "default": "Best-Latency"
@@ -113,7 +114,8 @@
       "tag": "Best-Latency",
       "outbounds": [
         "Instagram 📱",
-        "United Kingdom 🇬🇧"
+        "United Kingdom 🇬🇧",
+        "France 🇫🇷"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "idle_timeout": "5m",
@@ -121,11 +123,36 @@
       "tolerance": 50
     },
     {
+      "tag": "France 🇫🇷",
+      "type": "trojan",
+      "server": "fr1.test3.net",
+      "server_port": 443,
+      "password": "478d2de0-5b90-11f0-ac39-1239d0255272",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr1.test3.net",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "fr1.test3.net"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      }
+    },
+    {
       "tag": "United Kingdom 🇬🇧",
       "type": "trojan",
       "server": "uk1.test3.net",
       "server_port": 443,
-      "password": "88c8f960-5294-11f0-b4a2-1239d0255272",
+      "password": "fdc30250-5b8f-11f0-bda6-1239d0255272",
       "tls": {
         "enabled": true,
         "server_name": "uk1.test3.net",
