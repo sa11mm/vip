@@ -2,158 +2,212 @@
 //profile-update-interval: 3
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1766610000  
 {
+  "log": {
+    "level": "panic",
+    "output": "/data/adb/box/run/sing-box.log",
+    "timestamp": true
+  },
   "dns": {
-    "final": "local-dns",
-    "rules": [
-      {
-        "clash_mode": "Global",
-        "server": "proxy-dns",
-        "source_ip_cidr": [
-          "172.19.0.0/30"
-        ]
-      },
-      {
-        "server": "proxy-dns",
-        "source_ip_cidr": [
-          "172.19.0.0/30"
-        ]
-      },
-      {
-        "clash_mode": "Direct",
-        "server": "direct-dns"
-      }
-    ],
     "servers": [
       {
-        "address": "tls://208.67.222.123",
-        "address_resolver": "local-dns",
-        "detour": "proxy",
-        "tag": "proxy-dns"
+        "tag": "Internet-dns",
+        "address": "9.9.9.10",
+        "strategy": "ipv4_only",
+        "detour": "INTERNET🚀"
       },
       {
-        "address": "local",
-        "detour": "direct",
-        "tag": "local-dns"
+        "tag": "Best-Latency-dns",
+        "address": "1.1.1.1",
+        "strategy": "ipv4_only",
+        "detour": "Best-Latency"
       },
       {
-        "address": "rcode://success",
-        "tag": "block"
+        "tag": "direct-dns",
+        "address": "149.112.112.112",
+        "strategy": "ipv4_only",
+        "detour": "direct"
       },
       {
-        "address": "local",
-        "detour": "direct",
-        "tag": "direct-dns"
+        "tag": "block-dns",
+        "address": "rcode://success"
       }
     ],
-    "strategy": "prefer_ipv4"
+    "rules": [
+      {
+        "domain_suffix": [
+          ".arpa.",
+          ".arpa"
+        ],
+        "server": "block-dns",
+        "rewrite_ttl": 20
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "server": "block-dns",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "INTERNET🚀",
+        "server": "Internet-dns",
+        "disable_cache": false,
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "Best-Latency",
+        "server": "Best-Latency-dns",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "direct",
+        "server": "direct-dns",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "any",
+        "server": "direct-dns",
+        "rewrite_ttl": 20
+      }
+    ],
+    "reverse_mapping": true,
+    "strategy": "ipv4_only",
+    "independent_cache": true
   },
   "inbounds": [
     {
-      "address": [
-        "172.19.0.1/30",
-        "fdfe:dcba:9876::1/126"
-      ],
-      "auto_route": true,
-      "endpoint_independent_nat": false,
-      "mtu": 9000,
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "127.0.0.1",
-          "server_port": 2080
-        }
-      },
-      "sniff": true,
-      "stack": "system",
-      "strict_route": false,
-      "type": "tun"
+      "type": "tproxy",
+      "tag": "tproxy-in",
+      "listen": "::",
+      "listen_port": 9898,
+      "sniff": true
     },
     {
-      "listen": "127.0.0.1",
-      "listen_port": 2080,
-      "sniff": true,
-      "type": "mixed",
-      "users": []
+      "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "tun0",
+      "mtu": 9000,
+      "address": "172.18.0.1/30",
+      "auto_route": false,
+      "include_android_user": [
+        0,
+        10
+      ],
+      "stack": "mixed",
+      "sniff": true
     }
   ],
   "outbounds": [
     {
-      "tag": "proxy",
       "type": "selector",
+      "tag": "INTERNET🚀",
       "outbounds": [
-        "auto",
+        "Best-Latency",
         "Instagram 📱",
         "United Kingdom 🇬🇧",
-        "direct"
-      ]
+        "DIRECT"
+      ],
+      "default": "Best-Latency"
     },
     {
-      "tag": "auto",
       "type": "urltest",
+      "tag": "Best-Latency",
       "outbounds": [
         "Instagram 📱",
         "United Kingdom 🇬🇧"
       ],
       "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
+      "idle_timeout": "5m",
+      "interval": "1m",
       "tolerance": 50
     },
     {
-      "tag": "direct",
-      "type": "direct"
-    },
-    {
-      "type": "vless",
-      "tag": "Instagram 📱",
-      "server": "104.21.48.1",
-      "server_port": 443,
-      "uuid": "20f129f4-5c9e-426b-a315-82248fb49055",
-      "flow": "",
-      "transport": {
-        "path": "/wUKbcKjA7Y24JeWk?ed=2560",
-        "headers": {
-          "Host": "3o2bof3zxl2cwos3grds1ntvze4503pq.ramsarcity.workers.dev"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "3O2bOF3zXL2cWoS3gRdS1ntVZE4503pq.RAMSARCItY.WoRkErs.deV",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "United Kingdom 🇬🇧",
+      "type": "trojan",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "88c8f960-5294-11f0-b4a2-1239d0255272",
-      "transport": {},
       "tls": {
         "enabled": true,
         "server_name": "uk1.test3.net",
         "insecure": true,
-        "alpn": []
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "uk1.test3.net"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
       }
+    },
+    {
+      "tag": "Instagram 📱",
+      "type": "vless",
+      "server": "104.21.48.1",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "3O2bOF3zXL2cWoS3gRdS1ntVZE4503pq.RAMSARCItY.WoRkErs.deV",
+        "insecure": true,
+        "disable_sni": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wUKbcKjA7Y24JeWk?ed=2560",
+        "headers": {
+          "Host": "3o2bof3zxl2cwos3grds1ntvze4503pq.ramsarcity.workers.dev"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "uuid": "20f129f4-5c9e-426b-a315-82248fb49055",
+      "flow": "",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "direct",
+      "tag": "DIRECT"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
     }
   ],
   "route": {
-    "auto_detect_interface": true,
-    "final": "proxy",
     "rules": [
       {
-        "clash_mode": "Direct",
-        "outbound": "direct"
+        "port": 53,
+        "outbound": "dns-out"
       },
       {
-        "clash_mode": "Global",
-        "outbound": "proxy"
-      },
-      {
-        "protocol": "dns",
-        "action": "hijack-dns"
+        "protocol": "stun",
+        "outbound": "INTERNET🚀"
       }
-    ]
+    ],
+    "final": "INTERNET🚀",
+    "find_process": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "cache.db"
+    },
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "/data/adb/box/sing-box/dashboard"
+    }
   }
 }
 #vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
