@@ -83,9 +83,9 @@
       "outbounds": [
         "auto",
         "Instagram 📱",
-        "Multi 🟡",
         "United Kingdom 🇬🇧",
-        "Netherlands 🇳🇱",
+        "France 🇫🇷",
+        "💰 -2",
         "direct"
       ]
     },
@@ -94,9 +94,9 @@
       "type": "urltest",
       "outbounds": [
         "Instagram 📱",
-        "Multi 🟡",
         "United Kingdom 🇬🇧",
-        "Netherlands 🇳🇱"
+        "France 🇫🇷",
+        "💰 -2"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -127,26 +127,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "Multi 🟡",
-      "server": "172.67.174.30",
-      "server_port": 443,
-      "uuid": "91c407de-a93c-491b-a2fd-b50784e124da",
-      "flow": "",
-      "transport": {
-        "path": "/QjD17R0jshYGOro3?ed=2560",
-        "headers": {
-          "Host": "lingering-tree-335.lopgrvd47-kjjtge752.workers.dev"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "liNGErINg-tree-335.LOPgrvd47-KJjtgE752.worKERS.Dev",
-        "insecure": true
-      }
-    },
-    {
       "type": "trojan",
       "tag": "United Kingdom 🇬🇧",
       "server": "uk1.test3.net",
@@ -161,12 +141,32 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "Netherlands 🇳🇱",
-      "server": "am.ssvpnapp.win",
-      "server_port": 57456,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f28dd7b16b77a169"
+      "type": "trojan",
+      "tag": "France 🇫🇷",
+      "server": "fr1.test3.net",
+      "server_port": 443,
+      "password": "326fdc00-5b8f-11f0-98be-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "fr1.test3.net",
+        "insecure": true,
+        "alpn": []
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "💰 -2",
+      "server": "***",
+      "server_port": 0,
+      "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "***",
+        "insecure": true
+      }
     }
   ],
   "route": {
@@ -191,7 +191,6 @@
 #vmuioConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
 warp://188.114.98.164:934/?ifp=2-3&ifpm=m4#Download 🎞
 vless://91c407de-a93c-491b-a2fd-b50784e124da@104.21.72.23:443?encryption=none&security=tls&sni=liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2Fr2EnFMzM5wPE6DMT%3Fed%3D2560#Instagram 📱
-vless://91c407de-a93c-491b-a2fd-b50784e124da@172.67.174.30:443?encryption=none&security=tls&sni=liNGErINg-tree-335.LOPgrvd47-KJjtgE752.worKERS.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2FQjD17R0jshYGOro3%3Fed%3D2560#Multi 🟡
 trojan://4c51d5b0-5263-11f0-9163-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 trojan://326fdc00-5b8f-11f0-98be-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -2
