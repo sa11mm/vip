@@ -83,7 +83,7 @@
       "outbounds": [
         "auto",
         "Instagram 📱",
-        "trojan-0a2f8223",
+        "United Kingdom 🇬🇧",
         "France 🇫🇷",
         "💰 -1",
         "direct"
@@ -94,7 +94,7 @@
       "type": "urltest",
       "outbounds": [
         "Instagram 📱",
-        "trojan-0a2f8223",
+        "United Kingdom 🇬🇧",
         "France 🇫🇷",
         "💰 -1"
       ],
@@ -128,7 +128,7 @@
     },
     {
       "type": "trojan",
-      "tag": "trojan-0a2f8223",
+      "tag": "United Kingdom 🇬🇧",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "3da225c0-526a-11f0-81a0-1239d0255272",
