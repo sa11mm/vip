@@ -82,10 +82,10 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "vless-a6bf249c",
-        "trojan-ca279e37",
-        "trojan-b2643315",
-        "vless-4c65c671",
+        "Instagram 📱",
+        "United Kingdom 🇬🇧",
+        "France 🇫🇷",
+        "💰 -2",
         "direct"
       ]
     },
@@ -93,10 +93,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless-a6bf249c",
-        "trojan-ca279e37",
-        "trojan-b2643315",
-        "vless-4c65c671"
+        "Instagram 📱",
+        "United Kingdom 🇬🇧",
+        "France 🇫🇷",
+        "💰 -2"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -108,7 +108,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-a6bf249c",
+      "tag": "Instagram 📱",
       "server": "104.21.112.1",
       "server_port": 443,
       "uuid": "7efa724a-da5c-4c05-9947-c70cf71ab0dd",
@@ -128,7 +128,7 @@
     },
     {
       "type": "trojan",
-      "tag": "trojan-ca279e37",
+      "tag": "United Kingdom 🇬🇧",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "87023ef0-526f-11f0-a15d-1239d0255272",
@@ -142,7 +142,7 @@
     },
     {
       "type": "trojan",
-      "tag": "trojan-b2643315",
+      "tag": "France 🇫🇷",
       "server": "fr1.test3.net",
       "server_port": 443,
       "password": "d0ca4e40-5b94-11f0-813a-1239d0255272",
@@ -156,7 +156,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-4c65c671",
+      "tag": "💰 -2",
       "server": "***",
       "server_port": 0,
       "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
