@@ -26,6 +26,14 @@ vless://f2376ead-e3e3-41d7-b8eb-062c27245122@104.21.48.1:443?encryption=none&sec
 vless://718e1ff8-22f5-410a-a6c2-1b931ef0e622@104.21.32.1:443?encryption=none&security=tls&sni=323wl.Cac2s-v.wOrkERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=323wl.cac2s-v.workers.dev&path=%2FwBGz5kW0P7ewBx8F%3Fed%3D2560#323wl ME
 vless://9ca37d07-3cf0-428c-85e5-fc8ab4aebcde@104.21.64.1:443?encryption=none&security=tls&sni=334wl.CAc2S-v.WorkERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=334wl.cac2s-v.workers.dev&path=%2FiKBvkbgJpTuVm3RE%3Fed%3D2560#334wl ME
 vless://bb00ca45-c0f9-4d62-aeeb-f38532a8dfea@104.21.32.1:443?encryption=none&security=tls&sni=335Wl.cAc2S-V.WorkERS.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=335wl.cac2s-v.workers.dev&path=%2F343HtJG7mTuaWhW6%3Fed%3D2560#335wl ME
+#Howdy
+trojan://8a8250d0-5d01-11f0-9cf4-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧 H
+trojan://797e9150-5d01-11f0-8cc2-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷 H
+trojan://8f965460-5cff-11f0-86ed-1239d0255272@sg1.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 1 H
+trojan://6b515ac0-5cff-11f0-ae81-1239d0255272@sg2.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 2 H
+trojan://a1934650-5cff-11f0-848f-1239d0255272@sg3.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 3 H
+trojan://440350f0-5cff-11f0-9434-1239d0255272@sg4.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 Melbi H
+trojan://cb8e7070-5cff-11f0-a50b-1239d0255272@usa.test3.net:443?security=tls&type=tcp&headerType=none#United States 🇺🇸 H
 #NikaNG
 wireguard://YHsRe6Fipzsb8L3oun%2F94XGZLu6UHV66bHcd%2BSJze1c%3D@188.114.97.74:854?wnoise=quic&presharedkey=&address=172.16.0.2%2F32&reserved=19%2C68%2C73&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1&wnoisecount=15&mtu=1280#NKG
 wireguard://6BQxsbsI8%2Bgkw5z0ObvV84dKzeIFTz0SECYZv7dhUEg%3D@188.114.97.66:3138?wnoise=quic&presharedkey=&address=172.16.0.2%2F32&reserved=244%2C229%2C130&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1280#NKG
