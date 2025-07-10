@@ -1,6 +1,6 @@
 //profile-title: Azita Ghorbani
 //profile-update-interval: 3
-//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1752210000
+//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1755210000
 {
   "dns": {
     "final": "local-dns",
@@ -85,7 +85,7 @@
         "Instagram 📱",
         "United Kingdom 🇬🇧",
         "France 🇫🇷",
-        "💰 -1.5",
+        "💰 -1",
         "direct"
       ]
     },
@@ -96,7 +96,7 @@
         "Instagram 📱",
         "United Kingdom 🇬🇧",
         "France 🇫🇷",
-        "💰 -1.5"
+        "💰 -1"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -156,7 +156,7 @@
     },
     {
       "type": "vless",
-      "tag": "💰 -1.5",
+      "tag": "💰 -1",
       "server": "***",
       "server_port": 0,
       "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
@@ -193,6 +193,6 @@ warp://188.114.96.57:3476/?ifp=2-3&ifpm=m4#Download 🎞
 vless://5ec94305-c8ef-4d53-b155-1b8dacd45e89@104.21.16.1:443?encryption=none&security=tls&sni=FHv-qlblJNN1UBp2xeeRYsXYzgtWHk3Q.HUHVfTiOpoil.worKeRS.DEV&alpn=http%2F1.1&fp=randomized&type=ws&host=fhv-qlbljnn1ubp2xeerysxyzgtwhk3q.huhvftiopoil.workers.dev&path=%2FGpHek0y5uTxz2WJw%3Fed%3D2560#Instagram 📱
 trojan://738fe050-5265-11f0-94b7-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 trojan://9ac8ae50-5b90-11f0-97e4-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
-vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1.5
+vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
