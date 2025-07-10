@@ -204,6 +204,7 @@
     ]
   }
 }
+]
 #vmuioConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
 warp://188.114.98.164:934/?ifp=2-3&ifpm=m4#Download 🎞
 vless://91c407de-a93c-491b-a2fd-b50784e124da@104.21.72.23:443?encryption=none&security=tls&sni=liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2Fr2EnFMzM5wPE6DMT%3Fed%3D2560#Instagram 📱
