@@ -85,7 +85,6 @@
         "Instagram 📱",
         "United Kingdom 🇬🇧",
         "France 🇫🇷",
-        "Germany 🇩🇪",
         "💰 -2",
         "direct"
       ]
@@ -97,7 +96,6 @@
         "Instagram 📱",
         "United Kingdom 🇬🇧",
         "France 🇫🇷",
-        "Germany 🇩🇪",
         "💰 -2"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -158,20 +156,6 @@
     },
     {
       "type": "vless",
-      "tag": "Germany 🇩🇪",
-      "server": "iran4.v2iran1.tech",
-      "server_port": 33897,
-      "uuid": "ae5b2ee3-c216-4151-8fd3-db44f494e089",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "zula.ir",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
       "tag": "💰 -2",
       "server": "***",
       "server_port": 0,
@@ -209,7 +193,7 @@ warp://188.114.98.164:934/?ifp=2-3&ifpm=m4#Download 🎞
 vless://91c407de-a93c-491b-a2fd-b50784e124da@104.21.72.23:443?encryption=none&security=tls&sni=liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2Fr2EnFMzM5wPE6DMT%3Fed%3D2560#Instagram 📱
 trojan://4c51d5b0-5263-11f0-9163-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 trojan://326fdc00-5b8f-11f0-98be-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
-vless://ae5b2ee3-c216-4151-8fd3-db44f494e089@iran4.v2iran1.tech:33897?encryption=none&security=reality&sni=zula.ir&fp=firefox&pbk=C-_4LIs9Y8vNluYxcDFbNOWK3jGPyvA-ysj4shWxSGI&sid=13b461bb&spx=%2F8h4zuIBsTMggQhb&type=tcp&headerType=http&host=www.speedtest.net#Germany 🇩🇪
+vless://ae5b2ee3-c216-4151-8fd3-db44f494e089@iran4.v2iran1.tech:33897?encryption=none&security=reality&sni=zula.ir&fp=firefox&pbk=C-_4LIs9Y8vNluYxcDFbNOWK3jGPyvA-ysj4shWxSGI&sid=13b461bb&spx=%2F8h4zuIBsTMggQhb&type=tcp&headerType=http&host=www.speedtest.net#France 🇫🇷
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -2
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
