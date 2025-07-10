@@ -83,8 +83,7 @@
       "outbounds": [
         "auto",
         "Instagram 📱",
-        "United Kingdom 🇬🇧",
-        "France 🇫🇷",
+        "trojan-31848c83",
         "💰 -6.5",
         "direct"
       ]
@@ -94,8 +93,7 @@
       "type": "urltest",
       "outbounds": [
         "Instagram 📱",
-        "United Kingdom 🇬🇧",
-        "France 🇫🇷",
+        "trojan-31848c83",
         "💰 -6.5"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -128,7 +126,7 @@
     },
     {
       "type": "trojan",
-      "tag": "United Kingdom 🇬🇧",
+      "tag": "trojan-31848c83",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "6f1e96b0-5260-11f0-b47e-1239d0255272",
@@ -136,20 +134,6 @@
       "tls": {
         "enabled": true,
         "server_name": "uk1.test3.net",
-        "insecure": true,
-        "alpn": []
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "France 🇫🇷",
-      "server": "fr1.test3.net",
-      "server_port": 443,
-      "password": "f4106b00-5b95-11f0-85e2-1239d0255272",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.test3.net",
         "insecure": true,
         "alpn": []
       }
@@ -192,7 +176,7 @@
 warp://188.114.97.202:1014?ifp=2-3&ifpm=m4#Download 🎞
 vless://51ca1218-afa8-4e86-8320-998037e880b1@104.21.64.1:443?encryption=none&security=tls&sni=1o1VPz6UuwuDX7I3pKTjzA59ovEw0Zd5.havatOFani.woRkerS.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=1o1vpz6uuwudx7i3pktjza59ovew0zd5.havatofani.workers.dev&path=%2FiOT133AUoRjxUccD%3Fed%3D2560#Instagram 📱
 trojan://6f1e96b0-5260-11f0-b47e-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-trojan://f4106b00-5b95-11f0-85e2-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -6.5
+#trojan://f4106b00-5b95-11f0-85e2-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
