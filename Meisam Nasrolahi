@@ -85,6 +85,7 @@
         "Instagram 📱",
         "United Kingdom 🇬🇧",
         "France 🇫🇷",
+        "Germany 🇩🇪",
         "💰 -2",
         "direct"
       ]
@@ -96,6 +97,7 @@
         "Instagram 📱",
         "United Kingdom 🇬🇧",
         "France 🇫🇷",
+        "Germany 🇩🇪",
         "💰 -2"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -127,8 +129,22 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "United Kingdom 🇬🇧",
+      "server": "zewduaexcojt.eu-central-1.clawcloudrun.com",
+      "server_port": 49242,
+      "uuid": "ec0da48f-030a-4a64-89aa-d2b837994119",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "France 🇫🇷",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "4c51d5b0-5263-11f0-9163-1239d0255272",
@@ -142,7 +158,7 @@
     },
     {
       "type": "trojan",
-      "tag": "France 🇫🇷",
+      "tag": "Germany 🇩🇪",
       "server": "fr1.test3.net",
       "server_port": 443,
       "password": "326fdc00-5b8f-11f0-98be-1239d0255272",
@@ -191,9 +207,9 @@
 #vmuioConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
 warp://188.114.98.164:934/?ifp=2-3&ifpm=m4#Download 🎞
 vless://91c407de-a93c-491b-a2fd-b50784e124da@104.21.72.23:443?encryption=none&security=tls&sni=liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2Fr2EnFMzM5wPE6DMT%3Fed%3D2560#Instagram 📱
+vless://ec0da48f-030a-4a64-89aa-d2b837994119@zewduaexcojt.eu-central-1.clawcloudrun.com:49242?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=C4Rt3dFsobHUgK0vHJgDd0G2O6rUYnbpBqviFm-4RGc&sid=3ba6a997&type=tcp&headerType=none#Germany 🇩🇪
 trojan://4c51d5b0-5263-11f0-9163-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 trojan://326fdc00-5b8f-11f0-98be-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
-vless://ae5b2ee3-c216-4151-8fd3-db44f494e089@iran4.v2iran1.tech:33897?encryption=none&security=reality&sni=zula.ir&fp=firefox&pbk=C-_4LIs9Y8vNluYxcDFbNOWK3jGPyvA-ysj4shWxSGI&sid=13b461bb&spx=%2F8h4zuIBsTMggQhb&type=tcp&headerType=http&host=www.speedtest.net#Germany 🇩🇪
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -2
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
