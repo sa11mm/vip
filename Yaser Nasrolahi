@@ -83,7 +83,7 @@
       "outbounds": [
         "auto",
         "Instagram 📱",
-        "trojan-31848c83",
+        "United Kingdom 🇬🇧",
         "💰 -6.5",
         "direct"
       ]
@@ -93,7 +93,7 @@
       "type": "urltest",
       "outbounds": [
         "Instagram 📱",
-        "trojan-31848c83",
+        "United Kingdom 🇬🇧",
         "💰 -6.5"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -126,7 +126,7 @@
     },
     {
       "type": "trojan",
-      "tag": "trojan-31848c83",
+      "tag": "United Kingdom 🇬🇧",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "6f1e96b0-5260-11f0-b47e-1239d0255272",
