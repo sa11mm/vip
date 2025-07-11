@@ -1,36 +1,4 @@
 {
-  "outbounds": [
-    {
-      "tag": "proxy",
-      "type": "selector",
-      "outbounds": [
-        "auto",
-        "vless-821dde4f",
-        "vless-76f990d7",
-        "trojan-17480875",
-        "trojan-1022bcc6",
-        "vless-742a1142",
-        "direct"
-      ]
-    },
-    {
-      "tag": "auto",
-      "type": "urltest",
-      "outbounds": [
-        "vless-821dde4f",
-        "vless-76f990d7",
-        "trojan-17480875",
-        "trojan-1022bcc6",
-        "vless-742a1142"
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
-    },
-    {
-      "tag": "direct",
-      "type": "direct"
-    },
     {
       "type": "vless",
       "tag": "vless-821dde4f",
