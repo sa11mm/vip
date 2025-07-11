@@ -1,9 +1,4 @@
 {
-  "log": {
-    "level": "panic",
-    "output": "/data/adb/box/run/sing-box.log",
-    "timestamp": true
-  },
   "dns": {
     "servers": [
       {
