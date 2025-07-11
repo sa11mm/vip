@@ -1,277 +1,129 @@
 {
-  "dns": {
-    "servers": [
-      {
-        "tag": "Internet-dns",
-        "address": "9.9.9.10",
-        "strategy": "ipv4_only",
-        "detour": "INTERNET🚀"
-      },
-      {
-        "tag": "Best-Latency-dns",
-        "address": "1.1.1.1",
-        "strategy": "ipv4_only",
-        "detour": "Best-Latency"
-      },
-      {
-        "tag": "direct-dns",
-        "address": "149.112.112.112",
-        "strategy": "ipv4_only",
-        "detour": "direct"
-      },
-      {
-        "tag": "block-dns",
-        "address": "rcode://success"
-      }
-    ],
-    "rules": [
-      {
-        "domain_suffix": [
-          ".arpa.",
-          ".arpa"
-        ],
-        "server": "block-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "network": "udp",
-        "port": 443,
-        "server": "block-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "INTERNET🚀",
-        "server": "Internet-dns",
-        "disable_cache": false,
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "Best-Latency",
-        "server": "Best-Latency-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "direct",
-        "server": "direct-dns",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "any",
-        "server": "direct-dns",
-        "rewrite_ttl": 20
-      }
-    ],
-    "reverse_mapping": true,
-    "strategy": "ipv4_only",
-    "independent_cache": true
-  },
-  "inbounds": [
-    {
-      "type": "tproxy",
-      "tag": "tproxy-in",
-      "listen": "::",
-      "listen_port": 9898,
-      "sniff": true
-    },
-    {
-      "type": "tun",
-      "tag": "tun-in",
-      "interface_name": "tun0",
-      "mtu": 9000,
-      "address": "172.18.0.1/30",
-      "auto_route": false,
-      "include_android_user": [
-        0,
-        10
-      ],
-      "stack": "mixed",
-      "sniff": true
-    }
-  ],
   "outbounds": [
     {
+      "tag": "proxy",
       "type": "selector",
-      "tag": "INTERNET🚀",
       "outbounds": [
-        "Best-Latency",
-        "Instagram 📱",
-        "Germany 🇩🇪",
-        "United Kingdom 🇬🇧",
-        "France 🇫🇷",
-        "💰 -2",
-        "DIRECT"
-      ],
-      "default": "Best-Latency"
+        "auto",
+        "vless-821dde4f",
+        "vless-76f990d7",
+        "trojan-17480875",
+        "trojan-1022bcc6",
+        "vless-742a1142",
+        "direct"
+      ]
     },
     {
+      "tag": "auto",
       "type": "urltest",
-      "tag": "Best-Latency",
       "outbounds": [
-        "Instagram 📱",
-        "Germany 🇩🇪",
-        "United Kingdom 🇬🇧",
-        "France 🇫🇷",
-        "💰 -2"
+        "vless-821dde4f",
+        "vless-76f990d7",
+        "trojan-17480875",
+        "trojan-1022bcc6",
+        "vless-742a1142"
       ],
       "url": "http://www.gstatic.com/generate_204",
-      "idle_timeout": "5m",
-      "interval": "1m",
+      "interval": "10m",
       "tolerance": 50
     },
     {
-      "tag": "💰 -2",
-      "type": "vless",
-      "server": "***",
-      "server_port": 443,
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "***"
-        }
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 32
-      },
-      "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
-      "flow": "",
-      "packet_encoding": "xudp"
+      "tag": "direct",
+      "type": "direct"
     },
     {
-      "tag": "France 🇫🇷",
-      "type": "trojan",
-      "server": "fr1.test3.net",
+      "type": "vless",
+      "tag": "vless-821dde4f",
+      "server": "104.21.72.23",
       "server_port": 443,
-      "password": "326fdc00-5b8f-11f0-98be-1239d0255272",
+      "uuid": "91c407de-a93c-491b-a2fd-b50784e124da",
+      "flow": "",
+      "transport": {
+        "path": "/r2EnFMzM5wPE6DMT?ed=2560",
+        "headers": {
+          "Host": "lingering-tree-335.lopgrvd47-kjjtge752.workers.dev"
+        },
+        "type": "ws"
+      },
       "tls": {
         "enabled": true,
-        "server_name": "fr1.test3.net",
-        "insecure": true,
-        "disable_sni": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "fr1.test3.net"
-        }
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 32
+        "server_name": "liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv",
+        "insecure": true
       }
     },
     {
-      "tag": "United Kingdom 🇬🇧",
+      "type": "vless",
+      "tag": "vless-76f990d7",
+      "server": "zewduaexcojt.eu-central-1.clawcloudrun.com",
+      "server_port": 49242,
+      "uuid": "ec0da48f-030a-4a64-89aa-d2b837994119",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "trojan",
+      "tag": "trojan-17480875",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "4c51d5b0-5263-11f0-9163-1239d0255272",
+      "transport": {},
       "tls": {
         "enabled": true,
         "server_name": "uk1.test3.net",
         "insecure": true,
-        "disable_sni": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "uk1.test3.net"
-        }
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 32
+        "alpn": []
       }
     },
     {
-      "tag": "Germany 🇩🇪",
-      "type": "vless",
-      "server": "zewduaexcojt.eu-central-1.clawcloudrun.com",
-      "server_port": 49242,
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "zewduaexcojt.eu-central-1.clawcloudrun.com"
-        }
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 32
-      },
-      "uuid": "ec0da48f-030a-4a64-89aa-d2b837994119",
-      "flow": "",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "Instagram 📱",
-      "type": "vless",
-      "server": "104.21.72.23",
+      "type": "trojan",
+      "tag": "trojan-1022bcc6",
+      "server": "fr1.test3.net",
       "server_port": 443,
+      "password": "326fdc00-5b8f-11f0-98be-1239d0255272",
+      "transport": {},
       "tls": {
         "enabled": true,
-        "server_name": "liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv",
+        "server_name": "fr1.test3.net",
         "insecure": true,
-        "disable_sni": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/r2EnFMzM5wPE6DMT?ed=2560",
-        "headers": {
-          "Host": "lingering-tree-335.lopgrvd47-kjjtge752.workers.dev"
-        }
-      },
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 32
-      },
-      "uuid": "91c407de-a93c-491b-a2fd-b50784e124da",
+        "alpn": []
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-742a1142",
+      "server": "***",
+      "server_port": 0,
+      "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
       "flow": "",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "direct",
-      "tag": "DIRECT"
-    },
-    {
-      "type": "block",
-      "tag": "block"
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "***",
+        "insecure": true
+      }
     }
   ],
   "route": {
+    "auto_detect_interface": true,
+    "final": "proxy",
     "rules": [
       {
-        "port": 53,
-        "outbound": "dns-out"
+        "clash_mode": "Direct",
+        "outbound": "direct"
       },
       {
-        "protocol": "stun",
-        "outbound": "INTERNET🚀"
+        "clash_mode": "Global",
+        "outbound": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "action": "hijack-dns"
       }
-    ],
-    "final": "INTERNET🚀",
-    "find_process": true
-  },
-  "experimental": {
-    "cache_file": {
-      "enabled": true,
-      "path": "cache.db"
-    },
-    "clash_api": {
-      "external_controller": "0.0.0.0:9090",
-      "external_ui": "/data/adb/box/sing-box/dashboard"
-    }
+    ]
   }
 }
