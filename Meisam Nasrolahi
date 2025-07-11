@@ -82,11 +82,9 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "vless-2b8d0775",
-        "vless-6ebf0305",
-        "trojan-a08f27f8",
-        "trojan-ca488030",
-        "vless-bdd0332c",
+        "United Kingdom 🇬🇧",
+        "France 🇫🇷",
+        "💰 -2",
         "direct"
       ]
     },
@@ -94,11 +92,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless-2b8d0775",
-        "vless-6ebf0305",
-        "trojan-a08f27f8",
-        "trojan-ca488030",
-        "vless-bdd0332c"
+        "United Kingdom 🇬🇧",
+        "France 🇫🇷",
+        "💰 -2"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -109,42 +105,8 @@
       "type": "direct"
     },
     {
-      "type": "vless",
-      "tag": "vless-2b8d0775",
-      "server": "104.21.72.23",
-      "server_port": 443,
-      "uuid": "91c407de-a93c-491b-a2fd-b50784e124da",
-      "flow": "",
-      "transport": {
-        "path": "/r2EnFMzM5wPE6DMT?ed=2560",
-        "headers": {
-          "Host": "lingering-tree-335.lopgrvd47-kjjtge752.workers.dev"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-6ebf0305",
-      "server": "zewduaexcojt.eu-central-1.clawcloudrun.com",
-      "server_port": 49242,
-      "uuid": "ec0da48f-030a-4a64-89aa-d2b837994119",
-      "flow": "xtls-rprx-vision",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "www.yahoo.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "trojan-a08f27f8",
+      "tag": "United Kingdom 🇬🇧",
       "server": "uk1.test3.net",
       "server_port": 443,
       "password": "4c51d5b0-5263-11f0-9163-1239d0255272",
@@ -158,7 +120,7 @@
     },
     {
       "type": "trojan",
-      "tag": "trojan-ca488030",
+      "tag": "France 🇫🇷",
       "server": "fr1.test3.net",
       "server_port": 443,
       "password": "326fdc00-5b8f-11f0-98be-1239d0255272",
@@ -172,7 +134,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-bdd0332c",
+      "tag": "💰 -2",
       "server": "***",
       "server_port": 0,
       "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
