@@ -18,6 +18,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt@nl-svc-ol-1.hostik.org:443#Netherlands 🇳🇱 .♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@opfnhwzjzcjzftreqmoi.freesocks.work:443#United States 🇺🇸 ♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowcUd1dXhoVkplWGVLdEJSYUt4R1Ni@hackney-latest-strike.freesocks.work:443#United States 🇺🇸 .♾️
+vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@199.34.228.254:8880?encryption=none&security=none&sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#Azerbaijan 🇦🇿 ♾️
 vless://ae5b2ee3-c216-4151-8fd3-db44f494e089@iran4.v2iran1.tech:33897?encryption=none&security=reality&sni=zula.ir&fp=firefox&pbk=C-_4LIs9Y8vNluYxcDFbNOWK3jGPyvA-ysj4shWxSGI&sid=13b461bb&spx=%2F8h4zuIBsTMggQhb&type=tcp&headerType=http&host=www.speedtest.net#Germany 🇩🇪 ♾️
 #Panel
 vless://57d7f28a-32d7-458f-a76c-f897d670b864@jfnbhbewmujo.eu-central-1.clawcloudrun.com:34589?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=UTX5pV7O9JOXIqhW8PIa120AZoDhUQXXRmjMQ6JDIB0&sid=2488b166&type=tcp&headerType=none#Germany 🇩🇪 ME
@@ -46,16 +47,6 @@ hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@bl.yuanbaojc.site:30321?sni=bl.
 hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@bl.yuanbaojc.site:30301?sni=bl.yuanbaojc.site&insecure=0&mport=30301-30399#Netherlands 🇳🇱 🟢
 hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@bl.yuanbaojc.site:30343?sni=bl.yuanbaojc.site&insecure=0&mport=30301-30399#Netherlands 🇳🇱 🟢
 hysteria2://7ab18660-a241-4e81-93e0-9f1bf419f1e9@bl.yuanbaojc.site:30315?sni=bl.yuanbaojc.site&insecure=0&mport=30301-30399#Netherlands 🇳🇱 🟢
-#Test
-vless://7bff2494-32b8-4c13-a995-32b188546270@50.7.85.220:443?encryption=none&security=tls&sni=pkgbuild.org&type=ws&host=pkgbuild.org&path=%2Fconnect%2Fws%2F#Netherlands 🇳🇱 🚫
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@141.193.213.11:80?encryption=none&security=none&type=ws&host=cs.laoyoutiao.link&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40MxlShare%2B%40WangCai2%2B%2F%3Fed#Azerbaijan 🇦🇿 🚫
-vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@199.34.228.254:8880?encryption=none&security=none&sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#Azerbaijan 🇦🇿 🚫
-vless://38b41ed4-5fe2-4868-8016-8df32dcaed78@157.180.95.180:2087?encryption=none&security=tls&sni=pic.zarashop0.ir&alpn=h2&fp=chrome&type=grpc#Finland 🇫🇮 🚫
-vless://2d42e753-5cb9-459b-8bf9-68ef5aac4b76@95.38.153.30:2087?encryption=none&security=none&type=tcp&headerType=http&host=h.blue7ss.com#Germany 🇩🇪 🚫
-vless://e9aa1485-0b34-42de-bbd0-4012f91f77c6@99.199.73.28:23527?encryption=none&security=none&type=tcp&headerType=http&host=www.speedtest.net#Canada 🇨🇦 🚫
-vless://a6804343-1318-41e9-c76d-bb75b61e0347@99.199.73.53:18716?encryption=none&security=none&type=tcp&headerType=http&host=www.speedtest.net#Canada 🇨🇦 🚫
-vless://2b5feae8-1a36-43cd-a722-83522e34853c@57.128.178.253:443?encryption=none&security=tls&sni=en.linceedab.com&alpn=http%2F1.1&type=tcp&headerType=none#United Kingdom 🇬🇧 🚫
-trojan://4a779a063dd5cd0@arash8.freedaom.top:10518?security=tls&alpn=h2%2Chttp%2F1.1&type=tcp&headerType=none#Meli%20Asli 🚫
 #Old
 #wg://89.39.107.109:51820/?pk=KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=&local_address=10.2.0.2/32&peer_pub=ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 14
 #wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 16
