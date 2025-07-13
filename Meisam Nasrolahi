@@ -82,6 +82,8 @@
       "type": "selector",
       "outbounds": [
         "auto",
+        "Instagram 📱",
+        "Germany 🇩🇪",
         "United Kingdom 🇬🇧",
         "France 🇫🇷",
         "💰 -2",
@@ -92,6 +94,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "Instagram 📱",
+        "Germany 🇩🇪",
         "United Kingdom 🇬🇧",
         "France 🇫🇷",
         "💰 -2"
@@ -103,6 +107,40 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "type": "vless",
+      "tag": "Instagram 📱",
+      "server": "104.21.72.23",
+      "server_port": 443,
+      "uuid": "91c407de-a93c-491b-a2fd-b50784e124da",
+      "flow": "",
+      "transport": {
+        "path": "/r2EnFMzM5wPE6DMT?ed=2560",
+        "headers": {
+          "Host": "lingering-tree-335.lopgrvd47-kjjtge752.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Germany 🇩🇪",
+      "server": "zewduaexcojt.eu-central-1.clawcloudrun.com",
+      "server_port": 49242,
+      "uuid": "ec0da48f-030a-4a64-89aa-d2b837994119",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "insecure": true
+      }
     },
     {
       "type": "trojan",
