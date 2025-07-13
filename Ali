@@ -4,39 +4,6 @@
 {
  "outbounds": [
   {
-   "type": "wireguard",
-   "tag": "Iran 🇮🇷",
-   "local_address":       [
-     "172.16.0.2/24",
-     "2606:4700:110:88d2:4c7e:b2e3:5cab:2c01/128"
-   ],
-   "private_key": "6Putl11rsG3dyeD+EnGxdpbZowr7NBBVvJ/BHha1nmg=",
-   "server": "162.159.192.48",
-   "server_port": 946,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "SoQc",
-   "mtu": 1330,
-   "fake_packets": "2-3",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "10-30",
-   "fake_packets_mode": "m5"
-  },
-  {
-   "type": "wireguard",
-   "tag": "Germany 🇩🇪 🇮🇹 Italy",
-   "detour": "Iran 🇮🇷 § 1",
-   "local_address":       [
-     "172.16.0.2/24",
-     "2606:4700:110:802e:cc2d:9427:c4c3:5d07/128"
-   ],
-   "private_key": "sH9wO8rGwcBWy0Ir1MjQtSOtQkj2Xj7JrEQFioxcqV4=",
-   "server": "162.159.192.86",
-   "server_port": 946,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "LD46",
-   "mtu": 1330
-  },
-  {
    "type": "vless",
    "tag": "Instagram 📱",
    "server": "104.21.45.205",
