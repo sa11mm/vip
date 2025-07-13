@@ -2,15 +2,8 @@
 //profile-update-interval: 3
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1752210000
 
-#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
-/?ifp=2-3&ifpm=m4#Download 🎞
+/?ifp=2-3&ifpm=m5#Download 🎞
 #Instagram 📱
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
-
-
-Instagram 📱
-Multi 🟡
-United Kingdom 🇬🇧
-Netherlands 🇳🇱
