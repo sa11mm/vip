@@ -2,177 +2,71 @@
 //profile-update-interval: 3
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1754410000
 {
-  "dns": {
-    "final": "local-dns",
-    "rules": [
-      {
-        "clash_mode": "Global",
-        "server": "proxy-dns",
-        "source_ip_cidr": [
-          "172.19.0.0/30"
-        ]
-      },
-      {
-        "server": "proxy-dns",
-        "source_ip_cidr": [
-          "172.19.0.0/30"
-        ]
-      },
-      {
-        "clash_mode": "Direct",
-        "server": "direct-dns"
-      }
-    ],
-    "servers": [
-      {
-        "address": "tls://208.67.222.123",
-        "address_resolver": "local-dns",
-        "detour": "proxy",
-        "tag": "proxy-dns"
-      },
-      {
-        "address": "local",
-        "detour": "direct",
-        "tag": "local-dns"
-      },
-      {
-        "address": "rcode://success",
-        "tag": "block"
-      },
-      {
-        "address": "local",
-        "detour": "direct",
-        "tag": "direct-dns"
-      }
-    ],
-    "strategy": "prefer_ipv4"
+ "outbounds": [
+  {
+   "type": "wireguard",
+   "tag": "Download 🎞",
+   "local_address":       [
+     "172.16.0.2/24",
+     "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
+   ],
+   "private_key": "kPJSOoq8AKzw/UvbLWfGpC+MD4rC9ZDV0zin9aom6HE=",
+   "server": "188.114.97.65",
+   "server_port": 5279,
+   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+   "reserved": "W13G",
+   "mtu": 1330,
+   "fake_packets": "2-3",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "10-30",
+   "fake_packets_mode": "m5"
   },
-  "inbounds": [
-    {
-      "address": [
-        "172.19.0.1/30",
-        "fdfe:dcba:9876::1/126"
-      ],
-      "auto_route": true,
-      "endpoint_independent_nat": false,
-      "mtu": 9000,
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "127.0.0.1",
-          "server_port": 2080
-        }
-      },
-      "sniff": true,
-      "stack": "system",
-      "strict_route": false,
-      "type": "tun"
-    },
-    {
-      "listen": "127.0.0.1",
-      "listen_port": 2080,
-      "sniff": true,
-      "type": "mixed",
-      "users": []
+  {
+   "type": "vless",
+   "tag": "Instagram 📱",
+   "server": "172.67.186.31",
+   "server_port": 443,
+   "uuid": "225f49b7-2e3e-4a47-a658-c4ea20a515de",
+   "tls": {
+    "enabled": true,
+    "server_name": "restlESS-Term-921C.daRtOPlOiG-Hg.WorkErs.deV",
+    "insecure": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/cAX5XLtUM2xEjhi4?ed=2560",
+    "headers": {
+     "Host": "restless-term-921c.dartoploig-hg.workers.dev"
     }
-  ],
-  "outbounds": [
-    {
-      "tag": "proxy",
-      "type": "selector",
-      "outbounds": [
-        "auto",
-        "Instagram 📱",
-        "United Kingdom 🇬🇧",
-        "💰 -1",
-        "direct"
-      ]
-    },
-    {
-      "tag": "auto",
-      "type": "urltest",
-      "outbounds": [
-        "Instagram 📱",
-        "United Kingdom 🇬🇧",
-        "💰 -1"
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
-    },
-    {
-      "tag": "direct",
-      "type": "direct"
-    },
-    {
-      "type": "vless",
-      "tag": "Instagram 📱",
-      "server": "172.67.186.31",
-      "server_port": 443,
-      "uuid": "225f49b7-2e3e-4a47-a658-c4ea20a515de",
-      "flow": "",
-      "transport": {
-        "path": "/cAX5XLtUM2xEjhi4?ed=2560",
-        "headers": {
-          "Host": "restless-term-921c.dartoploig-hg.workers.dev"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "restlESS-Term-921C.daRtOPlOiG-Hg.WorkErs.deV",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "United Kingdom 🇬🇧",
-      "server": "uk1.test3.net",
-      "server_port": 443,
-      "password": "3da225c0-526a-11f0-81a0-1239d0255272",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "uk1.test3.net",
-        "insecure": true,
-        "alpn": []
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "💰 -1",
-      "server": "***",
-      "server_port": 0,
-      "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "***",
-        "insecure": true
-      }
-    }
-  ],
-  "route": {
-    "auto_detect_interface": true,
-    "final": "proxy",
-    "rules": [
-      {
-        "clash_mode": "Direct",
-        "outbound": "direct"
-      },
-      {
-        "clash_mode": "Global",
-        "outbound": "proxy"
-      },
-      {
-        "protocol": "dns",
-        "action": "hijack-dns"
-      }
-    ]
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "United Kingdom 🇬🇧",
+   "server": "uk1.test3.net",
+   "server_port": 443,
+   "password": "3da225c0-526a-11f0-81a0-1239d0255272",
+   "tls": {
+    "enabled": true,
+    "server_name": "uk1.test3.net",
+    "insecure": true
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "💰 -1",
+   "server": "***",
+   "server_port": 0,
+   "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+   "tls": {
+    "enabled": true,
+    "server_name": "***",
+    "insecure": true
+   }
   }
+ ]
 }
-#warp://188.114.97.65:5279/?ifp=2-3&ifpm=m4#Download 🎞
+#warp://188.114.97.65:5279/?ifp=2-3&ifpm=m5#Download 🎞
 vless://225f49b7-2e3e-4a47-a658-c4ea20a515de@172.67.186.31:443?encryption=none&security=tls&sni=restlESS-Term-921C.daRtOPlOiG-Hg.WorkErs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=restless-term-921c.dartoploig-hg.workers.dev&path=%2FcAX5XLtUM2xEjhi4%3Fed%3D2560#Instagram 📱
 trojan://3da225c0-526a-11f0-81a0-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
