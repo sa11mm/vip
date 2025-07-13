@@ -3,7 +3,6 @@
 //subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1783010000
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
-warp://188.114.96.202:1180?ifp=2-3&ifpm=m4#Download 🎞
 warp://188.114.98.96:939/?ifp=2-3&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.97.137:8742#Germany 🇩🇪 🇮🇹 Italy
 wg://217.23.3.76:51820/?pk=oBjp05gdsaX09Sh2A3F2B1lOGMQzIpDjEz3zoJqe4Fs=&local_address=10.2.0.2/32&peer_pub=vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 1
 wg://138.199.7.159:51820/?pk=8BsWXJIbXsaXW6PIzlAsKGo6i1TQmTlO5fCMkohtJXI=&local_address=10.2.0.2/32&peer_pub=1s5mwMp3fZKNucEO3GeHRSUrhGLu/BYeC0UdusyxSWU=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 12
