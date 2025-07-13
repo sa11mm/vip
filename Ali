@@ -3,6 +3,39 @@
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1754110000
 {
  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "Iran 🇮🇷 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:8afd:3701:b2df:71a6:c7c5/128"
+      ],
+      "private_key": "IDbB9gZL+ch0iGbn+BqQxFr79NlwIT3CG9pPbOaanUQ=",
+      "server": "162.159.192.48",
+      "server_port": 859,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "w3Gf",
+      "mtu": 1330,
+      "fake_packets": "2-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m5"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany 🇩🇪 🇮🇹 Italy § 1",
+      "detour": "Iran 🇮🇷 § 0",
+      "local_address":       [
+        "172.16.0.2/24",
+        "2606:4700:110:898b:6020:77a4:4da8:85d2/128"
+      ],
+      "private_key": "6A+1UxGYwlXihqjbitUTpwCXG0tS9W177l7+vfYoOkQ=",
+      "server": "162.159.192.86",
+      "server_port": 4177,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "8htR",
+      "mtu": 1330
+    },
   {
    "type": "vless",
    "tag": "Instagram 📱",
