@@ -2,188 +2,79 @@
 //profile-update-interval: 3
 //subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1783010000
 {
-  "dns": {
-    "final": "local-dns",
-    "rules": [
-      {
-        "clash_mode": "Global",
-        "server": "proxy-dns",
-        "source_ip_cidr": [
-          "172.19.0.0/30"
-        ]
-      },
-      {
-        "server": "proxy-dns",
-        "source_ip_cidr": [
-          "172.19.0.0/30"
-        ]
-      },
-      {
-        "clash_mode": "Direct",
-        "server": "direct-dns"
-      }
-    ],
-    "servers": [
-      {
-        "address": "tls://208.67.222.123",
-        "address_resolver": "local-dns",
-        "detour": "proxy",
-        "tag": "proxy-dns"
-      },
-      {
-        "address": "local",
-        "detour": "direct",
-        "tag": "local-dns"
-      },
-      {
-        "address": "rcode://success",
-        "tag": "block"
-      },
-      {
-        "address": "local",
-        "detour": "direct",
-        "tag": "direct-dns"
-      }
-    ],
-    "strategy": "prefer_ipv4"
+ "outbounds": [
+  {
+   "type": "wireguard",
+   "tag": "Download 🎞",
+   "local_address":       [
+     "172.16.0.2/24",
+     "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
+   ],
+   "private_key": "kPJSOoq8AKzw/UvbLWfGpC+MD4rC9ZDV0zin9aom6HE=",
+   "server": "188.114.96.202",
+   "server_port": 1180,
+   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+   "reserved": "W13G",
+   "mtu": 1330,
+   "fake_packets": "2-3",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "10-30",
+   "fake_packets_mode": "m5"
   },
-  "inbounds": [
-    {
-      "address": [
-        "172.19.0.1/30",
-        "fdfe:dcba:9876::1/126"
-      ],
-      "auto_route": true,
-      "endpoint_independent_nat": false,
-      "mtu": 9000,
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "127.0.0.1",
-          "server_port": 2080
-        }
-      },
-      "sniff": true,
-      "stack": "system",
-      "strict_route": false,
-      "type": "tun"
-    },
-    {
-      "listen": "127.0.0.1",
-      "listen_port": 2080,
-      "sniff": true,
-      "type": "mixed",
-      "users": []
+  {
+   "type": "vless",
+   "tag": "Instagram 📱",
+   "server": "104.21.4.217",
+   "server_port": 443,
+   "uuid": "0a628dd0-8807-43f3-8d69-813d55d1cefe",
+   "tls": {
+    "enabled": true,
+    "server_name": "TiFl9t2F1uFgWt-MJIOIIZtabANt9g-o.sARbZamIN.WorKERs.DeV",
+    "insecure": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/SiVsbM29nxXNgLi4?ed=2560",
+    "headers": {
+     "Host": "tifl9t2f1ufgwt-mjioiiztabant9g-o.sarbzamin.workers.dev"
     }
-  ],
-  "outbounds": [
-    {
-      "tag": "proxy",
-      "type": "selector",
-      "outbounds": [
-        "auto",
-        "Instagram 📱",
-        "Netherlands 🇳🇱",
-        "United Kingdom 🇬🇧",
-        "France 🇫🇷",
-        "direct"
-      ]
-    },
-    {
-      "tag": "auto",
-      "type": "urltest",
-      "outbounds": [
-        "Instagram 📱",
-        "Netherlands 🇳🇱",
-        "United Kingdom 🇬🇧",
-        "France 🇫🇷"
-      ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
-    },
-    {
-      "tag": "direct",
-      "type": "direct"
-    },
-    {
-      "type": "vless",
-      "tag": "Instagram 📱",
-      "server": "104.21.4.217",
-      "server_port": 443,
-      "uuid": "0a628dd0-8807-43f3-8d69-813d55d1cefe",
-      "flow": "",
-      "transport": {
-        "path": "/SiVsbM29nxXNgLi4?ed=2560",
-        "headers": {
-          "Host": "tifl9t2f1ufgwt-mjioiiztabant9g-o.sarbzamin.workers.dev"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "TiFl9t2F1uFgWt-MJIOIIZtabANt9g-o.sARbZamIN.WorKERs.DeV",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "Netherlands 🇳🇱",
-      "server": "am.ssvpnapp.win",
-      "server_port": 57456,
-      "method": "chacha20-ietf-poly1305",
-      "password": "f28dd7b16b77a169"
-    },
-    {
-      "type": "trojan",
-      "tag": "United Kingdom 🇬🇧",
-      "server": "uk1.test3.net",
-      "server_port": 443,
-      "password": "38f42300-5292-11f0-83d0-1239d0255272",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "uk1.test3.net",
-        "insecure": true,
-        "alpn": []
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "France 🇫🇷",
-      "server": "fr1.test3.net",
-      "server_port": 443,
-      "password": "c35e82a0-5b96-11f0-9338-1239d0255272",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.test3.net",
-        "insecure": true,
-        "alpn": []
-      }
-    }
-  ],
-  "route": {
-    "auto_detect_interface": true,
-    "final": "proxy",
-    "rules": [
-      {
-        "clash_mode": "Direct",
-        "outbound": "direct"
-      },
-      {
-        "clash_mode": "Global",
-        "outbound": "proxy"
-      },
-      {
-        "protocol": "dns",
-        "action": "hijack-dns"
-      }
-    ]
+   }
+  },
+  {
+   "type": "shadowsocks",
+   "tag": "Netherlands 🇳🇱",
+   "server": "am.ssvpnapp.win",
+   "server_port": 57456,
+   "method": "chacha20-ietf-poly1305",
+   "password": "f28dd7b16b77a169"
+  },
+  {
+   "type": "trojan",
+   "tag": "United Kingdom 🇬🇧",
+   "server": "uk1.test3.net",
+   "server_port": 443,
+   "password": "38f42300-5292-11f0-83d0-1239d0255272",
+   "tls": {
+    "enabled": true,
+    "server_name": "uk1.test3.net",
+    "insecure": true
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "France 🇫🇷",
+   "server": "fr1.test3.net",
+   "server_port": 443,
+   "password": "c35e82a0-5b96-11f0-9338-1239d0255272",
+   "tls": {
+    "enabled": true,
+    "server_name": "fr1.test3.net",
+    "insecure": true
+   }
   }
+ ]
 }
-#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
-warp://188.114.96.202:1180?ifp=2-3&ifpm=m4#Download 🎞
+#warp://188.114.96.202:1180?ifp=2-3&ifpm=m5#Download 🎞
 warp://188.114.97.65:5279?ifp=2-3&ifpm=m4#Iran 🇮🇷&&detour=warp://188.114.96.202:1180#Germany 🇩🇪 🇮🇹 Italy
 vless://0a628dd0-8807-43f3-8d69-813d55d1cefe@104.21.4.217:443?encryption=none&security=tls&sni=TiFl9t2F1uFgWt-MJIOIIZtabANt9g-o.sARbZamIN.WorKERs.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=tifl9t2f1ufgwt-mjioiiztabant9g-o.sarbzamin.workers.dev&path=%2FSiVsbM29nxXNgLi4%3Fed%3D2560#Instagram 📱
 trojan://38f42300-5292-11f0-83d0-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
