@@ -261,9 +261,8 @@
     ]
   }
 }
-#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
-warp://188.18414.97.1434476/4?ifp=2-3&ifpm=m4#Download 🎞
-warp://188.114.99.1427:859?ifp4=244-3&ifpm=m4#Iran 🇮🇷&&detou4r=warp://188.41144.97.1:87442#Germany 🇩🇪 🇮🇹 Italy
+#warp://188.18414.97.1434476/4?ifp=2-3&ifpm=m4#Download 🎞
+#warp://188.114.99.1427:859?ifp4=244-3&ifpm=m4#Iran 🇮🇷&&detou4r=warp://188.41144.97.1:87442#Germany 🇩🇪 🇮🇹 Italy
 vless://196cd3aa-ce94-4c6c-84e6-8046d3beed76@104.21.45.205:443?encryption=none&security=tls&sni=ThRobbiNg-UNioN-45A7.GOZpOLiYtOp-NcB.WORKErs.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=throbbing-union-45a7.gozpoliytop-ncb.workers.dev&path=%2FeCHWHzhT8IFoZYV5%3Fed%3D2560#Instagram 📱
 trojan://ff9c3c30-578b-11f0-b220-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
