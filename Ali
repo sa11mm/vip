@@ -5,7 +5,7 @@
  "outbounds": [
   {
     "type": "wireguard",
-    "tag": "Iran 🇮🇷 § 0",
+    "tag": "Iran 🇮🇷",
     "local_address":       [
       "172.16.0.2/24",
       "2606:4700:110:8afd:3701:b2df:71a6:c7c5/128"
@@ -23,8 +23,8 @@
   },
   {
     "type": "wireguard",
-    "tag": "Germany 🇩🇪 🇮🇹 Italy § 1",
-    "detour": "Iran 🇮🇷 § 0",
+    "tag": "Germany 🇩🇪 🇮🇹 Italy",
+    "detour": "Iran 🇮🇷",
     "local_address":       [
       "172.16.0.2/24",
       "2606:4700:110:898b:6020:77a4:4da8:85d2/128"
