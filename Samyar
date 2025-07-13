@@ -4,15 +4,8 @@
 //support-url: https://github.com/hiddify/hiddify-next/releases/download/v2.5.7/Hiddify-Android-arm64.apk
 //profile-web-page-url: https://github.com/hiddify/hiddify-next/releases
 warp://188.114.98.96:939?ifp=2-3&ifpm=m5#Iran 🇮🇷&&detour=warp://188.114.97.137:8742#Germany 🇩🇪 🇮🇹 Italy
-wg://217.23.3.76:51820/?pk=oBjp05gdsaX09Sh2A3F2B1lOGMQzIpDjEz3zoJqe4Fs=&local_address=10.2.0.2/32&peer_pub=vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 1
-wg://138.199.7.159:51820/?pk=8BsWXJIbXsaXW6PIzlAsKGo6i1TQmTlO5fCMkohtJXI=&local_address=10.2.0.2/32&peer_pub=1s5mwMp3fZKNucEO3GeHRSUrhGLu/BYeC0UdusyxSWU=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 12
-wg://93.190.141.58:51820/?pk=YLkeTF0W4xJMumUsFYr7peJH82D4hU71jmxHp0cj9GI%3D&local_address=10.2.0.2%2F32&peer_pub=SPXmLWGJrr%2BNAcIALh7VadGZMqw0GZoceGO4VP2MEQo%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 66
-wg://89.187.180.55:51820/?pk=aNA5/q6YN5dXn1bxWi80VmGKty51wmE2yIGr411wAX8=&local_address=10.2.0.2/32&peer_pub=yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=&ifp=2-3&ifpm=m4#United States 🇺🇸 46
-wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m4#Local 🇮🇷
-#🚀
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Spain 🇪🇸 🚀
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.255.22:990#Puerto 🇵🇷 Rico  🚀
-#Namahdood♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#Netherlands 🇳🇱 ♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt@nl-svc-ol-1.hostik.org:443#Netherlands 🇳🇱 .♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@opfnhwzjzcjzftreqmoi.freesocks.work:443#United States 🇺🇸 ♾️
@@ -38,6 +31,11 @@ trojan://cb8e7070-5cff-11f0-a50b-1239d0255272@usa.test3.net:443?security=tls&typ
 wireguard://YHsRe6Fipzsb8L3oun%2F94XGZLu6UHV66bHcd%2BSJze1c%3D@188.114.97.74:854?wnoise=quic&presharedkey=&address=172.16.0.2%2F32&reserved=19%2C68%2C73&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1&wnoisecount=15&mtu=1280#NKG
 wireguard://6BQxsbsI8%2Bgkw5z0ObvV84dKzeIFTz0SECYZv7dhUEg%3D@188.114.97.66:3138?wnoise=quic&presharedkey=&address=172.16.0.2%2F32&reserved=244%2C229%2C130&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1280#NKG
 #Old
+#wg://217.23.3.76:51820/?pk=oBjp05gdsaX09Sh2A3F2B1lOGMQzIpDjEz3zoJqe4Fs=&local_address=10.2.0.2/32&peer_pub=vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=&ifp=2-3&ifpm=m5#Netherlands 🇳🇱 1
+#wg://138.199.7.159:51820/?pk=8BsWXJIbXsaXW6PIzlAsKGo6i1TQmTlO5fCMkohtJXI=&local_address=10.2.0.2/32&peer_pub=1s5mwMp3fZKNucEO3GeHRSUrhGLu/BYeC0UdusyxSWU=&ifp=2-3&ifpm=m5#Netherlands 🇳🇱 12
+#wg://93.190.141.58:51820/?pk=YLkeTF0W4xJMumUsFYr7peJH82D4hU71jmxHp0cj9GI%3D&local_address=10.2.0.2%2F32&peer_pub=SPXmLWGJrr%2BNAcIALh7VadGZMqw0GZoceGO4VP2MEQo%3D&ifp=2-4&ifpm=m5#Netherlands 🇳🇱 66
+#wg://89.187.180.55:51820/?pk=aNA5/q6YN5dXn1bxWi80VmGKty51wmE2yIGr411wAX8=&local_address=10.2.0.2/32&peer_pub=yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=&ifp=2-3&ifpm=m5#United States 🇺🇸 46
+#wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m5#Local 🇮🇷
 #wg://89.39.107.109:51820/?pk=KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=&local_address=10.2.0.2/32&peer_pub=ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=&ifp=2-3&ifpm=m4#Netherlands 🇳🇱 14
 #wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 16
 #wg://169.150.196.83:51820/?pk=IPETQHOtrYHdrGqu1K3AdBqXH2cJ1IU2EA8U25QqfE0%3D&local_address=10.2.0.2%2F32&peer_pub=622sGL%2BJ3fUvgco2KFrZbhbZF324eTWiRmNhi7JhlXA%3D&ifp=2-4&ifpm=m4#Netherlands 🇳🇱 45
