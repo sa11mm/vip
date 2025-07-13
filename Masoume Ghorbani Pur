@@ -172,8 +172,7 @@
     ]
   }
 }
-#vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid))
-warp://188.114.97.65:5279/?ifp=2-3&ifpm=m4#Download 🎞
+#warp://188.114.97.65:5279/?ifp=2-3&ifpm=m4#Download 🎞
 vless://225f49b7-2e3e-4a47-a658-c4ea20a515de@172.67.186.31:443?encryption=none&security=tls&sni=restlESS-Term-921C.daRtOPlOiG-Hg.WorkErs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=restless-term-921c.dartoploig-hg.workers.dev&path=%2FcAX5XLtUM2xEjhi4%3Fed%3D2560#Instagram 📱
 trojan://3da225c0-526a-11f0-81a0-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
