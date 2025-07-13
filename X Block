@@ -1,22 +1,453 @@
 {
-  "outbounds":   [
+  "dns": {
+    "final": "local-dns",
+    "rules": [
+      {
+        "clash_mode": "Global",
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30"
+        ]
+      },
+      {
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30"
+        ]
+      },
+      {
+        "clash_mode": "Direct",
+        "server": "direct-dns"
+      }
+    ],
+    "servers": [
+      {
+        "address": "tls://208.67.222.123",
+        "address_resolver": "local-dns",
+        "detour": "proxy",
+        "tag": "proxy-dns"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "local-dns"
+      },
+      {
+        "address": "rcode://success",
+        "tag": "block"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "direct-dns"
+      }
+    ],
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
     {
-      "type": "wireguard",
-      "tag": "ftr § 0",
-      "local_address":       [
-        "172.16.0.2/24",
-        "2606:4700:110:819d:65c8:e8dd:2b48:2e67/128"
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
       ],
-      "private_key": "qLiIefTy+l/T8UbC6Lj7BCZOW3oomDabFRISDnHJvH4=",
-      "server": "162.159.192.76",
-      "server_port": 500,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "V2tc",
-      "mtu": 1330,
-      "fake_packets": "40-80",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
-      "fake_packets_mode": "m5"
+      "auto_route": true,
+      "endpoint_independent_nat": false,
+      "mtu": 9000,
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 2080
+        }
+      },
+      "sniff": true,
+      "stack": "system",
+      "strict_route": false,
+      "type": "tun"
+    },
+    {
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "sniff": true,
+      "type": "mixed",
+      "users": []
     }
-  ]
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "Spain 🇪🇸 🚀",
+        "Puerto 🇵🇷 Rico  🚀",
+        "Netherlands 🇳🇱 ♾️ 1",
+        "Netherlands 🇳🇱 ♾️ 2",
+        "United States 🇺🇸 ♾️",
+        "United States 🇺🇸 ♾️ 1",
+        "Azerbaijan 🇦🇿 ♾️",
+        "Germany 🇩🇪 ♾️",
+        "Germany 🇩🇪 ME",
+        "Multi ME",
+        "Multi ME V",
+        "323wl ME",
+        "334wl ME",
+        "335wl ME",
+        "United Kingdom 🇬🇧 H",
+        "France 🇫🇷 H",
+        "Singapore  🇸🇬 1 H",
+        "Singapore  🇸🇬 2 H",
+        "Singapore  🇸🇬 3 H",
+        "Singapore  🇸🇬 Melbi H",
+        "United States 🇺🇸 H",
+        "direct"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "Spain 🇪🇸 🚀",
+        "Puerto 🇵🇷 Rico  🚀",
+        "Netherlands 🇳🇱 ♾️ 1",
+        "Netherlands 🇳🇱 ♾️ 2",
+        "United States 🇺🇸 ♾️",
+        "United States 🇺🇸 ♾️ 1",
+        "Azerbaijan 🇦🇿 ♾️",
+        "Germany 🇩🇪 ♾️",
+        "Germany 🇩🇪 ME",
+        "Multi ME",
+        "Multi ME V",
+        "323wl ME",
+        "334wl ME",
+        "335wl ME",
+        "United Kingdom 🇬🇧 H",
+        "France 🇫🇷 H",
+        "Singapore  🇸🇬 1 H",
+        "Singapore  🇸🇬 2 H",
+        "Singapore  🇸🇬 3 H",
+        "Singapore  🇸🇬 Melbi H",
+        "United States 🇺🇸 H"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Spain 🇪🇸 🚀",
+      "server": "185.47.255.22",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Puerto 🇵🇷 Rico  🚀",
+      "server": "am.ssvpnapp.win",
+      "server_port": 57456,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f28dd7b16b77a169"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Netherlands 🇳🇱 ♾️ 1",
+      "server": "nl-svc-ol-1.hostik.org",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "yODLXVLz2FWNTFeSSng3Fm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Netherlands 🇳🇱 ♾️ 2",
+      "server": "switcher-nick-croquet.freesocks.work",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "2xmOPjxXhp9WYONwFbf87P"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "United States 🇺🇸 ♾️",
+      "server": "opfnhwzjzcjzftreqmoi.freesocks.work",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "eDfN7SODQceIOmIAbtJJtK"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "United States 🇺🇸 ♾️ 1",
+      "server": "hackney-latest-strike.freesocks.work",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "0qGuuxhVJeXeKtBRaKxGSb"
+    },
+    {
+      "type": "vless",
+      "tag": "Azerbaijan 🇦🇿 ♾️",
+      "server": "199.34.228.254",
+      "server_port": 8880,
+      "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
+      "flow": "",
+      "transport": {
+        "path": "/Telegram🇨🇳",
+        "headers": {
+          "Host": "yg.bantony199.top"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Telegram-channel-WangCai2",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Germany 🇩🇪 ♾️",
+      "server": "iran4.v2iran1.tech",
+      "server_port": 33897,
+      "uuid": "ae5b2ee3-c216-4151-8fd3-db44f494e089",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Germany 🇩🇪 ME",
+      "server": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
+      "server_port": 34589,
+      "uuid": "57d7f28a-32d7-458f-a76c-f897d670b864",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Multi ME",
+      "server": "104.21.24.73",
+      "server_port": 443,
+      "uuid": "4491fe3f-e40b-469f-a347-9b34542379fc",
+      "flow": "",
+      "transport": {
+        "path": "/rbqMq363p6FAlvPL?ed=2560",
+        "headers": {
+          "Host": "325wl.cac2s-m.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "325WL.caC2s-M.wORKeRs.dEv",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Multi ME V",
+      "server": "104.21.48.1",
+      "server_port": 443,
+      "uuid": "f2376ead-e3e3-41d7-b8eb-062c27245122",
+      "flow": "",
+      "transport": {
+        "path": "/SDUlLf216m3RWkXs?ed=2560",
+        "headers": {
+          "Host": "de325wl-v.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "DE325wL-v.CAC2s-v.WOrkERs.deV",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "323wl ME",
+      "server": "104.21.32.1",
+      "server_port": 443,
+      "uuid": "718e1ff8-22f5-410a-a6c2-1b931ef0e622",
+      "flow": "",
+      "transport": {
+        "path": "/wBGz5kW0P7ewBx8F?ed=2560",
+        "headers": {
+          "Host": "323wl.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "323wl.Cac2s-v.wOrkERS.dEv",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "334wl ME",
+      "server": "104.21.64.1",
+      "server_port": 443,
+      "uuid": "9ca37d07-3cf0-428c-85e5-fc8ab4aebcde",
+      "flow": "",
+      "transport": {
+        "path": "/iKBvkbgJpTuVm3RE?ed=2560",
+        "headers": {
+          "Host": "334wl.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "334wl.CAc2S-v.WorkERS.dEv",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "335wl ME",
+      "server": "104.21.32.1",
+      "server_port": 443,
+      "uuid": "bb00ca45-c0f9-4d62-aeeb-f38532a8dfea",
+      "flow": "",
+      "transport": {
+        "path": "/343HtJG7mTuaWhW6?ed=2560",
+        "headers": {
+          "Host": "335wl.cac2s-v.workers.dev"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "335Wl.cAc2S-V.WorkERS.Dev",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "United Kingdom 🇬🇧 H",
+      "server": "uk1.test3.net",
+      "server_port": 443,
+      "password": "8a8250d0-5d01-11f0-9cf4-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "uk1.test3.net",
+        "insecure": true,
+        "alpn": []
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "France 🇫🇷 H",
+      "server": "fr1.test3.net",
+      "server_port": 443,
+      "password": "797e9150-5d01-11f0-8cc2-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "fr1.test3.net",
+        "insecure": true,
+        "alpn": []
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Singapore  🇸🇬 1 H",
+      "server": "sg1.6n6.net",
+      "server_port": 443,
+      "password": "8f965460-5cff-11f0-86ed-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "sg1.6n6.net",
+        "insecure": true,
+        "alpn": []
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Singapore  🇸🇬 2 H",
+      "server": "sg2.6n6.net",
+      "server_port": 443,
+      "password": "6b515ac0-5cff-11f0-ae81-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "sg2.6n6.net",
+        "insecure": true,
+        "alpn": []
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Singapore  🇸🇬 3 H",
+      "server": "sg3.6n6.net",
+      "server_port": 443,
+      "password": "a1934650-5cff-11f0-848f-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "sg3.6n6.net",
+        "insecure": true,
+        "alpn": []
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Singapore  🇸🇬 Melbi H",
+      "server": "sg4.6n6.net",
+      "server_port": 443,
+      "password": "440350f0-5cff-11f0-9434-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "sg4.6n6.net",
+        "insecure": true,
+        "alpn": []
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "United States 🇺🇸 H",
+      "server": "usa.test3.net",
+      "server_port": 443,
+      "password": "f0fedd70-5fed-11f0-a7fe-1239d0255272",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "usa.test3.net",
+        "insecure": true,
+        "alpn": []
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "proxy",
+    "rules": [
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "action": "hijack-dns"
+      }
+    ]
+  }
 }
