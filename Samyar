@@ -34,6 +34,9 @@ wireguard://6BQxsbsI8%2Bgkw5z0ObvV84dKzeIFTz0SECYZv7dhUEg%3D@188.114.97.66:3138?
 wireguard://An8eGouaBBac4IVCdyNt4GGixj2mO%2FKNfBtBYCTBI7Y%3D@188.114.98.224:500?wnoise=random&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8697%3A733f%3A16be%3Abbb0%3A347b%2F128&reserved=230%2C224%2C224&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1420#NKG
 #Old
 wg://149.102.244.97:51820/?pk=cLXba9rNgX6oUSrxnuwaQHxTrVblnAimWBePOdV17W0=&local_address=10.2.0.2/32&peer_pub=ScCkMvpikYBB3IFtDJC6Xh59pmq4StGlU/JfvALPxUE=&ifp=2-3&ifpm=m5#Poland 🇵🇱
+wg://149.102.239.225:51820/?pk=5qZc9c0rHEKhBXd+NnQ69AJuYjCKqTjt1hM2+UaZDng=&local_address=10.2.0.2/32&peer_pub=6BpCmF3sWqXrSs27/Y0y/sQINXHZSzRQp+2aDqc3IF8=&ifp=2-3&ifpm=m5#Romania 🇷🇴 1
+wg://149.102.239.225:51820/?pk=5qZc9c0rHEKhBXd+NnQ69AJuYjCKqTjt1hM2+UaZDng=&local_address=10.2.0.2/32&peer_pub=6BpCmF3sWqXrSs27/Y0y/sQINXHZSzRQp+2aDqc3IF8=&ifp=2-3&ifpm=m5#Romania 🇷🇴 1
+
 
 wg://217.23.3.76:51820/?pk=oBjp05gdsaX09Sh2A3F2B1lOGMQzIpDjEz3zoJqe4Fs=&local_address=10.2.0.2/32&peer_pub=vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=&ifp=2-3&ifpm=m5#Netherlands 🇳🇱 1
 wg://138.199.7.159:51820/?pk=8BsWXJIbXsaXW6PIzlAsKGo6i1TQmTlO5fCMkohtJXI=&local_address=10.2.0.2/32&peer_pub=1s5mwMp3fZKNucEO3GeHRSUrhGLu/BYeC0UdusyxSWU=&ifp=2-3&ifpm=m5#Netherlands 🇳🇱 12
