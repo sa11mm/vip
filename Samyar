@@ -32,25 +32,8 @@ trojan://f0fedd70-5fed-11f0-a7fe-1239d0255272@usa.test3.net:443?security=tls&all
 wireguard://YHsRe6Fipzsb8L3oun%2F94XGZLu6UHV66bHcd%2BSJze1c%3D@188.114.97.74:854?wnoise=random&presharedkey=&address=172.16.0.2%2F32&reserved=19%2C68%2C73&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1&wnoisecount=15&mtu=1280#NKG
 wireguard://6BQxsbsI8%2Bgkw5z0ObvV84dKzeIFTz0SECYZv7dhUEg%3D@188.114.97.66:3138?wnoise=random&presharedkey=&address=172.16.0.2%2F32&reserved=244%2C229%2C130&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1280#NKG
 wireguard://An8eGouaBBac4IVCdyNt4GGixj2mO%2FKNfBtBYCTBI7Y%3D@188.114.98.224:500?wnoise=random&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8697%3A733f%3A16be%3Abbb0%3A347b%2F128&reserved=230%2C224%2C224&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1420#NKG
-#Old
-wg://149.102.244.97:51820/?pk=cLXba9rNgX6oUSrxnuwaQHxTrVblnAimWBePOdV17W0=&local_address=10.2.0.2/32&peer_pub=ScCkMvpikYBB3IFtDJC6Xh59pmq4StGlU/JfvALPxUE=&ifp=2-4&ifpm=m5#Poland 🇵🇱
-wg://149.102.239.225:51820/?pk=6BpCmF3sWqXrSs27/Y0y/sQINXHZSzRQp+2aDqc3IF8=&local_address=10.2.0.2/32&peer_pub=5qZc9c0rHEKhBXd+NnQ69AJuYjCKqTjt1hM2+UaZDng=&ifp=2-4&ifpm=m5#Romania 🇷🇴 1
-wg://138.199.53.237:51820/?pk=iBdNd2crnGOoaRfERZAOPzXptDEnGVzuuG3OBxATKmg=&local_address=10.2.0.2/32&peer_pub=jDAyArm/Gg+ONoEfAawsibdNRTTGZcfAvqan+bGD0G8=&ifp=2-4&ifpm=m5#Romania 🇷🇴 5
-wg://138.199.53.242:51820/?pk=mLG1SkvT1fB/NgSi7hg4wGowPWy47hqZxZFWq4/mYWI=&local_address=10.2.0.2/32&peer_pub=+DE6qrCbWBxBY2rkopc+jVUDnQ60VYuTkkV6LM4rcwg=&ifp=2-4&ifpm=m5#Romania 🇷🇴 9
-wg://138.199.53.247:51820/?pk=oPQ9ptQNEEnE34UQ2Uu488gYf3XpkYGffzBtL7bXOGs=&local_address=10.2.0.2/32&peer_pub=boTLZ63WmlbjvVqERmQUfOlgJj51whH7qWLcKynn2gE=&ifp=2-4&ifpm=m5#Romania 🇷🇴 13
-wg://217.23.3.76:51820/?pk=oBjp05gdsaX09Sh2A3F2B1lOGMQzIpDjEz3zoJqe4Fs=&local_address=10.2.0.2/32&peer_pub=vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=&ifp=2-3&ifpm=m5#Netherlands 🇳🇱 1
-wg://138.199.7.159:51820/?pk=8BsWXJIbXsaXW6PIzlAsKGo6i1TQmTlO5fCMkohtJXI=&local_address=10.2.0.2/32&peer_pub=1s5mwMp3fZKNucEO3GeHRSUrhGLu/BYeC0UdusyxSWU=&ifp=2-3&ifpm=m5#Netherlands 🇳🇱 12
-wg://93.190.141.58:51820/?pk=YLkeTF0W4xJMumUsFYr7peJH82D4hU71jmxHp0cj9GI%3D&local_address=10.2.0.2%2F32&peer_pub=SPXmLWGJrr%2BNAcIALh7VadGZMqw0GZoceGO4VP2MEQo%3D&ifp=2-4&ifpm=m5#Netherlands 🇳🇱 66
-wg://89.187.180.55:51820/?pk=aNA5/q6YN5dXn1bxWi80VmGKty51wmE2yIGr411wAX8=&local_address=10.2.0.2/32&peer_pub=yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=&ifp=2-3&ifpm=m5#United States 🇺🇸 46
-wg://89.39.107.109:51820/?pk=KIoQ8wxNvDw7stpBOQYw9EpNPCv2MuEYKBlldBMPXEg=&local_address=10.2.0.2/32&peer_pub=ySR6v9UfcItdDuny/ARauldNXdJFyAzQRcqCLcJTOFE=&ifp=2-3&ifpm=m5#Netherlands 🇳🇱 14
-wg://89.39.107.185:51820/?pk=CGepJklWO%2BtwXXeBhBIEsU0clwJCi7cp14N1Rok6CmM%3D&local_address=10.2.0.2%2F32&peer_pub=IVHJWvZM75yochmMV527KbCxrvyQsNSkWatxvhiE%2BjQ%3D&ifp=2-4&ifpm=m5#Netherlands 🇳🇱 16
-wg://169.150.196.83:51820/?pk=IPETQHOtrYHdrGqu1K3AdBqXH2cJ1IU2EA8U25QqfE0%3D&local_address=10.2.0.2%2F32&peer_pub=622sGL%2BJ3fUvgco2KFrZbhbZF324eTWiRmNhi7JhlXA%3D&ifp=2-4&ifpm=m5#Netherlands 🇳🇱 45
-wg://109.236.81.160:51820/?pk=QPJ7VQHwQSK1ZIgsgu54uo1TpgbvU7BtbpG/Yssx/F0=&local_address=10.2.0.2/32&peer_pub=BUp7VsCOApM6fRW4Ly5HhpVgMKN1zEQmjESpRLasyg0=&ifp=2-3&ifpm=m5#Netherlands 🇳🇱 65
+#Proton
 wg://185.107.56.123:51820/?pk=QOTjtV%2B%2B69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA%3D&local_address=10.2.0.2%2F32&peer_pub=r6LkxFF50EuiKrZgveL2rbGwdwBfA8t1JPreSRfsXVk%3D&ifp=2-4&ifpm=m5#Netherlands 🇳🇱 132
-wg://45.87.213.226:51820/?pk=SJ7NjDYuWkpfR9EPgOpqaOAbu0d17TtIm7YsjQdpFEY%3D&local_address=10.2.0.2%2F32&peer_pub=BbghXRtbSYBJ2Q%2FeMu4JV7u8LKiKDfgybk7IJAO7iAU%3D&ifp=2-4&ifpm=m5#Japan 🇯🇵 16
-wg://149.88.103.48:51820/?pk=wIQ/MvaRM6WkZ1iKADU/cqskx381dkhfULtDWDDFZ24=&local_address=10.2.0.2/32&peer_pub=9Yy7/zeaFvKd/ETcLg0PvsJb5PVMj9dX4Wg7NVNVbCs=&ifp=2-3&ifpm=m5#Japan 🇯🇵 18
-wg://89.187.180.55:51820/?pk=aNA5/q6YN5dXn1bxWi80VmGKty51wmE2yIGr411wAX8=&local_address=10.2.0.2/32&peer_pub=yB6ySO0kjqbgVWanDYKDgWoAMwM3X//nBiKXwaqmiwU=&ifp=2-3&ifpm=m5#United States 🇺🇸 46
-wg://37.19.221.197:51820/?pk=KGUYMBOj8Oa8CwY3e9LdgkBrn6wnB/zZcC8NYs8GgWE=&local_address=10.2.0.2/32&peer_pub=mqoQwexGzvYJ63u35PJukMOleZXRLLkfQKODwm3NPB4=&ifp=2-3&ifpm=m5#United States 🇺🇸 41
 wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m5#Local 🇮🇷
 wg://188.114.96.147:7152/?pk=wwqS%2BTvaTsuNHnfXbOviZbHUl1sPhVTAdgqBNj4%2Favk%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m5#Local 🇮🇷 1
 wg://188.114.97.90:903/?pk=iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280&reserved=107%2C137%2C197&ifp=2-4&ifpm=m5#Local 🇮🇷 2
