@@ -35,7 +35,7 @@ wireguard://An8eGouaBBac4IVCdyNt4GGixj2mO%2FKNfBtBYCTBI7Y%3D@188.114.98.224:500?
 #Old
 wg://149.102.244.97:51820/?pk=cLXba9rNgX6oUSrxnuwaQHxTrVblnAimWBePOdV17W0=&local_address=10.2.0.2/32&peer_pub=ScCkMvpikYBB3IFtDJC6Xh59pmq4StGlU/JfvALPxUE=&ifp=2-3&ifpm=m5#Poland 🇵🇱
 wg://149.102.239.225:51820/?pk=5qZc9c0rHEKhBXd+NnQ69AJuYjCKqTjt1hM2+UaZDng=&local_address=10.2.0.2/32&peer_pub=6BpCmF3sWqXrSs27/Y0y/sQINXHZSzRQp+2aDqc3IF8=&ifp=2-3&ifpm=m5#Romania 🇷🇴 1
-wg://149.102.239.225:51820/?pk=5qZc9c0rHEKhBXd+NnQ69AJuYjCKqTjt1hM2+UaZDng=&local_address=10.2.0.2/32&peer_pub=6BpCmF3sWqXrSs27/Y0y/sQINXHZSzRQp+2aDqc3IF8=&ifp=2-3&ifpm=m5#Romania 🇷🇴 1
+wg://37.19.199.149:51820/?pk=SKDNiqMe7fAr27+OAI15yntxNH1XjjpVcljFnlPSIE4=&local_address=10.2.0.2/32&peer_pub=5PtTH6ccK9HiiZQlmXDWbBBD7Uz4xO2pel3iVwYVwkA=&ifp=2-3&ifpm=m5#United States 🇺🇸 155
 
 
 wg://217.23.3.76:51820/?pk=oBjp05gdsaX09Sh2A3F2B1lOGMQzIpDjEz3zoJqe4Fs=&local_address=10.2.0.2/32&peer_pub=vH2i8RY1qc66XfqwrixBpvH4K9GYJatkugJj0GHgoUQ=&ifp=2-3&ifpm=m5#Netherlands 🇳🇱 1
