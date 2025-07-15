@@ -12,7 +12,7 @@
       "fake_packets": "1-10",
       "fake_packets_size": "10-30",
       "fake_packets_delay": "10-30",
-      "fake_packets_mode": "m4",
+      "fake_packets_mode": "m5",
       "server": "149.102.239.225",
       "server_port": 51820
     },
@@ -28,7 +28,7 @@
       "fake_packets": "1-10",
       "fake_packets_size": "10-30",
       "fake_packets_delay": "10-30",
-      "fake_packets_mode": "m4",
+      "fake_packets_mode": "m5",
       "server": "138.199.53.237",
       "server_port": 51820
     },
@@ -44,7 +44,7 @@
       "fake_packets": "1-10",
       "fake_packets_size": "10-30",
       "fake_packets_delay": "10-30",
-      "fake_packets_mode": "m4",
+      "fake_packets_mode": "m5",
       "server": "149.102.244.97",
       "server_port": 51820
     },
@@ -60,7 +60,7 @@
       "fake_packets": "1-10",
       "fake_packets_size": "10-30",
       "fake_packets_delay": "10-30",
-      "fake_packets_mode": "m4",
+      "fake_packets_mode": "m5",
       "server": "138.199.53.242",
       "server_port": 51820
     },
@@ -76,7 +76,7 @@
       "fake_packets": "1-10",
       "fake_packets_size": "10-30",
       "fake_packets_delay": "10-30",
-      "fake_packets_mode": "m4",
+      "fake_packets_mode": "m5",
       "server": "138.199.53.247",
       "server_port": 51820
     }
