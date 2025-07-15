@@ -33,6 +33,10 @@ Hasan Harsij -1   5 Tir   [xixaga4472]
 https://empty-waterfall-335.harcjipishbiad546-fduf.workers.dev/sub/normal/92c19f9a-d807-4511-a58a-7ab6e9db6a46#Hasan%20Harsij
 https://raw.githubusercontent.com/sa11mm/vip/refs/heads/main/Hasan%20Harsij#Hasan%20Harsij
 
+Mahdiye Abasi
+https://shiny-wave-6b63.ramsarcity.workers.dev/sub/normal/f5b8d90c-221c-4b6c-a98f-9e95208aeca3#Mahdiye%20Abasi
+https://raw.githubusercontent.com/sa11mm/vip/refs/heads/main/Mahdiye%20Abasi#Mahdiye%20Abasi
+
 Soheil N.Z    [Patm046]
 https://1t-k3flizwxsotbp4bpow314s45qm6f8.nowshahr3103.workers.dev/sub/normal/gjKxvgSQ*i7*6Eby#Re1
 
@@ -96,7 +100,7 @@ Hiddify WireGuard
 wg://[server:port]/?pk=[private_key]&local_address=[10.0.0.2/24]&peer_pub=[peer_public_key]&psk=[pre_shared_key]&workers=[workers]&mtu=[mtu]&reserved=[0,0,0]&ifp=1-3&ifpm=m4#
 Nois: &ifp=1-3&ifpm=m4
 
-WireGuard & Warp: m3,4,5 OK
+WireGuard & Warp: m3,4,5 OK ********************************
 Remove: ifps & ifpd
 
 Best: ?ifp=1-3&ifpm=m4 Warp & &ifp=2-4&ifpm=m4 Other Config
