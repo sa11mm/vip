@@ -156,7 +156,7 @@
    },
    "transport": {
     "type": "ws",
-    "path": "/ws/?ed=2048",
+    "path": "/ws",
     "headers": {
      "Host": "de-full.privateip.net"
     },
@@ -185,7 +185,7 @@
    },
    "transport": {
     "type": "ws",
-    "path": "/ws/?ed=2048",
+    "path": "/ws",
     "headers": {
      "Host": "de2-full.privateip.net"
     },
