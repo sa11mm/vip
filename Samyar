@@ -1,6 +1,9 @@
 //profile-title: Samyar
 //profile-update-interval: 3
 //subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1784510000
+warp://@auto?ifp=2-4&ifpm=m3#Auto
+warp://@auto4?ifp=2-4&ifpm=m3#IPv4
+warp://@auto6?ifp=2-4&ifpm=m3#IPv6
 warp://7jylwombew9eiefryx0g:891?ifp=2-3&ifpm=m5#Iran 🇮🇷&&detour=warp://tfoouemdruwq_hnv3aym:4233#Germany 🇩🇪 🇮🇹 Italy
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Spain 🇪🇸 🚀
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.255.22:990#Puerto 🇵🇷 Rico  🚀
