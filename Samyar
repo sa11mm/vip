@@ -1,6 +1,6 @@
 //profile-title: Samyar
 //profile-update-interval: 3
-//subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1784510000
+//subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1784610000
 warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Auto
 warp://@auto4?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv4
 warp://@auto6?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv6
