@@ -1,12 +1,12 @@
 //profile-title: Samyar
 //profile-update-interval: 3
 //subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1784610000
-warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m1#1
-warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m2#2
-warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m3#3
-warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m4#4
-warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#5
-warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=h04FA0A#H
+warp://188.114.99.251:3476?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m1#1
+warp://188.114.98.97:934?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m2#2
+warp://188.114.98.119:8854?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m3#3
+warp://188.114.96.181:4500?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m4#4
+warp://188.114.96.244:939?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#5
+warp://188.114.96.247:7559?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=h04FA0A#H
 warp://@auto4?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv4
 warp://@auto6?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv6
 warp://wireguard.fqdn:51820?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IP
