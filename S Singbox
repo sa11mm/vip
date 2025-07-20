@@ -4,57 +4,8 @@
 {
  "outbounds": [
   {
-   "type": "wireguard",
-   "tag": "Iran 🇮🇷 § 0",
-   "local_address": [
-    "172.16.0.2/24",
-    "2606:4700:110:8d03:72f9:1e26:528e:bcc5/128"
-   ],
-   "private_key": "IJVEOfk0pruS6U1YXWBBtt4T9ODHZovPCXPnyM37Emg=",
-   "server": "188.114.97.101",
-   "server_port": 878,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "C963",
-   "mtu": 1330,
-   "fake_packets": "2-4",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "2-4",
-   "fake_packets_mode": "m5"
-  },
-  {
-   "type": "wireguard",
-   "tag": "Germany 🇩🇪 🇮🇹 Italy § 1",
-   "detour": "Iran 🇮🇷 § 0",
-   "local_address": [
-    "172.16.0.2/24",
-    "2606:4700:110:83bd:ce31:872f:db53:ffe9/128"
-   ],
-   "private_key": "eOnFAcu5ZumOVrWH/EtNk/bMgH4G4zJxGA+l21AcZFc=",
-   "server": "188.114.99.217",
-   "server_port": 7152,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "EGi1",
-   "mtu": 1330
-  },
-  {
    "type": "shadowsocks",
-   "tag": "Spain 🇪🇸 🚀 § 2",
-   "server": "92.38.171.215",
-   "server_port": 31348,
-   "method": "chacha20-ietf-poly1305",
-   "password": "0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "Puerto 🇵🇷 Rico  🚀 § 3",
-   "server": "185.47.255.22",
-   "server_port": 990,
-   "method": "chacha20-ietf-poly1305",
-   "password": "f8f7aCzcPKbsF8p3"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "Netherlands 🇳🇱 ♾️ § 4",
+   "tag": "Netherlands 🇳🇱 ♾️",
    "server": "am.ssvpnapp.win",
    "server_port": 57456,
    "method": "chacha20-ietf-poly1305",
@@ -62,7 +13,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "Netherlands 🇳🇱 ♾️ 1 § 5",
+   "tag": "Netherlands 🇳🇱 ♾️ 1",
    "server": "nl-svc-ol-1.hostik.org",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -70,7 +21,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "Netherlands 🇳🇱 ♾️ 2 § 6",
+   "tag": "Netherlands 🇳🇱 ♾️ 2",
    "server": "switcher-nick-croquet.freesocks.work",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -78,7 +29,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "United States 🇺🇸 ♾️ § 7",
+   "tag": "United States 🇺🇸 ♾️",
    "server": "opfnhwzjzcjzftreqmoi.freesocks.work",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -86,7 +37,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "United States 🇺🇸 ♾️ 1 § 8",
+   "tag": "United States 🇺🇸 ♾️ 1️",
    "server": "hackney-latest-strike.freesocks.work",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -94,50 +45,7 @@
   },
   {
    "type": "vless",
-   "tag": "Azerbaijan 🇦🇿 ♾️ § 9",
-   "server": "199.34.228.254",
-   "server_port": 8880,
-   "uuid": "34c01e61-f4f3-4afb-a83b-406caf8caa33",
-   "transport": {
-    "type": "ws",
-    "path": "/Telegram%F0%9F%87%A8%F0%9F%87%B3",
-    "headers": {
-     "Host": "yg.bantony199.top"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "Germany 🇩🇪 ♾️ § 10",
-   "server": "iran4.v2iran1.tech",
-   "server_port": 33897,
-   "uuid": "ae5b2ee3-c216-4151-8fd3-db44f494e089",
-   "tls": {
-    "enabled": true,
-    "server_name": "zula.ir",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "C-_4LIs9Y8vNluYxcDFbNOWK3jGPyvA-ysj4shWxSGI",
-     "short_id": "13b461bb"
-    }
-   },
-   "transport": {
-    "type": "http",
-    "host": "www.speedtest.net",
-    "path": "/",
-    "method": "GET"
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "vless",
-   "tag": "Germany 🇩🇪 § 11",
+   "tag": "Germany 🇩🇪",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -149,24 +57,19 @@
    "tls": {
     "enabled": true,
     "server_name": "de-full.privateip.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
+    "insecure": true
    },
    "transport": {
     "type": "ws",
     "path": "/ws",
     "headers": {
      "Host": "de-full.privateip.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+    }
+   }
   },
   {
    "type": "vless",
-   "tag": "Germany 🇩🇪 2 § 12",
+   "tag": "Germany 🇩🇪 2",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -178,24 +81,19 @@
    "tls": {
     "enabled": true,
     "server_name": "de2-full.privateip.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
+    "insecure": true
    },
    "transport": {
     "type": "ws",
     "path": "/ws",
     "headers": {
      "Host": "de2-full.privateip.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+    }
+   }
   },
   {
    "type": "vless",
-   "tag": "Netherlands 🇳🇱 2 § 13",
+   "tag": "Netherlands 🇳🇱 2",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -207,24 +105,19 @@
    "tls": {
     "enabled": true,
     "server_name": "nl2-full.privateip.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
+    "insecure": true
    },
    "transport": {
     "type": "ws",
     "path": "/ws",
     "headers": {
      "Host": "nl2-full.privateip.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+    }
+   }
   },
   {
    "type": "vless",
-   "tag": "United Kingdom 🇬🇧 § 14",
+   "tag": "United Kingdom 🇬🇧",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -236,24 +129,19 @@
    "tls": {
     "enabled": true,
     "server_name": "uk-full.privateip.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
+    "insecure": true
    },
    "transport": {
     "type": "ws",
     "path": "/ws",
     "headers": {
      "Host": "uk-full.privateip.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+    }
+   }
   },
   {
    "type": "vless",
-   "tag": "France 🇫🇷 2 § 15",
+   "tag": "France 🇫🇷 2",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -265,24 +153,19 @@
    "tls": {
     "enabled": true,
     "server_name": "fr2-full.privateip.net",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
+    "insecure": true
    },
    "transport": {
     "type": "ws",
     "path": "/ws",
     "headers": {
      "Host": "fr2-full.privateip.net"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+    }
+   }
   },
   {
    "type": "vless",
-   "tag": "Germany 🇩🇪 ME § 16",
+   "tag": "Germany 🇩🇪 ME",
    "server": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
    "server_port": 34589,
    "uuid": "57d7f28a-32d7-458f-a76c-f897d670b864",
@@ -290,21 +173,12 @@
    "tls": {
     "enabled": true,
     "server_name": "www.yahoo.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "UTX5pV7O9JOXIqhW8PIa120AZoDhUQXXRmjMQ6JDIB0",
-     "short_id": "2488b166"
-    }
-   },
-   "packet_encoding": "xudp"
+    "insecure": true
+   }
   },
   {
    "type": "vless",
-   "tag": "Multi ME § 17",
+   "tag": "Multi ME",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -316,25 +190,19 @@
    "tls": {
     "enabled": true,
     "server_name": "325WL.caC2s-M.wORKeRs.dEv",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "randomized"
-    }
+    "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/rbqMq363p6FAlvPL",
+    "path": "/rbqMq363p6FAlvPL?ed=2560",
     "headers": {
      "Host": "325wl.cac2s-m.workers.dev"
-    },
-    "max_early_data": 2560,
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+    }
+   }
   },
   {
    "type": "vless",
-   "tag": "Multi ME V § 18",
+   "tag": "vless-a0411ada",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -346,25 +214,19 @@
    "tls": {
     "enabled": true,
     "server_name": "DE325wL-v.CAC2s-v.WOrkERs.deV",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "randomized"
-    }
+    "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/SDUlLf216m3RWkXs",
+    "path": "/SDUlLf216m3RWkXs?ed=2560",
     "headers": {
      "Host": "de325wl-v.cac2s-v.workers.dev"
-    },
-    "max_early_data": 2560,
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+    }
+   }
   },
   {
    "type": "vless",
-   "tag": "323wl ME § 19",
+   "tag": "vless-f5f70b95",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -376,25 +238,19 @@
    "tls": {
     "enabled": true,
     "server_name": "323wl.Cac2s-v.wOrkERS.dEv",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "randomized"
-    }
+    "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/wBGz5kW0P7ewBx8F",
+    "path": "/wBGz5kW0P7ewBx8F?ed=2560",
     "headers": {
      "Host": "323wl.cac2s-v.workers.dev"
-    },
-    "max_early_data": 2560,
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+    }
+   }
   },
   {
    "type": "vless",
-   "tag": "334wl ME § 20",
+   "tag": "vless-e82719f1",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -406,25 +262,19 @@
    "tls": {
     "enabled": true,
     "server_name": "334wl.CAc2S-v.WorkERS.dEv",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "randomized"
-    }
+    "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/iKBvkbgJpTuVm3RE",
+    "path": "/iKBvkbgJpTuVm3RE?ed=2560",
     "headers": {
      "Host": "334wl.cac2s-v.workers.dev"
-    },
-    "max_early_data": 2560,
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+    }
+   }
   },
   {
    "type": "vless",
-   "tag": "335wl ME § 21",
+   "tag": "vless-218d8fa3",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -436,159 +286,99 @@
    "tls": {
     "enabled": true,
     "server_name": "335Wl.cAc2S-V.WorkERS.Dev",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "randomized"
-    }
+    "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/343HtJG7mTuaWhW6",
+    "path": "/343HtJG7mTuaWhW6?ed=2560",
     "headers": {
      "Host": "335wl.cac2s-v.workers.dev"
-    },
-    "max_early_data": 2560,
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+    }
+   }
   },
   {
    "type": "trojan",
-   "tag": "United Kingdom 🇬🇧 H § 22",
+   "tag": "trojan-e5f4fcc7",
    "server": "uk1.test3.net",
    "server_port": 443,
    "password": "8a8250d0-5d01-11f0-9cf4-1239d0255272",
    "tls": {
     "enabled": true,
-    "disable_sni": true,
+    "server_name": "uk1.test3.net",
     "insecure": true
    }
   },
   {
    "type": "trojan",
-   "tag": "France 🇫🇷 H § 23",
+   "tag": "trojan-aa1a2fed",
    "server": "fr1.test3.net",
    "server_port": 443,
    "password": "797e9150-5d01-11f0-8cc2-1239d0255272",
    "tls": {
     "enabled": true,
-    "disable_sni": true,
+    "server_name": "fr1.test3.net",
     "insecure": true
    }
   },
   {
    "type": "trojan",
-   "tag": "Singapore  🇸🇬 1 H § 24",
+   "tag": "trojan-6ba3b934",
    "server": "sg1.6n6.net",
    "server_port": 443,
    "password": "8f965460-5cff-11f0-86ed-1239d0255272",
    "tls": {
     "enabled": true,
-    "disable_sni": true,
+    "server_name": "sg1.6n6.net",
     "insecure": true
    }
   },
   {
    "type": "trojan",
-   "tag": "Singapore  🇸🇬 2 H § 25",
+   "tag": "trojan-782962f9",
    "server": "sg2.6n6.net",
    "server_port": 443,
    "password": "6b515ac0-5cff-11f0-ae81-1239d0255272",
    "tls": {
     "enabled": true,
-    "disable_sni": true,
+    "server_name": "sg2.6n6.net",
     "insecure": true
    }
   },
   {
    "type": "trojan",
-   "tag": "Singapore  🇸🇬 3 H § 26",
+   "tag": "trojan-c87ad290",
    "server": "sg3.6n6.net",
    "server_port": 443,
    "password": "a1934650-5cff-11f0-848f-1239d0255272",
    "tls": {
     "enabled": true,
-    "disable_sni": true,
+    "server_name": "sg3.6n6.net",
     "insecure": true
    }
   },
   {
    "type": "trojan",
-   "tag": "Singapore  🇸🇬 Melbi H § 27",
+   "tag": "trojan-79f18a45",
    "server": "sg4.6n6.net",
    "server_port": 443,
    "password": "440350f0-5cff-11f0-9434-1239d0255272",
    "tls": {
     "enabled": true,
-    "disable_sni": true,
+    "server_name": "sg4.6n6.net",
     "insecure": true
    }
   },
   {
    "type": "trojan",
-   "tag": "United States 🇺🇸 H § 28",
+   "tag": "trojan-ecd4f37d",
    "server": "usa.test3.net",
    "server_port": 443,
    "password": "f0fedd70-5fed-11f0-a7fe-1239d0255272",
    "tls": {
     "enabled": true,
-    "disable_sni": true,
+    "server_name": "usa.test3.net",
     "insecure": true
    }
-  },
-  {
-   "type": "wireguard",
-   "tag": "Netherlands 🇳🇱 132 § 29",
-   "local_address": "10.2.0.2/32",
-   "private_key": "QOTjtV++69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA=",
-   "server": "185.107.56.123",
-   "server_port": 51820,
-   "peer_public_key": "r6LkxFF50EuiKrZgveL2rbGwdwBfA8t1JPreSRfsXVk=",
-   "fake_packets": "2-4",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "2-4",
-   "fake_packets_mode": "m5"
-  },
-  {
-   "type": "wireguard",
-   "tag": "Local 🇮🇷 § 30",
-   "local_address": "172.16.0.2/32",
-   "private_key": "0Pwd5AFXo5fLbrRAw/3vL4h6P1mMxmKno9Cva4K7c00=",
-   "server": "188.114.96.67",
-   "server_port": 1014,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "fake_packets": "2-4",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "2-4",
-   "fake_packets_mode": "m5"
-  },
-  {
-   "type": "wireguard",
-   "tag": "Local 🇮🇷 1 § 31",
-   "local_address": "172.16.0.2/32",
-   "private_key": "wwqS+TvaTsuNHnfXbOviZbHUl1sPhVTAdgqBNj4/avk=",
-   "server": "188.114.96.147",
-   "server_port": 7152,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "fake_packets": "2-4",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "2-4",
-   "fake_packets_mode": "m5"
-  },
-  {
-   "type": "wireguard",
-   "tag": "Local 🇮🇷 2 § 32",
-   "local_address": "172.16.0.2/32",
-   "private_key": "iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08=",
-   "server": "188.114.97.90",
-   "server_port": 903,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "a4nF",
-   "mtu": 1280,
-   "fake_packets": "2-4",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "2-4",
-   "fake_packets_mode": "m5"
   }
  ]
 }
