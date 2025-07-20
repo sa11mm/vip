@@ -12,7 +12,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyeG1PUGp4WGhwOVdZT053RmJmODdQ@switcher-nick-
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@opfnhwzjzcjzftreqmoi.freesocks.work:443#United States 🇺🇸 ♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowcUd1dXhoVkplWGVLdEJSYUt4R1Ni@hackney-latest-strike.freesocks.work:443#United States 🇺🇸 ♾️ 1️
 #Race VPN
-vless://d1304c11-d54d-4544-9e5d-da19d7d11b3f@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=de-full.privateip.net&type=ws&sni=de-full.privateip.net#Germany 🇩🇪
 vless://a35d4915-6c32-4950-a968-fb8f86b00dbc@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=de2-full.privateip.net&type=ws&sni=de2-full.privateip.net#Germany 🇩🇪 2
 vless://ba8a679a-e76c-42eb-b22c-1650c9723f8d@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=nl2-full.privateip.net&type=ws&sni=nl2-full.privateip.net#Netherlands 🇳🇱 2
 vless://d69e889e-e685-4cd7-b348-5b3b1f9282a2@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=uk-full.privateip.net&type=ws&sni=uk-full.privateip.net#United Kingdom 🇬🇧
@@ -21,10 +20,7 @@ vless://d933b36e-abe4-4694-8118-8cbd7a0296c9@172.66.168.214:443?path=%2Fws&secur
 vless://344d2a5d-d0bf-41b0-8ec0-575371abbd19@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=ca-full.privateip.net&type=ws&sni=ca-full.privateip.net#Canada 🇨🇦
 vless://48cae1f8-87f9-4553-aa68-ac5c58175c3d@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=es-full.privateip.net&type=ws&sni=es-full.privateip.net#Spain 🇪🇸
 vless://3c48608d-4470-4786-95aa-98c1542b4468@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=sg2-full.privateip.net&type=ws&sni=sg2-full.privateip.net#Singapore 🇸🇬 2
-vless://10a3530f-0dfc-4c09-87a6-511aad948cae@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=us-full.privateip.net&type=ws&sni=us-full.privateip.net#United States 🇺🇸
-vless://3a08b8e3-ea4a-42e2-ba4b-50caaa42c1e6@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=sg-full.privateip.net&type=ws&sni=sg-full.privateip.net#Singapore 🇸🇬
 vless://8de686ed-4e2e-46c5-b3b0-380a79d4f6fe@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=au-full.privateip.net&type=ws&sni=au-full.privateip.net#Australia 🇦🇺
-vless://106ec985-43f9-4999-b975-adcab5c57b5a@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=uk2-full.privateip.net&type=ws&sni=uk2-full.privateip.net#United Kingdom 🇬🇧 2
 #Panel Claw Germany
 vless://57d7f28a-32d7-458f-a76c-f897d670b864@jfnbhbewmujo.eu-central-1.clawcloudrun.com:34589?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=UTX5pV7O9JOXIqhW8PIa120AZoDhUQXXRmjMQ6JDIB0&sid=2488b166&type=tcp&headerType=none#Germany 🇩🇪 ME
 #Panel BPB Multi
