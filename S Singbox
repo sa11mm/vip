@@ -329,7 +329,64 @@
      "Host": "fr2-full.privateip.net"
     }
    }
-  },
+  },    {
+      "type": "vless",
+      "tag": "Poland § 0",
+      "tls_fragment":       {
+        "enabled": true,
+        "size": "6-9",
+        "sleep": "1-2"
+      },
+      "server": "172.66.168.214",
+      "server_port": 443,
+      "uuid": "d933b36e-abe4-4694-8118-8cbd7a0296c9",
+      "tls":       {
+        "enabled": true,
+        "server_name": "pl-full.privateip.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "headers":         {
+          "Host": "pl-full.privateip.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Canada 🇨🇦 § 1",
+      "tls_fragment":       {
+        "enabled": true,
+        "size": "6-9",
+        "sleep": "1-2"
+      },
+      "server": "172.66.168.214",
+      "server_port": 443,
+      "uuid": "344d2a5d-d0bf-41b0-8ec0-575371abbd19",
+      "tls":       {
+        "enabled": true,
+        "server_name": "ca-full.privateip.net",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/ws",
+        "headers":         {
+          "Host": "ca-full.privateip.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    }
     {
       "type": "vless",
       "tag": "Germany 🇩🇪 ME",
