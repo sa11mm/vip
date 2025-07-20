@@ -211,7 +211,7 @@
   },
   {
    "type": "trojan",
-   "tag": "trojan-e5f4fcc7",
+   "tag": "United Kingdom 🇬🇧 H",
    "server": "uk1.test3.net",
    "server_port": 443,
    "password": "8a8250d0-5d01-11f0-9cf4-1239d0255272",
@@ -223,7 +223,7 @@
   },
   {
    "type": "trojan",
-   "tag": "trojan-aa1a2fed",
+   "tag": "France 🇫🇷 H",
    "server": "fr1.test3.net",
    "server_port": 443,
    "password": "797e9150-5d01-11f0-8cc2-1239d0255272",
@@ -235,7 +235,7 @@
   },
   {
    "type": "trojan",
-   "tag": "trojan-6ba3b934",
+   "tag": "Singapore  🇸🇬 1 H",
    "server": "sg1.6n6.net",
    "server_port": 443,
    "password": "8f965460-5cff-11f0-86ed-1239d0255272",
@@ -247,7 +247,7 @@
   },
   {
    "type": "trojan",
-   "tag": "trojan-782962f9",
+   "tag": "Singapore  🇸🇬 2 H",
    "server": "sg2.6n6.net",
    "server_port": 443,
    "password": "6b515ac0-5cff-11f0-ae81-1239d0255272",
@@ -259,7 +259,7 @@
   },
   {
    "type": "trojan",
-   "tag": "trojan-c87ad290",
+   "tag": "Singapore  🇸🇬 3 H",
    "server": "sg3.6n6.net",
    "server_port": 443,
    "password": "a1934650-5cff-11f0-848f-1239d0255272",
@@ -271,7 +271,7 @@
   },
   {
    "type": "trojan",
-   "tag": "trojan-79f18a45",
+   "tag": "Singapore  🇸🇬 Melbi H",
    "server": "sg4.6n6.net",
    "server_port": 443,
    "password": "440350f0-5cff-11f0-9434-1239d0255272",
@@ -283,7 +283,7 @@
   },
   {
    "type": "trojan",
-   "tag": "trojan-ecd4f37d",
+   "tag": "United States 🇺🇸 H",
    "server": "usa.test3.net",
    "server_port": 443,
    "password": "f0fedd70-5fed-11f0-a7fe-1239d0255272",
