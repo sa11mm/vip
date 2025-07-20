@@ -1,7 +1,12 @@
 //profile-title: Samyar
 //profile-update-interval: 3
 //subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1784610000
-warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Auto
+warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m1#1
+warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m2#2
+warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m3#3
+warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m4#4
+warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#5
+warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=h04FA0A#H
 warp://@auto4?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv4
 warp://@auto6?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv6
 warp://wireguard.fqdn:51820?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IP
@@ -42,7 +47,7 @@ wireguard://YHsRe6Fipzsb8L3oun%2F94XGZLu6UHV66bHcd%2BSJze1c%3D@188.114.97.74:854
 wireguard://6BQxsbsI8%2Bgkw5z0ObvV84dKzeIFTz0SECYZv7dhUEg%3D@188.114.97.66:3138?wnoise=random&presharedkey=&address=172.16.0.2%2F32&reserved=244%2C229%2C130&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1280#NKG
 wireguard://An8eGouaBBac4IVCdyNt4GGixj2mO%2FKNfBtBYCTBI7Y%3D@188.114.98.224:500?wnoise=random&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8697%3A733f%3A16be%3Abbb0%3A347b%2F128&reserved=230%2C224%2C224&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1420#NKG
 #Proton
-wg://185.107.56.123:51820/?pk=QOTjtV%2B%2B69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA%3D&local_address=10.2.0.2%2F32&peer_pub=r6LkxFF50EuiKrZgveL2rbGwdwBfA8t1JPreSRfsXVk%3D&ifp=2-4&ifpm=m5#Netherlands 🇳🇱 132
-wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m5#Local 🇮🇷
-wg://188.114.96.147:7152/?pk=wwqS%2BTvaTsuNHnfXbOviZbHUl1sPhVTAdgqBNj4%2Favk%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifpm=m5#Local 🇮🇷 1
-wg://188.114.97.90:903/?pk=iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280&reserved=107%2C137%2C197&ifp=2-4&ifpm=m5#Local 🇮🇷 2
+wg://185.107.56.123:51820/?pk=QOTjtV%2B%2B69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA%3D&local_address=10.2.0.2%2F32&peer_pub=r6LkxFF50EuiKrZgveL2rbGwdwBfA8t1JPreSRfsXVk%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Netherlands 🇳🇱 132
+wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Local 🇮🇷
+wg://188.114.96.147:7152/?pk=wwqS%2BTvaTsuNHnfXbOviZbHUl1sPhVTAdgqBNj4%2Favk%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Local 🇮🇷 1
+wg://188.114.97.90:903/?pk=iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280&reserved=107%2C137%2C197&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Local 🇮🇷 2
