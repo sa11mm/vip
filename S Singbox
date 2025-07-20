@@ -119,7 +119,7 @@
     "2606:4700:110:8d50:b5be:ce9:1e13:272b/128"
    ],
    "private_key": "oC/K6ffVvdvHbs4IT4k0cn2jU8uGfufj9CpjGyStwm0=",
-   "server": "75_zn83el4lykzaxipjd",
+   "server": "ag9flss0dusxlc7vqsxk",
    "server_port": 51820,
    "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
    "reserved": "YCn4",
@@ -388,35 +388,35 @@
    },
    "packet_encoding": "xudp"
   },
-    {
-      "type": "vless",
-      "tag": "Spain 🇪🇸",
-      "tls_fragment":       {
-        "enabled": true,
-        "size": "6-9",
-        "sleep": "1-2"
-      },
-      "server": "172.66.168.214",
-      "server_port": 443,
-      "uuid": "48cae1f8-87f9-4553-aa68-ac5c58175c3d",
-      "tls":       {
-        "enabled": true,
-        "server_name": "es-full.privateip.net",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/ws",
-        "headers":         {
-          "Host": "es-full.privateip.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+  {
+   "type": "vless",
+   "tag": "Spain 🇪🇸",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "6-9",
+    "sleep": "1-2"
+   },
+   "server": "172.66.168.214",
+   "server_port": 443,
+   "uuid": "48cae1f8-87f9-4553-aa68-ac5c58175c3d",
+   "tls": {
+    "enabled": true,
+    "server_name": "es-full.privateip.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/ws",
+    "headers": {
+     "Host": "es-full.privateip.net"
     },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
   {
    "type": "vless",
    "tag": "Germany 🇩🇪 ME",
