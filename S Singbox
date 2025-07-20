@@ -329,9 +329,10 @@
      "Host": "fr2-full.privateip.net"
     }
    }
-  },    {
+  },
+    {
       "type": "vless",
-      "tag": "Poland § 0",
+      "tag": "Poland 🇵🇱",
       "tls_fragment":       {
         "enabled": true,
         "size": "6-9",
@@ -360,7 +361,7 @@
     },
     {
       "type": "vless",
-      "tag": "Canada 🇨🇦 § 1",
+      "tag": "Canada 🇨🇦",
       "tls_fragment":       {
         "enabled": true,
         "size": "6-9",
@@ -386,7 +387,7 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
-    }
+    },
     {
       "type": "vless",
       "tag": "Germany 🇩🇪 ME",
