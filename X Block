@@ -6,3 +6,4 @@ warp://188.114.98.97:934?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m2#vgthnjiik
 #warp://188.114.96.247:7559?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=h04FA0A#H
 #warp://@auto4?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv4
 #warp://@auto6?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv6
+#warp://wireguard.fqdn:51820?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IP
