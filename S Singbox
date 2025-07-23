@@ -471,28 +471,35 @@
    },
    "packet_encoding": "xudp"
   },
-  {
-   "type": "vless",
-   "tag": "Germany 🇩🇪 ME",
-   "server": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
-   "server_port": 34589,
-   "uuid": "57d7f28a-32d7-458f-a76c-f897d670b864",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "www.yahoo.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
+    {
+      "type": "vless",
+      "tag": "Germany 🇩🇪 ME § 20",
+      "tls_fragment":       {
+        "enabled": true,
+        "size": "6-9",
+        "sleep": "1-2"
+      },
+      "server": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
+      "server_port": 443,
+      "uuid": "57d7f28a-32d7-458f-a76c-f897d670b864",
+      "tls":       {
+        "enabled": true,
+        "server_name": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "jfnbhbewmujo.eu-central-1.clawcloudrun.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
-    "reality": {
-     "enabled": true,
-     "public_key": "UTX5pV7O9JOXIqhW8PIa120AZoDhUQXXRmjMQ6JDIB0",
-     "short_id": "2488b166"
-    }
-   },
-   "packet_encoding": "xudp"
-  },
   {
    "type": "vless",
    "tag": "Multi ME",
