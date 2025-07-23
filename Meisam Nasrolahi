@@ -42,7 +42,7 @@
   },
     {
       "type": "vless",
-      "tag": "Germany 🇩🇪 § 0",
+      "tag": "Germany 🇩🇪",
       "server": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
       "server_port": 443,
       "uuid": "57d7f28a-32d7-458f-a76c-f897d670b864",
