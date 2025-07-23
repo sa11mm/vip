@@ -23,6 +23,11 @@ vless://3c48608d-4470-4786-95aa-98c1542b4468@172.66.168.214:443?path=%2Fws&secur
 vless://8de686ed-4e2e-46c5-b3b0-380a79d4f6fe@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=au-full.privateip.net&type=ws&sni=au-full.privateip.net#Australia 🇦🇺
 #Panel Claw Germany
 vless://57d7f28a-32d7-458f-a76c-f897d670b864@jfnbhbewmujo.eu-central-1.clawcloudrun.com:443?encryption=none&security=tls&sni=jfnbhbewmujo.eu-central-1.clawcloudrun.com&fp=chrome&type=ws&host=jfnbhbewmujo.eu-central-1.clawcloudrun.com&path=%2F#Germany 🇩🇪 ME
+#Fine VPN
+vless://c48d434d-5491-73b3-8743-5415014304f1@146.19.90.2:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&pbk=oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko#United States 🇺🇸
+vless://c48d434d-5491-73b3-8743-5415014304f1@213.232.120.2:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&pbk=6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA#Finland 🇫🇮
+vless://c48d434d-5491-73b3-8743-5415014304f1@5.181.171.2:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&pbk=YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y#United States 🇺🇸
+vless://c48d434d-5491-73b3-8743-5415014304f1@103.175.79.2:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI#United States 🇺🇸
 #Panel BPB Multi
 vless://4491fe3f-e40b-469f-a347-9b34542379fc@104.21.24.73:443?encryption=none&security=tls&sni=325WL.caC2s-M.wORKeRs.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=325wl.cac2s-m.workers.dev&path=%2FrbqMq363p6FAlvPL%3Fed%3D2560#Multi ME
 #vless://f2376ead-e3e3-41d7-b8eb-062c27245122@104.21.48.1:443?encryption=none&security=tls&sni=DE325wL-v.CAC2s-v.WOrkERs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=de325wl-v.cac2s-v.workers.dev&path=%2FSDUlLf216m3RWkXs%3Fed%3D2560#Multi ME V
