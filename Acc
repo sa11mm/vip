@@ -114,12 +114,18 @@ warp://[2606:4700:d1::b3ac:6d8b:4843:9052]:5279/?ifp=1-3&ifpm=m4#
 {
   "region": "ir",
   "remote-dns-address": "https://8.8.8.8/dns-query",
-  "enable-fake-dns": false,
+  "enable-fake-dns": true,
   "tls-tricks": {
     "enable-fragment": true,
-    "fragment-size": "100-200",
-    "fragment-sleep": "1-1"
+    "fragment-size": "6-9",
+    "fragment-sleep": "1-2"
   }
+}
+--------------------------
+{
+  "region": "ir",
+  "remote-dns-address": "https://8.8.8.8/dns-query",
+  "enable-fake-dns": true
 }
 --------------------------
 Fragment On Config
