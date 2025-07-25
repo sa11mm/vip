@@ -3,7 +3,7 @@
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1753410000
 {
  "outbounds": [
-#  {
+  {
    "type": "wireguard",
    "tag": "Download 🎞",
    "local_address":       [
@@ -21,7 +21,7 @@
    "fake_packets_delay": "10-30",
    "fake_packets_mode": "m5"
   },
-#  {
+  {
    "type": "vless",
    "tag": "Instagram 📱",
    "server": "104.21.48.1",
