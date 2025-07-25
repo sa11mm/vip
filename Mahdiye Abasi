@@ -5,7 +5,7 @@
  "outbounds": [
   {
    "type": "vless",
-   "tag": "🕑زمان شما تمام شد § 0",
+   "tag": "🕑زمان شما تمام شد",
    "server": "***",
    "server_port": 0,
    "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
