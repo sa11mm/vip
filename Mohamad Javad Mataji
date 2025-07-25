@@ -4,6 +4,25 @@
 {
  "outbounds": [
   {
+   "type": "vless",
+   "tag": "🕑زمان شما تمام شد",
+   "server": "***",
+   "server_port": 0,
+   "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+   "packet_encoding": "xudp"
+  }
+ ]
+}
+#warp://188.114.98.81:891?ifp=2-3&ifpm=m5#Download 🎞
+#vless://155d4e01-d412-4502-a3f1-410bffed793f@104.21.96.1:443?encryption=none&security=tls&sni=littlE-breEZE-3B8f.fGhtpolp-RYu9B5.WorKers.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=little-breeze-3b8f.fghtpolp-ryu9b5.workers.dev&path=%2FQRh9R06EnWlU2I5E%3Fed%3D2560#Instagram 📱
+#trojan://fa86d0d0-526c-11f0-a19f-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
+#trojan://2bc86eb0-5b93-11f0-8b33-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
+vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
+{
+ "outbounds": [
+  {
    "type": "wireguard",
    "tag": "Download 🎞",
    "local_address":       [
@@ -54,10 +73,3 @@
   }
  ]
 }
-#warp://188.114.98.81:891?ifp=2-3&ifpm=m5#Download 🎞
-vless://155d4e01-d412-4502-a3f1-410bffed793f@104.21.96.1:443?encryption=none&security=tls&sni=littlE-breEZE-3B8f.fGhtpolp-RYu9B5.WorKers.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=little-breeze-3b8f.fghtpolp-ryu9b5.workers.dev&path=%2FQRh9R06EnWlU2I5E%3Fed%3D2560#Instagram 📱
-trojan://fa86d0d0-526c-11f0-a19f-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-#trojan://2bc86eb0-5b93-11f0-8b33-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
