@@ -22,7 +22,7 @@
    "fake_packets_mode": "m5"
   },
   {
-   #"type": "vless",
+   "type": "vless",
    "tag": "Instagram 📱",
    "server": "104.21.48.1",
    "server_port": 443,
@@ -47,7 +47,7 @@
    "packet_encoding": "xudp"
   },
   {
-   #"type": "vless",
+   "type": "vless",
    "tag": "💰 -1",
    "server": "***",
    "server_port": 0,
@@ -55,7 +55,7 @@
    "packet_encoding": "xudp"
   },
   {
-   #"type": "vless",
+   "type": "vless",
    "tag": "🔚حجم شما تمام شد",
    "server": "***",
    "server_port": 0,
