@@ -21,7 +21,7 @@
    "fake_packets_delay": "10-30",
    "fake_packets_mode": "m5"
   },
-  {
+#  {
    "type": "vless",
    "tag": "Instagram 📱",
    "server": "104.21.48.1",
@@ -46,7 +46,7 @@
    },
    "packet_encoding": "xudp"
   },
-  {
+#  {
    "type": "vless",
    "tag": "💰 -1",
    "server": "***",
@@ -54,7 +54,7 @@
    "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
    "packet_encoding": "xudp"
   },
-  {
+#  {
    "type": "vless",
    "tag": "🔚حجم شما تمام شد",
    "server": "***",
