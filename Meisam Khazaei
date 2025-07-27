@@ -21,31 +21,23 @@
    "fake_packets_delay": "10-30",
    "fake_packets_mode": "m5"
   },
-  {
-   "type": "vless",
-   "tag": "Instagram 📱",
-   "server": "104.21.48.1",
-   "server_port": 443,
-   "uuid": "20f129f4-5c9e-426b-a315-82248fb49055",
-   "tls": {
-    "enabled": true,
-    "server_name": "3O2bOF3zXL2cWoS3gRdS1ntVZE4503pq.RAMSARCItY.WoRkErs.deV",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "randomized"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/wUKbcKjA7Y24JeWk",
-    "headers": {
-     "Host": "3o2bof3zxl2cwos3grds1ntvze4503pq.ramsarcity.workers.dev"
-    },
-    "max_early_data": 2560,
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  }
+    {
+      "type": "vless",
+      "tag": "vless-d7f894bf",
+      "server": "104.21.48.1",
+      "server_port": 443,
+      "uuid": "20f129f4-5c9e-426b-a315-82248fb49055",
+      "tls":       {
+        "enabled": true,
+        "server_name": "3O2bOF3zXL2cWoS3gRdS1ntVZE4503pq.RAMSARCItY.WoRkErs.deV",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/wUKbcKjA7Y24JeWk?ed=2560",
+        "headers":         {
+          "Host": "3o2bof3zxl2cwos3grds1ntvze4503pq.ramsarcity.workers.dev"
+        }
  ]
 }
 #warp://188.114.96.57:3476?ifp=2-3&ifpm=m5#Download 🎞
