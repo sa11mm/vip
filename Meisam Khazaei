@@ -5,7 +5,7 @@
  "outbounds": [
   {
    "type": "wireguard",
-   "tag": "Download 🎞 § 0",
+   "tag": "Download 🎞",
    "local_address": [
     "172.16.0.2/24",
     "2606:4700:110:81cb:6e32:e6e9:cdd5:a4a2/128"
@@ -23,7 +23,7 @@
   },
   {
    "type": "vless",
-   "tag": "Instagram 📱 § 1",
+   "tag": "Instagram 📱",
    "server": "104.21.48.1",
    "server_port": 443,
    "uuid": "20f129f4-5c9e-426b-a315-82248fb49055",
