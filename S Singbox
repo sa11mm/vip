@@ -500,6 +500,90 @@
    },
    "packet_encoding": "xudp"
   },
+    {
+      "type": "vless",
+      "tag": "United States 🇺🇸 § 21",
+      "server": "146.19.90.2",
+      "server_port": 443,
+      "uuid": "c48d434d-5491-73b3-8743-5415014304f1",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Finland 🇫🇮 § 22",
+      "server": "213.232.120.2",
+      "server_port": 443,
+      "uuid": "c48d434d-5491-73b3-8743-5415014304f1",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "United States 🇺🇸 § 23",
+      "server": "5.181.171.2",
+      "server_port": 443,
+      "uuid": "c48d434d-5491-73b3-8743-5415014304f1",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "United States 🇺🇸 § 24",
+      "server": "103.175.79.2",
+      "server_port": 443,
+      "uuid": "c48d434d-5491-73b3-8743-5415014304f1",
+      "flow": "xtls-rprx-vision",
+      "tls":       {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality":         {
+          "enabled": true,
+          "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
   {
    "type": "vless",
    "tag": "Multi ME",
