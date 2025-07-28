@@ -249,7 +249,7 @@
    },
    "server": "172.66.168.214",
    "server_port": 443,
-   "uuid": "ba8a679a-e76c-42eb-b22c-1650c9723f8d",
+   "uuid": "060e9cb3-7f69-4a2d-9ef7-b9b5e1c1e43e",
    "tls": {
     "enabled": true,
     "server_name": "nl2-full.privateip.net",
