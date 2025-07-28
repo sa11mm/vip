@@ -6,9 +6,9 @@
   {
    "type": "wireguard",
    "tag": "Download 🎞",
-   "local_address":       [
-     "172.16.0.2/24",
-     "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
+   "local_address": [
+    "172.16.0.2/24",
+    "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
    ],
    "private_key": "kPJSOoq8AKzw/UvbLWfGpC+MD4rC9ZDV0zin9aom6HE=",
    "server": "188.114.98.164",
@@ -40,30 +40,30 @@
     }
    }
   },
-    {
-      "type": "vless",
-      "tag": "Germany 🇩🇪",
-      "server": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
-      "server_port": 443,
-      "uuid": "57d7f28a-32d7-458f-a76c-f897d670b864",
-      "tls":       {
-        "enabled": true,
-        "server_name": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "jfnbhbewmujo.eu-central-1.clawcloudrun.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+  {
+   "type": "vless",
+   "tag": "Germany 🇩🇪",
+   "server": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
+   "server_port": 443,
+   "uuid": "57d7f28a-32d7-458f-a76c-f897d670b864",
+   "tls": {
+    "enabled": true,
+    "server_name": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "jfnbhbewmujo.eu-central-1.clawcloudrun.com"
     },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
   {
    "type": "trojan",
    "tag": "United Kingdom 🇬🇧",
