@@ -11,8 +11,8 @@
         "2606:4700:110:866f:157b:8955:ec5a:3fd6/128"
       ],
       "private_key": "YA3zJq6YxJ5Hx2TIDvkEI/LQ6vQfSsR3k1Hhp+aV3VU=",
-      "server": "mbz_tmivs6pbdy6ihukh",
-      "server_port": 1701,
+      "server": "8.6.112.137",
+      "server_port": 7152,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "G59X",
       "mtu": 1330,
@@ -66,7 +66,7 @@
   }
  ]
 }
-#warp://188.114.96.57:3476?ifp=2-3&ifpm=m5#Download 🎞
+#warp://8.6.112.137:7152?ifp=2-3&ifpm=m5#Download 🎞
 vless://5ec94305-c8ef-4d53-b155-1b8dacd45e89@104.21.16.1:443?encryption=none&security=tls&sni=FHv-qlblJNN1UBp2xeeRYsXYzgtWHk3Q.HUHVfTiOpoil.worKeRS.DEV&alpn=http%2F1.1&fp=randomized&type=ws&host=fhv-qlbljnn1ubp2xeerysxyzgtwhk3q.huhvftiopoil.workers.dev&path=%2FGpHek0y5uTxz2WJw%3Fed%3D2560#Instagram 📱
 trojan://738fe050-5265-11f0-94b7-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
