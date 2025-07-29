@@ -40,30 +40,30 @@
     }
    }
   },
-    {
-      "type": "vless",
-      "tag": "Germany 🇩🇪 § 1",
-      "server": "zewduaexcojt.eu-central-1.clawcloudrun.com",
-      "server_port": 443,
-      "uuid": "ec0da48f-030a-4a64-89aa-d2b837994119",
-      "tls":       {
-        "enabled": true,
-        "server_name": "zewduaexcojt.eu-central-1.clawcloudrun.com",
-        "utls":         {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/",
-        "headers":         {
-          "Host": "zewduaexcojt.eu-central-1.clawcloudrun.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+  {
+   "type": "vless",
+   "tag": "Germany 🇩🇪 § 1",
+   "server": "zewduaexcojt.eu-central-1.clawcloudrun.com",
+   "server_port": 443,
+   "uuid": "ec0da48f-030a-4a64-89aa-d2b837994119",
+   "tls": {
+    "enabled": true,
+    "server_name": "zewduaexcojt.eu-central-1.clawcloudrun.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "zewduaexcojt.eu-central-1.clawcloudrun.com"
     },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
   {
    "type": "trojan",
    "tag": "United Kingdom 🇬🇧",
