@@ -5,7 +5,7 @@
  "outbounds": [
     {
       "type": "wireguard",
-      "tag": "IPv6 § 0",
+      "tag": "Download 🎞",
       "local_address":       [
         "172.16.0.2/24",
         "2606:4700:110:866f:157b:8955:ec5a:3fd6/128"
