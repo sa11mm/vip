@@ -4,7 +4,7 @@
 warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Auto
 warp://@auto4?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv4
 warp://@auto6?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv6
-warp://188.114.97.101:1018?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Iran 🇮🇷&&detour=warp://188.114.99.217:1180#Germany 🇩🇪 🇮🇹 Italy
+warp://8.6.112.8:943?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Iran 🇮🇷&&detour=warp://188.114.99.217:1180#Germany 🇩🇪 🇮🇹 Italy
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Spain 🇪🇸 ♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#Netherlands 🇳🇱 ♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt@nl-svc-ol-1.hostik.org:443#Netherlands 🇳🇱 ♾️ 1
