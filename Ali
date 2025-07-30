@@ -4,6 +4,24 @@
 {
  "outbounds": [
   {
+   "type": "vless",
+   "tag": "🕑زمان شما تمام شد",
+   "server": "***",
+   "server_port": 0,
+   "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+   "packet_encoding": "xudp"
+  }
+ ]
+}
+#warp://162.159.192.48:4500?ifp=2-3&ifpm=m5#Iran 🇮🇷&&detour=warp://162.159.192.86:8854#Germany 🇩🇪 🇮🇹 Italy
+#vless://196cd3aa-ce94-4c6c-84e6-8046d3beed76@104.21.45.205:443?encryption=none&security=tls&sni=ThRobbiNg-UNioN-45A7.GOZpOLiYtOp-NcB.WORKErs.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=throbbing-union-45a7.gozpoliytop-ncb.workers.dev&path=%2FeCHWHzhT8IFoZYV5%3Fed%3D2560#Instagram 📱
+#trojan://ff9c3c30-578b-11f0-b220-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
+{
+ "outbounds": [
+  {
    "type": "wireguard",
    "tag": "Iran 🇮🇷",
    "local_address":       [
@@ -69,9 +87,3 @@
   }
  ]
 }
-#warp://162.159.192.48:4500?ifp=2-3&ifpm=m5#Iran 🇮🇷&&detour=warp://162.159.192.86:8854#Germany 🇩🇪 🇮🇹 Italy
-vless://196cd3aa-ce94-4c6c-84e6-8046d3beed76@104.21.45.205:443?encryption=none&security=tls&sni=ThRobbiNg-UNioN-45A7.GOZpOLiYtOp-NcB.WORKErs.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=throbbing-union-45a7.gozpoliytop-ncb.workers.dev&path=%2FeCHWHzhT8IFoZYV5%3Fed%3D2560#Instagram 📱
-trojan://ff9c3c30-578b-11f0-b220-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
