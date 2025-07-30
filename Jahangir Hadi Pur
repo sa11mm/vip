@@ -1,0 +1,77 @@
+//profile-title: Jahangir Hadi Pur
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1756510000
+{
+ "outbounds": [
+  {
+   "type": "wireguard",
+   "tag": "Iran 🇮🇷",
+   "local_address":       [
+     "172.16.0.2/24",
+     "2606:4700:110:8afd:3701:b2df:71a6:c7c5/128"
+   ],
+   "private_key": "IDbB9gZL+ch0iGbn+BqQxFr79NlwIT3CG9pPbOaanUQ=",
+   "server": "162.159.192.48",
+   "server_port": 859,
+   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+   "reserved": "w3Gf",
+   "mtu": 1330,
+   "fake_packets": "2-3",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "10-30",
+   "fake_packets_mode": "m5"
+  },
+  {
+   "type": "wireguard",
+   "tag": "Germany 🇩🇪 🇮🇹 Italy",
+   "detour": "Iran 🇮🇷",
+   "local_address":       [
+     "172.16.0.2/24",
+     "2606:4700:110:898b:6020:77a4:4da8:85d2/128"
+   ],
+   "private_key": "6A+1UxGYwlXihqjbitUTpwCXG0tS9W177l7+vfYoOkQ=",
+   "server": "162.159.192.86",
+   "server_port": 4177,
+   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+   "reserved": "8htR",
+   "mtu": 1330
+  },
+  {
+   "type": "vless",
+   "tag": "Instagram 📱",
+   "server": "104.21.45.205",
+   "server_port": 443,
+   "uuid": "196cd3aa-ce94-4c6c-84e6-8046d3beed76",
+   "tls": {
+    "enabled": true,
+    "server_name": "ThRobbiNg-UNioN-45A7.GOZpOLiYtOp-NcB.WORKErs.dEV",
+    "insecure": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/eCHWHzhT8IFoZYV5?ed=2560",
+    "headers": {
+     "Host": "throbbing-union-45a7.gozpoliytop-ncb.workers.dev"
+    }
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "United Kingdom 🇬🇧",
+   "server": "uk1.test3.net",
+   "server_port": 443,
+   "password": "ff9c3c30-578b-11f0-b220-1239d0255272",
+   "tls": {
+    "enabled": true,
+    "server_name": "uk1.test3.net",
+    "insecure": true
+   }
+  }
+ ]
+}
+#warp://162.159.192.48:4500?ifp=2-3&ifpm=m5#Iran 🇮🇷&&detour=warp://162.159.192.86:8854#Germany 🇩🇪 🇮🇹 Italy
+vless://196cd3aa-ce94-4c6c-84e6-8046d3beed76@104.21.45.205:443?encryption=none&security=tls&sni=ThRobbiNg-UNioN-45A7.GOZpOLiYtOp-NcB.WORKErs.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=throbbing-union-45a7.gozpoliytop-ncb.workers.dev&path=%2FeCHWHzhT8IFoZYV5%3Fed%3D2560#Instagram 📱
+trojan://ff9c3c30-578b-11f0-b220-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
