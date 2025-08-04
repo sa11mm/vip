@@ -6,9 +6,9 @@
   {
    "type": "wireguard",
    "tag": "Download 🎞",
-   "local_address":       [
-     "172.16.0.2/24",
-     "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
+   "local_address": [
+    "172.16.0.2/24",
+    "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
    ],
    "private_key": "kPJSOoq8AKzw/UvbLWfGpC+MD4rC9ZDV0zin9aom6HE=",
    "server": "188.114.97.65",
@@ -42,10 +42,10 @@
   },
   {
    "type": "trojan",
-   "tag": "United Kingdom 🇬🇧",
+   "tag": "trojan-db18b26c",
    "server": "uk1.test3.net",
    "server_port": 443,
-   "password": "3da225c0-526a-11f0-81a0-1239d0255272",
+   "password": "43acb4b0-711a-11f0-b3d3-1239d0255272",
    "tls": {
     "enabled": true,
     "server_name": "uk1.test3.net",
