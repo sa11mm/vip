@@ -41,6 +41,27 @@
    }
   },
   {
+   "type": "vless",
+   "tag": "United States 🇺🇸",
+   "server": "146.19.90.2",
+   "server_port": 443,
+   "uuid": "c48d434d-5491-73b3-8743-5415014304f1",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "speed.cloudflare.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko"
+    }
+   },
+   "packet_encoding": "xudp"
+  },
+  {
    "type": "trojan",
    "tag": "United Kingdom 🇬🇧",
    "server": "uk1.test3.net",
