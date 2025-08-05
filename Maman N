@@ -11,8 +11,8 @@
      "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
    ],
    "private_key": "kPJSOoq8AKzw/UvbLWfGpC+MD4rC9ZDV0zin9aom6HE=",
-   "server": "8.35.211.204",
-   "server_port": 859,
+   "server": "8.34.146.35",
+   "server_port": 987,
    "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
    "reserved": "W13G",
    "mtu": 1330,
@@ -54,7 +54,7 @@
   }
  ]
 }
-#warp://8.35.211.204:859?ifp=2-3&ifpm=m5#Download 🎞
+#warp://8.34.146.35:987?ifp=2-3&ifpm=m5#Download 🎞
 vless://7efa724a-da5c-4c05-9947-c70cf71ab0dd@104.21.112.1:443?encryption=none&security=tls&sni=tigHT-rAIn-7e85.mamOoPliOT.WOrKeRs.dev&alpn=http%2F1.1&fp=randomized&type=ws&host=tight-rain-7e85.mamoopliot.workers.dev&path=%2FWbbznhPDzKABNPv9%3Fed%3D2560#Instagram 📱
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -2
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
