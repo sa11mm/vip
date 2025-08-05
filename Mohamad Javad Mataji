@@ -1,18 +1,18 @@
 //profile-title: Mohamad Javad Mataji
-//profile-update-interval: 3
+//profile-update-interval: 2
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1756310000
 {
  "outbounds": [
   {
    "type": "wireguard",
    "tag": "Download 🎞",
-   "local_address":       [
-     "172.16.0.2/24",
-     "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
+   "local_address": [
+    "172.16.0.2/24",
+    "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
    ],
    "private_key": "kPJSOoq8AKzw/UvbLWfGpC+MD4rC9ZDV0zin9aom6HE=",
-   "server": "188.114.98.81",
-   "server_port": 891,
+   "server": "8.34.70.34",
+   "server_port": 1002,
    "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
    "reserved": "W13G",
    "mtu": 1330,
@@ -39,25 +39,11 @@
      "Host": "little-breeze-3b8f.fghtpolp-ryu9b5.workers.dev"
     }
    }
-  },
-  {
-   "type": "trojan",
-   "tag": "United Kingdom 🇬🇧",
-   "server": "uk1.test3.net",
-   "server_port": 443,
-   "password": "fa86d0d0-526c-11f0-a19f-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "server_name": "uk1.test3.net",
-    "insecure": true
-   }
   }
  ]
 }
-#warp://188.114.98.81:891?ifp=2-3&ifpm=m5#Download 🎞
-#vless://155d4e01-d412-4502-a3f1-410bffed793f@104.21.96.1:443?encryption=none&security=tls&sni=littlE-breEZE-3B8f.fGhtpolp-RYu9B5.WorKers.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=little-breeze-3b8f.fghtpolp-ryu9b5.workers.dev&path=%2FQRh9R06EnWlU2I5E%3Fed%3D2560#Instagram 📱
-#trojan://fa86d0d0-526c-11f0-a19f-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧
-#trojan://2bc86eb0-5b93-11f0-8b33-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
+#warp://8.34.70.34:1002?ifp=2-3&ifpm=m5#Download 🎞
+vless://155d4e01-d412-4502-a3f1-410bffed793f@104.21.96.1:443?encryption=none&security=tls&sni=littlE-breEZE-3B8f.fGhtpolp-RYu9B5.WorKers.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=little-breeze-3b8f.fghtpolp-ryu9b5.workers.dev&path=%2FQRh9R06EnWlU2I5E%3Fed%3D2560#Instagram 📱
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
-vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
