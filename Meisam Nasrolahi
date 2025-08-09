@@ -23,7 +23,7 @@
   },
     {
       "type": "wireguard",
-      "tag": "Germany 🇩🇪 1 § 0",
+      "tag": "Germany 🇩🇪 1",
       "local_address": "10.1.83.164/32",
       "private_key": "cO3B1A/JpRuyYSF2aPFgRM7b/TGRjot1IUrASULoQ20=",
       "server": "85.215.187.230",
