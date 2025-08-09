@@ -8,7 +8,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt@nl-svc-ol-1.ho
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyeG1PUGp4WGhwOVdZT053RmJmODdQ@switcher-nick-croquet.freesocks.work:443#Netherlands 🇳🇱 ♾️ 2
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@opfnhwzjzcjzftreqmoi.freesocks.work:443#United States 🇺🇸 ♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowcUd1dXhoVkplWGVLdEJSYUt4R1Ni@hackney-latest-strike.freesocks.work:443#United States 🇺🇸 ♾️ 1️
-#PrivacyDot
+#PrivacyDot [V2ray]
 wg://85.215.187.230:51820/?pk=cO3B1A/JpRuyYSF2aPFgRM7b/TGRjot1IUrASULoQ20=&local_address=10.1.83.164/32&peer_pub=lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=&ifp=2-3&ifpm=m4#Germany 🇩🇪 Berlin
 wg://98.142.253.135:51820/?pk=YETo/FB88nqPDQdnCCJXKFYB/VPbyO9AzUMSgcoAVUQ=&local_address=10.1.85.9/32&peer_pub=lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=&ifp=2-3&ifpm=m4#Germany 🇩🇪 Dusseldurf
 wg://45.12.135.13:51820/?pk=eAEtX5e2gk9aa1JAeILtk4mVKgHTOG2capO/TPRnXHw=&local_address=10.1.85.17/32&peer_pub=lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=&ifp=2-3&ifpm=m4#Finland 🇫🇮 Helsinki
@@ -44,11 +44,11 @@ trojan://6b515ac0-5cff-11f0-ae81-1239d0255272@sg2.6n6.net:443?security=tls&allow
 trojan://a1934650-5cff-11f0-848f-1239d0255272@sg3.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 3 H
 trojan://440350f0-5cff-11f0-9434-1239d0255272@sg4.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 Melbi H
 trojan://f0fedd70-5fed-11f0-a7fe-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸 H
-#NikaNG
+#NikaNG [V2ray]
 wireguard://YHsRe6Fipzsb8L3oun%2F94XGZLu6UHV66bHcd%2BSJze1c%3D@188.114.97.74:854?wnoise=random&presharedkey=&address=172.16.0.2%2F32&reserved=19%2C68%2C73&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1&wnoisecount=15&mtu=1280#NKG
 wireguard://6BQxsbsI8%2Bgkw5z0ObvV84dKzeIFTz0SECYZv7dhUEg%3D@188.114.97.66:3138?wnoise=random&presharedkey=&address=172.16.0.2%2F32&reserved=244%2C229%2C130&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1280#NKG
 wireguard://An8eGouaBBac4IVCdyNt4GGixj2mO%2FKNfBtBYCTBI7Y%3D@188.114.98.224:500?wnoise=random&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8697%3A733f%3A16be%3Abbb0%3A347b%2F128&reserved=230%2C224%2C224&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1420#NKG
-#Proton
+#Proton [Hiddify]
 wg://185.107.56.123:51820/?pk=QOTjtV%2B%2B69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA%3D&local_address=10.2.0.2%2F32&peer_pub=r6LkxFF50EuiKrZgveL2rbGwdwBfA8t1JPreSRfsXVk%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Netherlands 🇳🇱 132
 wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Local 🇮🇷
 wg://188.114.96.147:7152/?pk=wwqS%2BTvaTsuNHnfXbOviZbHUl1sPhVTAdgqBNj4%2Favk%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Local 🇮🇷 1
