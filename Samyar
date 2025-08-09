@@ -13,6 +13,7 @@ wg://85.215.187.230:51820/?pk=cO3B1A/JpRuyYSF2aPFgRM7b/TGRjot1IUrASULoQ20=&local
 wg://98.142.253.135:51820/?pk=YETo/FB88nqPDQdnCCJXKFYB/VPbyO9AzUMSgcoAVUQ=&local_address=10.1.85.9/32&peer_pub=lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=&ifp=2-3&ifpm=m4#Germany 🇩🇪 Dusseldurf
 wg://45.12.135.13:51820/?pk=eAEtX5e2gk9aa1JAeILtk4mVKgHTOG2capO/TPRnXHw=&local_address=10.1.85.17/32&peer_pub=lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=&ifp=2-3&ifpm=m4#Finland 🇫🇮 Helsinki
 wg://88.119.161.178:51820/?pk=ODX9aipQWMleTPdUwArnwfVmHfrAjLA9UjFUxcYW5mk=&local_address=10.1.85.19/32&peer_pub=lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=&ifp=2-3&ifpm=m4#Lithuania 🇱🇹 Vilnius
+wg://85.239.61.174:51820/?pk=AOIQsKchYmZ260SA0QydmC1xi4AmLlpWwbNop7WY1G4=&local_address=10.1.85.22/32&peer_pub=lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=&ifp=2-3&ifpm=m4#United Kingdom 🇬🇧 London
 #Race VPN
 vless://a35d4915-6c32-4950-a968-fb8f86b00dbc@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=de2-full.privateip.net&type=ws&sni=de2-full.privateip.net#Germany 🇩🇪 2
 vless://060e9cb3-7f69-4a2d-9ef7-b9b5e1c1e43e@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=nl2-full.privateip.net&type=ws&sni=nl2-full.privateip.net#Netherlands 🇳🇱 2
