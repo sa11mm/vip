@@ -103,9 +103,12 @@ Hiddify WireGuard Proton
 wg://[server:port]/?pk=[private_key]&local_address=[10.0.0.2/24]&peer_pub=[peer_public_key]&psk=[pre_shared_key]&workers=[workers]&mtu=[mtu]&reserved=[0,0,0]&ifp=1-3&ifpm=m4#
 Nois: &ifp=1-3&ifpm=m3,4,5
 
-warp://@auto/?ifp=1-2&ifpm=m3    Auti
+warp://@auto/?ifp=1-2&ifpm=m3    Auto
 warp://@auto4/?ifp=1-2&ifpm=m3   IPv4
 warp://@auto6/?ifp=1-2&ifpm=m3   IPv6
+warp://@auto?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Auto
+warp://@auto4?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv4
+warp://@auto6?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#IPv6
 
 WireGuard & Warp: m3,4,5 OK *************************************************************************************************************************
 Remove: ifps & ifpd
