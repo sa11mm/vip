@@ -21,6 +21,17 @@
    "fake_packets_delay": "10-30",
    "fake_packets_mode": "m5"
   },
+    {
+      "type": "wireguard",
+      "tag": "Germany 🇩🇪 1 § 0",
+      "local_address": "10.1.83.164/32",
+      "private_key": "cO3B1A/JpRuyYSF2aPFgRM7b/TGRjot1IUrASULoQ20=",
+      "server": "85.215.187.230",
+      "server_port": 51820,
+      "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+      "fake_packets": "2-3",
+      "fake_packets_mode": "m4"
+    },
   {
    "type": "vless",
    "tag": "Instagram 📱",
@@ -79,6 +90,7 @@
  ]
 }
 #warp://8.34.146.209:928?ifp=2-3&ifpm=m5#Download 🎞
+wg://85.215.187.230:51820/?pk=cO3B1A/JpRuyYSF2aPFgRM7b/TGRjot1IUrASULoQ20=&local_address=10.1.83.164/32&peer_pub=lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=&ifp=2-3&ifpm=m4#Germany 🇩🇪 1
 vless://91c407de-a93c-491b-a2fd-b50784e124da@104.21.72.23:443?encryption=none&security=tls&sni=liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2Fr2EnFMzM5wPE6DMT%3Fed%3D2560#Instagram 📱
 vless://ec0da48f-030a-4a64-89aa-d2b837994119@zewduaexcojt.eu-central-1.clawcloudrun.com:443?encryption=none&security=tls&sni=zewduaexcojt.eu-central-1.clawcloudrun.com&fp=chrome&type=ws&host=zewduaexcojt.eu-central-1.clawcloudrun.com&path=%2F#Germany 🇩🇪
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -4
