@@ -28,7 +28,7 @@ vless://c48d434d-5491-73b3-8743-5415014304f1@146.19.90.2:443?security=reality&ty
 vless://c48d434d-5491-73b3-8743-5415014304f1@213.232.120.2:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&pbk=6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA#Finland 🇫🇮
 vless://c48d434d-5491-73b3-8743-5415014304f1@5.181.171.2:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&pbk=YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y#United States 🇺🇸
 vless://c48d434d-5491-73b3-8743-5415014304f1@103.175.79.2:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI#Pakistan 🇵🇰
-#Panel BPB Multi   [Singbox & Fragment]
+#Panel BPB Multi   [Singbox]
 vless://4491fe3f-e40b-469f-a347-9b34542379fc@104.21.24.73:443?encryption=none&security=tls&sni=325WL.caC2s-M.wORKeRs.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=325wl.cac2s-m.workers.dev&path=%2FrbqMq363p6FAlvPL%3Fed%3D2560#Multi ME
 #vless://718e1ff8-22f5-410a-a6c2-1b931ef0e622@104.21.32.1:443?encryption=none&security=tls&sni=323wl.Cac2s-v.wOrkERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=323wl.cac2s-v.workers.dev&path=%2FwBGz5kW0P7ewBx8F%3Fed%3D2560#323wl ME
 #vless://9ca37d07-3cf0-428c-85e5-fc8ab4aebcde@104.21.64.1:443?encryption=none&security=tls&sni=334wl.CAc2S-v.WorkERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=334wl.cac2s-v.workers.dev&path=%2FiKBvkbgJpTuVm3RE%3Fed%3D2560#334wl ME
