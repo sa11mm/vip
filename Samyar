@@ -44,15 +44,9 @@ trojan://f0fedd70-5fed-11f0-a7fe-1239d0255272@usa.test3.net:443?security=tls&all
 #Proton   [Hiddify]
 wg://185.107.56.123:51820/?pk=QOTjtV%2B%2B69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA%3D&local_address=10.2.0.2%2F32&peer_pub=r6LkxFF50EuiKrZgveL2rbGwdwBfA8t1JPreSRfsXVk%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Netherlands 🇳🇱 P
 #Race VPN   [Fragment & Clean IP]
-vless://a35d4915-6c32-4950-a968-fb8f86b00dbc@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=de2-full.privateip.net&type=ws&sni=de2-full.privateip.net#Germany 🇩🇪 2
-vless://060e9cb3-7f69-4a2d-9ef7-b9b5e1c1e43e@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=nl2-full.privateip.net&type=ws&sni=nl2-full.privateip.net#Netherlands 🇳🇱 2
-vless://d69e889e-e685-4cd7-b348-5b3b1f9282a2@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=uk-full.privateip.net&type=ws&sni=uk-full.privateip.net#United Kingdom 🇬🇧
-vless://e76bf05c-a242-4c12-b162-bde4bc5eb6a0@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=fr2-full.privateip.net&type=ws&sni=fr2-full.privateip.net#France 🇫🇷 2
-vless://d933b36e-abe4-4694-8118-8cbd7a0296c9@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=pl-full.privateip.net&type=ws&sni=pl-full.privateip.net#Poland 🇵🇱
-vless://344d2a5d-d0bf-41b0-8ec0-575371abbd19@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=ca-full.privateip.net&type=ws&sni=ca-full.privateip.net#Canada 🇨🇦
-vless://48cae1f8-87f9-4553-aa68-ac5c58175c3d@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=es-full.privateip.net&type=ws&sni=es-full.privateip.net#Spain 🇪🇸
+vless://5aa9c9ce-d5b3-40be-8481-fe5ae953e5a9@172.66.168.214:443?encryption=none&security=tls&sni=de-full.privateip.net&type=ws&host=de-full.privateip.net&path=%2Fws#Germany 🇩🇪
+vless://d739e19a-312c-40dc-acaa-a90f247bd12c@172.66.168.214:443?encryption=none&security=tls&sni=de2-full.privateip.net&type=ws&host=de2-full.privateip.net&path=%2Fws#Germany 🇩🇪 2
 vless://0f69d0aa-cd28-4a5c-ad5e-cbdd51221353@172.66.168.214:443?encryption=none&security=tls&sni=sg2-full.privateip.net&type=ws&host=sg2-full.privateip.net&path=%2Fws#Singapore 🇸🇬 2
-vless://8de686ed-4e2e-46c5-b3b0-380a79d4f6fe@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=au-full.privateip.net&type=ws&sni=au-full.privateip.net#Australia 🇦🇺
 #NikaNG   [V2ray]
 #wireguard://YHsRe6Fipzsb8L3oun%2F94XGZLu6UHV66bHcd%2BSJze1c%3D@188.114.97.74:854?wnoise=random&presharedkey=&address=172.16.0.2%2F32&reserved=19%2C68%2C73&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1&wnoisecount=15&mtu=1280#NKG
 #wireguard://6BQxsbsI8%2Bgkw5z0ObvV84dKzeIFTz0SECYZv7dhUEg%3D@188.114.97.66:3138?wnoise=random&presharedkey=&address=172.16.0.2%2F32&reserved=244%2C229%2C130&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1280#NKG
