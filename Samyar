@@ -3,9 +3,7 @@
 //subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1784610000
 warp://8.6.112.8:943?ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Iran 🇮🇷&&detour=warp://8.34.146.156:2408#Germany 🇩🇪 🇮🇹 Italy
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Spain 🇪🇸 ♾️
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMjhkZDdiMTZiNzdhMTY5@am.ssvpnapp.win:57456#Netherlands 🇳🇱 ♾️
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt@nl-svc-ol-1.hostik.org:443#Netherlands 🇳🇱 ♾️ 1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyeG1PUGp4WGhwOVdZT053RmJmODdQ@switcher-nick-croquet.freesocks.work:443#Netherlands 🇳🇱 ♾️ 2
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt@nl-svc-ol-1.hostik.org:443#Netherlands 🇳🇱 ♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@opfnhwzjzcjzftreqmoi.freesocks.work:443#United States 🇺🇸 ♾️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowcUd1dXhoVkplWGVLdEJSYUt4R1Ni@hackney-latest-strike.freesocks.work:443#United States 🇺🇸 ♾️ 1️
 #PrivacyDot [V2ray]
@@ -46,10 +44,11 @@ trojan://a1934650-5cff-11f0-848f-1239d0255272@sg3.6n6.net:443?security=tls&allow
 trojan://440350f0-5cff-11f0-9434-1239d0255272@sg4.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 Melbi H
 trojan://f0fedd70-5fed-11f0-a7fe-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸 H
 #Proton [Hiddify]
-wg://185.107.56.123:51820/?pk=QOTjtV%2B%2B69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA%3D&local_address=10.2.0.2%2F32&peer_pub=r6LkxFF50EuiKrZgveL2rbGwdwBfA8t1JPreSRfsXVk%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Netherlands 🇳🇱 132
-wg://188.114.96.67:1014/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Local 🇮🇷
+wg://185.107.56.123:51820/?pk=QOTjtV%2B%2B69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA%3D&local_address=10.2.0.2%2F32&peer_pub=r6LkxFF50EuiKrZgveL2rbGwdwBfA8t1JPreSRfsXVk%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Netherlands 🇳🇱 P
+wg://8.35.211.140:7156/?pk=0Pwd5AFXo5fLbrRAw%2F3vL4h6P1mMxmKno9Cva4K7c00%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m4#Local 🇮🇷
 wg://188.114.96.147:7152/?pk=wwqS%2BTvaTsuNHnfXbOviZbHUl1sPhVTAdgqBNj4%2Favk%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Local 🇮🇷 1
 wg://188.114.97.90:903/?pk=iO1Zgjqu2XQVNxQJnNDCThRTO9Ri2pHeTAdzRktNy08%3D&local_address=172.16.0.2%2F32&peer_pub=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280&reserved=107%2C137%2C197&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Local 🇮🇷 2
+wg://8.34.146.47:864?publicKey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&privateKey=KIOsQ6u%2Ft8SyDOHQCBi3LgzhtykD87kNs9jS8jI16XY%3D&ip=172.16.0.2%2C2606%3A4700%3A110%3A8d17%3A170f%3A1ff%3Ae0bc%3A332b&mtu=1280&dns=1.1.1.1&udp=1&reserved=233%2C107%2C19#Local 🇮🇷 3
 #NikaNG [V2ray]
 #wireguard://YHsRe6Fipzsb8L3oun%2F94XGZLu6UHV66bHcd%2BSJze1c%3D@188.114.97.74:854?wnoise=random&presharedkey=&address=172.16.0.2%2F32&reserved=19%2C68%2C73&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1&wnoisecount=15&mtu=1280#NKG
 #wireguard://6BQxsbsI8%2Bgkw5z0ObvV84dKzeIFTz0SECYZv7dhUEg%3D@188.114.97.66:3138?wnoise=random&presharedkey=&address=172.16.0.2%2F32&reserved=244%2C229%2C130&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1280#NKG
