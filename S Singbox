@@ -329,118 +329,107 @@
    },
    "packet_encoding": "xudp"
   },
-  {
-   "type": "vless",
-   "tag": "Multi ME § 24",
-   "tls_fragment": {
-    "enabled": true,
-    "size": "6-9",
-    "sleep": "1-2"
-   },
-   "server": "104.21.24.73",
-   "server_port": 443,
-   "uuid": "4491fe3f-e40b-469f-a347-9b34542379fc",
-   "tls": {
-    "enabled": true,
-    "server_name": "325WL.caC2s-M.wORKeRs.dEv",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "randomized"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/rbqMq363p6FAlvPL",
-    "headers": {
-     "Host": "325wl.cac2s-m.workers.dev"
+    {
+      "type": "vless",
+      "tag": "vless-362a2488",
+      "server": "104.21.24.73",
+      "server_port": 443,
+      "uuid": "4491fe3f-e40b-469f-a347-9b34542379fc",
+      "tls":       {
+        "enabled": true,
+        "server_name": "325WL.caC2s-M.wORKeRs.dEv",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/rbqMq363p6FAlvPL?ed=2560",
+        "headers":         {
+          "Host": "325wl.cac2s-m.workers.dev"
+        }
+      }
     },
-    "max_early_data": 2560,
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
-  },
-  {
-   "type": "trojan",
-   "tag": "United Kingdom 🇬🇧 H § 25",
-   "server": "uk1.test3.net",
-   "server_port": 443,
-   "password": "8a8250d0-5d01-11f0-9cf4-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "disable_sni": true,
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "France 🇫🇷 H § 26",
-   "server": "fr1.test3.net",
-   "server_port": 443,
-   "password": "797e9150-5d01-11f0-8cc2-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "disable_sni": true,
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "Singapore  🇸🇬 1 H § 27",
-   "server": "sg1.6n6.net",
-   "server_port": 443,
-   "password": "8f965460-5cff-11f0-86ed-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "disable_sni": true,
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "Singapore  🇸🇬 2 H § 28",
-   "server": "sg2.6n6.net",
-   "server_port": 443,
-   "password": "6b515ac0-5cff-11f0-ae81-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "disable_sni": true,
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "Singapore  🇸🇬 3 H § 29",
-   "server": "sg3.6n6.net",
-   "server_port": 443,
-   "password": "a1934650-5cff-11f0-848f-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "disable_sni": true,
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "Singapore  🇸🇬 Melbi H § 30",
-   "server": "sg4.6n6.net",
-   "server_port": 443,
-   "password": "440350f0-5cff-11f0-9434-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "disable_sni": true,
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "United States 🇺🇸 H § 31",
-   "server": "usa.test3.net",
-   "server_port": 443,
-   "password": "f0fedd70-5fed-11f0-a7fe-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "disable_sni": true,
-    "insecure": true
+    {
+      "type": "trojan",
+      "tag": "trojan-dfbe6374",
+      "server": "uk1.test3.net",
+      "server_port": 443,
+      "password": "8a8250d0-5d01-11f0-9cf4-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "uk1.test3.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "trojan-db3a774e",
+      "server": "fr1.test3.net",
+      "server_port": 443,
+      "password": "797e9150-5d01-11f0-8cc2-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "fr1.test3.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "trojan-9e58d71c",
+      "server": "sg1.6n6.net",
+      "server_port": 443,
+      "password": "8f965460-5cff-11f0-86ed-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sg1.6n6.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "trojan-e97cab1b",
+      "server": "sg2.6n6.net",
+      "server_port": 443,
+      "password": "6b515ac0-5cff-11f0-ae81-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sg2.6n6.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "trojan-cc03f652",
+      "server": "sg3.6n6.net",
+      "server_port": 443,
+      "password": "a1934650-5cff-11f0-848f-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sg3.6n6.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "trojan-ac5ea915",
+      "server": "sg4.6n6.net",
+      "server_port": 443,
+      "password": "440350f0-5cff-11f0-9434-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sg4.6n6.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "trojan-37c94acd",
+      "server": "usa.test3.net",
+      "server_port": 443,
+      "password": "f0fedd70-5fed-11f0-a7fe-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "usa.test3.net",
+        "insecure": true
    }
   },
   {
