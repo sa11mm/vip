@@ -31,7 +31,8 @@ vless://48cae1f8-87f9-4553-aa68-ac5c58175c3d@172.66.168.214:443?path=%2Fws&secur
 vless://3c48608d-4470-4786-95aa-98c1542b4468@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=sg2-full.privateip.net&type=ws&sni=sg2-full.privateip.net#Singapore 🇸🇬 2
 vless://8de686ed-4e2e-46c5-b3b0-380a79d4f6fe@172.66.168.214:443?path=%2Fws&security=tls&encryption=none&host=au-full.privateip.net&type=ws&sni=au-full.privateip.net#Australia 🇦🇺
 #Panel Claw Germany
-vless://57d7f28a-32d7-458f-a76c-f897d670b864@jfnbhbewmujo.eu-central-1.clawcloudrun.com:443?encryption=none&security=tls&sni=jfnbhbewmujo.eu-central-1.clawcloudrun.com&fp=chrome&type=ws&host=jfnbhbewmujo.eu-central-1.clawcloudrun.com&path=%2F#Germany 🇩🇪 ME
+vless://57d7f28a-32d7-458f-a76c-f897d670b864@jfnbhbewmujo.eu-central-1.clawcloudrun.com:443?encryption=none&security=tls&sni=jfnbhbewmujo.eu-central-1.clawcloudrun.com&fp=chrome&type=ws&host=jfnbhbewmujo.eu-central-1.clawcloudrun.com&path=%2F#Germany 🇩🇪 Claw
+vless://57d7f28a-32d7-458f-a76c-f897d670b864@jfnbhbewmujo.eu-central-1.clawcloudrun.com:34589?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=34tEk4DyqTTQ6N8h3CRmSGJL8e7YqqnSRW44RE2ODTs&sid=a9e9a4b7&type=tcp&headerType=none#Germany 🇩🇪 Claw
 #Fine VPN
 vless://c48d434d-5491-73b3-8743-5415014304f1@146.19.90.2:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&pbk=oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko#United States 🇺🇸
 vless://c48d434d-5491-73b3-8743-5415014304f1@213.232.120.2:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=speed.cloudflare.com&fp=chrome&pbk=6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA#Finland 🇫🇮
