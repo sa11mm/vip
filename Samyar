@@ -43,6 +43,9 @@ wg://185.107.56.123:51820/?pk=QOTjtV%2B%2B69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA%3D
 #Race VPN   [Fragment & Clean IP]
 vless://5aa9c9ce-d5b3-40be-8481-fe5ae953e5a9@172.66.168.214:443?encryption=none&security=tls&sni=de-full.privateip.net&type=ws&host=de-full.privateip.net&path=%2Fws#Germany 🇩🇪
 vless://d739e19a-312c-40dc-acaa-a90f247bd12c@172.66.168.214:443?encryption=none&security=tls&sni=de2-full.privateip.net&type=ws&host=de2-full.privateip.net&path=%2Fws#Germany 🇩🇪 2
+vless://a6ffe902-1004-43c1-a8fe-e3a033b5d6c7@172.66.168.214:443?encryption=none&security=tls&sni=fr2-full.privateip.net&type=ws&host=fr2-full.privateip.net&path=%2Fws#France 🇫🇷 2
+vless://7a1b3bd5-1130-45d0-8bb1-41cd05649170@172.66.168.214:443?encryption=none&security=tls&sni=pl-full.privateip.net&type=ws&host=pl-full.privateip.net&path=%2Fws#Poland 🇵🇱
+
 vless://0f69d0aa-cd28-4a5c-ad5e-cbdd51221353@172.66.168.214:443?encryption=none&security=tls&sni=sg2-full.privateip.net&type=ws&host=sg2-full.privateip.net&path=%2Fws#Singapore 🇸🇬 2
 #NikaNG   [V2ray]
 #wireguard://YHsRe6Fipzsb8L3oun%2F94XGZLu6UHV66bHcd%2BSJze1c%3D@188.114.97.74:854?wnoise=random&presharedkey=&address=172.16.0.2%2F32&reserved=19%2C68%2C73&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1&wnoisecount=15&mtu=1280#NKG
