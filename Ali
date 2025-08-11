@@ -37,6 +37,15 @@
    "mtu": 1330
   },
   {
+   "type": "direct",
+   "tag": "YouTube",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "10-30",
+    "sleep": "2-8"
+   }
+  },
+  {
    "type": "vless",
    "tag": "Instagram 📱",
    "server": "104.21.45.205",
