@@ -22,6 +22,15 @@
    "fake_packets_mode": "m5"
   },
   {
+   "type": "direct",
+   "tag": "YouTube",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "10-30",
+    "sleep": "2-8"
+   }
+  },
+  {
    "type": "wireguard",
    "tag": "Germany 🇩🇪 🇮🇹 Italy § 1",
    "detour": "Iran 🇮🇷 § 0",
