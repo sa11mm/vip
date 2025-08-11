@@ -348,88 +348,52 @@
     }
    }
   },
-  {
-   "type": "trojan",
-   "tag": "United Kingdom 🇬🇧 H",
-   "server": "uk1.test3.net",
-   "server_port": 443,
-   "password": "8a8250d0-5d01-11f0-9cf4-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "server_name": "uk1.test3.net",
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "France 🇫🇷 H",
-   "server": "fr1.test3.net",
-   "server_port": 443,
-   "password": "797e9150-5d01-11f0-8cc2-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "server_name": "fr1.test3.net",
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "Singapore  🇸🇬 1 H",
-   "server": "sg1.6n6.net",
-   "server_port": 443,
-   "password": "8f965460-5cff-11f0-86ed-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "server_name": "sg1.6n6.net",
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "Singapore  🇸🇬 2 H",
-   "server": "sg2.6n6.net",
-   "server_port": 443,
-   "password": "6b515ac0-5cff-11f0-ae81-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "server_name": "sg2.6n6.net",
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "Singapore  🇸🇬 3 H",
-   "server": "sg3.6n6.net",
-   "server_port": 443,
-   "password": "a1934650-5cff-11f0-848f-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "server_name": "sg3.6n6.net",
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "Singapore  🇸🇬 Melbi H",
-   "server": "sg4.6n6.net",
-   "server_port": 443,
-   "password": "440350f0-5cff-11f0-9434-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "server_name": "sg4.6n6.net",
-    "insecure": true
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "United States 🇺🇸 H",
-   "server": "usa.test3.net",
-   "server_port": 443,
-   "password": "f0fedd70-5fed-11f0-a7fe-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "server_name": "usa.test3.net",
-    "insecure": true
+    {
+      "type": "trojan",
+      "tag": "United Kingdom 🇬🇧 H",
+      "server": "uk1.test3.net",
+      "server_port": 443,
+      "password": "ee81ef60-7699-11f0-ad9b-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "uk1.test3.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Singapore  🇸🇬 1 H",
+      "server": "sg1.6n6.net",
+      "server_port": 443,
+      "password": "059a9190-76a4-11f0-a3ce-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sg1.6n6.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Singapore  🇸🇬 2 H",
+      "server": "sg2.6n6.net",
+      "server_port": 443,
+      "password": "a1bb43b0-76a2-11f0-9152-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sg2.6n6.net",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "Singapore  🇸🇬 3 H",
+      "server": "sg3.6n6.net",
+      "server_port": 443,
+      "password": "c7acfe80-76a4-11f0-83a0-1239d0255272",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sg3.6n6.net",
+        "insecure": true
    }
   },
   {
