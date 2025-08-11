@@ -6,9 +6,9 @@
   {
    "type": "wireguard",
    "tag": "Iran 🇮🇷",
-   "local_address":       [
-     "172.16.0.2/24",
-     "2606:4700:110:8afd:3701:b2df:71a6:c7c5/128"
+   "local_address": [
+    "172.16.0.2/24",
+    "2606:4700:110:8afd:3701:b2df:71a6:c7c5/128"
    ],
    "private_key": "IDbB9gZL+ch0iGbn+BqQxFr79NlwIT3CG9pPbOaanUQ=",
    "server": "8.34.146.47",
@@ -25,9 +25,9 @@
    "type": "wireguard",
    "tag": "Germany 🇩🇪 🇮🇹 Italy",
    "detour": "Iran 🇮🇷",
-   "local_address":       [
-     "172.16.0.2/24",
-     "2606:4700:110:898b:6020:77a4:4da8:85d2/128"
+   "local_address": [
+    "172.16.0.2/24",
+    "2606:4700:110:898b:6020:77a4:4da8:85d2/128"
    ],
    "private_key": "6A+1UxGYwlXihqjbitUTpwCXG0tS9W177l7+vfYoOkQ=",
    "server": "8.34.70.82",
@@ -62,18 +62,6 @@
     "headers": {
      "Host": "throbbing-union-45a7.gozpoliytop-ncb.workers.dev"
     }
-   }
-  },
-  {
-   "type": "trojan",
-   "tag": "United Kingdom 🇬🇧",
-   "server": "uk1.test3.net",
-   "server_port": 443,
-   "password": "ff9c3c30-578b-11f0-b220-1239d0255272",
-   "tls": {
-    "enabled": true,
-    "server_name": "uk1.test3.net",
-    "insecure": true
    }
   }
  ]
