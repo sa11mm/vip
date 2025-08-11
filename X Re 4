@@ -1,9 +1,49 @@
 //profile-title: ---
 //profile-update-interval: 2
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1753710000
-
+{
+ "outbounds": [
+  {
+   "type": "wireguard",
+   "tag": "Download 🎞",
+   "local_address": [
+    "172.16.0.2/24",
+    "2606:4700:110:866f:157b:8955:ec5a:3fd6/128"
+   ],
+   "private_key": "YA3zJq6YxJ5Hx2TIDvkEI/LQ6vQfSsR3k1Hhp+aV3VU=",
+   "server": "8.6.112.137",
+   "server_port": 7152,
+   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+   "reserved": "G59X",
+   "mtu": 1330,
+   "fake_packets": "2-4",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "2-4",
+   "fake_packets_mode": "m5"
+  },
+  {
+   "type": "vless",
+   "tag": "Instagram 📱",
+   "server": "104.21.48.1",
+   "server_port": 443,
+   "uuid": "f2376ead-e3e3-41d7-b8eb-062c27245122",
+   "tls": {
+    "enabled": true,
+    "server_name": "DE325wL-v.CAC2s-v.WOrkERs.deV",
+    "insecure": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/SDUlLf216m3RWkXs?ed=2560",
+    "headers": {
+     "Host": "de325wl-v.cac2s-v.workers.dev"
+    }
+   }
+  }
+ ]
+}
 #warp://8.39.204.167:903?ifp=2-3&ifpm=m5#Download 🎞
-#vless://f2376ead-e3e3-41d7-b8eb-062c27245122@104.21.48.1:443?encryption=none&security=tls&sni=DE325wL-v.CAC2s-v.WOrkERs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=de325wl-v.cac2s-v.workers.dev&path=%2FSDUlLf216m3RWkXs%3Fed%3D2560#Instagram 📱
+vless://f2376ead-e3e3-41d7-b8eb-062c27245122@104.21.48.1:443?encryption=none&security=tls&sni=DE325wL-v.CAC2s-v.WOrkERs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=de325wl-v.cac2s-v.workers.dev&path=%2FSDUlLf216m3RWkXs%3Fed%3D2560#Instagram 📱
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
