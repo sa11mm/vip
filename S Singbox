@@ -348,52 +348,52 @@
     }
    }
   },
-    {
-      "type": "trojan",
-      "tag": "United Kingdom 🇬🇧 H",
-      "server": "uk1.test3.net",
-      "server_port": 443,
-      "password": "ee81ef60-7699-11f0-ad9b-1239d0255272",
-      "tls":       {
-        "enabled": true,
-        "server_name": "uk1.test3.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Singapore  🇸🇬 1 H",
-      "server": "sg1.6n6.net",
-      "server_port": 443,
-      "password": "059a9190-76a4-11f0-a3ce-1239d0255272",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sg1.6n6.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Singapore  🇸🇬 2 H",
-      "server": "sg2.6n6.net",
-      "server_port": 443,
-      "password": "a1bb43b0-76a2-11f0-9152-1239d0255272",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sg2.6n6.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Singapore  🇸🇬 3 H",
-      "server": "sg3.6n6.net",
-      "server_port": 443,
-      "password": "c7acfe80-76a4-11f0-83a0-1239d0255272",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sg3.6n6.net",
-        "insecure": true
+  {
+   "type": "trojan",
+   "tag": "United Kingdom 🇬🇧 H",
+   "server": "uk1.test3.net",
+   "server_port": 443,
+   "password": "ee81ef60-7699-11f0-ad9b-1239d0255272",
+   "tls": {
+    "enabled": true,
+    "server_name": "uk1.test3.net",
+    "insecure": true
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "Singapore  🇸🇬 1 H",
+   "server": "sg1.6n6.net",
+   "server_port": 443,
+   "password": "059a9190-76a4-11f0-a3ce-1239d0255272",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg1.6n6.net",
+    "insecure": true
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "Singapore  🇸🇬 2 H",
+   "server": "sg2.6n6.net",
+   "server_port": 443,
+   "password": "a1bb43b0-76a2-11f0-9152-1239d0255272",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg2.6n6.net",
+    "insecure": true
+   }
+  },
+  {
+   "type": "trojan",
+   "tag": "Singapore  🇸🇬 3 H",
+   "server": "sg3.6n6.net",
+   "server_port": 443,
+   "password": "c7acfe80-76a4-11f0-83a0-1239d0255272",
+   "tls": {
+    "enabled": true,
+    "server_name": "sg3.6n6.net",
+    "insecure": true
    }
   },
   {
@@ -411,7 +411,7 @@
   },
   {
    "type": "vless",
-   "tag": "Germany 🇩🇪 § 33",
+   "tag": "Germany 🇩🇪 § 1",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -440,7 +440,7 @@
   },
   {
    "type": "vless",
-   "tag": "Germany 🇩🇪 2 § 34",
+   "tag": "Germany 🇩🇪 2 § 2",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -469,7 +469,94 @@
   },
   {
    "type": "vless",
-   "tag": "Singapore 🇸🇬 2 § 35",
+   "tag": "France 🇫🇷 2 § 3",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "6-9",
+    "sleep": "1-2"
+   },
+   "server": "172.66.168.214",
+   "server_port": 443,
+   "uuid": "a6ffe902-1004-43c1-a8fe-e3a033b5d6c7",
+   "tls": {
+    "enabled": true,
+    "server_name": "fr2-full.privateip.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/ws",
+    "headers": {
+     "Host": "fr2-full.privateip.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "Poland 🇵🇱 § 4",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "6-9",
+    "sleep": "1-2"
+   },
+   "server": "172.66.168.214",
+   "server_port": 443,
+   "uuid": "7a1b3bd5-1130-45d0-8bb1-41cd05649170",
+   "tls": {
+    "enabled": true,
+    "server_name": "pl-full.privateip.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/ws",
+    "headers": {
+     "Host": "pl-full.privateip.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "United Kingdom 🇬🇧 2 § 5",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "6-9",
+    "sleep": "1-2"
+   },
+   "server": "172.66.168.214",
+   "server_port": 443,
+   "uuid": "42872a28-fdb0-49de-8ea4-a093b0042cec",
+   "tls": {
+    "enabled": true,
+    "server_name": "uk2-full.privateip.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/ws",
+    "headers": {
+     "Host": "uk2-full.privateip.net"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "Singapore 🇸🇬 2 § 6",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
