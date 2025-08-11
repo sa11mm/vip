@@ -34,13 +34,10 @@ vless://4491fe3f-e40b-469f-a347-9b34542379fc@104.21.24.73:443?encryption=none&se
 #vless://9ca37d07-3cf0-428c-85e5-fc8ab4aebcde@104.21.64.1:443?encryption=none&security=tls&sni=334wl.CAc2S-v.WorkERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=334wl.cac2s-v.workers.dev&path=%2FiKBvkbgJpTuVm3RE%3Fed%3D2560#334wl ME
 #vless://bb00ca45-c0f9-4d62-aeeb-f38532a8dfea@104.21.32.1:443?encryption=none&security=tls&sni=335Wl.cAc2S-V.WorkERS.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=335wl.cac2s-v.workers.dev&path=%2F343HtJG7mTuaWhW6%3Fed%3D2560#335wl ME
 #Howdy   [30G - Convert Singbox]
-trojan://8a8250d0-5d01-11f0-9cf4-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧 H
-trojan://797e9150-5d01-11f0-8cc2-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷 H
-trojan://8f965460-5cff-11f0-86ed-1239d0255272@sg1.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 1 H
-trojan://6b515ac0-5cff-11f0-ae81-1239d0255272@sg2.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 2 H
-trojan://a1934650-5cff-11f0-848f-1239d0255272@sg3.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 3 H
-trojan://440350f0-5cff-11f0-9434-1239d0255272@sg4.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 Melbi H
-trojan://f0fedd70-5fed-11f0-a7fe-1239d0255272@usa.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United States 🇺🇸 H
+trojan://ee81ef60-7699-11f0-ad9b-1239d0255272@uk1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#United Kingdom 🇬🇧 H
+trojan://059a9190-76a4-11f0-a3ce-1239d0255272@sg1.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 1 H
+trojan://a1bb43b0-76a2-11f0-9152-1239d0255272@sg2.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 2 H
+trojan://c7acfe80-76a4-11f0-83a0-1239d0255272@sg3.6n6.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Singapore  🇸🇬 3 H
 #Proton   [Hiddify]
 wg://185.107.56.123:51820/?pk=QOTjtV%2B%2B69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA%3D&local_address=10.2.0.2%2F32&peer_pub=r6LkxFF50EuiKrZgveL2rbGwdwBfA8t1JPreSRfsXVk%3D&ifp=2-4&ifps=10-30&ifpd=2-4&ifpm=m5#Netherlands 🇳🇱 P
 #Race VPN   [Fragment & Clean IP]
