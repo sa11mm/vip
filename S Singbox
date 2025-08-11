@@ -5,7 +5,7 @@
  "outbounds": [
   {
    "type": "wireguard",
-   "tag": "Iran 🇮🇷 § 0",
+   "tag": "Iran 🇮🇷",
    "local_address": [
     "172.16.0.2/24",
     "2606:4700:110:829b:e92:86f2:4c1b:d5f2/128"
@@ -23,7 +23,7 @@
   },
   {
    "type": "wireguard",
-   "tag": "Germany 🇩🇪 🇮🇹 Italy § 1",
+   "tag": "Germany 🇩🇪 🇮🇹 Italy",
    "detour": "Iran 🇮🇷 § 0",
    "local_address": [
     "172.16.0.2/24",
@@ -38,7 +38,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "Spain 🇪🇸 ♾️ § 2",
+   "tag": "Spain 🇪🇸 ♾️",
    "server": "92.38.171.215",
    "server_port": 31348,
    "method": "chacha20-ietf-poly1305",
@@ -46,7 +46,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "Netherlands 🇳🇱 ♾️ § 3",
+   "tag": "Netherlands 🇳🇱 ♾️",
    "server": "switcher-nick-croquet.freesocks.work",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -54,7 +54,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "Netherlands 🇳🇱 ♾️ 1 § 4",
+   "tag": "Netherlands 🇳🇱 ♾️ 1",
    "server": "nl-svc-ol-1.hostik.org",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -62,7 +62,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "United States 🇺🇸 ♾️ § 5",
+   "tag": "United States 🇺🇸 ♾️",
    "server": "opfnhwzjzcjzftreqmoi.freesocks.work",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -70,7 +70,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "United States 🇺🇸 ♾️ 1️ § 6",
+   "tag": "United States 🇺🇸 ♾️ 1️",
    "server": "hackney-latest-strike.freesocks.work",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -78,7 +78,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "Turkey 🇹🇷 § 7",
+   "tag": "Turkey 🇹🇷",
    "server": "77.83.245.191",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -86,7 +86,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "Germany 🇩🇪 § 8",
+   "tag": "Germany 🇩🇪",
    "server": "80.253.251.123",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -94,7 +94,7 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "Greece 🇬🇷 § 9",
+   "tag": "Greece 🇬🇷",
    "server": "185.39.207.52",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
@@ -102,106 +102,106 @@
   },
   {
    "type": "shadowsocks",
-   "tag": "Canada 🇨🇦 § 10",
+   "tag": "Canada 🇨🇦",
    "server": "81.19.140.192",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
    "password": "CgSKfySM7Bgb"
   },
-    {
-      "type": "wireguard",
-      "tag": "Germany 🇩🇪 Berlin § 0",
-      "local_address": "10.1.83.164/32",
-      "private_key": "cO3B1A/JpRuyYSF2aPFgRM7b/TGRjot1IUrASULoQ20=",
-      "server": "85.215.187.230",
-      "server_port": 51820,
-      "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
-      "fake_packets": "2-3",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "2-4",
-      "fake_packets_mode": "m4"
-    },
-    {
-      "type": "wireguard",
-      "tag": "Germany 🇩🇪 Dusseldurf § 1",
-      "local_address": "10.1.85.9/32",
-      "private_key": "YETo/FB88nqPDQdnCCJXKFYB/VPbyO9AzUMSgcoAVUQ=",
-      "server": "98.142.253.135",
-      "server_port": 51820,
-      "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
-      "fake_packets": "2-3",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "2-4",
-      "fake_packets_mode": "m4"
-    },
-    {
-      "type": "wireguard",
-      "tag": "Finland 🇫🇮 Helsinki § 2",
-      "local_address": "10.1.85.183/32",
-      "private_key": "ULA/rQTMv3/6Iqc1Wz/IUaU9s/SnBhJ46t2ufPIgXVY=",
-      "server": "45.159.249.114",
-      "server_port": 51820,
-      "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
-      "fake_packets": "2-3",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "2-4",
-      "fake_packets_mode": "m4"
-    },
-    {
-      "type": "wireguard",
-      "tag": "Finland 🇫🇮 Helsinki § 3",
-      "local_address": "10.1.85.17/32",
-      "private_key": "eAEtX5e2gk9aa1JAeILtk4mVKgHTOG2capO/TPRnXHw=",
-      "server": "45.12.135.13",
-      "server_port": 51820,
-      "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
-      "fake_packets": "2-3",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "2-4",
-      "fake_packets_mode": "m4"
-    },
-    {
-      "type": "wireguard",
-      "tag": "Lithuania 🇱🇹 Vilnius § 4",
-      "local_address": "10.1.85.19/32",
-      "private_key": "ODX9aipQWMleTPdUwArnwfVmHfrAjLA9UjFUxcYW5mk=",
-      "server": "88.119.161.178",
-      "server_port": 51820,
-      "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
-      "fake_packets": "2-3",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "2-4",
-      "fake_packets_mode": "m4"
-    },
-    {
-      "type": "wireguard",
-      "tag": "United Kingdom 🇬🇧 London § 5",
-      "local_address": "10.1.85.22/32",
-      "private_key": "AOIQsKchYmZ260SA0QydmC1xi4AmLlpWwbNop7WY1G4=",
-      "server": "85.239.61.174",
-      "server_port": 51820,
-      "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
-      "fake_packets": "2-3",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "2-4",
-      "fake_packets_mode": "m4"
-    },
-    {
-      "type": "wireguard",
-      "tag": "United States 🇺🇸 Raleigh § 6",
-      "local_address": "10.1.85.185/32",
-      "private_key": "QCWjYUkgeQfXjxSrjLnbtkMioaFai6wU8NGcFBpW8kM=",
-      "server": "107.152.43.64",
-      "server_port": 51820,
-      "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
-      "fake_packets": "2-3",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "2-4",
-      "fake_packets_mode": "m4"
+  {
+   "type": "wireguard",
+   "tag": "Germany 🇩🇪 Berlin",
+   "local_address": "10.1.83.164/32",
+   "private_key": "cO3B1A/JpRuyYSF2aPFgRM7b/TGRjot1IUrASULoQ20=",
+   "server": "85.215.187.230",
+   "server_port": 51820,
+   "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+   "fake_packets": "2-3",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "2-4",
+   "fake_packets_mode": "m4"
+  },
+  {
+   "type": "wireguard",
+   "tag": "Germany 🇩🇪 Dusseldurf",
+   "local_address": "10.1.85.9/32",
+   "private_key": "YETo/FB88nqPDQdnCCJXKFYB/VPbyO9AzUMSgcoAVUQ=",
+   "server": "98.142.253.135",
+   "server_port": 51820,
+   "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+   "fake_packets": "2-3",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "2-4",
+   "fake_packets_mode": "m4"
+  },
+  {
+   "type": "wireguard",
+   "tag": "Finland 🇫🇮 Helsinki",
+   "local_address": "10.1.85.183/32",
+   "private_key": "ULA/rQTMv3/6Iqc1Wz/IUaU9s/SnBhJ46t2ufPIgXVY=",
+   "server": "45.159.249.114",
+   "server_port": 51820,
+   "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+   "fake_packets": "2-3",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "2-4",
+   "fake_packets_mode": "m4"
+  },
+  {
+   "type": "wireguard",
+   "tag": "Finland 🇫🇮 Helsinki",
+   "local_address": "10.1.85.17/32",
+   "private_key": "eAEtX5e2gk9aa1JAeILtk4mVKgHTOG2capO/TPRnXHw=",
+   "server": "45.12.135.13",
+   "server_port": 51820,
+   "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+   "fake_packets": "2-3",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "2-4",
+   "fake_packets_mode": "m4"
+  },
+  {
+   "type": "wireguard",
+   "tag": "Lithuania 🇱🇹 Vilnius",
+   "local_address": "10.1.85.19/32",
+   "private_key": "ODX9aipQWMleTPdUwArnwfVmHfrAjLA9UjFUxcYW5mk=",
+   "server": "88.119.161.178",
+   "server_port": 51820,
+   "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+   "fake_packets": "2-3",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "2-4",
+   "fake_packets_mode": "m4"
+  },
+  {
+   "type": "wireguard",
+   "tag": "United Kingdom 🇬🇧 London",
+   "local_address": "10.1.85.22/32",
+   "private_key": "AOIQsKchYmZ260SA0QydmC1xi4AmLlpWwbNop7WY1G4=",
+   "server": "85.239.61.174",
+   "server_port": 51820,
+   "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+   "fake_packets": "2-3",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "2-4",
+   "fake_packets_mode": "m4"
+  },
+  {
+   "type": "wireguard",
+   "tag": "United States 🇺🇸 Raleigh",
+   "local_address": "10.1.85.185/32",
+   "private_key": "QCWjYUkgeQfXjxSrjLnbtkMioaFai6wU8NGcFBpW8kM=",
+   "server": "107.152.43.64",
+   "server_port": 51820,
+   "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+   "fake_packets": "2-3",
+   "fake_packets_size": "10-30",
+   "fake_packets_delay": "2-4",
+   "fake_packets_mode": "m4"
   },
   {
    "type": "vless",
-   "tag": "Germany 🇩🇪 Claw § 18",
+   "tag": "Germany 🇩🇪 Claw",
    "server": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
    "server_port": 443,
    "uuid": "57d7f28a-32d7-458f-a76c-f897d670b864",
@@ -225,7 +225,7 @@
   },
   {
    "type": "vless",
-   "tag": "Germany 🇩🇪 Claw § 19",
+   "tag": "Germany 🇩🇪 Claw",
    "server": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
    "server_port": 34589,
    "uuid": "57d7f28a-32d7-458f-a76c-f897d670b864",
@@ -247,7 +247,7 @@
   },
   {
    "type": "vless",
-   "tag": "Seychelles 🇸🇨 § 20",
+   "tag": "Seychelles 🇸🇨",
    "server": "146.19.90.2",
    "server_port": 443,
    "uuid": "c48d434d-5491-73b3-8743-5415014304f1",
@@ -268,7 +268,7 @@
   },
   {
    "type": "vless",
-   "tag": "Finland 🇫🇮 § 21",
+   "tag": "Finland 🇫🇮",
    "server": "213.232.120.2",
    "server_port": 443,
    "uuid": "c48d434d-5491-73b3-8743-5415014304f1",
@@ -289,7 +289,7 @@
   },
   {
    "type": "vless",
-   "tag": "United States 🇺🇸 § 22",
+   "tag": "United States 🇺🇸",
    "server": "5.181.171.2",
    "server_port": 443,
    "uuid": "c48d434d-5491-73b3-8743-5415014304f1",
@@ -310,7 +310,7 @@
   },
   {
    "type": "vless",
-   "tag": "Pakistan 🇵🇰 § 23",
+   "tag": "Pakistan 🇵🇰",
    "server": "103.175.79.2",
    "server_port": 443,
    "uuid": "c48d434d-5491-73b3-8743-5415014304f1",
@@ -434,7 +434,7 @@
   },
   {
    "type": "wireguard",
-   "tag": "Netherlands 🇳🇱 P § 32",
+   "tag": "Netherlands 🇳🇱 P",
    "local_address": "10.2.0.2/32",
    "private_key": "QOTjtV++69kfM8O3rMMoCe7gUyfz3WasfuQ6Bxa96FA=",
    "server": "185.107.56.123",
@@ -447,7 +447,7 @@
   },
   {
    "type": "vless",
-   "tag": "Germany 🇩🇪 § 33",
+   "tag": "Germany 🇩🇪",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -476,7 +476,7 @@
   },
   {
    "type": "vless",
-   "tag": "Germany 🇩🇪 2 § 34",
+   "tag": "Germany 🇩🇪 2",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -505,7 +505,7 @@
   },
   {
    "type": "vless",
-   "tag": "Singapore 🇸🇬 2 § 35",
+   "tag": "Singapore 🇸🇬 2",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
