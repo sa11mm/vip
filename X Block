@@ -1,1 +1,51 @@
+{
+ "outbounds": [
+  {
+   "type": "direct",
+   "tag": "YouTube",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "10-30",
+    "sleep": "2-8"
+   }
+  },
+  {
+   "type": "xray",
+   "tag": "YouTube",
+   "udp_over_tcp": false,
+   "xconfig": {
+    "outbounds": [
+     {
+      "domainStrategy": "AsIs",
+      "protocol": "freedom",
+      "streamSettings": {
+       "sockopt": {
+        "dialerProxy": "xray_internal_fragment",
+        "tcpKeepAliveIdle": 100,
+        "tcpNoDelay": true
+       }
+      },
+      "tag": "XFragment2"
+     },
+     {
+      "protocol": "freedom",
+      "settings": {
+       "domainStrategy": "ForceIP"
+      },
+      "streamSettings": {
+       "sockopt": {
+        "tcpNoDelay": true
+       }
+      },
+      "tag": "xray_internal_fragment"
+     }
+    ]
+   }
+  }
+ ]
+}
 
+
+
+
+YouTube
