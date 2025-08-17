@@ -100,8 +100,8 @@ hiddify://import/.....
 vless &&detour= Warp
 
 Hiddify WireGuard Proton
-wg://[server:port]/?pk=[private_key]&local_address=[10.0.0.2/24]&peer_pub=[peer_public_key]&psk=[pre_shared_key]&workers=[workers]&mtu=[mtu]&reserved=[0,0,0]&ifp=1-3&ifpm=m4#
-Nois: &ifp=1-3&ifpm=m3,4,5
+wg://[server:port]?pk=[private_key]&local_address=[10.0.0.2/24]&peer_pub=[peer_public_key]&psk=[pre_shared_key]&workers=[workers]&mtu=[mtu]&reserved=[0,0,0]&ifp=1-3&ifpm=m4#
+wg://[server:port]?privateKey=[private_key]&publicKey=[public_key]&ip=[10.0.0.2/24]&&mtu=[mtu]&reserved=[0,0,0]&ifp=1-3&ifpm=m4#
 
 warp://@auto/?ifp=1-2&ifpm=m3    Auto
 warp://@auto4/?ifp=1-2&ifpm=m3   IPv4
