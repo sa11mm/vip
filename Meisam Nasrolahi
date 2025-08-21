@@ -23,12 +23,28 @@
    }
   },
   {
-   "type": "shadowsocks",
+   "type": "vless",
    "tag": "Germany 🇩🇪",
-   "server": "85.208.139.8",
+   "server": "zewduaexcojt.eu-central-1.clawcloudrun.com",
    "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "Xad4t64ycwLO"
+   "uuid": "ec0da48f-030a-4a64-89aa-d2b837994119",
+   "tls": {
+    "enabled": true,
+    "server_name": "zewduaexcojt.eu-central-1.clawcloudrun.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "zewduaexcojt.eu-central-1.clawcloudrun.com"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
   },
   {
    "type": "vless",
@@ -86,7 +102,7 @@
 vless://91c407de-a93c-491b-a2fd-b50784e124da@104.21.72.23:443?encryption=none&security=tls&sni=liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2Fr2EnFMzM5wPE6DMT%3Fed%3D2560#Instagram 📱
 vless://ec0da48f-030a-4a64-89aa-d2b837994119@zewduaexcojt.eu-central-1.clawcloudrun.com:443?encryption=none&security=tls&sni=zewduaexcojt.eu-central-1.clawcloudrun.com&fp=chrome&type=ws&host=zewduaexcojt.eu-central-1.clawcloudrun.com&path=%2F#Germany 🇩🇪
 vless://63c865a4-aedb-43eb-9177-828519561ea9@172.66.168.214:443?encryption=none&security=tls&sni=de-full.privateip.net&type=ws&host=de-full.privateip.net&path=%2Fws#Germany 🇩🇪 Hesse
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYYWQ0dDY0eWN3TE8%3D@85.208.139.8:443#Germany 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYYWQ0dDY0eWN3TE8%3D@85.208.139.8:443#Germany 🇩🇪 Frankfurt
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -5
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
