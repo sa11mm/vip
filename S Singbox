@@ -37,15 +37,6 @@
    "mtu": 1330
   },
   {
-   "type": "direct",
-   "tag": "YouTube",
-   "tls_fragment": {
-    "enabled": true,
-    "size": "10-30",
-    "sleep": "2-8"
-   }
-  },
-  {
    "type": "shadowsocks",
    "tag": "Spain 🇪🇸 ♾️ § 2",
    "server": "92.38.171.215",
@@ -85,17 +76,17 @@
    "method": "chacha20-ietf-poly1305",
    "password": "0qGuuxhVJeXeKtBRaKxGSb"
   },
-    {
-      "type": "hysteria2",
-      "tag": "Ukraine 🇺🇦 § 1",
-      "server": "185.126.255.78",
-      "server_port": 43429,
-      "password": "65bb2d01-189d-4840-99c0-cbb6ffed45cc",
-      "tls":       {
-        "enabled": true,
-        "server_name": "real.getafreenode.sbs"
-      }
-    },
+  {
+   "type": "hysteria2",
+   "tag": "Ukraine 🇺🇦 § 1",
+   "server": "185.126.255.78",
+   "server_port": 43429,
+   "password": "65bb2d01-189d-4840-99c0-cbb6ffed45cc",
+   "tls": {
+    "enabled": true,
+    "server_name": "real.getafreenode.sbs"
+   }
+  },
   {
    "type": "shadowsocks",
    "tag": "Turkey 🇹🇷 § 7",
@@ -222,6 +213,11 @@
   {
    "type": "vless",
    "tag": "Germany 🇩🇪 Claw § 18",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "6-9",
+    "sleep": "1-2"
+   },
    "server": "jfnbhbewmujo.eu-central-1.clawcloudrun.com",
    "server_port": 443,
    "uuid": "57d7f28a-32d7-458f-a76c-f897d670b864",
@@ -352,6 +348,11 @@
   {
    "type": "vless",
    "tag": "Multi ME",
+   "tls_fragment": {
+    "enabled": true,
+    "size": "6-9",
+    "sleep": "1-2"
+   },
    "server": "104.21.24.73",
    "server_port": 443,
    "uuid": "4491fe3f-e40b-469f-a347-9b34542379fc",
