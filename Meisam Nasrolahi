@@ -23,7 +23,7 @@
   },
   {
    "type": "wireguard",
-   "tag": "Germany 🇩🇪 Dusseldurf § 12",
+   "tag": "Germany 🇩🇪 Dusseldurf",
    "local_address": "10.1.85.9/32",
    "private_key": "YETo/FB88nqPDQdnCCJXKFYB/VPbyO9AzUMSgcoAVUQ=",
    "server": "98.142.253.135",
@@ -79,7 +79,7 @@
   },
   {
    "type": "vless",
-   "tag": "vless-ws-tls § 1",
+   "tag": "Germany 🇩🇪 Hesse",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
