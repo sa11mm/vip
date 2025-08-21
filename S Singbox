@@ -113,7 +113,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "EVA_CAN#Canada 🇨🇦 § 5",
+      "tag": "Canada 🇨🇦 § 5",
       "server": "81.19.140.192",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
