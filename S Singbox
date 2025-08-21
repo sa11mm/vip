@@ -87,38 +87,38 @@
     "server_name": "real.getafreenode.sbs"
    }
   },
-  {
-   "type": "shadowsocks",
-   "tag": "Turkey 🇹🇷 § 7",
-   "server": "77.83.245.191",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "mqXexKxFYytD"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "Germany 🇩🇪 § 8",
-   "server": "80.253.251.123",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "3bv8t2VtwFHg"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "Greece 🇬🇷 § 9",
-   "server": "185.39.207.52",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "mQ2uBfxHOVkm"
-  },
-  {
-   "type": "shadowsocks",
-   "tag": "Canada 🇨🇦 § 10",
-   "server": "81.19.140.192",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "CgSKfySM7Bgb"
-  },
+    {
+      "type": "shadowsocks",
+      "tag": "Turkey 🇹🇷 § 2",
+      "server": "77.83.245.174",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "GEvMvifFtrEl"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Germany 🇩🇪 § 3",
+      "server": "185.161.251.24",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "hq4x1i9wdLin"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Greece 🇬🇷 § 4",
+      "server": "185.39.207.96",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7kB0gx4j8fQz"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "EVA_CAN#Canada 🇨🇦 § 5",
+      "server": "81.19.140.192",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "CgSKfySM7Bgb"
+    },
   {
    "type": "wireguard",
    "tag": "Germany 🇩🇪 Berlin § 11",
