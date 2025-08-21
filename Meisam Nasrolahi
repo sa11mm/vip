@@ -4,37 +4,6 @@
 {
  "outbounds": [
   {
-   "type": "wireguard",
-   "tag": "Download 🎞",
-   "local_address": [
-    "172.16.0.2/24",
-    "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
-   ],
-   "private_key": "kPJSOoq8AKzw/UvbLWfGpC+MD4rC9ZDV0zin9aom6HE=",
-   "server": "8.34.146.209",
-   "server_port": 928,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "W13G",
-   "mtu": 1330,
-   "fake_packets": "2-3",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "10-30",
-   "fake_packets_mode": "m5"
-  },
-  {
-   "type": "wireguard",
-   "tag": "Germany 🇩🇪 Dusseldurf",
-   "local_address": "10.1.85.9/32",
-   "private_key": "YETo/FB88nqPDQdnCCJXKFYB/VPbyO9AzUMSgcoAVUQ=",
-   "server": "98.142.253.135",
-   "server_port": 51820,
-   "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
-   "fake_packets": "2-3",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "2-4",
-   "fake_packets_mode": "m4"
-  },
-  {
    "type": "vless",
    "tag": "Instagram 📱",
    "server": "104.21.72.23",
@@ -54,28 +23,12 @@
    }
   },
   {
-   "type": "vless",
+   "type": "shadowsocks",
    "tag": "Germany 🇩🇪",
-   "server": "zewduaexcojt.eu-central-1.clawcloudrun.com",
+   "server": "85.208.139.8",
    "server_port": 443,
-   "uuid": "ec0da48f-030a-4a64-89aa-d2b837994119",
-   "tls": {
-    "enabled": true,
-    "server_name": "zewduaexcojt.eu-central-1.clawcloudrun.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "zewduaexcojt.eu-central-1.clawcloudrun.com"
-    },
-    "early_data_header_name": "Sec-WebSocket-Protocol"
-   },
-   "packet_encoding": "xudp"
+   "method": "chacha20-ietf-poly1305",
+   "password": "Xad4t64ycwLO"
   },
   {
    "type": "vless",
@@ -107,6 +60,14 @@
    "packet_encoding": "xudp"
   },
   {
+   "type": "shadowsocks",
+   "tag": "Germany 🇩🇪 Frankfurt",
+   "server": "85.208.139.8",
+   "server_port": 443,
+   "method": "chacha20-ietf-poly1305",
+   "password": "Xad4t64ycwLO"
+  },
+  {
    "type": "vless",
    "tag": "💰 -5",
    "server": "***",
@@ -125,6 +86,7 @@
 vless://91c407de-a93c-491b-a2fd-b50784e124da@104.21.72.23:443?encryption=none&security=tls&sni=liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2Fr2EnFMzM5wPE6DMT%3Fed%3D2560#Instagram 📱
 vless://ec0da48f-030a-4a64-89aa-d2b837994119@zewduaexcojt.eu-central-1.clawcloudrun.com:443?encryption=none&security=tls&sni=zewduaexcojt.eu-central-1.clawcloudrun.com&fp=chrome&type=ws&host=zewduaexcojt.eu-central-1.clawcloudrun.com&path=%2F#Germany 🇩🇪
 vless://63c865a4-aedb-43eb-9177-828519561ea9@172.66.168.214:443?encryption=none&security=tls&sni=de-full.privateip.net&type=ws&host=de-full.privateip.net&path=%2Fws#Germany 🇩🇪 Hesse
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYYWQ0dDY0eWN3TE8%3D@85.208.139.8:443#Germany 🇩🇪
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -5
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
