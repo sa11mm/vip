@@ -85,6 +85,17 @@
    "method": "chacha20-ietf-poly1305",
    "password": "0qGuuxhVJeXeKtBRaKxGSb"
   },
+    {
+      "type": "hysteria2",
+      "tag": "Ukraine 🇺🇦 § 1",
+      "server": "185.126.255.78",
+      "server_port": 43429,
+      "password": "65bb2d01-189d-4840-99c0-cbb6ffed45cc",
+      "tls":       {
+        "enabled": true,
+        "server_name": "real.getafreenode.sbs"
+      }
+    },
   {
    "type": "shadowsocks",
    "tag": "Turkey 🇹🇷 § 7",
@@ -507,7 +518,7 @@
   },
   {
    "type": "vless",
-   "tag": "Poland 🇵🇱 § 4",
+   "tag": "Poland 🇵🇱",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -536,7 +547,7 @@
   },
   {
    "type": "vless",
-   "tag": "United Kingdom 🇬🇧 2 § 5",
+   "tag": "United Kingdom 🇬🇧 2",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
@@ -565,7 +576,7 @@
   },
   {
    "type": "vless",
-   "tag": "Singapore 🇸🇬 2 § 6",
+   "tag": "Singapore 🇸🇬 2",
    "tls_fragment": {
     "enabled": true,
     "size": "6-9",
