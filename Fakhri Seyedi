@@ -24,19 +24,19 @@
   {
    "type": "vless",
    "tag": "Instagram 📱",
-   "server": "104.21.0.118",
+   "server": "188.114.96.3",
    "server_port": 443,
-   "uuid": "b48b77ce-1745-4700-9223-94a4320ea86c",
+   "uuid": "641bbd83-818c-4547-94ae-5a71b49f1688",
    "tls": {
     "enabled": true,
-    "server_name": "34fen4H6PeSenAo4EIWWr4jTdv0KI7d7.NOWShAHR3104.WoRkeRs.DEV",
+    "server_name": "1T-K3FlIzwXSotbp4BPOW314S45Qm6F8.nOwShAhr3103.workErS.dEv",
     "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/lFffF8pDq3pzPYhd?ed=2560",
+    "path": "/PQfKPzxatWptHnAJ?ed=2560",
     "headers": {
-     "Host": "34fen4h6pesenao4eiwwr4jtdv0ki7d7.nowshahr3104.workers.dev"
+     "Host": "1t-k3flizwxsotbp4bpow314s45qm6f8.nowshahr3103.workers.dev"
     }
    }
   }
