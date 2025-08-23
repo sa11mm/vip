@@ -1,4 +1,28 @@
 {
+ "outbounds": [
+  {
+   "type": "vless",
+   "tag": "Instagram 📱",
+   "server": "104.21.48.1",
+   "server_port": 443,
+   "uuid": "20f129f4-5c9e-426b-a315-82248fb49055",
+   "tls": {
+    "enabled": true,
+    "server_name": "3O2bOF3zXL2cWoS3gRdS1ntVZE4503pq.RAMSARCItY.WoRkErs.deV",
+    "insecure": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/wUKbcKjA7Y24JeWk?ed=2560",
+    "headers": {
+     "Host": "3o2bof3zxl2cwos3grds1ntvze4503pq.ramsarcity.workers.dev"
+    }
+   }
+  }
+ ]
+}
+vless://20f129f4-5c9e-426b-a315-82248fb49055@104.21.48.1:443?encryption=none&security=tls&sni=3O2bOF3zXL2cWoS3gRdS1ntVZE4503pq.RAMSARCItY.WoRkErs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=3o2bof3zxl2cwos3grds1ntvze4503pq.ramsarcity.workers.dev&path=%2FwUKbcKjA7Y24JeWk%3Fed%3D2560#Instagram 📱
+{
   "dns": {
     "final": "local-dns",
     "rules": [
@@ -169,4 +193,3 @@
     ]
   }
 }
-vless://20f129f4-5c9e-426b-a315-82248fb49055@104.21.48.1:443?encryption=none&security=tls&sni=3O2bOF3zXL2cWoS3gRdS1ntVZE4503pq.RAMSARCItY.WoRkErs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=3o2bof3zxl2cwos3grds1ntvze4503pq.ramsarcity.workers.dev&path=%2FwUKbcKjA7Y24JeWk%3Fed%3D2560#Instagram 📱
