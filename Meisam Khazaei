@@ -21,6 +21,18 @@
      "Host": "ok5xfde7u0dezfoe-skzb7xfbdbwd3ym.ramsarcity.workers.dev"
     }
    }
+  },
+  {
+   "type": "vless",
+   "tag": "💰 -1",
+   "server": "***",
+   "server_port": 0,
+   "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+   "tls": {
+    "enabled": true,
+    "server_name": "***",
+    "insecure": true
+   }
   }
  ]
 }
