@@ -4,39 +4,21 @@
 {
  "outbounds": [
   {
-   "type": "wireguard",
-   "tag": "Download 🎞",
-   "local_address": [
-    "172.16.0.2/24",
-    "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
-   ],
-   "private_key": "kPJSOoq8AKzw/UvbLWfGpC+MD4rC9ZDV0zin9aom6HE=",
-   "server": "8.34.70.55",
-   "server_port": 8742,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "W13G",
-   "mtu": 1330,
-   "fake_packets": "2-3",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "10-30",
-   "fake_packets_mode": "m5"
-  },
-  {
-   "type": "vless",
-   "tag": "Instagram 📱",
-   "server": "172.67.186.31",
-   "server_port": 443,
-   "uuid": "225f49b7-2e3e-4a47-a658-c4ea20a515de",
-   "tls": {
-    "enabled": true,
-    "server_name": "restlESS-Term-921C.daRtOPlOiG-Hg.WorkErs.deV",
-    "insecure": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/cAX5XLtUM2xEjhi4?ed=2560",
-    "headers": {
-     "Host": "restless-term-921c.dartoploig-hg.workers.dev"
+      "type": "vless",
+      "tag": "Instagram 📱",
+      "server": "104.21.76.31",
+      "server_port": 443,
+      "uuid": "abd7b587-9293-4298-8639-011fd33dc7cf",
+      "tls":       {
+        "enabled": true,
+        "server_name": "7DQl-f-Bu285P9cuc-l8VEEKTxCr2hRx.DaRtOPlOIG-hg.WoRkerS.Dev",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/LmGjPPGIElHHcLBj?ed=2560",
+        "headers":         {
+          "Host": "7dql-f-bu285p9cuc-l8veektxcr2hrx.dartoploig-hg.workers.dev"
     }
    }
   },
@@ -55,7 +37,7 @@
  ]
 }
 #warp://8.34.70.55:8742?ifp=2-3&ifpm=m5#Download 🎞
-vless://225f49b7-2e3e-4a47-a658-c4ea20a515de@172.67.186.31:443?encryption=none&security=tls&sni=restlESS-Term-921C.daRtOPlOiG-Hg.WorkErs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=restless-term-921c.dartoploig-hg.workers.dev&path=%2FcAX5XLtUM2xEjhi4%3Fed%3D2560#Instagram 📱
+vless://abd7b587-9293-4298-8639-011fd33dc7cf@104.21.76.31:443?encryption=none&security=tls&sni=7DQl-f-Bu285P9cuc-l8VEEKTxCr2hRx.DaRtOPlOIG-hg.WoRkerS.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=7dql-f-bu285p9cuc-l8veektxcr2hrx.dartoploig-hg.workers.dev&path=%2FLmGjPPGIElHHcLBj%3Fed%3D2560#Instagram 📱
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -5
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
