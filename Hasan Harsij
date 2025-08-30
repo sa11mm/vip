@@ -4,46 +4,28 @@
 {
  "outbounds": [
   {
-   "type": "wireguard",
-   "tag": "Download 🎞",
-   "local_address": [
-    "172.16.0.2/24",
-    "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
-   ],
-   "private_key": "kPJSOoq8AKzw/UvbLWfGpC+MD4rC9ZDV0zin9aom6HE=",
-   "server": "8.6.112.130",
-   "server_port": 7281,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "W13G",
-   "mtu": 1330,
-   "fake_packets": "2-3",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "10-30",
-   "fake_packets_mode": "m5"
-  },
-  {
    "type": "vless",
    "tag": "Instagram 📱",
-   "server": "172.67.176.205",
+   "server": "104.21.17.136",
    "server_port": 443,
-   "uuid": "92c19f9a-d807-4511-a58a-7ab6e9db6a46",
+   "uuid": "0f49eb1d-42d8-4305-913a-aa0271ec07d3",
    "tls": {
     "enabled": true,
-    "server_name": "eMPTY-wATerfaLl-335.harcJiPISHBiAd546-fduF.wORKErs.dEv",
+    "server_name": "Y7cu5alv1S3tl1Kqk13L19bAi-610cwL.harCjIpiShBIaD546-fDuf.WOrKerS.deV",
     "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/wknEJhInCeOK2tJ8?ed=2560",
+    "path": "/VQfgPPLMvB8BeRAu?ed=2560",
     "headers": {
-     "Host": "empty-waterfall-335.harcjipishbiad546-fduf.workers.dev"
+     "Host": "y7cu5alv1s3tl1kqk13l19bai-610cwl.harcjipishbiad546-fduf.workers.dev"
     }
    }
   }
  ]
 }
 #warp://8.6.112.130:7281?ifp=2-3&ifpm=m5#Download 🎞
-vless://92c19f9a-d807-4511-a58a-7ab6e9db6a46@172.67.176.205:443?encryption=none&security=tls&sni=eMPTY-wATerfaLl-335.harcJiPISHBiAd546-fduF.wORKErs.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=empty-waterfall-335.harcjipishbiad546-fduf.workers.dev&path=%2FwknEJhInCeOK2tJ8%3Fed%3D2560#Instagram 📱
+vless://0f49eb1d-42d8-4305-913a-aa0271ec07d3@104.21.17.136:443?encryption=none&security=tls&sni=Y7cu5alv1S3tl1Kqk13L19bAi-610cwL.harCjIpiShBIaD546-fDuf.WOrKerS.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=y7cu5alv1s3tl1kqk13l19bai-610cwl.harcjipishbiad546-fduf.workers.dev&path=%2FVQfgPPLMvB8BeRAu%3Fed%3D2560#Instagram 📱
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #trojan://75634040-5b91-11f0-a360-1239d0255272@fr1.test3.net:443?security=tls&allowInsecure=1&type=tcp&headerType=none#France 🇫🇷
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
