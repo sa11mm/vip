@@ -1,6 +1,6 @@
 //profile-title: Meisam Khazaei
 //profile-update-interval: 2
-//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1756810000
+//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1759010000
 {
  "outbounds": [
   {
@@ -21,23 +21,11 @@
      "Host": "ok5xfde7u0dezfoe-skzb7xfbdbwd3ym.ramsarcity.workers.dev"
     }
    }
-  },
-  {
-   "type": "vless",
-   "tag": "💰 -1",
-   "server": "***",
-   "server_port": 0,
-   "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
-   "tls": {
-    "enabled": true,
-    "server_name": "***",
-    "insecure": true
-   }
   }
  ]
 }
 #warp://8.6.112.66:7103?ifp=2-3&ifpm=m5#Download 🎞
 vless://a586a6b4-e52c-46c6-ac81-a74be770f894@104.21.32.1:443?encryption=none&security=tls&sni=OK5xFDE7u0DEzFoE-sKZb7xFbdbwd3yM.RAMsaRciTy.woRkerS.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=ok5xfde7u0dezfoe-skzb7xfbdbwd3ym.ramsarcity.workers.dev&path=%2FmszgNEmlc3JGAFLa%3Fed%3D2560#Instagram 📱
-vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
+#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
