@@ -100,7 +100,11 @@ hiddify://import/.....
 -------------------
 § ***** Hidden
 -------------------
-
+DNS
+https://8.8.8.8/dns-query
+tls://8.8.8.8
+tcp://8.8.8.8
+-------------------
 vless &&detour= Warp
 
 Hiddify WireGuard Proton
