@@ -21,11 +21,23 @@
      "Host": "pag-iyu98uwghuy68wgebd.pages.dev"
     }
    }
+  },
+  {
+   "type": "vless",
+   "tag": "💰 -2",
+   "server": "***",
+   "server_port": 0,
+   "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+   "tls": {
+    "enabled": true,
+    "server_name": "***",
+    "insecure": true
+   }
   }
  ]
 }
 #warp://8.6.112.183:1014?ifp=2-3&ifpm=m5#Download 🎞
 vless://508d5b41-0fca-4d71-ad18-8c46def36c8b@172.66.44.184:443?encryption=none&security=tls&sni=paG-IYu98UWGhUY68wgebD.PAgEs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=pag-iyu98uwghuy68wgebd.pages.dev&path=%2FwPivqs5hUKIf9k0T%3Fed%3D2560#Instagram 📱
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
+vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
