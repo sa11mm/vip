@@ -6,26 +6,38 @@
   {
    "type": "vless",
    "tag": "Instagram 📱",
-   "server": "104.21.48.1",
+   "server": "172.66.44.217",
    "server_port": 443,
-   "uuid": "0f685164-911a-4ea1-9188-b88d6e699ac5",
+   "uuid": "682b02cd-0330-49d3-9b51-95ee023b66f3",
    "tls": {
     "enabled": true,
-    "server_name": "RSUsIl8D97H7Q7scP5GE5uheF9t1j8z0.fGhtPolp-Ryu9B5.wORKERs.dEv",
+    "server_name": "PaG-GfASdfGHy54567.pAGes.deV",
     "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/AD05Y6fj8LKEr1vD?ed=2560",
+    "path": "/JKQqqMVMSqyQToml?ed=2560",
     "headers": {
-     "Host": "rsusil8d97h7q7scp5ge5uhef9t1j8z0.fghtpolp-ryu9b5.workers.dev"
+     "Host": "pag-gfasdfghy54567.pages.dev"
     }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "💰 -1",
+   "server": "***",
+   "server_port": 0,
+   "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+   "tls": {
+    "enabled": true,
+    "server_name": "***",
+    "insecure": true
    }
   }
  ]
 }
 #warp://8.34.70.34:1002?ifp=2-3&ifpm=m5#Download 🎞
-vless://0f685164-911a-4ea1-9188-b88d6e699ac5@104.21.48.1:443?encryption=none&security=tls&sni=RSUsIl8D97H7Q7scP5GE5uheF9t1j8z0.fGhtPolp-Ryu9B5.wORKERs.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=rsusil8d97h7q7scp5ge5uhef9t1j8z0.fghtpolp-ryu9b5.workers.dev&path=%2FAD05Y6fj8LKEr1vD%3Fed%3D2560#Instagram 📱
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
+vless://682b02cd-0330-49d3-9b51-95ee023b66f3@172.66.44.217:443?encryption=none&security=tls&sni=PaG-GfASdfGHy54567.pAGes.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=pag-gfasdfghy54567.pages.dev&path=%2FJKQqqMVMSqyQToml%3Fed%3D2560#Instagram 📱
+vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
