@@ -1,6 +1,7 @@
 //profile-title: Meisam Khazaei
 //profile-update-interval: 2
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1759010000
+{
  "outbounds": [
   {
    "type": "vless",
@@ -13,18 +14,13 @@
     "server_name": "pAg-TryeUjrnbtrneN13452.PagEs.dEv",
     "insecure": true
    },
-   "multiplex": {
-    "protocol": "smux",
-    "max_streams": 32
-   },
    "transport": {
     "type": "ws",
     "path": "/X8SHSOx8Uot6Yp5z?ed=2560",
     "headers": {
      "Host": "pag-tryeujrnbtrnen13452.pages.dev"
     }
-   },
-   "packet_encoding": "xudp"
+   }
   }
  ]
 }
