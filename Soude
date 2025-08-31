@@ -4,39 +4,21 @@
 {
  "outbounds": [
   {
-   "type": "wireguard",
-   "tag": "Download 🎞",
-   "local_address": [
-    "172.16.0.2/24",
-    "2606:4700:110:8fbe:ee2e:f5bb:ba76:331f/128"
-   ],
-   "private_key": "kPJSOoq8AKzw/UvbLWfGpC+MD4rC9ZDV0zin9aom6HE=",
-   "server": "8.34.146.156",
-   "server_port": 2408,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "W13G",
-   "mtu": 1330,
-   "fake_packets": "2-3",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "10-30",
-   "fake_packets_mode": "m5"
-  },
-  {
-   "type": "vless",
-   "tag": "Instagram 📱",
-   "server": "188.114.97.10",
-   "server_port": 443,
-   "uuid": "87ce4f3b-a013-4b01-9f81-8b087a1fe4cb",
-   "tls": {
-    "enabled": true,
-    "server_name": "WILDyrIce-1A5Rtc.OHmyGoDAHOO-Jj.worKerS.dEV",
-    "insecure": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ceEtqk4nIQIWoXfn?ed=2560",
-    "headers": {
-     "Host": "wildyrice-1a5rtc.ohmygodahoo-jj.workers.dev"
+      "type": "vless",
+      "tag": "vless-7c26d0c8",
+      "server": "188.114.97.3",
+      "server_port": 443,
+      "uuid": "a13c2f8a-2885-4e11-9ecd-24989c23a035",
+      "tls":       {
+        "enabled": true,
+        "server_name": "7CW8D-5oVM6Bgir5CyWxPyiqjECpGfFf.ohMyGoDAhOO-jj.WorkeRS.DEv",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/R5VrTPwsbC5MxLCF?ed=2560",
+        "headers":         {
+          "Host": "7cw8d-5ovm6bgir5cywxpyiqjecpgfff.ohmygodahoo-jj.workers.dev"
     }
    }
   },
@@ -55,7 +37,7 @@
  ]
 }
 #warp://8.34.146.156:2408?ifp=2-3&ifpm=m5#Download 🎞
-vless://87ce4f3b-a013-4b01-9f81-8b087a1fe4cb@188.114.97.10:443?encryption=none&security=tls&sni=WILDyrIce-1A5Rtc.OHmyGoDAHOO-Jj.worKerS.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=wildyrice-1a5rtc.ohmygodahoo-jj.workers.dev&path=%2FceEtqk4nIQIWoXfn%3Fed%3D2560#Instagram 📱
+vless://a13c2f8a-2885-4e11-9ecd-24989c23a035@188.114.97.3:443?encryption=none&security=tls&sni=7CW8D-5oVM6Bgir5CyWxPyiqjECpGfFf.ohMyGoDAhOO-jj.WorkeRS.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=7cw8d-5ovm6bgir5cywxpyiqjecpgfff.ohmygodahoo-jj.workers.dev&path=%2FR5VrTPwsbC5MxLCF%3Fed%3D2560#Instagram 📱
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -2
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
