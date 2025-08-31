@@ -6,19 +6,19 @@
   {
       "type": "vless",
       "tag": "Instagram 📱",
-      "server": "104.21.72.23",
+      "server": "104.21.64.1",
       "server_port": 443,
-      "uuid": "2a1951d8-7d58-4a87-8088-709625482290",
+      "uuid": "2d499fc0-5ca2-4dea-b2d1-ee394c2172ac",
       "tls":       {
         "enabled": true,
-        "server_name": "N047zhHeOQfxkud0bFWA46IO1l7XZD3a.lOPGrvD47-kjJtGe752.WorkERs.dEV",
+        "server_name": "PAG-DeDeGR5D4T5y65t4r.paGEs.DeV",
         "insecure": true
       },
       "transport":       {
         "type": "ws",
-        "path": "/xq1kyW3Rd7xyChKW?ed=2560",
+        "path": "/UQQpZSDHSmXcJTMa?ed=2560",
         "headers":         {
-          "Host": "n047zhheoqfxkud0bfwa46io1l7xzd3a.lopgrvd47-kjjtge752.workers.dev"
+          "Host": "pag-dedegr5d4t5y65t4r.pages.dev"
     }
    }
   },
@@ -99,7 +99,7 @@
 }
 #warp://8.34.146.209:928?ifp=2-3&ifpm=m5#Download 🎞
 #wg://98.142.253.135:51820?pk=YETo/FB88nqPDQdnCCJXKFYB/VPbyO9AzUMSgcoAVUQ=&local_address=10.1.85.9/32&peer_pub=lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=&ifp=2-3&ifps=10-30&ifpd=2-4&ifpm=m4#Germany 🇩🇪 Dusseldurf
-vless://2a1951d8-7d58-4a87-8088-709625482290@104.21.72.23:443?encryption=none&security=tls&sni=N047zhHeOQfxkud0bFWA46IO1l7XZD3a.lOPGrvD47-kjJtGe752.WorkERs.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=n047zhheoqfxkud0bfwa46io1l7xzd3a.lopgrvd47-kjjtge752.workers.dev&path=%2Fxq1kyW3Rd7xyChKW%3Fed%3D2560#Instagram 📱
+vless://2d499fc0-5ca2-4dea-b2d1-ee394c2172ac@104.21.64.1:443?encryption=none&security=tls&sni=PAG-DeDeGR5D4T5y65t4r.paGEs.DeV&alpn=http%2F1.1&fp=randomized&type=ws&host=pag-dedegr5d4t5y65t4r.pages.dev&path=%2FUQQpZSDHSmXcJTMa%3Fed%3D2560#Instagram 📱
 vless://ec0da48f-030a-4a64-89aa-d2b837994119@zewduaexcojt.eu-central-1.clawcloudrun.com:443?encryption=none&security=tls&sni=zewduaexcojt.eu-central-1.clawcloudrun.com&fp=chrome&type=ws&host=zewduaexcojt.eu-central-1.clawcloudrun.com&path=%2F#Germany 🇩🇪
 vless://63c865a4-aedb-43eb-9177-828519561ea9@172.66.168.214:443?encryption=none&security=tls&sni=de-full.privateip.net&type=ws&host=de-full.privateip.net&path=%2Fws#Germany 🇩🇪 Hesse
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYYWQ0dDY0eWN3TE8%3D@85.208.139.8:443#Germany 🇩🇪 Frankfurt
