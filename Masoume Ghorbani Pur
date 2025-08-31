@@ -6,19 +6,19 @@
   {
       "type": "vless",
       "tag": "Instagram 📱",
-      "server": "104.21.76.31",
+      "server": "172.66.47.153",
       "server_port": 443,
-      "uuid": "abd7b587-9293-4298-8639-011fd33dc7cf",
+      "uuid": "359eb0c8-557e-4590-9892-908749be4184",
       "tls":       {
         "enabled": true,
-        "server_name": "7DQl-f-Bu285P9cuc-l8VEEKTxCr2hRx.DaRtOPlOIG-hg.WoRkerS.Dev",
+        "server_name": "PaG-jHuy8yg87tyg.pAgEs.dEV",
         "insecure": true
       },
       "transport":       {
         "type": "ws",
-        "path": "/LmGjPPGIElHHcLBj?ed=2560",
+        "path": "/DkNkmAPqfM8V9miA?ed=2560",
         "headers":         {
-          "Host": "7dql-f-bu285p9cuc-l8veektxcr2hrx.dartoploig-hg.workers.dev"
+          "Host": "pag-jhuy8yg87tyg.pages.dev"
     }
    }
   },
@@ -37,7 +37,7 @@
  ]
 }
 #warp://8.34.70.55:8742?ifp=2-3&ifpm=m5#Download 🎞
-vless://abd7b587-9293-4298-8639-011fd33dc7cf@104.21.76.31:443?encryption=none&security=tls&sni=7DQl-f-Bu285P9cuc-l8VEEKTxCr2hRx.DaRtOPlOIG-hg.WoRkerS.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=7dql-f-bu285p9cuc-l8veektxcr2hrx.dartoploig-hg.workers.dev&path=%2FLmGjPPGIElHHcLBj%3Fed%3D2560#Instagram 📱
+vless://359eb0c8-557e-4590-9892-908749be4184@172.66.47.153:443?encryption=none&security=tls&sni=PaG-jHuy8yg87tyg.pAgEs.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=pag-jhuy8yg87tyg.pages.dev&path=%2FDkNkmAPqfM8V9miA%3Fed%3D2560#Instagram 📱
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -5
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
