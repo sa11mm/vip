@@ -5,7 +5,7 @@
  "outbounds": [
   {
       "type": "vless",
-      "tag": "vless-7c26d0c8",
+      "tag": "Instagram 📱",
       "server": "188.114.97.3",
       "server_port": 443,
       "uuid": "a13c2f8a-2885-4e11-9ecd-24989c23a035",
