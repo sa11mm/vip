@@ -4,21 +4,21 @@
 {
  "outbounds": [
   {
-   "type": "vless",
-   "tag": "Instagram 📱",
-   "server": "104.21.72.23",
-   "server_port": 443,
-   "uuid": "91c407de-a93c-491b-a2fd-b50784e124da",
-   "tls": {
-    "enabled": true,
-    "server_name": "liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv",
-    "insecure": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/r2EnFMzM5wPE6DMT?ed=2560",
-    "headers": {
-     "Host": "lingering-tree-335.lopgrvd47-kjjtge752.workers.dev"
+      "type": "vless",
+      "tag": "Instagram 📱",
+      "server": "104.21.72.23",
+      "server_port": 443,
+      "uuid": "2a1951d8-7d58-4a87-8088-709625482290",
+      "tls":       {
+        "enabled": true,
+        "server_name": "N047zhHeOQfxkud0bFWA46IO1l7XZD3a.lOPGrvD47-kjJtGe752.WorkERs.dEV",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/xq1kyW3Rd7xyChKW?ed=2560",
+        "headers":         {
+          "Host": "n047zhheoqfxkud0bfwa46io1l7xzd3a.lopgrvd47-kjjtge752.workers.dev"
     }
    }
   },
@@ -99,7 +99,7 @@
 }
 #warp://8.34.146.209:928?ifp=2-3&ifpm=m5#Download 🎞
 #wg://98.142.253.135:51820?pk=YETo/FB88nqPDQdnCCJXKFYB/VPbyO9AzUMSgcoAVUQ=&local_address=10.1.85.9/32&peer_pub=lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=&ifp=2-3&ifps=10-30&ifpd=2-4&ifpm=m4#Germany 🇩🇪 Dusseldurf
-vless://91c407de-a93c-491b-a2fd-b50784e124da@104.21.72.23:443?encryption=none&security=tls&sni=liNGeriNg-TREe-335.LoPGrvd47-KJjTGE752.workERS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=lingering-tree-335.lopgrvd47-kjjtge752.workers.dev&path=%2Fr2EnFMzM5wPE6DMT%3Fed%3D2560#Instagram 📱
+vless://2a1951d8-7d58-4a87-8088-709625482290@104.21.72.23:443?encryption=none&security=tls&sni=N047zhHeOQfxkud0bFWA46IO1l7XZD3a.lOPGrvD47-kjJtGe752.WorkERs.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=n047zhheoqfxkud0bfwa46io1l7xzd3a.lopgrvd47-kjjtge752.workers.dev&path=%2Fxq1kyW3Rd7xyChKW%3Fed%3D2560#Instagram 📱
 vless://ec0da48f-030a-4a64-89aa-d2b837994119@zewduaexcojt.eu-central-1.clawcloudrun.com:443?encryption=none&security=tls&sni=zewduaexcojt.eu-central-1.clawcloudrun.com&fp=chrome&type=ws&host=zewduaexcojt.eu-central-1.clawcloudrun.com&path=%2F#Germany 🇩🇪
 vless://63c865a4-aedb-43eb-9177-828519561ea9@172.66.168.214:443?encryption=none&security=tls&sni=de-full.privateip.net&type=ws&host=de-full.privateip.net&path=%2Fws#Germany 🇩🇪 Hesse
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYYWQ0dDY0eWN3TE8%3D@85.208.139.8:443#Germany 🇩🇪 Frankfurt
