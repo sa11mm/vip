@@ -4,28 +4,28 @@
 {
  "outbounds": [
   {
-      "type": "vless",
-      "tag": "Instagram 📱",
-      "server": "104.21.0.118",
-      "server_port": 443,
-      "uuid": "b411edf9-35b3-4670-9cbc-574ab68d0031",
-      "tls":       {
-        "enabled": true,
-        "server_name": "P01h0V12BFEg7SDbaxi29H174D-V32y6.NowshAhr3104.WorKeRs.DEv",
-        "insecure": true
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/OuATXXroMjs3yBRQ?ed=2560",
-        "headers":         {
-          "Host": "p01h0v12bfeg7sdbaxi29h174d-v32y6.nowshahr3104.workers.dev"
+   "type": "vless",
+   "tag": "Instagram 📱",
+   "server": "172.66.44.184",
+   "server_port": 443,
+   "uuid": "508d5b41-0fca-4d71-ad18-8c46def36c8b",
+   "tls": {
+    "enabled": true,
+    "server_name": "paG-IYu98UWGhUY68wgebD.PAgEs.deV",
+    "insecure": true
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/wPivqs5hUKIf9k0T?ed=2560",
+    "headers": {
+     "Host": "pag-iyu98uwghuy68wgebd.pages.dev"
     }
    }
   }
  ]
 }
 #warp://8.6.112.183:1014?ifp=2-3&ifpm=m5#Download 🎞
-vless://b411edf9-35b3-4670-9cbc-574ab68d0031@104.21.0.118:443?encryption=none&security=tls&sni=P01h0V12BFEg7SDbaxi29H174D-V32y6.NowshAhr3104.WorKeRs.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=p01h0v12bfeg7sdbaxi29h174d-v32y6.nowshahr3104.workers.dev&path=%2FOuATXXroMjs3yBRQ%3Fed%3D2560#Instagram 📱
+vless://508d5b41-0fca-4d71-ad18-8c46def36c8b@172.66.44.184:443?encryption=none&security=tls&sni=paG-IYu98UWGhUY68wgebD.PAgEs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=pag-iyu98uwghuy68wgebd.pages.dev&path=%2FwPivqs5hUKIf9k0T%3Fed%3D2560#Instagram 📱
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
