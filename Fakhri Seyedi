@@ -4,46 +4,28 @@
 {
  "outbounds": [
   {
-   "type": "wireguard",
-   "tag": "Download 🎞",
-   "local_address": [
-    "172.16.0.2/24",
-    "2606:4700:110:866f:157b:8955:ec5a:3fd6/128"
-   ],
-   "private_key": "YA3zJq6YxJ5Hx2TIDvkEI/LQ6vQfSsR3k1Hhp+aV3VU=",
-   "server": "8.6.112.137",
-   "server_port": 7152,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "G59X",
-   "mtu": 1330,
-   "fake_packets": "2-4",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "2-4",
-   "fake_packets_mode": "m5"
-  },
-  {
-   "type": "vless",
-   "tag": "Instagram 📱",
-   "server": "188.114.96.3",
-   "server_port": 443,
-   "uuid": "641bbd83-818c-4547-94ae-5a71b49f1688",
-   "tls": {
-    "enabled": true,
-    "server_name": "1T-K3FlIzwXSotbp4BPOW314S45Qm6F8.nOwShAhr3103.workErS.dEv",
-    "insecure": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/PQfKPzxatWptHnAJ?ed=2560",
-    "headers": {
-     "Host": "1t-k3flizwxsotbp4bpow314s45qm6f8.nowshahr3103.workers.dev"
+      "type": "vless",
+      "tag": "vless-6e33b309",
+      "server": "104.21.0.118",
+      "server_port": 443,
+      "uuid": "b411edf9-35b3-4670-9cbc-574ab68d0031",
+      "tls":       {
+        "enabled": true,
+        "server_name": "P01h0V12BFEg7SDbaxi29H174D-V32y6.NowshAhr3104.WorKeRs.DEv",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/OuATXXroMjs3yBRQ?ed=2560",
+        "headers":         {
+          "Host": "p01h0v12bfeg7sdbaxi29h174d-v32y6.nowshahr3104.workers.dev"
     }
    }
   }
  ]
 }
 #warp://8.6.112.183:1014?ifp=2-3&ifpm=m5#Download 🎞
-vless://641bbd83-818c-4547-94ae-5a71b49f1688@188.114.96.3:443?encryption=none&security=tls&sni=1T-K3FlIzwXSotbp4BPOW314S45Qm6F8.nOwShAhr3103.workErS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=1t-k3flizwxsotbp4bpow314s45qm6f8.nowshahr3103.workers.dev&path=%2FPQfKPzxatWptHnAJ%3Fed%3D2560#Instagram 📱
+vless://b411edf9-35b3-4670-9cbc-574ab68d0031@104.21.0.118:443?encryption=none&security=tls&sni=P01h0V12BFEg7SDbaxi29H174D-V32y6.NowshAhr3104.WorKeRs.DEv&alpn=http%2F1.1&fp=randomized&type=ws&host=p01h0v12bfeg7sdbaxi29h174d-v32y6.nowshahr3104.workers.dev&path=%2FOuATXXroMjs3yBRQ%3Fed%3D2560#Instagram 📱
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
