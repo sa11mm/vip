@@ -5,20 +5,20 @@
  "outbounds": [
   {
       "type": "vless",
-      "tag": "Instagram 📱",
-      "server": "104.21.76.31",
+      "tag": "vless-01db78b7",
+      "server": "104.21.112.1",
       "server_port": 443,
-      "uuid": "abd7b587-9293-4298-8639-011fd33dc7cf",
+      "uuid": "0f685164-911a-4ea1-9188-b88d6e699ac5",
       "tls":       {
         "enabled": true,
-        "server_name": "7DQL-f-bu285P9cUC-L8vEEKtXCR2hrX.DARTOploiG-Hg.woRkErS.Dev",
+        "server_name": "RsUsil8d97h7Q7sCp5Ge5UHEf9T1J8Z0.FghtpOLP-RyU9B5.WorKeRs.dEv",
         "insecure": true
       },
       "transport":       {
         "type": "ws",
-        "path": "/3AIcxsEdUnNxDkqh?ed=2560",
+        "path": "/fJsvCw3mzEx7eLrR?ed=2560",
         "headers":         {
-          "Host": "7dql-f-bu285p9cuc-l8veektxcr2hrx.dartoploig-hg.workers.dev"
+          "Host": "rsusil8d97h7q7scp5ge5uhef9t1j8z0.fghtpolp-ryu9b5.workers.dev"
     }
    }
   },
@@ -37,7 +37,7 @@
  ]
 }
 #warp://8.34.70.55:8742?ifp=2-3&ifpm=m5#Download 🎞
-vless://abd7b587-9293-4298-8639-011fd33dc7cf@104.21.76.31:443?encryption=none&security=tls&sni=7DQL-f-bu285P9cUC-L8vEEKtXCR2hrX.DARTOploiG-Hg.woRkErS.Dev&alpn=http%2F1.1&fp=randomized&type=ws&host=7dql-f-bu285p9cuc-l8veektxcr2hrx.dartoploig-hg.workers.dev&path=%2F3AIcxsEdUnNxDkqh%3Fed%3D2560#Instagram 📱
+vless://0f685164-911a-4ea1-9188-b88d6e699ac5@104.21.112.1:443?encryption=none&security=tls&sni=RsUsil8d97h7Q7sCp5Ge5UHEf9T1J8Z0.FghtpOLP-RyU9B5.WorKeRs.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=rsusil8d97h7q7scp5ge5uhef9t1j8z0.fghtpolp-ryu9b5.workers.dev&path=%2FfJsvCw3mzEx7eLrR%3Fed%3D2560#Instagram 📱
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -5
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
