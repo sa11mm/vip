@@ -4,58 +4,28 @@
 {
  "outbounds": [
   {
-   "type": "wireguard",
-   "tag": "Download 🎞",
-   "local_address": [
-    "172.16.0.2/24",
-    "2606:4700:110:866f:157b:8955:ec5a:3fd6/128"
-   ],
-   "private_key": "YA3zJq6YxJ5Hx2TIDvkEI/LQ6vQfSsR3k1Hhp+aV3VU=",
-   "server": "8.6.112.137",
-   "server_port": 7152,
-   "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-   "reserved": "G59X",
-   "mtu": 1330,
-   "fake_packets": "2-4",
-   "fake_packets_size": "10-30",
-   "fake_packets_delay": "2-4",
-   "fake_packets_mode": "m5"
-  },
-  {
    "type": "vless",
-   "tag": "Instagram 📱",
-   "server": "188.114.96.3",
+   "tag": "vless-110f5428",
+   "server": "172.66.46.213",
    "server_port": 443,
-   "uuid": "641bbd83-818c-4547-94ae-5a71b49f1688",
+   "uuid": "3bb39519-93b8-4076-8848-90bc0a76020d",
    "tls": {
     "enabled": true,
-    "server_name": "1T-K3FlIzwXSotbp4BPOW314S45Qm6F8.nOwShAhr3103.workErS.dEv",
+    "server_name": "paHGYG-kHu8yghfYTgKLsLklKhc23456.PAGes.dEV",
     "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/PQfKPzxatWptHnAJ?ed=2560",
+    "path": "/g87aYGhGKrh5ztHO?ed=2560",
     "headers": {
-     "Host": "1t-k3flizwxsotbp4bpow314s45qm6f8.nowshahr3103.workers.dev"
+     "Host": "pahgyg-khu8yghfytgklslklkhc23456.pages.dev"
     }
-   }
-  },
-  {
-      "type": "vless",
-      "tag": "💰 -1",
-      "server": "1.Mounth.2.User.",
-      "server_port": 50,
-      "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
-      "tls":       {
-        "enabled": true,
-        "server_name": "1.Mounth.2.User.",
-        "insecure": true
    }
   }
  ]
 }
 #warp://8.39.125.45:8907?ifp=2-3&ifpm=m4#Download 🎞
-vless://641bbd83-818c-4547-94ae-5a71b49f1688@188.114.96.3:443?encryption=none&security=tls&sni=1T-K3FlIzwXSotbp4BPOW314S45Qm6F8.nOwShAhr3103.workErS.dEv&alpn=http%2F1.1&fp=randomized&type=ws&host=1t-k3flizwxsotbp4bpow314s45qm6f8.nowshahr3103.workers.dev&path=%2FPQfKPzxatWptHnAJ%3Fed%3D2560#Instagram 📱
+vless://3bb39519-93b8-4076-8848-90bc0a76020d@172.66.46.213:443?encryption=none&security=tls&sni=paHGYG-kHu8yghfYTgKLsLklKhc23456.PAGes.dEV&alpn=http%2F1.1&fp=randomized&type=ws&host=pahgyg-khu8yghfytgklslklkhc23456.pages.dev&path=%2Fg87aYGhGKrh5ztHO%3Fed%3D2560#Instagram 📱
 vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@1.Mounth.2.User.:50?security=none&encryption=none&headerType=none&type=tcp#💰 -1
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
