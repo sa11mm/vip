@@ -1,4 +1,6 @@
-{"isFound":true,"user":{"shortUuid":"4c_m-1dveaG_XmcV","daysLeft":30,"trafficUsed":"368.56 KiB","trafficLimit":"0","username":"Fakhri Seyedi","expiresAt":"2025-10-16T15:00:00.000Z","isActive":true,"userStatus":"ACTIVE","trafficLimitStrategy":"NO_RESET"},
+//profile-title: Fakhri Seyedi
+//profile-update-interval: 2
+//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1758510000
 {
  "outbounds": [
   {
