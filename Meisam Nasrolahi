@@ -76,12 +76,12 @@
    "packet_encoding": "xudp"
   },
   {
-   "type": "shadowsocks",
-   "tag": "Germany 🇩🇪 Frankfurt",
-   "server": "85.208.139.209",
-   "server_port": 443,
-   "method": "chacha20-ietf-poly1305",
-   "password": "f90PRDH4TqRh"
+      "type": "shadowsocks",
+      "tag": "Germany 🇩🇪 Frankfurt",
+      "server": "85.208.139.209",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f90PRDH4TqRh"
   },
   {
    "type": "vless",
