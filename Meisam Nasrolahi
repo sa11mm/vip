@@ -5,20 +5,20 @@
  "outbounds": [
   {
       "type": "vless",
-      "tag": "Instagram 📱",
-      "server": "104.21.64.1",
+      "tag": "vless-fcf5b297",
+      "server": "188.114.97.3",
       "server_port": 443,
-      "uuid": "2d499fc0-5ca2-4dea-b2d1-ee394c2172ac",
+      "uuid": "2a1951d8-7d58-4a87-8088-709625482290",
       "tls":       {
         "enabled": true,
-        "server_name": "PAG-DeDeGR5D4T5y65t4r.paGEs.DeV",
+        "server_name": "n047zhhEoQFXkUD0bfwa46IO1L7xZd3a.LoPgrvd47-KjjtgE752.woRKeRs.DEv",
         "insecure": true
       },
       "transport":       {
         "type": "ws",
-        "path": "/UQQpZSDHSmXcJTMa?ed=2560",
+        "path": "/rEwFWi81ym0susrF?ed=2560",
         "headers":         {
-          "Host": "pag-dedegr5d4t5y65t4r.pages.dev"
+          "Host": "n047zhheoqfxkud0bfwa46io1l7xzd3a.lopgrvd47-kjjtge752.workers.dev"
     }
    }
   },
