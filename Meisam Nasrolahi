@@ -78,10 +78,10 @@
   {
    "type": "shadowsocks",
    "tag": "Germany 🇩🇪 Frankfurt",
-   "server": "85.208.139.8",
+   "server": "85.208.139.209",
    "server_port": 443,
    "method": "chacha20-ietf-poly1305",
-   "password": "Xad4t64ycwLO"
+   "password": "f90PRDH4TqRh"
   },
   {
    "type": "vless",
