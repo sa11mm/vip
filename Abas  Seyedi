@@ -2,27 +2,16 @@
 //profile-update-interval: 2
 //subscription-userinfo: upload=0; download=0; total=53685000000; expire=1758510000
 {
- "outbounds": [
-  {
-   "type": "vless",
-   "tag": "Instagram 📱",
-   "server": "104.21.16.1",
-   "server_port": 443,
-   "uuid": "5ec94305-c8ef-4d53-b155-1b8dacd45e89",
-   "tls": {
-    "enabled": true,
-    "server_name": "FHv-qlblJNN1UBp2xeeRYsXYzgtWHk3Q.HUHVfTiOpoil.worKeRS.DEV",
-    "insecure": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/GpHek0y5uTxz2WJw?ed=2560",
-    "headers": {
-     "Host": "fhv-qlbljnn1ubp2xeerysxyzgtwhk3q.huhvftiopoil.workers.dev"
+  "outbounds":   [
+    {
+      "type": "vless",
+      "tag": "🕑زمان شما تمام شد § 0",
+      "server": "***",
+      "server_port": 0,
+      "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+      "packet_encoding": "xudp"
     }
-   }
-  }
- ]
+  ]
 }
 #warp://8.39.125.45:8907?ifp=2-3&ifpm=m4#Download 🎞
 vless://5ec94305-c8ef-4d53-b155-1b8dacd45e89@104.21.16.1:443?encryption=none&security=tls&sni=FHv-qlblJNN1UBp2xeeRYsXYzgtWHk3Q.HUHVfTiOpoil.worKeRS.DEV&alpn=http%2F1.1&fp=chrome&type=ws&host=fhv-qlbljnn1ubp2xeerysxyzgtwhk3q.huhvftiopoil.workers.dev&path=%2FGpHek0y5uTxz2WJw%3Fed%3D2560#Instagram 📱
