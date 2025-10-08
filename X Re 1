@@ -1,24 +1,24 @@
 //profile-title: Mohamad Javad Mataji
 //profile-update-interval: 2
-//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1762510000
+//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1758810000
 {
  "outbounds": [
   {
    "type": "vless",
    "tag": "Instagram 📱",
-   "server": "104.21.16.1",
+   "server": "172.66.44.217",
    "server_port": 443,
-   "uuid": "5ec94305-c8ef-4d53-b155-1b8dacd45e89",
+   "uuid": "682b02cd-0330-49d3-9b51-95ee023b66f3",
    "tls": {
     "enabled": true,
-    "server_name": "FHv-qlblJNN1UBp2xeeRYsXYzgtWHk3Q.HUHVfTiOpoil.worKeRS.DEV",
+    "server_name": "PaG-GfASdfGHy54567.pAGes.deV",
     "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/GpHek0y5uTxz2WJw?ed=2560",
+    "path": "/JKQqqMVMSqyQToml?ed=2560",
     "headers": {
-     "Host": "fhv-qlbljnn1ubp2xeerysxyzgtwhk3q.huhvftiopoil.workers.dev"
+     "Host": "pag-gfasdfghy54567.pages.dev"
     }
    }
   }
