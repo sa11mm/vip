@@ -21,6 +21,18 @@
      "Host": "fhv-qlbljnn1ubp2xeerysxyzgtwhk3q.huhvftiopoil.workers.dev"
     }
    }
+  },
+  {
+   "type": "vless",
+   "tag": "💰 -1",
+   "server": "***",
+   "server_port": 0,
+   "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+   "tls": {
+    "enabled": true,
+    "server_name": "***",
+    "insecure": true
+   }
   }
  ]
 }
