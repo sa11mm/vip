@@ -24,7 +24,7 @@
   },
   {
    "type": "vless",
-   "tag": "-2 💰 پرداخت نشده",
+   "tag": "2 💰 پرداخت نشده",
    "server": "***",
    "server_port": 0,
    "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
@@ -38,6 +38,6 @@
 }
 #warp://8.34.146.156:2408?ifp=2-3&ifpm=m5#Download 🎞
 vless://a13c2f8a-2885-4e11-9ecd-24989c23a035@188.114.96.3:443?encryption=none&security=tls&sni=7cw8D-5OVm6bGIR5CYwxpYIqjEcpGFFf.OhmYgOdAhOo-JJ.WOrKers.DEV&alpn=http%2F1.1&fp=chrome&type=ws&host=7cw8d-5ovm6bgir5cywxpyiqjecpgfff.ohmygodahoo-jj.workers.dev&path=%2F9KBq7YWhqZKwdAik%3Fed%3D2560#Instagram 📱
-vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@3.Aban.1.Mounth.2.User.:50?security=none&encryption=none&headerType=none&type=tcp#-2 💰 پرداخت نشده
+vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@3.Aban.1.Mounth.2.User.:50?security=none&encryption=none&headerType=none&type=tcp#2 💰 پرداخت نشده
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
 #vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
