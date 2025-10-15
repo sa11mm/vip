@@ -569,15 +569,6 @@
                     "domainStrategy": "UseIP"
                 },
                 "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
             }
         ],
         "stats": {}
