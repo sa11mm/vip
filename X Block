@@ -680,11 +680,6 @@
                     "outboundTag": "direct",
                     "type": "field"
                 },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                }
             ]
         },
         "stats": {}
