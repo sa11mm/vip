@@ -684,11 +684,6 @@
                     "network": "udp",
                     "outboundTag": "block",
                     "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
                 }
             ]
         },
