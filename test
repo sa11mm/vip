@@ -562,13 +562,6 @@
             {
                 "protocol": "dns",
                 "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
             }
         ],
         "stats": {}
