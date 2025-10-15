@@ -1,168 +1,138 @@
 {
-  outbounds [
+  "outbounds": [
     {
-      protocol shadowsocks,
-      settings {
-        servers [
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
           {
-            address 143.72.76.90,
-            level 8,
-            method aes-256-gcm,
-            ota false,
-            password yeywywg,
-            port 443
+            "address": "143.77.77.77",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "5dfuf6d7trufu9uts7d8ddt",
+                "level": 8
+              }
+            ]
           }
         ]
       },
-      streamSettings {
-        network tcp,
-        tcpSettings {
-          header {
-            type none
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
           }
         }
       },
-      tag proxy
+      "tag": "proxy"
     },
     {
-      protocol freedom,
-      settings {
-        domainStrategy UseIP
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
       },
-      tag direct
+      "tag": "direct"
     },
     {
-      protocol blackhole,
-      settings {
-        response {
-          type http
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
         }
       },
-      tag block
+      "tag": "block"
     },
     {
-      protocol dns,
-      tag dns-out
+      "protocol": "dns",
+      "tag": "dns-out"
     }
   ],
-  remarks tege,
-  routing {
-    domainStrategy AsIs,
-    rules [
+  "remarks": "5555555555",
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
       {
-        inboundTag [
-          dns-in
+        "inboundTag": [
+          "dns-in"
         ],
-        outboundTag dns-out,
-        type field
+        "outboundTag": "dns-out",
+        "type": "field"
       },
       {
-        inboundTag [
-          domestic-dns
+        "inboundTag": [
+          "domestic-dns"
         ],
-        outboundTag direct,
-        type field
+        "outboundTag": "direct",
+        "type": "field"
       },
       {
-        inboundTag [
-          dns-module
+        "inboundTag": [
+          "dns-module"
         ],
-        outboundTag proxy,
-        type field
+        "outboundTag": "proxy",
+        "type": "field"
       },
       {
-        domain [
-          domaingoogleapis.cn,
-          domaingstatic.com
+        "domain": [
+          "domain:googleapis.cn",
+          "domain:gstatic.com"
         ],
-        outboundTag proxy,
-        type field
+        "outboundTag": "proxy",
+        "type": "field"
       },
       {
-        network udp,
-        outboundTag block,
-        port 443,
-        type field
+        "network": "udp",
+        "outboundTag": "block",
+        "port": "443",
+        "type": "field"
       },
       {
-        ip [
-          geoipprivate
+        "ip": [
+          "geoip:private"
         ],
-        outboundTag direct,
-        type field
+        "outboundTag": "direct",
+        "type": "field"
       },
       {
-        domain [
-          geositeprivate
+        "domain": [
+          "geosite:private"
         ],
-        outboundTag direct,
-        type field
+        "outboundTag": "direct",
+        "type": "field"
       },
       {
-        ip [
-          223.5.5.5,
-          223.6.6.6,
-          240032001,
-          24003200baba1,
-          119.29.29.29,
-          1.12.12.12,
-          120.53.53.53,
-          24024e00,
-          24024e001,
-          180.76.76.76,
-          2400da006666,
-          114.114.114.114,
-          114.114.115.115,
-          114.114.114.119,
-          114.114.115.119,
-          114.114.114.110,
-          114.114.115.110,
-          180.184.1.1,
-          180.184.2.2,
-          101.226.4.6,
-          218.30.118.6,
-          123.125.81.6,
-          140.207.198.6,
-          1.2.4.8,
-          210.2.4.8,
-          52.80.66.66,
-          117.50.22.22,
-          24007fc0849e2004,
-          2404c2c085d89014,
-          117.50.10.10,
-          52.80.52.52,
-          24007fc0849e2008,
-          2404c2c085d89018,
-          117.50.60.30,
-          52.80.60.30
+        "ip": [
+          "52.80.60.30"
         ],
-        outboundTag direct,
-        type field
+        "outboundTag": "direct",
+        "type": "field"
       },
       {
-        domain [
-          domainalidns.com,
-          domaindoh.pub,
-          domaindot.pub,
-          domain360.cn,
-          domainonedns.net
+        "domain": [
+          "domain:onedns.net"
         ],
-        outboundTag direct,
-        type field
+        "outboundTag": "direct",
+        "type": "field"
       },
       {
-        ip [
-          geoipcn
+        "ip": [
+          "geoip:cn"
         ],
-        outboundTag direct,
-        type field
+        "outboundTag": "direct",
+        "type": "field"
       },
       {
-        domain [
-          geositecn
+        "domain": [
+          "geosite:cn"
         ],
-        outboundTag direct,
-        type field
+        "outboundTag": "direct",
+        "type": "field"
       }
     ]
   }
