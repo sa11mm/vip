@@ -623,41 +623,6 @@
                     "outboundTag": "dns-out",
                     "type": "field"
                 },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
             ]
         },
         "stats": {}
