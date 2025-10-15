@@ -558,10 +558,6 @@
                     }
                 },
                 "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "tag": "dns-out"
             }
         ],
         "stats": {}
