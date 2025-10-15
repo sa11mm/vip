@@ -580,20 +580,6 @@
                 "tag": "block"
             }
         ],
-        "policy": {
-            "levels": {
-                "8": {
-                    "connIdle": 300,
-                    "downlinkOnly": 1,
-                    "handshake": 4,
-                    "uplinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
         "routing": {
             "domainStrategy": "IPIfNonMatch",
             "rules": [
