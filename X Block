@@ -557,8 +557,8 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.67.189.145",
-                            "port": 2053,
+                            "address": "***",
+                            "port": 0,
                             "users": [
                                 {
                                     "id": "5d8297e9-647b-4c84-b96d-78bc631364c2",
@@ -583,8 +583,8 @@
                         }
                     },
                     "wsSettings": {
-                        "host": "w4g2r4jlj6qnm8zzbv6qgxol0r0zdlx9.kiseroh612.workers.dev",
-                        "path": "/eyJqdW5rIjoibUd6OElSTWF3RXoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+                        "host": "wzdxfghgjkv",
+                        "path": "/dthfg0"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -592,7 +592,7 @@
                         "alpn": [
                             "http/1.1"
                         ],
-                        "serverName": "W4G2r4jLJ6QNM8zZbV6qGXol0r0zDlx9.kIsEroH612.wOrkErS.DeV"
+                        "serverName": "WxdfhyjgujV"
                     }
                 },
                 "tag": "proxy"
@@ -790,8 +790,8 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.21.9.204",
-                            "port": 2053,
+                            "address": "***",
+                            "port": 0,
                             "users": [
                                 {
                                     "id": "5d8297e9-647b-4c84-b96d-78bc631364c2",
@@ -816,8 +816,8 @@
                         }
                     },
                     "wsSettings": {
-                        "host": "w4g2r4jlj6qnm8zzbv6qgxol0r0zdlx9.kiseroh612.workers.dev",
-                        "path": "/eyJqdW5rIjoidDlLT3RTbmcxRlprTmdQIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+                        "host": "w4sdfsv",
+                        "path": "/ffddd0"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -825,7 +825,7 @@
                         "alpn": [
                             "http/1.1"
                         ],
-                        "serverName": "W4G2r4jLj6qNm8zzBv6QgXOl0r0zdlX9.kiseroh612.wORKerS.DeV"
+                        "serverName": "WdfdV"
                     }
                 },
                 "tag": "proxy"
