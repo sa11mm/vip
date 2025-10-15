@@ -1,6 +1,29 @@
 [
     {
         "remarks": "Instagram 📱",
+        "dns": {
+            "servers": [
+                {
+                    "address": "fakedns",
+                    "domains": [
+                        "full:5xe7s1v52d0enhinn6jbllne3tbwv8gx.mamoopliot.workers.dev"
+                    ]
+                },
+                {
+                    "address": "https://8.8.8.8/dns-query",
+                    "tag": "remote-dns"
+                },
+                {
+                    "address": "8.8.8.8",
+                    "domains": [
+                        "full:5xe7s1v52d0enhinn6jbllne3tbwv8gx.mamoopliot.workers.dev"
+                    ],
+                    "skipFallback": true
+                }
+            ],
+            "queryStrategy": "UseIP",
+            "tag": "dns"
+        },
         "outbounds": [
             {
                 "protocol": "vless",
