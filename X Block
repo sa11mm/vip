@@ -482,7 +482,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 11 - VLESS - IPv4 : 2053",
+        "remarks": "🔚حجم شما تمام شد",
         "log": {
             "loglevel": "warning"
         },
@@ -715,7 +715,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 12 - VLESS - IPv4 : 2053",
+        "remarks": "🕑زمان شما تمام شد",
         "log": {
             "loglevel": "warning"
         },
