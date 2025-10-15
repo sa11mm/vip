@@ -790,7 +790,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "***",
+                            "address": "*",
                             "port": 0,
                             "users": [
                                 {
