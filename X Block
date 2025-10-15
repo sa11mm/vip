@@ -324,7 +324,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "16.Aban.1.Mounth.2.User",
+                            "address": "16.Aban.1.Mounth.2.User.",
                             "port": 50,
                             "users": [
                                 {
