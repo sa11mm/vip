@@ -200,7 +200,7 @@
         "stats": {}
     },
     {
-        "remarks": "💰 پرداخت نشده 💰 1",
+        "remarks": "1 💰پرداخت نشده 💰",
         "outbounds": [
             {
                 "protocol": "vless",
@@ -226,8 +226,7 @@
                         "type": "none"
                         }
                     }
-                },
-                "tag": "proxy"
+                }
             }
         ],
         "stats": {}
@@ -259,8 +258,7 @@
                         "type": "none"
                         }
                     }
-                },
-                "tag": "proxy"
+                }
             }
         ],
         "stats": {}
@@ -292,8 +290,7 @@
                         "type": "none"
                         }
                     }
-                },
-                "tag": "proxy"
+                }
             }
         ],
         "stats": {}
