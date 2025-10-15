@@ -550,29 +550,11 @@
                     ]
                 },
                 "streamSettings": {
-                    "network": "ws",
-                    "security": "tls",
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "tcpFastOpen": true,
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
+                    "network": "tcp",
+                    "tcpSettings": {
+                      "header": {
+                        "type": "none"
                         }
-                    },
-                    "wsSettings": {
-                        "host": "wzdxfghgjkv",
-                        "path": "/dthfg0"
-                    },
-                    "tlsSettings": {
-                        "allowInsecure": false,
-                        "fingerprint": "chrome",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "serverName": "WxdfhyjgujV"
                     }
                 },
                 "tag": "proxy"
