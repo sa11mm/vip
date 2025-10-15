@@ -1,128 +1,233 @@
 {
-    "log": {
-        "level": "warn",
-        "timestamp": true
+  "remarks": "Instagram 📱",
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "hosts": {
+      "geosite:category-ads-all": [
+        "127.0.0.1"
+      ],
+      "geosite:category-ads-ir": [
+        "127.0.0.1"
+      ]
     },
-    "dns": {
-        "servers": [
-            {
-                "type": "https",
-                "server": "8.8.8.8",
-                "detour": "✅ Selector",
-                "tag": "dns-remote"
-            },
-            {
-                "type": "udp",
-                "server": "8.8.8.8",
-                "server_port": 53,
-                "tag": "dns-direct"
-            },
-            {
-                "type": "fakeip",
-                "tag": "dns-fake",
-                "inet4_range": "198.18.0.0/15"
-            }
+    "servers": [
+      {
+        "address": "fakedns",
+        "domains": [
+          "geosite:category-ir"
+        ]
+      },
+      {
+        "address": "https://8.8.8.8/dns-query",
+        "tag": "remote-dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "domains": [
+          "geosite:category-ir"
         ],
-        "rules": [
-            {
-                "domain": [
-                    "raw.githubusercontent.com"
-                ],
-                "server": "dns-direct"
-            },
-            {
-                "clash_mode": "Direct",
-                "server": "dns-direct"
-            },
-            {
-                "clash_mode": "Global",
-                "server": "dns-remote"
-            },
-            {
-                "type": "logical",
-                "mode": "and",
-                "rules": [
-                    {
-                        "rule_set": "geosite-ir"
-                    },
-                    {
-                        "rule_set": "geoip-ir"
-                    }
-                ],
-                "action": "route",
-                "server": "dns-direct"
-            },
-            {
-                "rule_set": [
-                    "geosite-malware",
-                    "geosite-phishing",
-                    "geosite-cryptominers",
-                    "geosite-category-ads-all"
-                ],
-                "action": "reject"
-            },
-            {
-                "disable_cache": true,
-                "inbound": "tun-in",
-                "query_type": [
-                    "A",
-                    "AAAA"
-                ],
-                "server": "dns-fake"
-            }
+        "expectIPs": [
+          "geoip:ir"
         ],
-        "strategy": "ipv4_only",
-        "independent_cache": true
-    },
-    "inbounds": [
-        {
-            "type": "tun",
-            "tag": "tun-in",
-            "address": [
-                "172.18.0.1/30"
-            ],
-            "mtu": 9000,
-            "auto_route": true,
-            "strict_route": true,
-            "endpoint_independent_nat": true,
-            "stack": "mixed"
-        },
-        {
-            "type": "mixed",
-            "tag": "mixed-in",
-            "listen": "0.0.0.0",
-            "listen_port": 2080
-        }
-    ],
-    "outbounds": [
-        {
-            "tag": "💦 1 - VLESS - Domain : 443",
-            "type": "vless",
-            "server": "5xe7s1v52d0enhinn6jbllne3tbwv8gx.mamoopliot.workers.dev",
-            "server_port": 443,
-            "uuid": "4eeb68dd-b2f2-4fb1-965c-1f0b8119f3c5",
-            "network": "tcp",
-            "tcp_fast_open": true,
-            "packet_encoding": "",
-            "transport": {
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560,
-                "headers": {
-                    "Host": "5xe7s1v52d0enhinn6jbllne3tbwv8gx.mamoopliot.workers.dev"
-                },
-                "path": "/eyJqdW5rIjoiYzIzY3ZBUk9BRFEzMnd0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
-                "type": "ws"
-            },
-            "tls": {
-                "alpn": "http/1.1",
-                "enabled": true,
-                "insecure": false,
-                "server_name": "5xE7s1V52D0ENhinN6jbLlnE3tbwV8gX.MamooPLIot.wOrkERS.DeV",
-                "record_fragment": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+        "skipFallback": true
       }
+    ],
+    "queryStrategy": "UseIP",
+    "tag": "dns"
+  },
+  "inbounds": [
+    {
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "fakedns"
+        ],
+        "enabled": true,
+        "routeOnly": true
+      },
+      "tag": "mixed-in"
+    },
+    {
+      "port": 10853,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "1.1.1.1",
+        "network": "tcp,udp",
+        "port": 53
+      },
+      "tag": "dns-in"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.21.81.235",
+            "port": 443,
+            "users": [
+              {
+                "id": "4eeb68dd-b2f2-4fb1-965c-1f0b8119f3c5",
+                "encryption": "none",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "tcpFastOpen": true,
+          "happyEyeballs": {
+            "tryDelayMs": 250,
+            "prioritizeIPv6": false,
+            "interleave": 2,
+            "maxConcurrentTry": 4
+          }
+        },
+        "wsSettings": {
+          "host": "5xe7s1v52d0enhinn6jbllne3tbwv8gx.mamoopliot.workers.dev",
+          "path": "/eyJqdW5rIjoiV1A3U2NSclBZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "5xe7s1V52d0EnHINN6jbllNE3tBWV8Gx.MamoopliOT.WorkerS.dEV"
+        }
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "inboundTag": [
+          "mixed-in"
+        ],
+        "port": 53,
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "dns-in"
+        ],
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "remote-dns"
+        ],
+        "outboundTag": "proxy",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "dns"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "network": "udp",
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:category-ads-all",
+          "geosite:category-ads-ir"
+        ],
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:category-ir"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:ir"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "network": "tcp",
+        "outboundTag": "proxy",
+        "type": "field"
+      }
+    ]
+  },
+  "stats": {}
 }
