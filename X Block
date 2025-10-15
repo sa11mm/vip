@@ -790,8 +790,8 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "-",
-                            "port": -,
+                            "address": "***",
+                            "port": 0,
                             "users": [
                                 {
                                     "id": "5d8297e9-647b-4c84-b96d-78bc631364c2",
