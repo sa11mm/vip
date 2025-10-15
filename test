@@ -556,8 +556,7 @@
                         "type": "none"
                         }
                     }
-                },
-                "tag": "proxy"
+                }
             }
         ],
         "stats": {}
