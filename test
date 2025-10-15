@@ -580,19 +580,6 @@
                 "tag": "block"
             }
         ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-            ]
-        },
         "stats": {}
     }
 ]
