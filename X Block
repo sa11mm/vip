@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "💦 9 - VLESS - Domain : 2053",
+        "remarks": "Instagram 📱",
         "log": {
             "loglevel": "warning"
         },
@@ -241,7 +241,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 10 - VLESS - Domain : 2053",
+        "remarks": "پرداخت نشده 💰 1",
         "log": {
             "loglevel": "warning"
         },
@@ -324,8 +324,8 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.speedtest.net",
-                            "port": 2053,
+                            "address": "16.Aban.1.Mounth.2.User",
+                            "port": 50,
                             "users": [
                                 {
                                     "id": "5d8297e9-647b-4c84-b96d-78bc631364c2",
@@ -350,8 +350,8 @@
                         }
                     },
                     "wsSettings": {
-                        "host": "w4g2r4jlj6qnm8zzbv6qgxol0r0zdlx9.kiseroh612.workers.dev",
-                        "path": "/eyJqdW5rIjoid1FDZHpRZUZESEN0IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+                        "host": "w55v",
+                        "path": "/eyJqdW5rIjoid10"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -359,7 +359,7 @@
                         "alpn": [
                             "http/1.1"
                         ],
-                        "serverName": "W4G2r4JlJ6qNM8ZZbv6qgXol0r0zDLX9.kISeroH612.worKeRS.DEV"
+                        "serverName": "W4SV"
                     }
                 },
                 "tag": "proxy"
