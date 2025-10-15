@@ -1,24 +1,24 @@
 //profile-title: Maman N
 //profile-update-interval: 2
-//subscription-userinfo: upload=0; download=0; total=107370000000; expire=1763510000
+//subscription-userinfo: upload=0; download=0; total=107370000000; expire=1763110000
 {
  "outbounds": [
   {
    "type": "vless",
    "tag": "Instagram 📱",
-   "server": "104.21.13.211",
+   "server": "104.21.112.1",
    "server_port": 443,
-   "uuid": "0f685164-911a-4ea1-9188-b88d6e699ac5",
+   "uuid": "a7193b9f-1527-46b2-bc48-da9567b8d506",
    "tls": {
     "enabled": true,
-    "server_name": "RSuSIL8d97h7q7scP5ge5uhEF9t1j8Z0.fgHtpOLp-ryU9b5.WorkErS.dEV",
+    "server_name": "PAg-jHasDFiKLJ456578.pAGes.DEV",
     "insecure": true
    },
    "transport": {
     "type": "ws",
-    "path": "/tldymGoQYYTFMzgd?ed=2560",
+    "path": "/0jBM0qW8k5sSd0fp?ed=2560",
     "headers": {
-     "Host": "susil8d97h7q7scp5ge5uhef9t1j8z0.fghtpolp-ryu9b5.workers.dev"
+     "Host": "pag-jhasdfiklj456578.pages.dev"
     }
    }
   },
