@@ -1,3 +1,69 @@
+    {
+        "remarks": "🔚حجم شما تمام شد🔚",
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "***",
+                            "port": 0,
+                            "users": [
+                                {
+                                    "id": "5d8297e9-647b-4c84-b96d-78bc631364c2",
+                                    "encryption": "none",
+                                    "level": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "tcpSettings": {
+                      "header": {
+                        "type": "none"
+                        }
+                    }
+                }
+            }
+        ],
+        "stats": {}
+    },
+    {
+        "remarks": "🕑زمان شما تمام شد🕑",
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "***",
+                            "port": 0,
+                            "users": [
+                                {
+                                    "id": "5d8297e9-647b-4c84-b96d-78bc631364c2",
+                                    "encryption": "none",
+                                    "level": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "tcpSettings": {
+                      "header": {
+                        "type": "none"
+                        }
+                    }
+                }
+            }
+        ],
+        "stats": {}
+    }
+]
+#
 [
     {
         "remarks": "Instagram 📱",
