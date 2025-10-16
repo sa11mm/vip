@@ -1,1 +1,148 @@
-
+[
+    {
+        "remarks": "Instagram 📱",
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.21.81.235",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "4eeb68dd-b2f2-4fb1-965c-1f0b8119f3c5",
+                                    "encryption": "none",
+                                    "level": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "domainStrategy": "UseIP",
+                        "tcpFastOpen": true,
+                        "happyEyeballs": {
+                            "tryDelayMs": 250,
+                            "prioritizeIPv6": false,
+                            "interleave": 2,
+                            "maxConcurrentTry": 4
+                        }
+                    },
+                    "wsSettings": {
+                        "host": "5xe7s1v52d0enhinn6jbllne3tbwv8gx.mamoopliot.workers.dev",
+                        "path": "/eyJqdW5rIjoiaU1pREJoMWFOWiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "serverName": "5xe7s1v52d0ENhInn6JblLNE3Tbwv8gX.mamOoplIOT.WOrkErS.Dev"
+                    }
+                }
+            }
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💰 پرداخت نشده 💰 1",
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "16.Aban.1.Mounth.2.User.",
+                            "port": 50,
+                            "users": [
+                                {
+                                    "id": "5d8297e9-647b-4c84-b96d-78bc631364c2",
+                                    "encryption": "none",
+                                    "level": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "tcpSettings": {
+                      "header": {
+                        "type": "none"
+                        }
+                    }
+                }
+            }
+        ],
+        "stats": {}
+    },
+    {
+        "remarks": "🔚حجم شما تمام شد🔚",
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "***",
+                            "port": 0,
+                            "users": [
+                                {
+                                    "id": "5d8297e9-647b-4c84-b96d-78bc631364c2",
+                                    "encryption": "none",
+                                    "level": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "tcpSettings": {
+                      "header": {
+                        "type": "none"
+                        }
+                    }
+                }
+            }
+        ],
+        "stats": {}
+    },
+    {
+        "remarks": "🕑زمان شما تمام شد🕑",
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "***",
+                            "port": 0,
+                            "users": [
+                                {
+                                    "id": "5d8297e9-647b-4c84-b96d-78bc631364c2",
+                                    "encryption": "none",
+                                    "level": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "tcpSettings": {
+                      "header": {
+                        "type": "none"
+                        }
+                    }
+                }
+            }
+        ],
+        "stats": {}
+    }
+]
