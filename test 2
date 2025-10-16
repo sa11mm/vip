@@ -43,10 +43,11 @@
                             "http/1.1"
                         ],
                         "serverName": "5xe7s1v52d0ENhInn6JblLNE3Tbwv8gX.mamOoplIOT.WOrkErS.Dev"
+                        }
                     }
                 }
             }
-        },
+        ],
         "stats": {}
     },
     {
