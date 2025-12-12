@@ -1,13 +1,13 @@
 [
     {
-        "remarks": "💰 پرداخت نشده 💰 1",
+        "remarks": "💰 پرداخت نشده 💰 2",
         "outbounds": [
             {
                 "protocol": "vless",
                 "settings": {
                     "vnext": [
                         {
-                            "address": "7.Azar_1.Mounth_2.User.",
+                            "address": "7.Dey_1.Mounth_2.User.",
                             "port": 50,
                             "users": [
                                 {
