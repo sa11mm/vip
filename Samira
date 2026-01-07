@@ -1,43 +1,269 @@
-//profile-title: Fakhri Seyedi
-//profile-update-interval: 2
-//subscription-userinfo: upload=0; download=0; total=53685000000; expire=1758510000
-{
- "outbounds": [
-  {
-   "type": "vless",
-   "tag": "Instagram 📱",
-   "server": "172.66.44.184",
-   "server_port": 443,
-   "uuid": "508d5b41-0fca-4d71-ad18-8c46def36c8b",
-   "tls": {
-    "enabled": true,
-    "server_name": "paG-IYu98UWGhUY68wgebD.PAgEs.deV",
-    "insecure": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/wPivqs5hUKIf9k0T?ed=2560",
-    "headers": {
-     "Host": "pag-iyu98uwghuy68wgebd.pages.dev"
+[
+    {
+        "remarks": "💰 پرداخت شده 💰",
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "17.Bahman_1.Mounth_2.User.",
+                            "port": 50,
+                            "users": [
+                                {
+                                    "id": "5d8297e9-647b-4c84-b96d-78bc631364c2",
+                                    "encryption": "none",
+                                    "level": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "tcpSettings": {
+                      "header": {
+                        "type": "none"
+                        }
+                    }
+                }
+            }
+        ],
+        "stats": {}
+    },
+    {
+        "remarks": "Multi 📱",
+        "version": {
+            "min": "25.10.15"
+        },
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {
+                "geosite:category-ads-all": "#3",
+                "geosite:category-ads-ir": "#3"
+            },
+            "servers": [
+                {
+                    "address": "fakedns",
+                    "domains": [
+                        "geosite:category-ir"
+                    ],
+                    "skipFallback": false
+                },
+                {
+                    "address": "https://8.8.8.8/dns-query",
+                    "tag": "remote-dns"
+                },
+                {
+                    "address": "8.8.8.8",
+                    "domains": [
+                        "geosite:category-ir"
+                    ],
+                    "expectIPs": [
+                        "geoip:ir"
+                    ],
+                    "skipFallback": true
+                }
+            ],
+            "queryStrategy": "UseIP",
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "listen": "127.0.0.1",
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "fakedns"
+                    ],
+                    "enabled": true,
+                    "routeOnly": true
+                },
+                "tag": "mixed-in"
+            },
+            {
+                "listen": "127.0.0.1",
+                "port": 10853,
+                "protocol": "dokodemo-door",
+                "settings": {
+                    "address": "1.1.1.1",
+                    "network": "tcp,udp",
+                    "port": 53
+                },
+                "tag": "dns-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.21.0.118",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "9bd9f622-f3db-4afc-8233-ab9e196b8789",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "host": "nwwrkpt6tuw3gedwixj38xjqz4qh7ihl.nowshahr3104.workers.dev",
+                        "path": "/eyJqdW5rIjoiZ1NZUVJTYThnQTAzTHgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "nwWrkpT6TuW3gedwIXj38xJqZ4qh7iHL.noWsHAhr3104.WoRKeRs.DEV",
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "allowInsecure": false
+                    },
+                    "sockopt": {
+                        "domainStrategy": "UseIP",
+                        "happyEyeballs": {
+                            "tryDelayMs": 250,
+                            "prioritizeIPv6": false,
+                            "interleave": 2,
+                            "maxConcurrentTry": 4
+                        }
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "protocol": "dns",
+                "settings": {
+                    "nonIPQuery": "reject"
+                },
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                },
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "inboundTag": [
+                        "mixed-in"
+                    ],
+                    "port": 53,
+                    "outboundTag": "dns-out",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "dns-in"
+                    ],
+                    "outboundTag": "dns-out",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "remote-dns"
+                    ],
+                    "outboundTag": "proxy",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "dns"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "domain": [
+                        "geosite:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "network": "udp",
+                    "outboundTag": "block",
+                    "type": "field"
+                },
+                {
+                    "domain": [
+                        "geosite:category-ads-all",
+                        "geosite:category-ads-ir"
+                    ],
+                    "outboundTag": "block",
+                    "type": "field"
+                },
+                {
+                    "domain": [
+                        "geosite:category-ir"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "ip": [
+                        "geoip:ir"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "network": "tcp",
+                    "outboundTag": "proxy",
+                    "type": "field"
+                }
+            ]
+        },
+        "policy": {
+            "levels": {
+                "0": {
+                    "connIdle": 300,
+                    "handshake": 4,
+                    "uplinkOnly": 1,
+                    "downlinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "stats": {}
     }
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "💰 -1",
-   "server": "***",
-   "server_port": 0,
-   "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
-   "tls": {
-    "enabled": true,
-    "server_name": "***",
-    "insecure": true
-   }
-  }
- ]
-}
-#warp://8.6.112.183:1014?ifp=2-3&ifpm=m5#Download 🎞
-vless://508d5b41-0fca-4d71-ad18-8c46def36c8b@172.66.44.184:443?encryption=none&security=tls&sni=paG-IYu98UWGhUY68wgebD.PAgEs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=pag-iyu98uwghuy68wgebd.pages.dev&path=%2FwPivqs5hUKIf9k0T%3Fed%3D2560#Instagram 📱
-vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#💰 -1
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🔚حجم شما تمام شد
-#vless://aaacbcb-acab-cbaa-cabd-baabcbbaccca@***:0?security=none&encryption=none&headerType=none&type=tcp#🕑زمان شما تمام شد
+]
