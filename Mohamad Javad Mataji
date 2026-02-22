@@ -4,23 +4,30 @@
 {
  "outbounds": [
   {
-   "type": "vless",
-   "tag": "Instagram 📱",
-   "server": "104.21.45.205",
-   "server_port": 443,
-   "uuid": "196cd3aa-ce94-4c6c-84e6-8046d3beed76",
-   "tls": {
-    "enabled": true,
-    "server_name": "ThRobbiNg-UNioN-45A7.GOZpOLiYtOp-NcB.WORKErs.dEV",
-    "insecure": true
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/eCHWHzhT8IFoZYV5?ed=2560",
-    "headers": {
-     "Host": "throbbing-union-45a7.gozpoliytop-ncb.workers.dev"
-    }
-   }
+      "type": "vless",
+      "tag": "Instagram 📱",
+      "server": "188.114.96.3",
+      "server_port": 443,
+      "uuid": "e2bd1653-058a-4dc3-adb2-fee38626077b",
+      "tls":       {
+        "enabled": true,
+        "server_name": "V6DBaEd-KjKhEQSmw0BbX47935vpGcsS.huhvFtIOPoIl.wORKERs.dev",
+        "alpn": "http/1.1",
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/eyJqdW5rIjoiUmgyTDJiRVMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+        "headers":         {
+          "Host": "v6dbaed-kjkheqsmw0bbx47935vpgcss.huhvftiopoil.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
   },
   {
    "type": "vless",
