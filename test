@@ -1,7 +1,42 @@
 //profile-title: Test
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=1073740000000; expire=1798810000
-vless://b411edf9-35b3-4670-9cbc-574ab68d0031@172.67.150.238:443?encryption=none&host=p01h0v12bfeg7sdbaxi29h174d-v32y6.nowshahr3104.workers.dev&type=ws&security=tls&eh=Sec-WebSocket-Protocol&ed=2560&path=%2FwJH3MLq35IPaeXfE&sni=p01h0V12BFEG7SDbAxI29h174d-V32Y6.nOwShaHR3104.WorKERS.deV&fp=randomized&alpn=http%2F1.1#%F0%9F%92%A6%203%20-%20VLESS%20-%20IPv4%20:%20443
-vless://b411edf9-35b3-4670-9cbc-574ab68d0031@104.21.0.118:443?encryption=none&host=p01h0v12bfeg7sdbaxi29h174d-v32y6.nowshahr3104.workers.dev&type=ws&security=tls&eh=Sec-WebSocket-Protocol&ed=2560&path=%2FAdAXJDgq4EwkftGo&sni=P01h0v12bfeG7SdBAXi29h174D-v32Y6.noWshAHR3104.woRkerS.dev&fp=randomized&alpn=http%2F1.1#%F0%9F%92%A6%204%20-%20VLESS%20-%20IPv4%20:%20443
-vless://b411edf9-35b3-4670-9cbc-574ab68d0031@chatgpt.com:443?encryption=none&host=p01h0v12bfeg7sdbaxi29h174d-v32y6.nowshahr3104.workers.dev&type=ws&security=tls&eh=Sec-WebSocket-Protocol&ed=2560&path=%2FsfDUU6aBDcshejoW&sni=p01H0v12bFeg7SDBaxI29H174D-V32Y6.NowshAhr3104.WoRKeRs.dEV&fp=randomized&alpn=http%2F1.1#%F0%9F%92%A6%205%20-%20VLESS%20-%20Clean%20IP%20:%20443
-vless://b411edf9-35b3-4670-9cbc-574ab68d0031@chatgpt.com:2053?encryption=none&host=p01h0v12bfeg7sdbaxi29h174d-v32y6.nowshahr3104.workers.dev&type=ws&security=tls&eh=Sec-WebSocket-Protocol&ed=2560&path=%2F3fZV7rqrWn5Y753F&sni=P01H0V12bfEg7SdBAxi29h174d-V32Y6.nOwSHaHr3104.WoRkeRs.deV&fp=randomized&alpn=http%2F1.1#%F0%9F%92%A6%2015%20-%20VLESS%20-%20Clean%20IP%20:%202053
+{
+ "outbounds": [
+  {
+   "type": "vless",
+   "tag": "💰 پرداخت شده 💰 § 0",
+   "server": "11.Farvardin.2.Mounth.2.User.",
+   "server_port": 100,
+   "uuid": "aaacbcb-acab-cbaa-cabd-baabcbbaccca",
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "Instagram 📱 § 1",
+   "server": "104.21.9.204",
+   "server_port": 443,
+   "uuid": "5d8297e9-647b-4c84-b96d-78bc631364c2",
+   "tls": {
+    "enabled": true,
+    "server_name": "W4G2R4Jlj6Qnm8ZZBV6qGXol0r0zdLx9.kisErOh612.wORKErS.DEv",
+    "alpn": "http/1.1",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/eyJqdW5rIjoiMzhoQkpvdEw2b1UyejRVIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+    "headers": {
+     "Host": "w4g2r4jlj6qnm8zzbv6qgxol0r0zdlx9.kiseroh612.workers.dev"
+    },
+    "max_early_data": 2560,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+   },
+   "packet_encoding": "xudp"
+  }
+ ],
+ "endpoints": []
+}
